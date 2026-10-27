@@ -1,0 +1,50 @@
+name: pen
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  stored-form:
+    # Every committed .pen blob must be the minified form the penjson filter
+    # stores: no newline, and well under GitHub's 100 MB per-file limit.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Check every committed .pen blob
+        run: |
+          limit=$((90 * 1024 * 1024))
+          git rev-list --objects HEAD | awk '$2 ~ /\.pen$/ {print $1, $2}' | sort -u > pens.txt
+          failed=0
+          while read -r blob path; do
+            size=$(git cat-file -s "$blob")
+            if [ "$size" -gt "$limit" ]; then
+              echo "::error::$path blob $blob is $size bytes, over 90 MB"
+              failed=1
+            fi
+            if [ "$(git cat-file blob "$blob" | tr -cd '\n' | wc -c)" -ne 0 ]; then
+              echo "::error::$path blob $blob contains a newline, so it was committed without the penjson filter (run tool/setup.sh)"
+              failed=1
+            fi
+          done < pens.txt
+          echo "Checked $(wc -l < pens.txt) .pen blobs."
+          exit "$failed"
+
+  round-trip:
+    # A checkout through the filter must parse as JSON, come back indented,
+    # and leave the tree clean.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: sh tool/setup.sh
+      - name: Check the checked-out pens
+        run: |
+          git ls-files -- '*.pen' | while read -r pen; do
+            node -e 'JSON.parse(require("fs").readFileSync(process.argv[1], "utf8"))' "$pen"
+            test "$(wc -l < "$pen")" -gt 0
+          done
+          git status --porcelain
+          test -z "$(git status --porcelain)"

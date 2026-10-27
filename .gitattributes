@@ -1,0 +1,8 @@
+# Pencil saves .pen files as two-space-indented JSON. The penjson filter
+# (tool/pen-json.mjs, configured by tool/setup.sh) stores them minified and
+# checks them out indented, so a 107 MB working copy is a 26 MB blob.
+# `binary` keeps git from attempting line-wise diffs and merges.
+*.pen binary filter=penjson
+
+*.png binary
+*.ttf binary
