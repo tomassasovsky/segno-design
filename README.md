@@ -69,7 +69,10 @@ If the last two match, the pen on disk has no changes to commit.
 
 A UI change shipped in Segno updates the pen here. Open a PR in this
 repository with the pen change and link it from the Segno PR, and link the
-Segno PR back from this one. A shipped departure from the pen is a design
+Segno PR back from this one. Segno's CI checks the app against the
+design studies at the commit pinned in Segno's `.github/segno-design.sha`;
+when a study the app is checked against changes, the Segno PR updates that
+pin. A shipped departure from the pen is a design
 change: write it into the pen (geometry and a `c/` note) in the same pair of
 PRs.
 
