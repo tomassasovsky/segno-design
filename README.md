@@ -7,6 +7,11 @@ looper console. This repository holds:
   authoritative UI design: each `AREA / name` frame is a screen, and the `c/`
   notes record the reasoning behind it.
 - `docs/design/`, design notes, studies and the images the pen links to.
+  The on-disk format specs that used to be here (performance event log,
+  performance manifest, session bundle) moved to `docs/formats/` in Segno,
+  next to the code that implements them, and the console grounding scheme
+  moved to `hardware/console/` in
+  [segno-hardware](https://github.com/tomassasovsky/segno-hardware).
 - `fonts/127.0.0.1/`, the two fonts the pen references by hash. They are
   byte-identical to `Inter-Regular.ttf` and `JetBrainsMono-Regular.ttf` from
   the Segno app, and are covered by the SIL Open Font License files next to
