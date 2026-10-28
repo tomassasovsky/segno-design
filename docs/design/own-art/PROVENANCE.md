@@ -63,3 +63,6 @@ Every photo prompt uses the same frame:
   images; it draws each pedal in code from this template.
 - The `assets/` crops ship in Segno, in `packages/fx_catalogue/assets/images`
   (tomassasovsky/segno#1501).
+- `app-screens/`: the app's FX and pedal setup screens before (top) and
+  after (bottom) the swap, and every catalogue pedal as the app draws it,
+  rendered from the Segno screenshot suites for review.
