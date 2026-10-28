@@ -1,0 +1,16 @@
+{
+  "name": "pen2penpot",
+  "private": true,
+  "type": "module",
+  "description": "Converts segno-ui.pen screens into a Penpot file (trial for segno#1503).",
+  "dependencies": {
+    "@fontsource/arimo": "^5.3.0",
+    "@material-symbols/svg-400": "^0.48.2",
+    "@penpot/library": "^1.2.0",
+    "lucide-static": "^1.63.0",
+    "pixelmatch": "^8.0.0",
+    "pngjs": "^7.0.0",
+    "puppeteer-core": "^25.16.0",
+    "svgpath": "^2.6.0"
+  }
+}
