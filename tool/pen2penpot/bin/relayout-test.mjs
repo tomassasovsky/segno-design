@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Checks that the imported flex layout is live: in the Penpot workspace,
-// widens each screen's root and first-level boards by one pixel and back,
+// widens each screen's board and its first-level boards by one pixel and back,
 // which makes Penpot's own layout engine recompute their subtrees. Run
 // verify.mjs on the same import afterwards to compare the result with the
 // reference.
@@ -10,7 +10,6 @@
 // It edits the file it is given; import a separate copy for it.
 
 import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
 import puppeteer from 'puppeteer-core';
 import { CHROME } from '../src/layout.mjs';
 import { rpc, BASE, authHeaders } from '../src/rpc.mjs';
@@ -20,18 +19,25 @@ const record = JSON.parse(readFileSync(process.argv[2], 'utf8'));
 const fileId = record.fileIds[0];
 const file = await rpc('get-file', { id: fileId });
 
+// Root boards are areas, their child boards are screen cards, and a card's
+// child boards are its screens.
 const targets = [];
+const boards = (objs, o) => (o.shapes ?? []).map((id) => objs[id]).filter((c) => c.type === 'frame' && !c.hidden);
 for (const pageId of file.data.pages) {
   const objs = file.data.pagesIndex[pageId].objects;
-  for (const o of Object.values(objs)) {
-    if (o.type !== 'frame' || o.parentId !== ROOT || !o.name.includes(' / ')) continue;
-    if (o.layout === 'flex') targets.push({ pageId, id: o.id, w: o.width, name: o.name });
-    for (const cid of o.shapes ?? []) {
-      const c = objs[cid];
-      if (c.type === 'frame' && !c.hidden && c.shapes?.length) targets.push({ pageId, id: c.id, w: c.width, name: `${o.name} > ${c.name}` });
+  for (const area of Object.values(objs)) {
+    if (area.type !== 'frame' || area.parentId !== ROOT) continue;
+    for (const card of boards(objs, area)) {
+      for (const screen of boards(objs, card)) {
+        if (screen.layout === 'flex') targets.push({ pageId, id: screen.id, w: screen.width, name: screen.name });
+        for (const c of boards(objs, screen)) {
+          if (c.shapes?.length) targets.push({ pageId, id: c.id, w: c.width, name: `${screen.name} > ${c.name}` });
+        }
+      }
     }
   }
 }
+if (!targets.length) throw new Error('no screen boards found');
 
 const browser = await puppeteer.launch({ executablePath: CHROME, headless: true });
 let page;

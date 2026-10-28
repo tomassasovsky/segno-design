@@ -819,7 +819,10 @@ export class PenpotWriter {
     // Path content moves with the shape, so only a pen geometry override
     // (a different drawing, not a moved or resized one) marks it.
     if (node.type === 'path' && node.geometry !== mainNode.geometry) groups.add('content-group');
-    if (node.type === 'icon' && (node.icon !== mainNode.icon || node.library !== mainNode.library)) groups.add('content-group');
+    if (node.type === 'icon') {
+      const r = (n, k) => this.pen.resolve(n[k]);
+      if (r(node, 'icon') !== r(mainNode, 'icon') || r(node, 'library') !== r(mainNode, 'library')) groups.add('content-group');
+    }
     const ta = p.appliedTokens ?? {};
     const tb = mp.appliedTokens ?? {};
     for (const k of new Set([...Object.keys(ta), ...Object.keys(tb)])) {

@@ -16,7 +16,7 @@ import { parseArgs } from 'node:util';
 import { loadPen, walk } from '../src/pen.mjs';
 import { HtmlBuilder, parseSize } from '../src/html.mjs';
 import { launch, renderScreen, PAD } from '../src/layout.mjs';
-import { PenpotWriter } from '../src/penpot.mjs';
+import { PenpotWriter, splitHex } from '../src/penpot.mjs';
 import { fontTable } from '../src/fonts.mjs';
 
 const DESIGN = '/Users/Tomas/Documents/Work/opensource/segno-design';
@@ -52,6 +52,14 @@ const imageRoots = [DESIGN];
 const uploadedFontsFile = values.fonts ?? join(out, 'fonts.json');
 const uploaded = existsSync(uploadedFontsFile) ? JSON.parse(readFileSync(uploadedFontsFile, 'utf8')) : null;
 
+// Sections are absolute-layout frames holding only texts and areas; anything
+// else would not be converted, so stop rather than drop it.
+for (const section of pen.sections) {
+  if ((section.layout ?? 'horizontal') !== 'none') throw new Error(`section ${section.name} has a flex layout`);
+  const other = (section.children ?? []).find((c) => c.type !== 'text' && c.type !== 'frame');
+  if (other) throw new Error(`section ${section.name} holds a ${other.type} (${other.id}) outside its areas`);
+}
+
 const unitId = (id) => {
   const u = pen.unitOf.get(id);
   if (!u) throw new Error(`${id} is not inside an area`);
@@ -71,7 +79,8 @@ while (queue.length) {
   for (const [n] of walk(tree)) {
     if (n._inst) {
       const home = pen.unitOf.get(n._comp);
-      if (home && !trees.has(home.id) && !queue.includes(home.id)) queue.push(home.id);
+      if (!home) throw new Error(`component ${n._comp} is not inside an area`);
+      if (!trees.has(home.id) && !queue.includes(home.id)) queue.push(home.id);
     }
   }
 }
@@ -151,7 +160,7 @@ const pageOf = new Map();
 for (const id of ids) {
   const r = results.get(id);
   const section = pen.sectionOf.get(id);
-  const background = typeof section.fill === 'string' ? pen.resolve(section.fill).slice(0, 7) : undefined;
+  const background = typeof section.fill === 'string' ? splitHex(pen.resolve(section.fill)).color : undefined;
   writer.addPage(`${clean(section.name)} / ${clean(r.top.name)}`, background);
   const pageId = writer.ctx.currentPageId;
   for (const [n] of walk(r.tree)) if (n._isMain) pageOf.set(n.id, pageId);

@@ -133,10 +133,12 @@ for (const s of report.screens) {
   const renderMs = Date.now() - t0;
   const area = { pen: s.id, name: s.name, section: s.section, ...score(ref, pp, ref.width, ref.height), renderMs, cards: [] };
   for (const c of s.cards) {
-    const x = Math.max(0, Math.round(c.rect.x));
-    const y = Math.max(0, Math.round(c.rect.y));
-    const w = Math.min(Math.round(c.rect.w), ref.width - x);
-    const h = Math.min(Math.round(c.rect.h), ref.height - y);
+    const x0 = Math.round(c.rect.x);
+    const y0 = Math.round(c.rect.y);
+    const x = Math.max(0, x0);
+    const y = Math.max(0, y0);
+    const w = Math.min(x0 + Math.round(c.rect.w), ref.width) - x;
+    const h = Math.min(y0 + Math.round(c.rect.h), ref.height) - y;
     if (w <= 0 || h <= 0) continue;
     const r = { pen: c.id, name: c.name, ...score(crop(ref, x, y, w, h), crop(pp, x, y, w, h), w, h, c.id) };
     area.cards.push(r);

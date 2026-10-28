@@ -77,7 +77,8 @@ node bin/verify.mjs              # renders, diffs, writes out/verify.json
 Full file: `node bin/convert.mjs --all --name "segno-ui"`, then
 `node bin/import.mjs out/segno-all.penpot --name "segno-ui" --record import-segno-all.json` and
 `node bin/verify.mjs out/import-segno-all.json --report out/report-all.json --tag all`.
-Every script takes `--out DIR` for the output directory.
+`convert.mjs`, `import.mjs` and `verify.mjs` take `--out DIR` for the
+output directory.
 
 Another instance: set `PENPOT_URL` and `PENPOT_TOKEN_FILE`, upload the fonts
 with `--out` to a separate fonts file, and pass it to `convert.mjs --fonts`.
@@ -86,7 +87,7 @@ Extra checks:
 
 - `mcp-checks/` holds the Penpot MCP scripts that edit component mains and
   check that converted copies keep their overrides (see its README).
-- `bin/workspace-shots.mjs "STAGE / stage" ...` screenshots boards (by name or
+- `bin/workspace-shots.mjs "01 / stage" ...` screenshots boards (by name or
   shape id) in the Penpot workspace UI.
 - `bin/relayout-test.mjs out/import-<copy>.json` makes Penpot's layout engine
   recompute every root and first-level board (width +1 px and back
