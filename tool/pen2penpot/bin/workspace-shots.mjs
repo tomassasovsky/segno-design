@@ -9,14 +9,13 @@ import { homedir } from 'node:os';
 import { join } from 'node:path';
 import puppeteer from 'puppeteer-core';
 import { CHROME } from '../src/layout.mjs';
-import { rpc, BASE } from '../src/rpc.mjs';
+import { rpc, BASE, authHeaders } from '../src/rpc.mjs';
 
 const out = join(homedir(), 'development/penpot-trial/out');
 mkdirSync(join(out, 'workspace'), { recursive: true });
 const record = JSON.parse(readFileSync(join(out, 'import-segno-trial.json'), 'utf8'));
 const fileId = record.fileIds[0];
 const file = await rpc('get-file', { id: fileId });
-const token = readFileSync(join(homedir(), 'development/penpot-trial/.penpot-token'), 'utf8').trim();
 const browser = await puppeteer.launch({ executablePath: CHROME, headless: true });
 for (const name of process.argv.slice(2)) {
   let target;
@@ -30,7 +29,7 @@ for (const name of process.argv.slice(2)) {
     continue;
   }
   const page = await browser.newPage();
-  await page.setExtraHTTPHeaders({ Authorization: `Token ${token}` });
+  await page.setExtraHTTPHeaders(authHeaders());
   await page.setViewport({ width: 1920, height: 1200, deviceScaleFactor: 1 });
   const q = new URLSearchParams({ 'team-id': record.teamId, 'file-id': fileId, 'page-id': target.pageId, 'board-id': target.id });
   await page.goto(`${BASE}/#/workspace?${q}`, { waitUntil: 'networkidle0', timeout: 120000 });

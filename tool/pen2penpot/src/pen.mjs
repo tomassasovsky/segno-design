@@ -19,20 +19,36 @@ export class PenDoc {
     this.doc = doc;
     this.variables = doc.variables ?? {};
     this.byId = new Map();
-    this.topOf = new Map();
-    for (const top of doc.children) this.#index(top, top);
+    // The canvas holds sections (`01   CURRENT UX`, ...). Each section holds
+    // its title texts and area frames (`02  Effects · chains & controls`),
+    // and each area holds screen cards: a label, the screen and its notes.
+    // An area is the unit the converter lays out and writes as one board.
+    this.sections = doc.children.filter((n) => n.type === 'frame');
+    this.units = [];
+    this.unitOf = new Map();
+    this.sectionOf = new Map();
+    for (const section of this.sections) {
+      for (const child of section.children ?? []) {
+        if (child.type !== 'frame') continue;
+        this.units.push(child);
+        this.sectionOf.set(child.id, section);
+      }
+    }
+    for (const top of doc.children) this.#index(top, null);
   }
 
-  #index(node, top) {
+  #index(node, unit) {
+    const u = unit ?? (this.sectionOf.has(node.id) ? node : null);
     if (node.id) {
       this.byId.set(node.id, node);
-      this.topOf.set(node.id, top);
+      if (u) this.unitOf.set(node.id, u);
     }
-    for (const c of node.children ?? []) this.#index(c, top);
+    for (const c of node.children ?? []) this.#index(c, u);
   }
 
-  get topLevel() {
-    return this.doc.children;
+  // Texts placed directly on a section: its title and description.
+  sectionTexts(section) {
+    return (section.children ?? []).filter((n) => n.type === 'text');
   }
 
   // Variable lookup. Values may chain through other variables. There are no

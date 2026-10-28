@@ -2,7 +2,7 @@
 // Imports a .penpot file into the token owner's default project through the
 // import-binfile RPC method and records the new file id.
 //
-//   node bin/import.mjs [file.penpot] [--name NAME] [--record out-name.json]
+//   node bin/import.mjs [file.penpot] [--name NAME] [--record out-name.json] [--out DIR]
 
 import { readFileSync, writeFileSync, statSync } from 'node:fs';
 import { homedir } from 'node:os';
@@ -12,9 +12,13 @@ import { rpc, rpcMultipart } from '../src/rpc.mjs';
 
 const { values, positionals } = parseArgs({
   allowPositionals: true,
-  options: { name: { type: 'string' }, record: { type: 'string' } },
+  options: {
+    name: { type: 'string' },
+    record: { type: 'string' },
+    out: { type: 'string', default: join(homedir(), 'development/penpot-trial/out') },
+  },
 });
-const out = join(homedir(), 'development/penpot-trial/out');
+const out = values.out;
 const file = positionals[0] ?? join(out, 'segno-trial.penpot');
 const name = values.name ?? `segno-ui trial ${new Date().toISOString().slice(0, 16)}`;
 

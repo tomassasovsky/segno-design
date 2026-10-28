@@ -1,8 +1,23 @@
 # pen2penpot
 
-Converts screens of `segno-ui.pen` into a Penpot file, for the Penpot trial
+Converts `segno-ui.pen` into a Penpot file, for the Penpot migration
 (tomassasovsky/segno#1503). It reads the pen as the documented JSON format
 (https://docs.pencil.dev/for-developers/the-pen-format) and never writes to it.
+
+## Structure
+
+The pen's canvas holds four sections (`01   CURRENT UX`, `02   EARLIER
+APPLICATION`, `03   DESIGN SYSTEM`, `04   SUPERSEDED`). Each section holds a
+title, a description and its areas (`02  Effects · chains & controls`); each
+area holds screen cards, and a card holds the screen's label, the screen and
+its `t/`, `g/`, `c/` notes.
+
+The converter works one area at a time. Every area becomes one Penpot page,
+named `<section> / <area>` (`01 CURRENT UX / 02 Effects · chains & controls`),
+with the section's background colour as the page background. The area is a
+board at its position in the section, with its cards, screens and notes
+inside it as in the pen. A section's title and description go on the page of
+its first area, above it, where they sit in the pen.
 
 ## How it works
 
@@ -10,7 +25,7 @@ Converts screens of `segno-ui.pen` into a Penpot file, for the Penpot trial
    variable has one value) and expands every `ref` into a copy of its component
    with the instance's own properties and `descendants` overrides applied, as
    the spec describes. Disabled nodes are kept and marked hidden.
-2. **Lay out in a browser.** `src/html.mjs` writes one HTML document per screen
+2. **Lay out in a browser.** `src/html.mjs` writes one HTML document per area
    that maps pen layout to CSS flexbox one to one (`layout`, `gap`, `padding`,
    `justifyContent`, `alignItems`, `fit_content`, `fill_container`,
    `layoutPosition: absolute`, `textGrowth`). `src/layout.mjs` renders it in
@@ -25,8 +40,9 @@ Converts screens of `segno-ui.pen` into a Penpot file, for the Penpot trial
    colours that fills and strokes are bound to; all variables also become a
    design-token set.
 4. **Import** with `bin/import.mjs` (RPC `import-binfile`, access token).
-5. **Verify** with `bin/verify.mjs`: renders each board with Penpot's own
-   render page and compares it pixel by pixel with the reference render.
+5. **Verify** with `bin/verify.mjs`: renders each area board with Penpot's
+   own render page and compares it pixel by pixel with the reference render,
+   scoring the whole area and each screen card.
 
 The reference render is this tool's reading of the pen format, not a pen.dev
 render: pen.dev could not be used during the trial. Fixed sizes from the pen
@@ -44,22 +60,24 @@ result to the board using the SVG's viewBox.
 ## Run
 
 Needs Node 18 or later and Google Chrome in `/Applications`. The Penpot access
-token is read from `~/development/penpot-trial/.penpot-token`; it is only sent
-as an `Authorization` header to `localhost:9001`.
+token is read from `PENPOT_TOKEN_FILE` (default
+`~/development/penpot-trial/.penpot-token`); it is only sent as an
+`Authorization` header to `PENPOT_URL` (default `http://localhost:9001`).
 
 ```sh
 cd tool/pen2penpot
 npm ci
 node bin/upload-fonts.mjs        # once per Penpot team; writes out/fonts.json
-node bin/convert.mjs             # the default trial screens
-node bin/convert.mjs --all       # every top-level frame
+node bin/convert.mjs             # a few areas (--units id,id picks others)
+node bin/convert.mjs --all       # every area
 node bin/import.mjs              # imports out/segno-trial.penpot
 node bin/verify.mjs              # renders, diffs, writes out/verify.json
 ```
 
-Full file: `node bin/convert.mjs --all`, then
-`node bin/import.mjs out/segno-all.penpot --record import-segno-all.json` and
+Full file: `node bin/convert.mjs --all --name "segno-ui"`, then
+`node bin/import.mjs out/segno-all.penpot --name "segno-ui" --record import-segno-all.json` and
 `node bin/verify.mjs out/import-segno-all.json --report out/report-all.json --tag all`.
+Every script takes `--out DIR` for the output directory.
 
 Another instance: set `PENPOT_URL` and `PENPOT_TOKEN_FILE`, upload the fonts
 with `--out` to a separate fonts file, and pass it to `convert.mjs --fonts`.
@@ -71,15 +89,16 @@ Extra checks:
 - `bin/workspace-shots.mjs "STAGE / stage" ...` screenshots boards (by name or
   shape id) in the Penpot workspace UI.
 - `bin/relayout-test.mjs out/import-<copy>.json` makes Penpot's layout engine
-  recompute every screen's root and first-level boards (width +1 px and back
+  recompute every root and first-level board (width +1 px and back
   in the design panel). Run it on a separate import: it edits the file. Its
   field lookup sometimes types into the opacity field instead, so compare
   geometry from `get-file` afterwards rather than pixels.
 
 Output goes to `~/development/penpot-trial/out` (override with `--out`):
 `segno-trial.penpot`, `report.json` (counts and lossy features),
-`render/<id>.png` (reference), `penpot/<id>.png`, `diff/<id>.png` and
-`compare/<id>.png` (reference, Penpot and diff side by side).
+`render/<area id>.png` (reference), `penpot/<area id>.png`, and per card
+`diff/<card id>.png` and `compare/<card id>.png` (reference, Penpot and diff
+side by side).
 
 ## Fonts
 
@@ -106,10 +125,12 @@ without wiping their overrides. Text needs the kind of change next to
 `content-group` (`text-content-text`, `text-content-attribute`,
 `text-content-structure`); with `content-group` alone, a main edit resets the
 copy's text.
+A copy whose path `geometry` or icon the pen overrides gets `content-group`
+too, so a main edit keeps the copy's drawing.
 
 ## Tokens
 
-All 103 variables become one token set. Where the pen binds a `$variable`,
+All variables (109) become one token set. Where the pen binds a `$variable`,
 the shape carries the token: fills and strokes (colour tokens, next to the
 library colour), corner radii, gap and padding (spacing), font size and
 family, opacity.
@@ -122,9 +143,13 @@ family, opacity.
   is closest to the pen's across the shadow's falloff (0.6 becomes 0.343).
 - Per-side strokes: Penpot's SVG renderer has no per-side widths (the
   `stroke-width-*` attributes are read by its experimental WASM renderer
-  only). Every per-side stroke in the pen draws one side, so it becomes one
-  rectangle named `border-bottom` (and so on), pinned to that edge and bound
-  to the same colour. A rectangle that needs one becomes a board.
+  only). Each drawn side becomes a rectangle named `border-bottom` (and so
+  on), pinned to that edge and bound to the same colour. A rectangle that
+  needs one becomes a board.
+- Path fill rule: `fillRule: evenodd` becomes `svg-attrs` `fillRule`, which
+  Penpot's renderer applies to the path's fill, as it does for imported SVG.
+- Paths and filled icons without a stroke get an explicit empty stroke
+  list: Penpot gives a path with no `strokes` a 1 px black stroke.
 - Fitted images: a box with the image's proportions gets a plain image fill;
   any other box gets the image as a child rectangle sized to the fitted area,
   the way Penpot places an image.
@@ -139,4 +164,8 @@ Recorded per run in `report.json` under `lossy`:
 
 - Instances whose `descendants` replace a node or its children cannot be
   Penpot copies; they are written as plain layers.
-- Path stroke joins: Penpot has no line-join setting.
+- Path stroke joins: Penpot has no line-join setting. Its renderer draws the
+  stroke on its own element, so `svg-attrs` cannot carry one either.
+- Area `context` texts (the review status the pen keeps on each area frame)
+  have no Penpot equivalent and are not carried; they are not drawn in pen
+  either.

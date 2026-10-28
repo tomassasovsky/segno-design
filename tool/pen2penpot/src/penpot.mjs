@@ -603,9 +603,14 @@ export class PenpotWriter {
       if (xf) d = svgpath(d).matrix([xf.a, xf.b, xf.c, xf.d, xf.e, xf.f]).round(3).toString();
       p.content = d;
       p.fills = this.fills(node);
-      const strokes = this.strokes(node);
-      if (strokes.length) p.strokes = strokes;
-      if (node.fillRule === 'evenodd') this.lossy('path fill rule evenodd', node.id);
+      // Always set: a path without strokes gets a 1 px black one by default.
+      p.strokes = this.strokes(node);
+      // Penpot's renderer merges svg-attrs into the path element, which is
+      // how it keeps the fill rule of imported SVG paths.
+      if (node.fillRule === 'evenodd') {
+        p.svgAttrs = { fillRule: 'evenodd' };
+        this.bump('evenoddPaths');
+      }
       for (const k of ['x', 'y', 'width', 'height', 'rotation', 'transform', 'transformInverse']) delete p[k];
     }
     if (t === 'icon') {
@@ -635,6 +640,8 @@ export class PenpotWriter {
         if (colorToken) tokens.strokeColor = colorToken;
       } else {
         p.fills = [paint];
+        // Explicit: a path without strokes gets a 1 px black one by default.
+        p.strokes = [];
         if (colorToken) tokens.fill = colorToken;
       }
       this.bump('icons');
@@ -792,7 +799,7 @@ export class PenpotWriter {
   // (container.cljc set-shape-attr): text content changes add the kind of
   // change (text, attribute, structure) next to :content-group, otherwise a
   // main edit resets the copy's text.
-  touched(p, mp) {
+  touched(p, mp, node, mainNode) {
     const groups = new Set();
     const strip = (k, v) => (k === 'shadow' && v ? v.map(({ id, ...rest }) => rest) : v);
     for (const [k, g] of Object.entries(TOUCH_GROUPS)) {
@@ -809,7 +816,10 @@ export class PenpotWriter {
         for (const d of diff) groups.add(d);
       }
     }
-    // Path content is geometry, which never marks a copy as touched by itself.
+    // Path content moves with the shape, so only a pen geometry override
+    // (a different drawing, not a moved or resized one) marks it.
+    if (node.type === 'path' && node.geometry !== mainNode.geometry) groups.add('content-group');
+    if (node.type === 'icon' && (node.icon !== mainNode.icon || node.library !== mainNode.library)) groups.add('content-group');
     const ta = p.appliedTokens ?? {};
     const tb = mp.appliedTokens ?? {};
     for (const k of new Set([...Object.keys(ta), ...Object.keys(tb)])) {
@@ -901,7 +911,7 @@ export class PenpotWriter {
     if (node._mainNode) {
       const mp = this.attrsById.get(node._mainNode._uuid);
       if (mp) {
-        const t = this.touched(p, mp);
+        const t = this.touched(p, mp, node, node._mainNode);
         if (t.length) {
           p.touched = t;
           this.bump('touchedShapes');
@@ -1030,8 +1040,8 @@ export class PenpotWriter {
     return out;
   }
 
-  addPage(name) {
-    this.ctx.addPage({ name });
+  addPage(name, background) {
+    this.ctx.addPage(background ? { name, background } : { name });
   }
 
   closePage() {

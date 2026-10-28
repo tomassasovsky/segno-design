@@ -8,10 +8,12 @@ export const BASE = process.env.PENPOT_URL ?? 'http://localhost:9001';
 const TOKEN_FILE = process.env.PENPOT_TOKEN_FILE ?? join(homedir(), 'development/penpot-trial/.penpot-token');
 
 let token;
-function auth() {
+// The Authorization header for this instance's access token.
+export function authHeaders() {
   token ??= readFileSync(TOKEN_FILE, 'utf8').trim();
   return { Authorization: `Token ${token}` };
 }
+const auth = authHeaders;
 
 export async function rpc(method, params = {}) {
   const res = await fetch(`${BASE}/api/main/methods/${method}`, {
