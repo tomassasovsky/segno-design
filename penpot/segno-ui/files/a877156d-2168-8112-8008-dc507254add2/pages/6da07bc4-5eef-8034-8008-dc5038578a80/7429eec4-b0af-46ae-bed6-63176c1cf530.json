@@ -1,0 +1,135 @@
+{
+  "id": "7429eec4-b0af-46ae-bed6-63176c1cf530",
+  "name": "Drum Rack",
+  "type": "text",
+  "x": 8234,
+  "y": 5613.5,
+  "width": 150.016,
+  "height": 30,
+  "rotation": 0,
+  "selrect": {
+    "x": 8234,
+    "y": 5613.5,
+    "width": 150.016,
+    "height": 30,
+    "x1": 8234,
+    "y1": 5613.5,
+    "x2": 8384.016,
+    "y2": 5643.5
+  },
+  "points": [
+    {
+      "x": 8234,
+      "y": 5613.5
+    },
+    {
+      "x": 8384.016,
+      "y": 5613.5
+    },
+    {
+      "x": 8384.016,
+      "y": 5643.5
+    },
+    {
+      "x": 8234,
+      "y": 5643.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ed780f50-45de-4af7-9b23-86131d340cae",
+  "frameId": "ed780f50-45de-4af7-9b23-86131d340cae",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "30",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Drum Rack"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "30",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038578a80",
+  "positionData": [
+    {
+      "y": 5644.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "width": 150.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8234,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 33,
+      "text": "Drum Rack"
+    }
+  ]
+}

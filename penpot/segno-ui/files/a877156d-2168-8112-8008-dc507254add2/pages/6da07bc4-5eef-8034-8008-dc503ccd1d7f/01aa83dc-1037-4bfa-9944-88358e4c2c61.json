@@ -1,0 +1,135 @@
+{
+  "id": "01aa83dc-1037-4bfa-9944-88358e4c2c61",
+  "name": "Play one note",
+  "type": "text",
+  "x": 3582,
+  "y": 47801.5,
+  "width": 165.125,
+  "height": 27,
+  "rotation": 0,
+  "selrect": {
+    "x": 3582,
+    "y": 47801.5,
+    "width": 165.125,
+    "height": 27,
+    "x1": 3582,
+    "y1": 47801.5,
+    "x2": 3747.125,
+    "y2": 47828.5
+  },
+  "points": [
+    {
+      "x": 3582,
+      "y": 47801.5
+    },
+    {
+      "x": 3747.125,
+      "y": 47801.5
+    },
+    {
+      "x": 3747.125,
+      "y": 47828.5
+    },
+    {
+      "x": 3582,
+      "y": 47828.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5bb4c9b9-0dc2-416a-9a99-1229594e8eb9",
+  "frameId": "5bb4c9b9-0dc2-416a-9a99-1229594e8eb9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "27",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#dce6f4",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Play one note"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "27",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#dce6f4",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503ccd1d7f",
+  "positionData": [
+    {
+      "y": 47829.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "27px",
+      "fontWeight": "400",
+      "width": 165.125,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3582,
+      "fills": [
+        {
+          "fillColor": "#dce6f4",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 30,
+      "text": "Play one note"
+    }
+  ]
+}

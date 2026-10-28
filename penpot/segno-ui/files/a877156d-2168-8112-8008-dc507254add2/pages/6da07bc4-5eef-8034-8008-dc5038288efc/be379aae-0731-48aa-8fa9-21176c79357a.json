@@ -1,0 +1,135 @@
+{
+  "id": "be379aae-0731-48aa-8fa9-21176c79357a",
+  "name": "Effects off here",
+  "type": "text",
+  "x": 8963,
+  "y": 3419,
+  "width": 852.859,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 8963,
+    "y": 3419,
+    "width": 852.859,
+    "height": 22,
+    "x1": 8963,
+    "y1": 3419,
+    "x2": 9815.859,
+    "y2": 3441
+  },
+  "points": [
+    {
+      "x": 8963,
+      "y": 3419
+    },
+    {
+      "x": 9815.859,
+      "y": 3419
+    },
+    {
+      "x": 9815.859,
+      "y": 3441
+    },
+    {
+      "x": 8963,
+      "y": 3441
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d89384f4-d5bf-4461-9025-294116f32c1a",
+  "frameId": "d89384f4-d5bf-4461-9025-294116f32c1a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Effects are off here, so nothing you change on this page is heard until you turn them on."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038288efc",
+  "positionData": [
+    {
+      "y": 3442,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 852.859,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8963,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Effects are off here, so nothing you change on this page is heard until you turn them on."
+    }
+  ]
+}

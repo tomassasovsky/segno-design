@@ -1,0 +1,135 @@
+{
+  "id": "0825e844-7bd7-4e04-9a55-4a2af9733cff",
+  "name": "Venue backstage",
+  "type": "text",
+  "x": 2560,
+  "y": 58364.375,
+  "width": 214.844,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 2560,
+    "y": 58364.375,
+    "width": 214.844,
+    "height": 28,
+    "x1": 2560,
+    "y1": 58364.375,
+    "x2": 2774.844,
+    "y2": 58392.375
+  },
+  "points": [
+    {
+      "x": 2560,
+      "y": 58364.375
+    },
+    {
+      "x": 2774.844,
+      "y": 58364.375
+    },
+    {
+      "x": 2774.844,
+      "y": 58392.375
+    },
+    {
+      "x": 2560,
+      "y": 58392.375
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "08fc40fe-5881-416a-ab29-df128c220b34",
+  "frameId": "08fc40fe-5881-416a-ab29-df128c220b34",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e4e9f2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Venue backstage"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e4e9f2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d87ee57",
+  "positionData": [
+    {
+      "y": 58393.375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 214.844,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2560,
+      "fills": [
+        {
+          "fillColor": "#e4e9f2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Venue backstage"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "26ee099c-e178-4b6f-99c0-e00af1e6e972",
+  "name": "Pre-release builds. Turn off to follow p",
+  "type": "text",
+  "x": 9121,
+  "y": 26673.609,
+  "width": 411.25,
+  "height": 16.938,
+  "rotation": 0,
+  "selrect": {
+    "x": 9121,
+    "y": 26673.609,
+    "width": 411.25,
+    "height": 16.938,
+    "x1": 9121,
+    "y1": 26673.609,
+    "x2": 9532.25,
+    "y2": 26690.547
+  },
+  "points": [
+    {
+      "x": 9121,
+      "y": 26673.609
+    },
+    {
+      "x": 9532.25,
+      "y": 26673.609
+    },
+    {
+      "x": 9532.25,
+      "y": 26690.547
+    },
+    {
+      "x": 9121,
+      "y": 26690.547
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8ba79617-1c04-4292-b2cc-d32ff4272128",
+  "frameId": "8ba79617-1c04-4292-b2cc-d32ff4272128",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.21",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.21",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Pre-release builds. Turn off to follow production releases only."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc5040f9e54b",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 26689.609,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 411.25,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9121,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Pre-release builds. Turn off to follow production releases only."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

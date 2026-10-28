@@ -1,0 +1,135 @@
+{
+  "id": "3af7cc1c-65ff-4bb9-a954-c1f791948778",
+  "name": "Screen label \/ Transpose at pitch limit",
+  "type": "text",
+  "x": 6820,
+  "y": 21850,
+  "width": 1920,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 21850,
+    "width": 1920,
+    "height": 37,
+    "x1": 6820,
+    "y1": 21850,
+    "x2": 8740,
+    "y2": 21887
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 21850
+    },
+    {
+      "x": 8740,
+      "y": 21850
+    },
+    {
+      "x": 8740,
+      "y": 21887
+    },
+    {
+      "x": 6820,
+      "y": 21887
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "18aa5225-54cd-45f9-9721-86ba3ce9cf6d",
+  "frameId": "18aa5225-54cd-45f9-9721-86ba3ce9cf6d",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c9ced9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "04  Transpose at pitch limit"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c9ced9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503994efd9",
+  "positionData": [
+    {
+      "y": 21886,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "width": 410.781,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#c9ced9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "04  Transpose at pitch limit"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "2835e1c4-57c9-482f-9943-41e738be4781",
+  "name": "Screen label \/ firmware failed interrupted",
+  "type": "text",
+  "x": 6820,
+  "y": 37970,
+  "width": 1920,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 37970,
+    "width": 1920,
+    "height": 37,
+    "x1": 6820,
+    "y1": 37970,
+    "x2": 8740,
+    "y2": 38007
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 37970
+    },
+    {
+      "x": 8740,
+      "y": 37970
+    },
+    {
+      "x": 8740,
+      "y": 38007
+    },
+    {
+      "x": 6820,
+      "y": 38007
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "07621acf-996f-495b-a5f2-25b567fd37c4",
+  "frameId": "07621acf-996f-495b-a5f2-25b567fd37c4",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c9ced9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "16  firmware failed interrupted"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c9ced9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "positionData": [
+    {
+      "y": 38006,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "width": 457.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#c9ced9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "16  firmware failed interrupted"
+    }
+  ]
+}

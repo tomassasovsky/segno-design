@@ -1,0 +1,135 @@
+{
+  "id": "b3896c5e-e1ec-404a-b19c-c103379cb335",
+  "name": "t\/fx-edit",
+  "type": "text",
+  "x": 8900,
+  "y": 3161,
+  "width": 155.984,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 3161,
+    "width": 155.984,
+    "height": 19,
+    "x1": 8900,
+    "y1": 3161,
+    "x2": 9055.984,
+    "y2": 3180
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 3161
+    },
+    {
+      "x": 9055.984,
+      "y": 3161
+    },
+    {
+      "x": 9055.984,
+      "y": 3180
+    },
+    {
+      "x": 8900,
+      "y": 3180
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "6bbed179-d561-4c18-bed3-25df273947d2",
+  "frameId": "6bbed179-d561-4c18-bed3-25df273947d2",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2667",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2667",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "600",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Signal \u2014 effect editor"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 3180,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "width": 155.984,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 19,
+      "text": "Signal \u2014 effect editor"
+    }
+  ]
+}

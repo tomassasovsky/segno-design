@@ -1,0 +1,135 @@
+{
+  "id": "e054e78f-ddc8-4b84-a49e-516b93a41bf6",
+  "name": "See which sources keep feeding an effect, and which tails remain.",
+  "type": "text",
+  "x": 632,
+  "y": 11613.5,
+  "width": 562.125,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 632,
+    "y": 11613.5,
+    "width": 562.125,
+    "height": 18,
+    "x1": 632,
+    "y1": 11613.5,
+    "x2": 1194.125,
+    "y2": 11631.5
+  },
+  "points": [
+    {
+      "x": 632,
+      "y": 11613.5
+    },
+    {
+      "x": 1194.125,
+      "y": 11613.5
+    },
+    {
+      "x": 1194.125,
+      "y": 11631.5
+    },
+    {
+      "x": 632,
+      "y": 11631.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2d3e0c8f-8505-42e0-8921-8a18ae520651",
+  "frameId": "2d3e0c8f-8505-42e0-8921-8a18ae520651",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aab9ca",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "See which sources keep feeding an effect, and which tails remain."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aab9ca",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc504238a365",
+  "positionData": [
+    {
+      "y": 11632.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 562.125,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 632,
+      "fills": [
+        {
+          "fillColor": "#aab9ca",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 21,
+      "text": "See which sources keep feeding an effect, and which tails remain."
+    }
+  ]
+}

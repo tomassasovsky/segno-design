@@ -1,0 +1,135 @@
+{
+  "id": "54f4d0c7-9937-4403-879a-ae49a5ded30c",
+  "name": "SEGNO USB",
+  "type": "text",
+  "x": 5511.719,
+  "y": 91335.063,
+  "width": 144.031,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 5511.719,
+    "y": 91335.063,
+    "width": 144.031,
+    "height": 24,
+    "x1": 5511.719,
+    "y1": 91335.063,
+    "x2": 5655.75,
+    "y2": 91359.063
+  },
+  "points": [
+    {
+      "x": 5511.719,
+      "y": 91335.063
+    },
+    {
+      "x": 5655.75,
+      "y": 91335.063
+    },
+    {
+      "x": 5655.75,
+      "y": 91359.063
+    },
+    {
+      "x": 5511.719,
+      "y": 91359.063
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "9d5f2e11-5547-4493-a913-63aae682a87b",
+  "frameId": "9d5f2e11-5547-4493-a913-63aae682a87b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "SEGNO USB"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e924487",
+  "positionData": [
+    {
+      "y": 91360.063,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "width": 144.031,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 5511.719,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "SEGNO USB"
+    }
+  ]
+}

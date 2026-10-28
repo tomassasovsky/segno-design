@@ -1,0 +1,135 @@
+{
+  "id": "ab5a975b-c504-464d-997a-3f7c40019076",
+  "name": "Back up the whole appliance?",
+  "type": "text",
+  "x": 2901,
+  "y": 87931.906,
+  "width": 425.188,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 2901,
+    "y": 87931.906,
+    "width": 425.188,
+    "height": 32,
+    "x1": 2901,
+    "y1": 87931.906,
+    "x2": 3326.188,
+    "y2": 87963.906
+  },
+  "points": [
+    {
+      "x": 2901,
+      "y": 87931.906
+    },
+    {
+      "x": 3326.188,
+      "y": 87931.906
+    },
+    {
+      "x": 3326.188,
+      "y": 87963.906
+    },
+    {
+      "x": 2901,
+      "y": 87963.906
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "9e0b3a2b-bf14-4130-a78f-38d9cabb4601",
+  "frameId": "9e0b3a2b-bf14-4130-a78f-38d9cabb4601",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Back up the whole appliance?"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e7e83b6",
+  "positionData": [
+    {
+      "y": 87965.906,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 425.188,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2901,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Back up the whole appliance?"
+    }
+  ]
+}

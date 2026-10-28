@@ -1,0 +1,138 @@
+{
+  "id": "e89a54fe-9e37-49cd-b474-701dbf47f958",
+  "name": "De-clip",
+  "type": "text",
+  "x": 11229,
+  "y": 7993.781,
+  "width": 51.5,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 11229,
+    "y": 7993.781,
+    "width": 51.5,
+    "height": 19,
+    "x1": 11229,
+    "y1": 7993.781,
+    "x2": 11280.5,
+    "y2": 8012.781
+  },
+  "points": [
+    {
+      "x": 11229,
+      "y": 7993.781
+    },
+    {
+      "x": 11280.5,
+      "y": 7993.781
+    },
+    {
+      "x": 11280.5,
+      "y": 8012.781
+    },
+    {
+      "x": 11229,
+      "y": 8012.781
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "805c64b6-2de3-4f44-a6d0-5776f4b3a8b8",
+  "frameId": "805c64b6-2de3-4f44-a6d0-5776f4b3a8b8",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2667",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2667",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#3b82f6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "De-clip"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#3b82f6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 8012.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "width": 51.5,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11229,
+      "fills": [
+        {
+          "fillColor": "#3b82f6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 19,
+      "text": "De-clip"
+    }
+  ],
+  "layoutItemZIndex": 1
+}

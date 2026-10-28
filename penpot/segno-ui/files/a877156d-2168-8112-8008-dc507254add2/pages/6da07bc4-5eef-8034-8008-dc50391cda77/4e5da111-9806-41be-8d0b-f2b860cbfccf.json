@@ -1,0 +1,135 @@
+{
+  "id": "4e5da111-9806-41be-8d0b-f2b860cbfccf",
+  "name": "Held \/ Released",
+  "type": "text",
+  "x": 5936.734,
+  "y": 22321,
+  "width": 170.766,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 5936.734,
+    "y": 22321,
+    "width": 170.766,
+    "height": 24,
+    "x1": 5936.734,
+    "y1": 22321,
+    "x2": 6107.5,
+    "y2": 22345
+  },
+  "points": [
+    {
+      "x": 5936.734,
+      "y": 22321
+    },
+    {
+      "x": 6107.5,
+      "y": 22321
+    },
+    {
+      "x": 6107.5,
+      "y": 22345
+    },
+    {
+      "x": 5936.734,
+      "y": 22345
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c617e457-00d3-4c14-89a3-1175d8915125",
+  "frameId": "c617e457-00d3-4c14-89a3-1175d8915125",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c7c7c7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Held \/ Released"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c7c7c7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50391cda77",
+  "positionData": [
+    {
+      "y": 22346,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 170.766,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 5936.734,
+      "fills": [
+        {
+          "fillColor": "#c7c7c7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Held \/ Released"
+    }
+  ]
+}

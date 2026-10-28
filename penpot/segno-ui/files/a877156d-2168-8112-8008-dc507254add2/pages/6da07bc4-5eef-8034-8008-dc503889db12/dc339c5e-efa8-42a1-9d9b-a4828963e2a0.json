@@ -1,0 +1,135 @@
+{
+  "id": "dc339c5e-efa8-42a1-9d9b-a4828963e2a0",
+  "name": "Record timing",
+  "type": "text",
+  "x": 9000,
+  "y": 9837.484,
+  "width": 172.734,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 9000,
+    "y": 9837.484,
+    "width": 172.734,
+    "height": 28,
+    "x1": 9000,
+    "y1": 9837.484,
+    "x2": 9172.734,
+    "y2": 9865.484
+  },
+  "points": [
+    {
+      "x": 9000,
+      "y": 9837.484
+    },
+    {
+      "x": 9172.734,
+      "y": 9837.484
+    },
+    {
+      "x": 9172.734,
+      "y": 9865.484
+    },
+    {
+      "x": 9000,
+      "y": 9865.484
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "60f0759f-4c49-4ae2-b430-7bb7d4f684d0",
+  "frameId": "60f0759f-4c49-4ae2-b430-7bb7d4f684d0",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Record timing"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503889db12",
+  "positionData": [
+    {
+      "y": 9866.484,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 172.734,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9000,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Record timing"
+    }
+  ]
+}

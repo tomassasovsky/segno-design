@@ -1,0 +1,159 @@
+{
+  "id": "3ded24f2-3edb-473d-9080-d29fc32175eb",
+  "name": "Drive \u2192 Tremolo \u2192 Reverb",
+  "type": "text",
+  "x": 9118,
+  "y": 2354.141,
+  "width": 166,
+  "height": 37.766,
+  "rotation": 0,
+  "selrect": {
+    "x": 9118,
+    "y": 2354.141,
+    "width": 166,
+    "height": 37.766,
+    "x1": 9118,
+    "y1": 2354.141,
+    "x2": 9284,
+    "y2": 2391.907
+  },
+  "points": [
+    {
+      "x": 9118,
+      "y": 2354.141
+    },
+    {
+      "x": 9284,
+      "y": 2354.141
+    },
+    {
+      "x": 9284,
+      "y": 2391.907
+    },
+    {
+      "x": 9118,
+      "y": 2391.907
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fabb8280-2256-478a-8673-7fa10e60e490",
+  "frameId": "fabb8280-2256-478a-8673-7fa10e60e490",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.35",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.35",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Drive \u2192 Tremolo \u2192 Reverb"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "fix",
+  "positionData": [
+    {
+      "y": 2371.141,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 131.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9118,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Drive \u2192 Tremolo \u2192 "
+    },
+    {
+      "y": 2390.031,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 46.516,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9118,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Reverb"
+    }
+  ],
+  "layoutItemZIndex": 4
+}

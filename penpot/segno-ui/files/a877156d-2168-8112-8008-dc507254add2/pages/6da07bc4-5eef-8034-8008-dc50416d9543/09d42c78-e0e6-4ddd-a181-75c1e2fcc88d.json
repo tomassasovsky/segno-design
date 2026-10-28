@@ -1,0 +1,189 @@
+{
+  "id": "09d42c78-e0e6-4ddd-a181-75c1e2fcc88d",
+  "name": "A tile name is mono 9px in 78px \u2014 about\u2026",
+  "type": "text",
+  "x": 752,
+  "y": 10187.781,
+  "width": 383,
+  "height": 54,
+  "rotation": 0,
+  "selrect": {
+    "x": 752,
+    "y": 10187.781,
+    "width": 383,
+    "height": 54,
+    "x1": 752,
+    "y1": 10187.781,
+    "x2": 1135,
+    "y2": 10241.781
+  },
+  "points": [
+    {
+      "x": 752,
+      "y": 10187.781
+    },
+    {
+      "x": 1135,
+      "y": 10187.781
+    },
+    {
+      "x": 1135,
+      "y": 10241.781
+    },
+    {
+      "x": 752,
+      "y": 10241.781
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "84f3af30-441a-41bb-aac8-330ce484d0fc",
+  "frameId": "84f3af30-441a-41bb-aac8-330ce484d0fc",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "12",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "A tile name is mono 9px in 78px \u2014 about 10 characters. Longer names ellipsize on the tile and appear in full in the sheet header, which is where you are when you actually need to read it."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "12",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontSize": "text-xs",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 10203.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 360.813,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 752,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "A tile name is mono 9px in 78px \u2014 about 10 characters. Longer "
+    },
+    {
+      "y": 10221.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 366.547,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 752,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "names ellipsize on the tile and appear in full in the sheet header, "
+    },
+    {
+      "y": 10239.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 325.234,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 752,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "which is where you are when you actually need to read it."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

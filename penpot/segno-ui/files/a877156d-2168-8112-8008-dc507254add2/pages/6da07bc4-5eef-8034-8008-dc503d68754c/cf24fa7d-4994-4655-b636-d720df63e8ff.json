@@ -1,0 +1,135 @@
+{
+  "id": "cf24fa7d-4994-4655-b636-d720df63e8ff",
+  "name": "Send sync",
+  "type": "text",
+  "x": 360,
+  "y": 56604.188,
+  "width": 116.75,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 360,
+    "y": 56604.188,
+    "width": 116.75,
+    "height": 25,
+    "x1": 360,
+    "y1": 56604.188,
+    "x2": 476.75,
+    "y2": 56629.188
+  },
+  "points": [
+    {
+      "x": 360,
+      "y": 56604.188
+    },
+    {
+      "x": 476.75,
+      "y": 56604.188
+    },
+    {
+      "x": 476.75,
+      "y": 56629.188
+    },
+    {
+      "x": 360,
+      "y": 56629.188
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7eb112af-53ed-4574-967a-92a14cf45881",
+  "frameId": "7eb112af-53ed-4574-967a-92a14cf45881",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Send sync"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d68754c",
+  "positionData": [
+    {
+      "y": 56630.188,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 116.75,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 360,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Send sync"
+    }
+  ]
+}

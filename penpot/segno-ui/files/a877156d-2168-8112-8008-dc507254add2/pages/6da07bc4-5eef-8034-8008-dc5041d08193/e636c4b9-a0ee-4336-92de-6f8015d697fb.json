@@ -1,0 +1,135 @@
+{
+  "id": "e636c4b9-a0ee-4336-92de-6f8015d697fb",
+  "name": "Reverse",
+  "type": "text",
+  "x": 1452.75,
+  "y": 2598.078,
+  "width": 89.375,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 1452.75,
+    "y": 2598.078,
+    "width": 89.375,
+    "height": 24,
+    "x1": 1452.75,
+    "y1": 2598.078,
+    "x2": 1542.125,
+    "y2": 2622.078
+  },
+  "points": [
+    {
+      "x": 1452.75,
+      "y": 2598.078
+    },
+    {
+      "x": 1542.125,
+      "y": 2598.078
+    },
+    {
+      "x": 1542.125,
+      "y": 2622.078
+    },
+    {
+      "x": 1452.75,
+      "y": 2622.078
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "15a06af4-71ee-4593-85d0-defba3d1c672",
+  "frameId": "15a06af4-71ee-4593-85d0-defba3d1c672",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#1b2536",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Reverse"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#1b2536",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5041d08193",
+  "positionData": [
+    {
+      "y": 2623.078,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 89.375,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1452.75,
+      "fills": [
+        {
+          "fillColor": "#1b2536",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Reverse"
+    }
+  ]
+}

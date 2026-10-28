@@ -1,0 +1,147 @@
+{
+  "id": "48145f28-360d-4a24-850d-e8544be625d4",
+  "name": "keypad key",
+  "type": "text",
+  "x": 5141.672,
+  "y": 1004.797,
+  "width": 72,
+  "height": 16,
+  "rotation": 0,
+  "selrect": {
+    "x": 5141.672,
+    "y": 1004.797,
+    "width": 72,
+    "height": 16,
+    "x1": 5141.672,
+    "y1": 1004.797,
+    "x2": 5213.672,
+    "y2": 1020.797
+  },
+  "points": [
+    {
+      "x": 5141.672,
+      "y": 1004.797
+    },
+    {
+      "x": 5213.672,
+      "y": 1004.797
+    },
+    {
+      "x": 5213.672,
+      "y": 1020.797
+    },
+    {
+      "x": 5141.672,
+      "y": 1020.797
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "96a86796-7ea7-43ca-bc42-2eb617c2f54c",
+  "frameId": "96a86796-7ea7-43ca-bc42-2eb617c2f54c",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3333",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3333",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+                "fontSize": "12",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "JetBrains Mono",
+                "text": "keypad key"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+            "fontSize": "12",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "JetBrains Mono"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-muted",
+    "fontSize": "text-xs",
+    "fontFamily": "font-mono"
+  },
+  "positionData": [
+    {
+      "y": 1020.797,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 72,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 5141.672,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 16,
+      "text": "keypad key"
+    }
+  ],
+  "layoutItemZIndex": 1
+}

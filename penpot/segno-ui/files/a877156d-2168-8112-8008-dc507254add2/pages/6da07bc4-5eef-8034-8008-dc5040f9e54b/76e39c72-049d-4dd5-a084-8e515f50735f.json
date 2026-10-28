@@ -1,0 +1,138 @@
+{
+  "id": "76e39c72-049d-4dd5-a084-8e515f50735f",
+  "name": "Delete old captures",
+  "type": "text",
+  "x": 11201,
+  "y": 28214.047,
+  "width": 156.25,
+  "height": 20.047,
+  "rotation": 0,
+  "selrect": {
+    "x": 11201,
+    "y": 28214.047,
+    "width": 156.25,
+    "height": 20.047,
+    "x1": 11201,
+    "y1": 28214.047,
+    "x2": 11357.25,
+    "y2": 28234.093999999997
+  },
+  "points": [
+    {
+      "x": 11201,
+      "y": 28214.047
+    },
+    {
+      "x": 11357.25,
+      "y": 28214.047
+    },
+    {
+      "x": 11357.25,
+      "y": 28234.093999999997
+    },
+    {
+      "x": 11201,
+      "y": 28234.093999999997
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2ae6a6f3-cc70-4b9a-b4d5-8734d3824476",
+  "frameId": "2ae6a6f3-cc70-4b9a-b4d5-8734d3824476",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.18",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.18",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "17",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Delete old captures"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "17",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc5040f9e54b",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 28234.047,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "width": 156.25,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11201,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Delete old captures"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

@@ -1,0 +1,135 @@
+{
+  "id": "e466ded5-d758-414d-a924-8c1ca744b790",
+  "name": "Input is clipping. Lower the source level.",
+  "type": "text",
+  "x": 7812,
+  "y": 47851.5,
+  "width": 407.844,
+  "height": 23,
+  "rotation": 0,
+  "selrect": {
+    "x": 7812,
+    "y": 47851.5,
+    "width": 407.844,
+    "height": 23,
+    "x1": 7812,
+    "y1": 47851.5,
+    "x2": 8219.844,
+    "y2": 47874.5
+  },
+  "points": [
+    {
+      "x": 7812,
+      "y": 47851.5
+    },
+    {
+      "x": 8219.844,
+      "y": 47851.5
+    },
+    {
+      "x": 8219.844,
+      "y": 47874.5
+    },
+    {
+      "x": 7812,
+      "y": 47874.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7f0db324-086c-4514-8769-e206315d86e3",
+  "frameId": "7f0db324-086c-4514-8769-e206315d86e3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "23",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#efbea0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Input is clipping. Lower the source level."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "23",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#efbea0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c93fd80",
+  "positionData": [
+    {
+      "y": 47875.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "width": 407.844,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7812,
+      "fills": [
+        {
+          "fillColor": "#efbea0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 26,
+      "text": "Input is clipping. Lower the source level."
+    }
+  ]
+}

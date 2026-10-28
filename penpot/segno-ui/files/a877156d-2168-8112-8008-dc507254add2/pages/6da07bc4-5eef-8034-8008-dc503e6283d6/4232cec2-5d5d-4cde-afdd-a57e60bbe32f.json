@@ -1,0 +1,135 @@
+{
+  "id": "4232cec2-5d5d-4cde-afdd-a57e60bbe32f",
+  "name": "Evening loop",
+  "type": "text",
+  "x": 6909,
+  "y": 87183.5,
+  "width": 161.906,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 6909,
+    "y": 87183.5,
+    "width": 161.906,
+    "height": 28,
+    "x1": 6909,
+    "y1": 87183.5,
+    "x2": 7070.906,
+    "y2": 87211.5
+  },
+  "points": [
+    {
+      "x": 6909,
+      "y": 87183.5
+    },
+    {
+      "x": 7070.906,
+      "y": 87183.5
+    },
+    {
+      "x": 7070.906,
+      "y": 87211.5
+    },
+    {
+      "x": 6909,
+      "y": 87211.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81d1a03-917c-47b8-8e72-5814ff014a3b",
+  "frameId": "b81d1a03-917c-47b8-8e72-5814ff014a3b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e6e9ef",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Evening loop"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e6e9ef",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e6283d6",
+  "positionData": [
+    {
+      "y": 87212.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 161.906,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6909,
+      "fills": [
+        {
+          "fillColor": "#e6e9ef",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Evening loop"
+    }
+  ]
+}

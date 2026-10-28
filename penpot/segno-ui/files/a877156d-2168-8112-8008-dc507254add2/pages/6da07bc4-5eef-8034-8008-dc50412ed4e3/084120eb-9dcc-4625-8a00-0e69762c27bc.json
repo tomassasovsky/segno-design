@@ -1,0 +1,135 @@
+{
+  "id": "084120eb-9dcc-4625-8a00-0e69762c27bc",
+  "name": "t\/sessions",
+  "type": "text",
+  "x": 6820,
+  "y": 32147,
+  "width": 65.594,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 32147,
+    "width": 65.594,
+    "height": 19,
+    "x1": 6820,
+    "y1": 32147,
+    "x2": 6885.594,
+    "y2": 32166
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 32147
+    },
+    {
+      "x": 6885.594,
+      "y": 32147
+    },
+    {
+      "x": 6885.594,
+      "y": 32166
+    },
+    {
+      "x": 6820,
+      "y": 32166
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "f6037155-d563-40b8-9abe-ab14b42d8674",
+  "frameId": "f6037155-d563-40b8-9abe-ab14b42d8674",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2667",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2667",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "600",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Sessions"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "positionData": [
+    {
+      "y": 32166,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "width": 65.594,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 19,
+      "text": "Sessions"
+    }
+  ]
+}

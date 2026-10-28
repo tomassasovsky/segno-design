@@ -1,0 +1,135 @@
+{
+  "id": "400f6e15-7f80-48ac-b8b3-4e53a0203c55",
+  "name": "Overdub decay",
+  "type": "text",
+  "x": 4560,
+  "y": 14136.984,
+  "width": 217.016,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 4560,
+    "y": 14136.984,
+    "width": 217.016,
+    "height": 32,
+    "x1": 4560,
+    "y1": 14136.984,
+    "x2": 4777.016,
+    "y2": 14168.984
+  },
+  "points": [
+    {
+      "x": 4560,
+      "y": 14136.984
+    },
+    {
+      "x": 4777.016,
+      "y": 14136.984
+    },
+    {
+      "x": 4777.016,
+      "y": 14168.984
+    },
+    {
+      "x": 4560,
+      "y": 14168.984
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "25aabcb1-dcd3-4c04-ba09-a4924f4226bc",
+  "frameId": "25aabcb1-dcd3-4c04-ba09-a4924f4226bc",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Overdub decay"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50389bdc6f",
+  "positionData": [
+    {
+      "y": 14170.984,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 217.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4560,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Overdub decay"
+    }
+  ]
+}

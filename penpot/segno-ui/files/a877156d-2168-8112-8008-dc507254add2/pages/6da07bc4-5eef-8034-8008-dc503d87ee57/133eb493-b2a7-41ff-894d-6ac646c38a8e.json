@@ -1,0 +1,135 @@
+{
+  "id": "133eb493-b2a7-41ff-894d-6ac646c38a8e",
+  "name": "Rehearsal Room",
+  "type": "text",
+  "x": 2560,
+  "y": 60720.375,
+  "width": 210.109,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 2560,
+    "y": 60720.375,
+    "width": 210.109,
+    "height": 28,
+    "x1": 2560,
+    "y1": 60720.375,
+    "x2": 2770.109,
+    "y2": 60748.375
+  },
+  "points": [
+    {
+      "x": 2560,
+      "y": 60720.375
+    },
+    {
+      "x": 2770.109,
+      "y": 60720.375
+    },
+    {
+      "x": 2770.109,
+      "y": 60748.375
+    },
+    {
+      "x": 2560,
+      "y": 60748.375
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3ed034a8-fa43-4053-8b3c-f542627a42f1",
+  "frameId": "3ed034a8-fa43-4053-8b3c-f542627a42f1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e4e9f2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Rehearsal Room"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e4e9f2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d87ee57",
+  "positionData": [
+    {
+      "y": 60749.375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 210.109,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2560,
+      "fills": [
+        {
+          "fillColor": "#e4e9f2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Rehearsal Room"
+    }
+  ]
+}

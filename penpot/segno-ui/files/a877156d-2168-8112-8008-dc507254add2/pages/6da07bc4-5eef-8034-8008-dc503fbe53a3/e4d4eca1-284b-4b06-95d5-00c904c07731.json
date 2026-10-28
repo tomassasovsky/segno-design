@@ -1,0 +1,135 @@
+{
+  "id": "e4d4eca1-284b-4b06-95d5-00c904c07731",
+  "name": "c\/midi-replace",
+  "type": "text",
+  "x": 6820,
+  "y": 12273,
+  "width": 1800,
+  "height": 16,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 12273,
+    "width": 1800,
+    "height": 16,
+    "x1": 6820,
+    "y1": 12273,
+    "x2": 8620,
+    "y2": 12289
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 12273
+    },
+    {
+      "x": 8620,
+      "y": 12273
+    },
+    {
+      "x": 8620,
+      "y": 12289
+    },
+    {
+      "x": 6820,
+      "y": 12289
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3905f666-870f-4b17-b0fb-9b4025c21178",
+  "frameId": "3905f666-870f-4b17-b0fb-9b4025c21178",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "That control already drives another mapping."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503fbe53a3",
+  "positionData": [
+    {
+      "y": 12289,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 276.125,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "That control already drives another mapping."
+    }
+  ]
+}

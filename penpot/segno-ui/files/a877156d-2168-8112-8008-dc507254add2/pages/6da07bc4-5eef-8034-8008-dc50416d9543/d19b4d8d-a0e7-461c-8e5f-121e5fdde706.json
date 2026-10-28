@@ -1,0 +1,121 @@
+{
+  "id": "d19b4d8d-a0e7-461c-8e5f-121e5fdde706",
+  "name": "Panel",
+  "type": "frame",
+  "x": 4434,
+  "y": 6455.063,
+  "width": 1792,
+  "height": 240,
+  "rotation": 0,
+  "selrect": {
+    "x": 4434,
+    "y": 6455.063,
+    "width": 1792,
+    "height": 240,
+    "x1": 4434,
+    "y1": 6455.063,
+    "x2": 6226,
+    "y2": 6695.063
+  },
+  "points": [
+    {
+      "x": 4434,
+      "y": 6455.063
+    },
+    {
+      "x": 6226,
+      "y": 6455.063
+    },
+    {
+      "x": 6226,
+      "y": 6695.063
+    },
+    {
+      "x": 4434,
+      "y": 6695.063
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fe8dbbb8-b435-4edd-a8b3-cbbff86a2480",
+  "frameId": "fe8dbbb8-b435-4edd-a8b3-cbbff86a2480",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "layoutGapType": "multiple",
+  "layoutPadding": {
+    "p1": 14,
+    "p2": 14,
+    "p3": 14,
+    "p4": 14
+  },
+  "layoutWrapType": "nowrap",
+  "layout": "flex",
+  "layoutAlignItems": "start",
+  "layoutPaddingType": "multiple",
+  "r2": 10,
+  "showContent": false,
+  "layoutItemHSizing": "fill",
+  "proportionLock": false,
+  "layoutGap": {
+    "rowGap": 10,
+    "columnGap": 10
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "fix",
+  "r3": 10,
+  "layoutJustifyContent": "start",
+  "r1": 10,
+  "layoutFlexDir": "column",
+  "appliedTokens": {
+    "fill": "bg-raised",
+    "strokeColor": "border-default",
+    "r1": "radius-10",
+    "r2": "radius-10",
+    "r3": "radius-10",
+    "r4": "radius-10",
+    "rowGap": "space-4",
+    "columnGap": "space-4"
+  },
+  "layoutAlignContent": "stretch",
+  "strokes": [
+    {
+      "strokeColor": "#2a2a2e",
+      "strokeOpacity": 1,
+      "strokeWidth": 1,
+      "strokeAlignment": "inner",
+      "strokeStyle": "solid",
+      "strokeColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a86",
+      "strokeColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+    }
+  ],
+  "proportion": 1,
+  "r4": 10,
+  "fills": [
+    {
+      "fillColor": "#161618",
+      "fillOpacity": 1,
+      "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a503b7",
+      "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+    }
+  ],
+  "layoutItemZIndex": 1,
+  "shapes": [
+    "4d4f68b5-9397-4c1e-bf10-5df46702e0d6",
+    "0a3987e5-9b76-431d-9f5b-33d5e693cc9a"
+  ]
+}

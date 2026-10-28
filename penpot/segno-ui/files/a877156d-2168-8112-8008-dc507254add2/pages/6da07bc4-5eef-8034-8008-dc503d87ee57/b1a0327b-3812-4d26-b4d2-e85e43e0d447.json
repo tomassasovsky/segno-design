@@ -1,0 +1,135 @@
+{
+  "id": "b1a0327b-3812-4d26-b4d2-e85e43e0d447",
+  "name": "Screen label \/ Connection lost",
+  "type": "text",
+  "x": 4460,
+  "y": 58882,
+  "width": 273.953,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 4460,
+    "y": 58882,
+    "width": 273.953,
+    "height": 37,
+    "x1": 4460,
+    "y1": 58882,
+    "x2": 4733.9529999999995,
+    "y2": 58919
+  },
+  "points": [
+    {
+      "x": 4460,
+      "y": 58882
+    },
+    {
+      "x": 4733.9529999999995,
+      "y": 58882
+    },
+    {
+      "x": 4733.9529999999995,
+      "y": 58919
+    },
+    {
+      "x": 4460,
+      "y": 58919
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fe2e6e2d-09dc-47bd-a176-1746e26735cd",
+  "frameId": "fe2e6e2d-09dc-47bd-a176-1746e26735cd",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aeb8c8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "06  Connection lost"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aeb8c8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d87ee57",
+  "positionData": [
+    {
+      "y": 58918,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 273.953,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4460,
+      "fills": [
+        {
+          "fillColor": "#aeb8c8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "06  Connection lost"
+    }
+  ]
+}

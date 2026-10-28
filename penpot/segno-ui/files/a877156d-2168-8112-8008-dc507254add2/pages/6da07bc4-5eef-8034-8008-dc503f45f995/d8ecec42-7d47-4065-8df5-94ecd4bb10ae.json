@@ -1,0 +1,138 @@
+{
+  "id": "d8ecec42-7d47-4065-8df5-94ecd4bb10ae",
+  "name": "Zero added latency \u2014 applied once per i\u2026",
+  "type": "text",
+  "x": 7038,
+  "y": 8530.781,
+  "width": 1664,
+  "height": 16.891,
+  "rotation": 0,
+  "selrect": {
+    "x": 7038,
+    "y": 8530.781,
+    "width": 1664,
+    "height": 16.891,
+    "x1": 7038,
+    "y1": 8530.781,
+    "x2": 8702,
+    "y2": 8547.672
+  },
+  "points": [
+    {
+      "x": 7038,
+      "y": 8530.781
+    },
+    {
+      "x": 8702,
+      "y": 8530.781
+    },
+    {
+      "x": 8702,
+      "y": 8547.672
+    },
+    {
+      "x": 7038,
+      "y": 8547.672
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "96c8263e-fac5-4511-be4f-1e71d591d45a",
+  "frameId": "96c8263e-fac5-4511-be4f-1e71d591d45a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Zero added latency \u2014 applied once per input, before both the take and the monitor split."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 8546.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 541.266,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7038,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Zero added latency \u2014 applied once per input, before both the take and the monitor split."
+    }
+  ],
+  "layoutItemZIndex": 5
+}

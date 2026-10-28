@@ -1,0 +1,135 @@
+{
+  "id": "9f8fbc43-1638-4c90-9ebc-b1212097c625",
+  "name": "Transpose enabled \u00b7 All tracks",
+  "type": "text",
+  "x": 9900,
+  "y": 20924,
+  "width": 348.766,
+  "height": 26,
+  "rotation": 0,
+  "selrect": {
+    "x": 9900,
+    "y": 20924,
+    "width": 348.766,
+    "height": 26,
+    "x1": 9900,
+    "y1": 20924,
+    "x2": 10248.766,
+    "y2": 20950
+  },
+  "points": [
+    {
+      "x": 9900,
+      "y": 20924
+    },
+    {
+      "x": 10248.766,
+      "y": 20924
+    },
+    {
+      "x": 10248.766,
+      "y": 20950
+    },
+    {
+      "x": 9900,
+      "y": 20950
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "44b9e187-3809-464a-916a-7f13d5b19ac2",
+  "frameId": "44b9e187-3809-464a-916a-7f13d5b19ac2",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "26",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aebdd2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Transpose enabled \u00b7 All tracks"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "26",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aebdd2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503994efd9",
+  "positionData": [
+    {
+      "y": 20952,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "width": 348.766,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9900,
+      "fills": [
+        {
+          "fillColor": "#aebdd2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 30,
+      "text": "Transpose enabled \u00b7 All tracks"
+    }
+  ]
+}

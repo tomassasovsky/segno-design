@@ -1,0 +1,135 @@
+{
+  "id": "90bab046-ab0f-4b5f-af24-a3a6248253a4",
+  "name": "Selected waveform",
+  "type": "text",
+  "x": 11367,
+  "y": 61828.5,
+  "width": 187.094,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 11367,
+    "y": 61828.5,
+    "width": 187.094,
+    "height": 22,
+    "x1": 11367,
+    "y1": 61828.5,
+    "x2": 11554.094,
+    "y2": 61850.5
+  },
+  "points": [
+    {
+      "x": 11367,
+      "y": 61828.5
+    },
+    {
+      "x": 11554.094,
+      "y": 61828.5
+    },
+    {
+      "x": 11554.094,
+      "y": 61850.5
+    },
+    {
+      "x": 11367,
+      "y": 61850.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d3296a61-3d99-44a2-bde3-b0664a45a812",
+  "frameId": "d3296a61-3d99-44a2-bde3-b0664a45a812",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#adbacc",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Selected waveform"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#adbacc",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d9ceaa7",
+  "positionData": [
+    {
+      "y": 61851.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 187.094,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11367,
+      "fills": [
+        {
+          "fillColor": "#adbacc",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Selected waveform"
+    }
+  ]
+}

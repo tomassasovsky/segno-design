@@ -1,0 +1,135 @@
+{
+  "id": "b8d28561-3652-4e0c-b603-c4cacf65a546",
+  "name": "Network",
+  "type": "text",
+  "x": 8969,
+  "y": 64763,
+  "width": 117.359,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 8969,
+    "y": 64763,
+    "width": 117.359,
+    "height": 32,
+    "x1": 8969,
+    "y1": 64763,
+    "x2": 9086.359,
+    "y2": 64795
+  },
+  "points": [
+    {
+      "x": 8969,
+      "y": 64763
+    },
+    {
+      "x": 9086.359,
+      "y": 64763
+    },
+    {
+      "x": 9086.359,
+      "y": 64795
+    },
+    {
+      "x": 8969,
+      "y": 64795
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "93df5b4a-74c3-4903-a2d6-6784f66a908e",
+  "frameId": "93df5b4a-74c3-4903-a2d6-6784f66a908e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Network"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dab2e78",
+  "positionData": [
+    {
+      "y": 64797,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 117.359,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8969,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Network"
+    }
+  ]
+}

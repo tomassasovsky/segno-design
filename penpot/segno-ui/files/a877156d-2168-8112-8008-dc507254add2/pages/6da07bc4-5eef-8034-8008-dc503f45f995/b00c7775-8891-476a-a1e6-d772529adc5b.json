@@ -1,0 +1,135 @@
+{
+  "id": "b00c7775-8891-476a-a1e6-d772529adc5b",
+  "name": "t\/rack-new",
+  "type": "text",
+  "x": 6820,
+  "y": 6011,
+  "width": 175.078,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 6011,
+    "width": 175.078,
+    "height": 19,
+    "x1": 6820,
+    "y1": 6011,
+    "x2": 6995.078,
+    "y2": 6030
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 6011
+    },
+    {
+      "x": 6995.078,
+      "y": 6011
+    },
+    {
+      "x": 6995.078,
+      "y": 6030
+    },
+    {
+      "x": 6820,
+      "y": 6030
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2590a621-0445-4e98-ae7d-5ce70a4a63ea",
+  "frameId": "2590a621-0445-4e98-ae7d-5ce70a4a63ea",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2667",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2667",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "600",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "New rack \u2014 name sheet"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 6030,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "width": 175.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 19,
+      "text": "New rack \u2014 name sheet"
+    }
+  ]
+}

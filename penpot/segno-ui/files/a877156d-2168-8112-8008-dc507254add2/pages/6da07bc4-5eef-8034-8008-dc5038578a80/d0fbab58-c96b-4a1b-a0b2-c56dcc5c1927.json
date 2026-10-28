@@ -1,0 +1,135 @@
+{
+  "id": "d0fbab58-c96b-4a1b-a0b2-c56dcc5c1927",
+  "name": "Compressor",
+  "type": "text",
+  "x": 9639.141,
+  "y": 5282.5,
+  "width": 130.703,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 9639.141,
+    "y": 5282.5,
+    "width": 130.703,
+    "height": 24,
+    "x1": 9639.141,
+    "y1": 5282.5,
+    "x2": 9769.844,
+    "y2": 5306.5
+  },
+  "points": [
+    {
+      "x": 9639.141,
+      "y": 5282.5
+    },
+    {
+      "x": 9769.844,
+      "y": 5282.5
+    },
+    {
+      "x": 9769.844,
+      "y": 5306.5
+    },
+    {
+      "x": 9639.141,
+      "y": 5306.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "18f2195b-f719-44c6-8768-98aff2efbb7d",
+  "frameId": "18f2195b-f719-44c6-8768-98aff2efbb7d",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Compressor"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038578a80",
+  "positionData": [
+    {
+      "y": 5307.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 130.703,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9639.141,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Compressor"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "089c252b-3569-4526-a91a-b52d302cf19f",
+  "name": "c\/fx-add",
+  "type": "text",
+  "x": 8900,
+  "y": 6092,
+  "width": 1800,
+  "height": 48,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 6092,
+    "width": 1800,
+    "height": 48,
+    "x1": 8900,
+    "y1": 6092,
+    "x2": 10700,
+    "y2": 6140
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 6092
+    },
+    {
+      "x": 10700,
+      "y": 6092
+    },
+    {
+      "x": 10700,
+      "y": 6140
+    },
+    {
+      "x": 8900,
+      "y": 6140
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "65999b03-2f68-4f62-bf60-43685360a869",
+  "frameId": "65999b03-2f68-4f62-bf60-43685360a869",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The seven built-ins, a recent plugin shelf, and Browse all. A plugin chip carries its format as the second line \u2014 the machine fact under the name \u2014 which is also what keeps the cell at the shared two-line height. A name too long for one line truncates; it never wraps, because the grid\u2019s label is single-line. 746 wide, not 744: four 166px columns need 694, plus 25 padding either side and the 1px border each side. Zero slack \u2014 a future padding tweak would silently halve the column count. Mid-scan the count row reads \u201cLooking for plugins\u2026\u201d: a count of zero mid-scan is not a fact about the machine."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 6108,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1787.938,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "The seven built-ins, a recent plugin shelf, and Browse all. A plugin chip carries its format as the second line \u2014 the machine fact under the name \u2014 which is also what keeps the cell at the shared two-line height. A name too long for one line truncates; it never wraps, because the grid\u2019s label is "
+    },
+    {
+      "y": 6124,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1769.75,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "single-line. 746 wide, not 744: four 166px columns need 694, plus 25 padding either side and the 1px border each side. Zero slack \u2014 a future padding tweak would silently halve the column count. Mid-scan the count row reads \u201cLooking for plugins\u2026\u201d: a count of zero mid-scan is not a fact "
+    },
+    {
+      "y": 6140,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 117.781,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "about the machine."
+    }
+  ]
+}

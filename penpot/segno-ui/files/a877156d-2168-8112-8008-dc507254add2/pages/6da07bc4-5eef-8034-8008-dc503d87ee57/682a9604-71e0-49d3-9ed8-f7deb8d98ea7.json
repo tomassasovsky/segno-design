@@ -1,0 +1,135 @@
+{
+  "id": "682a9604-71e0-49d3-9ed8-f7deb8d98ea7",
+  "name": "Lounge",
+  "type": "text",
+  "x": 4640,
+  "y": 58646.375,
+  "width": 93.438,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 4640,
+    "y": 58646.375,
+    "width": 93.438,
+    "height": 28,
+    "x1": 4640,
+    "y1": 58646.375,
+    "x2": 4733.438,
+    "y2": 58674.375
+  },
+  "points": [
+    {
+      "x": 4640,
+      "y": 58646.375
+    },
+    {
+      "x": 4733.438,
+      "y": 58646.375
+    },
+    {
+      "x": 4733.438,
+      "y": 58674.375
+    },
+    {
+      "x": 4640,
+      "y": 58674.375
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8f5aaa70-8071-4e92-be93-7e15ee1e7a4f",
+  "frameId": "8f5aaa70-8071-4e92-be93-7e15ee1e7a4f",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e4e9f2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Lounge"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e4e9f2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d87ee57",
+  "positionData": [
+    {
+      "y": 58675.375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 93.438,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4640,
+      "fills": [
+        {
+          "fillColor": "#e4e9f2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Lounge"
+    }
+  ]
+}

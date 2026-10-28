@@ -1,0 +1,156 @@
+{
+  "id": "9abb3002-8a9b-4541-ba92-a0f544ff56fb",
+  "name": "c\/licences",
+  "type": "text",
+  "x": 8900,
+  "y": 30241,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 30241,
+    "width": 1800,
+    "height": 32,
+    "x1": 8900,
+    "y1": 30241,
+    "x2": 10700,
+    "y2": 30273
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 30241
+    },
+    {
+      "x": 10700,
+      "y": 30241
+    },
+    {
+      "x": 10700,
+      "y": 30273
+    },
+    {
+      "x": 8900,
+      "y": 30273
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ac52dbf5-ff10-4b4e-8333-f7218bd629d9",
+  "frameId": "ac52dbf5-ff10-4b4e-8333-f7218bd629d9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Flutter's showLicensePage is a master-detail route: an app bar, a back chevron, list tiles, a second page per package. The rail is always on screen, so a back chevron is a second navigation surface, and a row that pushes a page loses the list it came from. So the notices are drawn like every other list here \u2014 rows that open IN PLACE, one at a time, in the panel the per-track routing dialog already uses. A long document is still a list. Both LEGAL rows on SYSTEM \/ about reach it: there is one page, and they are two ways of asking for it."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5040f9e54b",
+  "positionData": [
+    {
+      "y": 30257,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1781.531,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Flutter's showLicensePage is a master-detail route: an app bar, a back chevron, list tiles, a second page per package. The rail is always on screen, so a back chevron is a second navigation surface, and a row that pushes a page loses the list it came from. So the notices are drawn like every "
+    },
+    {
+      "y": 30273,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1500.891,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "other list here \u2014 rows that open IN PLACE, one at a time, in the panel the per-track routing dialog already uses. A long document is still a list. Both LEGAL rows on SYSTEM \/ about reach it: there is one page, and they are two ways of asking for it."
+    }
+  ]
+}

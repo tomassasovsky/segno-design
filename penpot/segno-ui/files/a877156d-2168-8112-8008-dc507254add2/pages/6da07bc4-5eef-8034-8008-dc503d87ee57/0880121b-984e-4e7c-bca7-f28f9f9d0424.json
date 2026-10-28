@@ -1,0 +1,135 @@
+{
+  "id": "0880121b-984e-4e7c-bca7-f28f9f9d0424",
+  "name": "Enter password",
+  "type": "text",
+  "x": 2504,
+  "y": 58201.5,
+  "width": 180.656,
+  "height": 26,
+  "rotation": 0,
+  "selrect": {
+    "x": 2504,
+    "y": 58201.5,
+    "width": 180.656,
+    "height": 26,
+    "x1": 2504,
+    "y1": 58201.5,
+    "x2": 2684.656,
+    "y2": 58227.5
+  },
+  "points": [
+    {
+      "x": 2504,
+      "y": 58201.5
+    },
+    {
+      "x": 2684.656,
+      "y": 58201.5
+    },
+    {
+      "x": 2684.656,
+      "y": 58227.5
+    },
+    {
+      "x": 2504,
+      "y": 58227.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3038519a-7223-4026-ac73-df58d9f52f47",
+  "frameId": "3038519a-7223-4026-ac73-df58d9f52f47",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "26",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#eaf0f9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Enter password"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "26",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#eaf0f9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d87ee57",
+  "positionData": [
+    {
+      "y": 58229.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "width": 180.656,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2504,
+      "fills": [
+        {
+          "fillColor": "#eaf0f9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 30,
+      "text": "Enter password"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "5fe7806e-11c0-4d2b-b53f-e671bc245191",
+  "name": "Toe",
+  "type": "text",
+  "x": 3575,
+  "y": 23543,
+  "width": 45.156,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 3575,
+    "y": 23543,
+    "width": 45.156,
+    "height": 28,
+    "x1": 3575,
+    "y1": 23543,
+    "x2": 3620.156,
+    "y2": 23571
+  },
+  "points": [
+    {
+      "x": 3575,
+      "y": 23543
+    },
+    {
+      "x": 3620.156,
+      "y": 23543
+    },
+    {
+      "x": 3620.156,
+      "y": 23571
+    },
+    {
+      "x": 3575,
+      "y": 23571
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "887acbab-c41f-410b-a6be-71284de435fd",
+  "frameId": "887acbab-c41f-410b-a6be-71284de435fd",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Toe"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50391cda77",
+  "positionData": [
+    {
+      "y": 23572,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 45.156,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3575,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Toe"
+    }
+  ]
+}

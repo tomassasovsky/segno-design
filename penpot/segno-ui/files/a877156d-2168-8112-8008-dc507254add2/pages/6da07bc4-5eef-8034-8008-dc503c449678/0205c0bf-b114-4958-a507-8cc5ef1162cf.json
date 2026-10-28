@@ -1,0 +1,135 @@
+{
+  "id": "0205c0bf-b114-4958-a507-8cc5ef1162cf",
+  "name": "Search sessions",
+  "type": "text",
+  "x": 4543,
+  "y": 34924.5,
+  "width": 161.422,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 4543,
+    "y": 34924.5,
+    "width": 161.422,
+    "height": 22,
+    "x1": 4543,
+    "y1": 34924.5,
+    "x2": 4704.422,
+    "y2": 34946.5
+  },
+  "points": [
+    {
+      "x": 4543,
+      "y": 34924.5
+    },
+    {
+      "x": 4704.422,
+      "y": 34924.5
+    },
+    {
+      "x": 4704.422,
+      "y": 34946.5
+    },
+    {
+      "x": 4543,
+      "y": 34946.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "51a32d8b-0a3c-47d9-9d57-fe2dc393c8c5",
+  "frameId": "51a32d8b-0a3c-47d9-9d57-fe2dc393c8c5",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Search sessions"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c449678",
+  "positionData": [
+    {
+      "y": 34947.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 161.422,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4543,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Search sessions"
+    }
+  ]
+}

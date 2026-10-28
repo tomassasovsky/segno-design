@@ -1,0 +1,135 @@
+{
+  "id": "0e989412-1419-4803-b983-5787a3f30a5f",
+  "name": "Screen label \/ Pedals \/ LED colors \u2014 Toggle active",
+  "type": "text",
+  "x": 6820,
+  "y": 14610,
+  "width": 1920,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 14610,
+    "width": 1920,
+    "height": 37,
+    "x1": 6820,
+    "y1": 14610,
+    "x2": 8740,
+    "y2": 14647
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 14610
+    },
+    {
+      "x": 8740,
+      "y": 14610
+    },
+    {
+      "x": 8740,
+      "y": 14647
+    },
+    {
+      "x": 6820,
+      "y": 14647
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "918550a7-9d55-4b46-89de-dddc875a9c15",
+  "frameId": "918550a7-9d55-4b46-89de-dddc875a9c15",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c9ced9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "04  Pedals \/ LED colors \u2014 Toggle active"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c9ced9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038a79611",
+  "positionData": [
+    {
+      "y": 14646,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "width": 604.047,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#c9ced9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "04  Pedals \/ LED colors \u2014 Toggle active"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "4d3b9da4-efe0-49fa-a6ed-889aba82ec51",
+  "name": "Guitar front",
+  "type": "text",
+  "x": 7041,
+  "y": 15935.484,
+  "width": 91.438,
+  "height": 20.047,
+  "rotation": 0,
+  "selrect": {
+    "x": 7041,
+    "y": 15935.484,
+    "width": 91.438,
+    "height": 20.047,
+    "x1": 7041,
+    "y1": 15935.484,
+    "x2": 7132.438,
+    "y2": 15955.531
+  },
+  "points": [
+    {
+      "x": 7041,
+      "y": 15935.484
+    },
+    {
+      "x": 7132.438,
+      "y": 15935.484
+    },
+    {
+      "x": 7132.438,
+      "y": 15955.531
+    },
+    {
+      "x": 7041,
+      "y": 15955.531
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2f4d9541-1937-401a-920e-854cf39b8270",
+  "frameId": "2f4d9541-1937-401a-920e-854cf39b8270",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.18",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.18",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "17",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Guitar front"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "17",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503fbe53a3",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 15955.484,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "width": 91.438,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7041,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Guitar front"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

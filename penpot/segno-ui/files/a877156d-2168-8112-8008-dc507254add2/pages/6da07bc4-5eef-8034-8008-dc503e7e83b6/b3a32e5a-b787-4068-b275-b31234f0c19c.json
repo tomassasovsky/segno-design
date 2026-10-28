@@ -1,0 +1,135 @@
+{
+  "id": "b3a32e5a-b787-4068-b275-b31234f0c19c",
+  "name": "No appliance backups on this drive.",
+  "type": "text",
+  "x": 400,
+  "y": 88120.875,
+  "width": 378.891,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 400,
+    "y": 88120.875,
+    "width": 378.891,
+    "height": 24,
+    "x1": 400,
+    "y1": 88120.875,
+    "x2": 778.8910000000001,
+    "y2": 88144.875
+  },
+  "points": [
+    {
+      "x": 400,
+      "y": 88120.875
+    },
+    {
+      "x": 778.8910000000001,
+      "y": 88120.875
+    },
+    {
+      "x": 778.8910000000001,
+      "y": 88144.875
+    },
+    {
+      "x": 400,
+      "y": 88144.875
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c740dc18-91cc-4629-98a5-13034f3cf55e",
+  "frameId": "c740dc18-91cc-4629-98a5-13034f3cf55e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#bdcadb",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "No appliance backups on this drive."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#bdcadb",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e7e83b6",
+  "positionData": [
+    {
+      "y": 88145.875,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 378.891,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 400,
+      "fills": [
+        {
+          "fillColor": "#bdcadb",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "No appliance backups on this drive."
+    }
+  ]
+}

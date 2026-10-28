@@ -1,0 +1,135 @@
+{
+  "id": "b5e2b2c3-69e9-47e3-9db0-a7f4f1481e96",
+  "name": "Storage",
+  "type": "text",
+  "x": 11049,
+  "y": 64935,
+  "width": 112.078,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 11049,
+    "y": 64935,
+    "width": 112.078,
+    "height": 32,
+    "x1": 11049,
+    "y1": 64935,
+    "x2": 11161.078,
+    "y2": 64967
+  },
+  "points": [
+    {
+      "x": 11049,
+      "y": 64935
+    },
+    {
+      "x": 11161.078,
+      "y": 64935
+    },
+    {
+      "x": 11161.078,
+      "y": 64967
+    },
+    {
+      "x": 11049,
+      "y": 64967
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "bdbfe442-8125-4e46-8995-a45db156b62a",
+  "frameId": "bdbfe442-8125-4e46-8995-a45db156b62a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Storage"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dab2e78",
+  "positionData": [
+    {
+      "y": 64969,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 112.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11049,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Storage"
+    }
+  ]
+}

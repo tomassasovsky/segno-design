@@ -1,0 +1,135 @@
+{
+  "id": "c91d4f12-2529-4e63-9483-f0228d42877c",
+  "name": "Title",
+  "type": "text",
+  "x": 300,
+  "y": 22672,
+  "width": 367.172,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 22672,
+    "width": 367.172,
+    "height": 32,
+    "x1": 300,
+    "y1": 22672,
+    "x2": 667.172,
+    "y2": 22704
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 22672
+    },
+    {
+      "x": 667.172,
+      "y": 22672
+    },
+    {
+      "x": 667.172,
+      "y": 22704
+    },
+    {
+      "x": 300,
+      "y": 22704
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "35a958c9-cc8b-4f72-87a8-9bdd372e85fc",
+  "frameId": "35a958c9-cc8b-4f72-87a8-9bdd372e85fc",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1071",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1071",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#cad6e5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Repair \u00b7 choose destination"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#cad6e5",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50391cda77",
+  "positionData": [
+    {
+      "y": 22703,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "700",
+      "width": 367.172,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#cad6e5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Repair \u00b7 choose destination"
+    }
+  ]
+}

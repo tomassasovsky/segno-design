@@ -1,0 +1,135 @@
+{
+  "id": "c284839b-dacf-4887-9207-269a45c5d553",
+  "name": "Vocal Tuner Rack",
+  "type": "text",
+  "x": 8234,
+  "y": 5893.5,
+  "width": 235.125,
+  "height": 30,
+  "rotation": 0,
+  "selrect": {
+    "x": 8234,
+    "y": 5893.5,
+    "width": 235.125,
+    "height": 30,
+    "x1": 8234,
+    "y1": 5893.5,
+    "x2": 8469.125,
+    "y2": 5923.5
+  },
+  "points": [
+    {
+      "x": 8234,
+      "y": 5893.5
+    },
+    {
+      "x": 8469.125,
+      "y": 5893.5
+    },
+    {
+      "x": 8469.125,
+      "y": 5923.5
+    },
+    {
+      "x": 8234,
+      "y": 5923.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "59fe9e13-9008-4e68-b888-b323b68142c3",
+  "frameId": "59fe9e13-9008-4e68-b888-b323b68142c3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "30",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Vocal Tuner Rack"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "30",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038578a80",
+  "positionData": [
+    {
+      "y": 5924.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "width": 235.125,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8234,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 33,
+      "text": "Vocal Tuner Rack"
+    }
+  ]
+}

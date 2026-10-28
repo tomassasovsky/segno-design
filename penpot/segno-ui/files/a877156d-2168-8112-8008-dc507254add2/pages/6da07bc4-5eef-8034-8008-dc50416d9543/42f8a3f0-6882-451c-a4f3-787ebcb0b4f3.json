@@ -1,0 +1,147 @@
+{
+  "id": "42f8a3f0-6882-451c-a4f3-787ebcb0b4f3",
+  "name": "Desc",
+  "type": "text",
+  "x": 4434,
+  "y": 894.5,
+  "width": 1200,
+  "height": 20.297,
+  "rotation": 0,
+  "selrect": {
+    "x": 4434,
+    "y": 894.5,
+    "width": 1200,
+    "height": 20.297,
+    "x1": 4434,
+    "y1": 894.5,
+    "x2": 5634,
+    "y2": 914.797
+  },
+  "points": [
+    {
+      "x": 4434,
+      "y": 894.5
+    },
+    {
+      "x": 5634,
+      "y": 894.5
+    },
+    {
+      "x": 5634,
+      "y": 914.797
+    },
+    {
+      "x": 4434,
+      "y": 914.797
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "63d39c0a-5d41-48e1-9591-f0bd0a281eb2",
+  "frameId": "63d39c0a-5d41-48e1-9591-f0bd0a281eb2",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.45",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.45",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "One primary action per view, filled with accent. Everything else is a bordered surface. Destructive uses rec as a fill, never as an outline on a neutral ground."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fix",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-muted",
+    "fontSize": "text-sm",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 912.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1025.391,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4434,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "One primary action per view, filled with accent. Everything else is a bordered surface. Destructive uses rec as a fill, never as an outline on a neutral ground."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

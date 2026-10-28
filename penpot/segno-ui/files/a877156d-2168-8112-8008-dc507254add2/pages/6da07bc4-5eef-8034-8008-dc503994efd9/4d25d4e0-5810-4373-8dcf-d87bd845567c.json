@@ -1,0 +1,135 @@
+{
+  "id": "4d25d4e0-5810-4373-8dcf-d87bd845567c",
+  "name": "Select tracks with their pedals.",
+  "type": "text",
+  "x": 11980,
+  "y": 20984.5,
+  "width": 337.656,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 11980,
+    "y": 20984.5,
+    "width": 337.656,
+    "height": 25,
+    "x1": 11980,
+    "y1": 20984.5,
+    "x2": 12317.656,
+    "y2": 21009.5
+  },
+  "points": [
+    {
+      "x": 11980,
+      "y": 20984.5
+    },
+    {
+      "x": 12317.656,
+      "y": 20984.5
+    },
+    {
+      "x": 12317.656,
+      "y": 21009.5
+    },
+    {
+      "x": 11980,
+      "y": 21009.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e59070a5-ddc7-41e8-b7da-15672fbdec0b",
+  "frameId": "e59070a5-ddc7-41e8-b7da-15672fbdec0b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aebdd2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Select tracks with their pedals."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aebdd2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503994efd9",
+  "positionData": [
+    {
+      "y": 21010.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 337.656,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11980,
+      "fills": [
+        {
+          "fillColor": "#aebdd2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Select tracks with their pedals."
+    }
+  ]
+}

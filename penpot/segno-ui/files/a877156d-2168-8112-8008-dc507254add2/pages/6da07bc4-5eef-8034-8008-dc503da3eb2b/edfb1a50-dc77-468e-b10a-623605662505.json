@@ -1,0 +1,135 @@
+{
+  "id": "edfb1a50-dc77-468e-b10a-623605662505",
+  "name": "Storage \/ Status",
+  "type": "text",
+  "x": 300,
+  "y": 61756,
+  "width": 991.813,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 61756,
+    "width": 991.813,
+    "height": 42,
+    "x1": 300,
+    "y1": 61756,
+    "x2": 1291.813,
+    "y2": 61798
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 61756
+    },
+    {
+      "x": 1291.813,
+      "y": 61756
+    },
+    {
+      "x": 1291.813,
+      "y": 61798
+    },
+    {
+      "x": 300,
+      "y": 61798
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2fcf4d7c-937b-43fa-87a0-d22158a9927b",
+  "frameId": "2fcf4d7c-937b-43fa-87a0-d22158a9927b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1389",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1389",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "36",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a4adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Accepted \u00b7 capacity, transfer protection and safe USB removal"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "36",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a4adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503da3eb2b",
+  "positionData": [
+    {
+      "y": 61797,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "width": 991.813,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#a4adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 41,
+      "text": "Accepted \u00b7 capacity, transfer protection and safe USB removal"
+    }
+  ]
+}

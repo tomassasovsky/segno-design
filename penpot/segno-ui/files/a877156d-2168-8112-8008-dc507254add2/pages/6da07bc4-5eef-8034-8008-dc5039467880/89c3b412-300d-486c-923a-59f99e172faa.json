@@ -1,0 +1,135 @@
+{
+  "id": "89c3b412-300d-486c-923a-59f99e172faa",
+  "name": "Pending Hold \u00b7 proposal \/ Label",
+  "type": "text",
+  "x": 8900,
+  "y": 18866,
+  "width": 369.766,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 18866,
+    "width": 369.766,
+    "height": 37,
+    "x1": 8900,
+    "y1": 18866,
+    "x2": 9269.766,
+    "y2": 18903
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 18866
+    },
+    {
+      "x": 9269.766,
+      "y": 18866
+    },
+    {
+      "x": 9269.766,
+      "y": 18903
+    },
+    {
+      "x": 8900,
+      "y": 18903
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ab21aad0-2464-4661-a286-519972eaa94c",
+  "frameId": "ab21aad0-2464-4661-a286-519972eaa94c",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c9ced9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Pending Hold \u00b7 proposal"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c9ced9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5039467880",
+  "positionData": [
+    {
+      "y": 18902,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "width": 369.766,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#c9ced9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Pending Hold \u00b7 proposal"
+    }
+  ]
+}

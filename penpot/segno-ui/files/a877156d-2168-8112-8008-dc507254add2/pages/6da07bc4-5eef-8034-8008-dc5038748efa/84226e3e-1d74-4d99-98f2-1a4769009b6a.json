@@ -1,0 +1,135 @@
+{
+  "id": "84226e3e-1d74-4d99-98f2-1a4769009b6a",
+  "name": "Playback & overdub",
+  "type": "text",
+  "x": 2449,
+  "y": 8589.5,
+  "width": 284.609,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 2449,
+    "y": 8589.5,
+    "width": 284.609,
+    "height": 32,
+    "x1": 2449,
+    "y1": 8589.5,
+    "x2": 2733.609,
+    "y2": 8621.5
+  },
+  "points": [
+    {
+      "x": 2449,
+      "y": 8589.5
+    },
+    {
+      "x": 2733.609,
+      "y": 8589.5
+    },
+    {
+      "x": 2733.609,
+      "y": 8621.5
+    },
+    {
+      "x": 2449,
+      "y": 8621.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "f308bf86-e323-4c0a-bb38-9619adae1ff6",
+  "frameId": "f308bf86-e323-4c0a-bb38-9619adae1ff6",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f2ef",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Playback & overdub"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f2ef",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038748efa",
+  "positionData": [
+    {
+      "y": 8623.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 284.609,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2449,
+      "fills": [
+        {
+          "fillColor": "#f3f2ef",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Playback & overdub"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "ffb448c3-83d7-4891-86b0-d6dcb01f2bc7",
+  "name": "c\/library",
+  "type": "text",
+  "x": 10980,
+  "y": 36407,
+  "width": 1800,
+  "height": 80,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 36407,
+    "width": 1800,
+    "height": 80,
+    "x1": 10980,
+    "y1": 36407,
+    "x2": 12780,
+    "y2": 36487
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 36407
+    },
+    {
+      "x": 12780,
+      "y": 36407
+    },
+    {
+      "x": 12780,
+      "y": 36487
+    },
+    {
+      "x": 10980,
+      "y": 36487
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "f1e482a2-f349-4898-9df3-078f38f96ff2",
+  "frameId": "f1e482a2-f349-4898-9df3-078f38f96ff2",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Two panes: sessions master list (recents-first) on the left, the selected thing's detail on the right. Tap a session row = load it and return to the stage; the chevron = open detail without loading \u2014 browsing and loading are different gestures. Auto-save always, no per-session lock: Save and Save as\u2026 are deleted; the open session persists on its own, and no-session is the persisted Scratch slot \u2014 naming is Rename or Save a copy (the pre-gig insurance). Entry is the stage's status-bar session block only \u2014 no rail slot; the rail stays engine domains, so no rail item is lit here. Captures are grouped by session: a session's detail lists its takes (the arm-time snapshot records the session name), with the compact all-captures list for cross-session browsing. Recovered is a quiet collapsed group at the bottom \u2014 \"kept 30 days\" is the stated contract; Keep promotes a take to a normal capture under its session; an empty pool means no group at all. Desktop reuses these screens one-to-one and adds Export mixdown\/stems to session detail and Show in Finder to capture detail. These four screens supersede SESSION & CAPTURE \/ sessions, which stays in place until the implementation lands, then retires. (#682)"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "positionData": [
+    {
+      "y": 36423,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1800.203,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Two panes: sessions master list (recents-first) on the left, the selected thing's detail on the right. Tap a session row = load it and return to the stage; the chevron = open detail without loading \u2014 browsing and loading are different gestures. Auto-save always, no per-session lock: Save and Save "
+    },
+    {
+      "y": 36439,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1799.453,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "as\u2026 are deleted; the open session persists on its own, and no-session is the persisted Scratch slot \u2014 naming is Rename or Save a copy (the pre-gig insurance). Entry is the stage's status-bar session block only \u2014 no rail slot; the rail stays engine domains, so no rail item is lit here. Captures are "
+    },
+    {
+      "y": 36455,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1795.563,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "grouped by session: a session's detail lists its takes (the arm-time snapshot records the session name), with the compact all-captures list for cross-session browsing. Recovered is a quiet collapsed group at the bottom \u2014 \"kept 30 days\" is the stated contract; Keep promotes a take to a normal "
+    },
+    {
+      "y": 36471,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1769.844,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "capture under its session; an empty pool means no group at all. Desktop reuses these screens one-to-one and adds Export mixdown\/stems to session detail and Show in Finder to capture detail. These four screens supersede SESSION & CAPTURE \/ sessions, which stays in place until the "
+    },
+    {
+      "y": 36487,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 257.156,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "implementation lands, then retires. (#682)"
+    }
+  ]
+}

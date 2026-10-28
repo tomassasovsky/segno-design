@@ -1,0 +1,135 @@
+{
+  "id": "62acb7cb-29f5-4dec-8134-a83934328400",
+  "name": "Track display calibration face \/ Title",
+  "type": "text",
+  "x": 6820,
+  "y": 62688,
+  "width": 590.813,
+  "height": 43,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 62688,
+    "width": 590.813,
+    "height": 43,
+    "x1": 6820,
+    "y1": 62688,
+    "x2": 7410.813,
+    "y2": 62731
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 62688
+    },
+    {
+      "x": 7410.813,
+      "y": 62688
+    },
+    {
+      "x": 7410.813,
+      "y": 62731
+    },
+    {
+      "x": 6820,
+      "y": 62731
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "53b8a2f3-12dd-4d2d-a4d1-e6eb3a51c663",
+  "frameId": "53b8a2f3-12dd-4d2d-a4d1-e6eb3a51c663",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1053",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1053",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "38",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e2e7f0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Track display calibration \u00b7 on the 7\""
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "38",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e2e7f0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d9ceaa7",
+  "positionData": [
+    {
+      "y": 62730,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "width": 590.813,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#e2e7f0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 42,
+      "text": "Track display calibration \u00b7 on the 7\""
+    }
+  ]
+}

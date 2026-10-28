@@ -1,0 +1,132 @@
+{
+  "id": "53b63ec8-272b-4a9f-8843-0a845a375eab",
+  "name": "Device lost banner",
+  "type": "frame",
+  "x": 4471,
+  "y": 3653,
+  "width": 1898,
+  "height": 61,
+  "rotation": 0,
+  "selrect": {
+    "x": 4471,
+    "y": 3653,
+    "width": 1898,
+    "height": 61,
+    "x1": 4471,
+    "y1": 3653,
+    "x2": 6369,
+    "y2": 3714
+  },
+  "points": [
+    {
+      "x": 4471,
+      "y": 3653
+    },
+    {
+      "x": 6369,
+      "y": 3653
+    },
+    {
+      "x": 6369,
+      "y": 3714
+    },
+    {
+      "x": 4471,
+      "y": 3714
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e076490a-ea1c-4247-a4ea-6c5cc6ca1a5e",
+  "frameId": "e076490a-ea1c-4247-a4ea-6c5cc6ca1a5e",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "layoutItemAbsolute": true,
+  "layoutGapType": "multiple",
+  "layoutPadding": {
+    "p1": 11,
+    "p2": 15,
+    "p3": 11,
+    "p4": 15
+  },
+  "layoutWrapType": "nowrap",
+  "layout": "flex",
+  "layoutAlignItems": "center",
+  "layoutPaddingType": "multiple",
+  "touched": [
+    "layout-item-v-sizing",
+    "layout-item-absolute",
+    "geometry-group",
+    "name-group",
+    "layout-item-h-sizing"
+  ],
+  "r2": 11,
+  "componentRoot": true,
+  "shapeRef": "fceddba0-da31-4c20-a693-cc18823a9550",
+  "showContent": true,
+  "proportionLock": false,
+  "layoutGap": {
+    "rowGap": 10,
+    "columnGap": 10
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "r3": 11,
+  "layoutJustifyContent": "start",
+  "r1": 11,
+  "layoutFlexDir": "row",
+  "appliedTokens": {
+    "fill": "rec-tint",
+    "strokeColor": "rec-line",
+    "r1": "radius-11",
+    "r2": "radius-11",
+    "r3": "radius-11",
+    "r4": "radius-11",
+    "rowGap": "space-4",
+    "columnGap": "space-4"
+  },
+  "layoutAlignContent": "stretch",
+  "componentId": "8dcc3eb9-7910-4a63-b2b0-e515b876e6e0",
+  "strokes": [
+    {
+      "strokeColor": "#e5484d",
+      "strokeOpacity": 0.4,
+      "strokeWidth": 1,
+      "strokeAlignment": "inner",
+      "strokeStyle": "solid",
+      "strokeColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a95",
+      "strokeColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+    }
+  ],
+  "proportion": 1,
+  "r4": 11,
+  "fills": [
+    {
+      "fillColor": "#e5484d",
+      "fillOpacity": 0.1294,
+      "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a94",
+      "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+    }
+  ],
+  "componentFile": "a877156d-2168-8112-8008-dc507254add2",
+  "layoutItemZIndex": 2,
+  "shapes": [
+    "ca8eda18-8587-4b6e-843f-644875fadcfa",
+    "f11ad87a-c9c9-4933-bcdb-4499c6a0f584",
+    "e3cfc8ae-1a1e-43ce-9133-1d1333fbd456"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "de45cd2b-e694-4133-9756-481dc341aaf1",
+  "name": "Screen caption",
+  "type": "text",
+  "x": 6820,
+  "y": 92952,
+  "width": 373.547,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 92952,
+    "width": 373.547,
+    "height": 37,
+    "x1": 6820,
+    "y1": 92952,
+    "x2": 7193.5470000000005,
+    "y2": 92989
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 92952
+    },
+    {
+      "x": 7193.5470000000005,
+      "y": 92952
+    },
+    {
+      "x": 7193.5470000000005,
+      "y": 92989
+    },
+    {
+      "x": 6820,
+      "y": 92989
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "f98e2b07-8e87-4cee-a3e9-806092362d36",
+  "frameId": "f98e2b07-8e87-4cee-a3e9-806092362d36",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#bcc8d8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Save audio \u00b7 Shared cycle"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#bcc8d8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e992025",
+  "positionData": [
+    {
+      "y": 92988,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 373.547,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#bcc8d8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Save audio \u00b7 Shared cycle"
+    }
+  ]
+}

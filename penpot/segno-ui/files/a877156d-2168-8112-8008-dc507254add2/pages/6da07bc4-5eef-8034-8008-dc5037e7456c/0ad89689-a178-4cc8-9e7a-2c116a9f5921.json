@@ -1,0 +1,135 @@
+{
+  "id": "0ad89689-a178-4cc8-9e7a-2c116a9f5921",
+  "name": "Ballad",
+  "type": "text",
+  "x": 354,
+  "y": 2642.547,
+  "width": 66.719,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 354,
+    "y": 2642.547,
+    "width": 66.719,
+    "height": 24,
+    "x1": 354,
+    "y1": 2642.547,
+    "x2": 420.719,
+    "y2": 2666.547
+  },
+  "points": [
+    {
+      "x": 354,
+      "y": 2642.547
+    },
+    {
+      "x": 420.719,
+      "y": 2642.547
+    },
+    {
+      "x": 420.719,
+      "y": 2666.547
+    },
+    {
+      "x": 354,
+      "y": 2666.547
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "04cb6954-2e47-4e6e-99f4-ccae7d5dfc87",
+  "frameId": "04cb6954-2e47-4e6e-99f4-ccae7d5dfc87",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ababab",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Ballad"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ababab",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5037e7456c",
+  "positionData": [
+    {
+      "y": 2667.547,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 66.719,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 354,
+      "fills": [
+        {
+          "fillColor": "#ababab",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Ballad"
+    }
+  ]
+}

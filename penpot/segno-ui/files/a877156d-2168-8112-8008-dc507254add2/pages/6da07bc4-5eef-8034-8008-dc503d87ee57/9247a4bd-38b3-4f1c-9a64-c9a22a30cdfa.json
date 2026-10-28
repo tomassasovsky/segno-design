@@ -1,0 +1,135 @@
+{
+  "id": "9247a4bd-38b3-4f1c-9a64-c9a22a30cdfa",
+  "name": "Phone hotspot",
+  "type": "text",
+  "x": 480,
+  "y": 58552.375,
+  "width": 180.594,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 480,
+    "y": 58552.375,
+    "width": 180.594,
+    "height": 28,
+    "x1": 480,
+    "y1": 58552.375,
+    "x2": 660.594,
+    "y2": 58580.375
+  },
+  "points": [
+    {
+      "x": 480,
+      "y": 58552.375
+    },
+    {
+      "x": 660.594,
+      "y": 58552.375
+    },
+    {
+      "x": 660.594,
+      "y": 58580.375
+    },
+    {
+      "x": 480,
+      "y": 58580.375
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8071911c-5099-468c-abc3-22cf24913a55",
+  "frameId": "8071911c-5099-468c-abc3-22cf24913a55",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e4e9f2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Phone hotspot"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e4e9f2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d87ee57",
+  "positionData": [
+    {
+      "y": 58581.375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 180.594,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 480,
+      "fills": [
+        {
+          "fillColor": "#e4e9f2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Phone hotspot"
+    }
+  ]
+}

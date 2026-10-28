@@ -1,0 +1,135 @@
+{
+  "id": "7a838383-5194-4346-9938-9019a352bb02",
+  "name": "c\/settings-device",
+  "type": "text",
+  "x": 8900,
+  "y": 18439,
+  "width": 1800,
+  "height": 16,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 18439,
+    "width": 1800,
+    "height": 16,
+    "x1": 8900,
+    "y1": 18439,
+    "x2": 10700,
+    "y2": 18455
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 18439
+    },
+    {
+      "x": 10700,
+      "y": 18439
+    },
+    {
+      "x": 10700,
+      "y": 18455
+    },
+    {
+      "x": 8900,
+      "y": 18455
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "41638868-2494-4d24-a161-119a7d40bd4e",
+  "frameId": "41638868-2494-4d24-a161-119a7d40bd4e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Checked, alternative, unplugged-disabled. Devices stay PICK ROWS while the other lists became chip grids \u2014 a device carries its channel counts and a long name, so it is not a bare token."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50405571ee",
+  "positionData": [
+    {
+      "y": 18455,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1152.734,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Checked, alternative, unplugged-disabled. Devices stay PICK ROWS while the other lists became chip grids \u2014 a device carries its channel counts and a long name, so it is not a bare token."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "c48a127b-209a-4bf4-b80e-59714f1b500b",
+  "name": "Delete rack",
+  "type": "text",
+  "x": 12082.281,
+  "y": 5488.297,
+  "width": 82.016,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 12082.281,
+    "y": 5488.297,
+    "width": 82.016,
+    "height": 18,
+    "x1": 12082.281,
+    "y1": 5488.297,
+    "x2": 12164.297,
+    "y2": 5506.297
+  },
+  "points": [
+    {
+      "x": 12082.281,
+      "y": 5488.297
+    },
+    {
+      "x": 12164.297,
+      "y": 5488.297
+    },
+    {
+      "x": 12164.297,
+      "y": 5506.297
+    },
+    {
+      "x": 12082.281,
+      "y": 5506.297
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1ef3cfc0-bbf9-4804-84ef-d8baa2608b05",
+  "frameId": "1ef3cfc0-bbf9-4804-84ef-d8baa2608b05",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "600",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Delete rack"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 5506.297,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "width": 82.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 12082.281,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 19,
+      "text": "Delete rack"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

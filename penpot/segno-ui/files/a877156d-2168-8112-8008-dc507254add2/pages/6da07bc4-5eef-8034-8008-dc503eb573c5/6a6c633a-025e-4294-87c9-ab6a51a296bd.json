@@ -1,0 +1,135 @@
+{
+  "id": "6a6c633a-025e-4294-87c9-ab6a51a296bd",
+  "name": "Screen caption",
+  "type": "text",
+  "x": 8900,
+  "y": 95956,
+  "width": 409.016,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 95956,
+    "width": 409.016,
+    "height": 37,
+    "x1": 8900,
+    "y1": 95956,
+    "x2": 9309.016,
+    "y2": 95993
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 95956
+    },
+    {
+      "x": 9309.016,
+      "y": 95956
+    },
+    {
+      "x": 9309.016,
+      "y": 95993
+    },
+    {
+      "x": 8900,
+      "y": 95993
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "879a2d06-e68d-48a7-b5db-a51e07094511",
+  "frameId": "879a2d06-e68d-48a7-b5db-a51e07094511",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#bcc8d8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Clear timing source \u00b7 Review"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#bcc8d8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eb573c5",
+  "positionData": [
+    {
+      "y": 95992,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 409.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#bcc8d8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Clear timing source \u00b7 Review"
+    }
+  ]
+}

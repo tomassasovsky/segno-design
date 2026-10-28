@@ -1,0 +1,135 @@
+{
+  "id": "0024fcda-f515-4628-b4d5-fb210bd820e5",
+  "name": "Modulation \u00b7 Mix",
+  "type": "text",
+  "x": 3281,
+  "y": 27130.5,
+  "width": 198.078,
+  "height": 27,
+  "rotation": 0,
+  "selrect": {
+    "x": 3281,
+    "y": 27130.5,
+    "width": 198.078,
+    "height": 27,
+    "x1": 3281,
+    "y1": 27130.5,
+    "x2": 3479.078,
+    "y2": 27157.5
+  },
+  "points": [
+    {
+      "x": 3281,
+      "y": 27130.5
+    },
+    {
+      "x": 3479.078,
+      "y": 27130.5
+    },
+    {
+      "x": 3479.078,
+      "y": 27157.5
+    },
+    {
+      "x": 3281,
+      "y": 27157.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e25688de-5eaf-4c9c-956f-822d3ea5661a",
+  "frameId": "e25688de-5eaf-4c9c-956f-822d3ea5661a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "27",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Modulation \u00b7 Mix"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "27",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50391cda77",
+  "positionData": [
+    {
+      "y": 27158.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "27px",
+      "fontWeight": "400",
+      "width": 198.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3281,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 30,
+      "text": "Modulation \u00b7 Mix"
+    }
+  ]
+}

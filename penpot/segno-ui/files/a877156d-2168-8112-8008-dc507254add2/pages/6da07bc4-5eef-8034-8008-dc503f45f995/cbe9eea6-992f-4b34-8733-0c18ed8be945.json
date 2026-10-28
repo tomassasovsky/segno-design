@@ -1,0 +1,156 @@
+{
+  "id": "cbe9eea6-992f-4b34-8733-0c18ed8be945",
+  "name": "c\/library",
+  "type": "text",
+  "x": 8900,
+  "y": 4683,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 4683,
+    "width": 1800,
+    "height": 32,
+    "x1": 8900,
+    "y1": 4683,
+    "x2": 10700,
+    "y2": 4715
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 4683
+    },
+    {
+      "x": 10700,
+      "y": 4683
+    },
+    {
+      "x": 10700,
+      "y": 4715
+    },
+    {
+      "x": 8900,
+      "y": 4715
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e5d5441d-9623-4a31-8c3f-265f068d9f33",
+  "frameId": "e5d5441d-9623-4a31-8c3f-265f068d9f33",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Chains as removable chips, + New rack. The library is global to the rig \u2014 racks live beside the device-keyed settings, not inside a session (#442 D1). A session carries references, and a take that inherited a rack carries a frozen copy under the rack\u2019s name: loading a session on another rig must not silently rewrite that rig\u2019s racks, and deleting a rack must not reach into takes that already sound like it. A session bundle embeds the racks it references, so a session moves rigs whole."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 4699,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1803.422,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Chains as removable chips, + New rack. The library is global to the rig \u2014 racks live beside the device-keyed settings, not inside a session (#442 D1). A session carries references, and a take that inherited a rack carries a frozen copy under the rack\u2019s name: loading a session on another rig must "
+    },
+    {
+      "y": 4715,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1148.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "not silently rewrite that rig\u2019s racks, and deleting a rack must not reach into takes that already sound like it. A session bundle embeds the racks it references, so a session moves rigs whole."
+    }
+  ]
+}

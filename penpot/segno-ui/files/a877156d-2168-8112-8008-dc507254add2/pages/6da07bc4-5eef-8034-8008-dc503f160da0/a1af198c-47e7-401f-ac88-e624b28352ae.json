@@ -1,0 +1,135 @@
+{
+  "id": "a1af198c-47e7-401f-ac88-e624b28352ae",
+  "name": "c\/stage-countin",
+  "type": "text",
+  "x": 300,
+  "y": 3210,
+  "width": 1800,
+  "height": 16,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 3210,
+    "width": 1800,
+    "height": 16,
+    "x1": 300,
+    "y1": 3210,
+    "x2": 2100,
+    "y2": 3226
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 3210
+    },
+    {
+      "x": 2100,
+      "y": 3210
+    },
+    {
+      "x": 2100,
+      "y": 3226
+    },
+    {
+      "x": 300,
+      "y": 3226
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1ecd6f97-fdf7-44b1-a3cc-f034930adada",
+  "frameId": "1ecd6f97-fdf7-44b1-a3cc-f034930adada",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The count-in label sits beside the beat indicator."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "positionData": [
+    {
+      "y": 3226,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 295.156,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "The count-in label sits beside the beat indicator."
+    }
+  ]
+}

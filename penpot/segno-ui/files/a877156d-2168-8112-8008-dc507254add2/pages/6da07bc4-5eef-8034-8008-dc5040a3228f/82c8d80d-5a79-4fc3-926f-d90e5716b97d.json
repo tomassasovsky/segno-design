@@ -1,0 +1,138 @@
+{
+  "id": "82c8d80d-5a79-4fc3-926f-d90e5716b97d",
+  "name": "Bluetooth",
+  "type": "text",
+  "x": 2580,
+  "y": 28554.078,
+  "width": 94.516,
+  "height": 23,
+  "rotation": 0,
+  "selrect": {
+    "x": 2580,
+    "y": 28554.078,
+    "width": 94.516,
+    "height": 23,
+    "x1": 2580,
+    "y1": 28554.078,
+    "x2": 2674.516,
+    "y2": 28577.078
+  },
+  "points": [
+    {
+      "x": 2580,
+      "y": 28554.078
+    },
+    {
+      "x": 2674.516,
+      "y": 28554.078
+    },
+    {
+      "x": 2674.516,
+      "y": 28577.078
+    },
+    {
+      "x": 2580,
+      "y": 28577.078
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e8c3dfa3-2d38-4067-8eb3-0879706815b5",
+  "frameId": "e8c3dfa3-2d38-4067-8eb3-0879706815b5",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.15",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.15",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "20",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Bluetooth"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "20",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc5040a3228f",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 28577.078,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "width": 94.516,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2580,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 24,
+      "text": "Bluetooth"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

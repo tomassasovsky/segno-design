@@ -1,0 +1,135 @@
+{
+  "id": "96f9f3bd-00bf-47c3-9716-319ff9944f28",
+  "name": "Clock lost \u00b7 Stop loops \/ Label",
+  "type": "text",
+  "x": 2380,
+  "y": 55888,
+  "width": 338.266,
+  "height": 39,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 55888,
+    "width": 338.266,
+    "height": 39,
+    "x1": 2380,
+    "y1": 55888,
+    "x2": 2718.266,
+    "y2": 55927
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 55888
+    },
+    {
+      "x": 2718.266,
+      "y": 55888
+    },
+    {
+      "x": 2718.266,
+      "y": 55927
+    },
+    {
+      "x": 2380,
+      "y": 55927
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "a651a43a-13cf-4f3f-8600-2ecbfdb9de79",
+  "frameId": "a651a43a-13cf-4f3f-8600-2ecbfdb9de79",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1176",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1176",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "34",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Clock lost \u00b7 Stop loops"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "34",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d68754c",
+  "positionData": [
+    {
+      "y": 55926,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "34px",
+      "fontWeight": "400",
+      "width": 338.266,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 38,
+      "text": "Clock lost \u00b7 Stop loops"
+    }
+  ]
+}

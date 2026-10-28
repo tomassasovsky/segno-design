@@ -1,0 +1,135 @@
+{
+  "id": "1d3ad0e5-a796-44c9-af08-033d22ac1bf3",
+  "name": "External pedals",
+  "type": "text",
+  "x": 2480,
+  "y": 17792.297,
+  "width": 289.516,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 2480,
+    "y": 17792.297,
+    "width": 289.516,
+    "height": 42,
+    "x1": 2480,
+    "y1": 17792.297,
+    "x2": 2769.516,
+    "y2": 17834.297
+  },
+  "points": [
+    {
+      "x": 2480,
+      "y": 17792.297
+    },
+    {
+      "x": 2769.516,
+      "y": 17792.297
+    },
+    {
+      "x": 2769.516,
+      "y": 17834.297
+    },
+    {
+      "x": 2480,
+      "y": 17834.297
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "920aa7bc-4962-459c-8fae-c7731a010aef",
+  "frameId": "920aa7bc-4962-459c-8fae-c7731a010aef",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "42",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "External pedals"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "42",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50391cda77",
+  "positionData": [
+    {
+      "y": 17836.297,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "42px",
+      "fontWeight": "400",
+      "width": 289.516,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2480,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 47,
+      "text": "External pedals"
+    }
+  ]
+}

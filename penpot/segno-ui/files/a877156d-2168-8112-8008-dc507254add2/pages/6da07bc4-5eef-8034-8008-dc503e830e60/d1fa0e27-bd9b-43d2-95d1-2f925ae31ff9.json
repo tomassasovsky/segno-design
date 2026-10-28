@@ -1,0 +1,135 @@
+{
+  "id": "d1fa0e27-bd9b-43d2-95d1-2f925ae31ff9",
+  "name": "45  Timing track \/ Review status",
+  "type": "text",
+  "x": 6820,
+  "y": 88312,
+  "width": 1309.203,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 88312,
+    "width": 1309.203,
+    "height": 37,
+    "x1": 6820,
+    "y1": 88312,
+    "x2": 8129.2029999999995,
+    "y2": 88349
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 88312
+    },
+    {
+      "x": 8129.2029999999995,
+      "y": 88312
+    },
+    {
+      "x": 8129.2029999999995,
+      "y": 88349
+    },
+    {
+      "x": 6820,
+      "y": 88349
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d7c34f10-ebd3-4255-81f8-6ce4ca18dfc3",
+  "frameId": "d7c34f10-ebd3-4255-81f8-6ce4ca18dfc3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Accepted September 9, 2026 \u00b7 Sync and Band timing source \u00b7 Stop and switch when playing"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e830e60",
+  "positionData": [
+    {
+      "y": 88348,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 1309.203,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Accepted September 9, 2026 \u00b7 Sync and Band timing source \u00b7 Stop and switch when playing"
+    }
+  ]
+}

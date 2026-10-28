@@ -1,0 +1,198 @@
+{
+  "id": "47620629-21a7-45bc-8124-947a2fdbc166",
+  "name": "c\/restore-states",
+  "type": "text",
+  "x": 10980,
+  "y": 8845,
+  "width": 1800,
+  "height": 64,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 8845,
+    "width": 1800,
+    "height": 64,
+    "x1": 10980,
+    "y1": 8845,
+    "x2": 12780,
+    "y2": 8909
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 8845
+    },
+    {
+      "x": 12780,
+      "y": 8845
+    },
+    {
+      "x": 12780,
+      "y": 8909
+    },
+    {
+      "x": 10980,
+      "y": 8909
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7e1a8230-f831-4636-801d-79ab64b19b0a",
+  "frameId": "7e1a8230-f831-4636-801d-79ab64b19b0a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Loop-close restoration, the offline counterpart to conditioning. #697 slice S5, frame 4 of 4. Opt-in is per INPUT (input_restore.N, owner-confirmed), so it lives on the input detail beside conditioning. It is deliberately NOT dressed in the record-red 'printed into the take' language: the chip reads OFFLINE \u00b7 AT LOOP CLOSE and the palette is neutral, because restoration is reversible and never touches the monitor. Two flags map to LE_RESTORE_DECLIP | LE_RESTORE_DENOISE (De-clip + Denoise \u00b7 RNNoise). The state list is the lifecycle of le_track_snapshot.restore_state: armed (0, enabled and waiting), Queued (1 \u2014 one job in flight engine-wide, the rest wait), Restoring (2 \u2014 running, with progress + Cancel), then Restored (done) whose 'Revert to raw take' is just the plain undo peeling one layer \u2014 the raw take is kept one undo away, in-session only (owner decision: no session-bundle format change). Colour carries the state: neutral = waiting, accent = active work, green = done. The trigger policy (fire at loop close \/ overdub finalize) lives in Dart; the engine stays policy-free."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 8861,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1792.906,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Loop-close restoration, the offline counterpart to conditioning. #697 slice S5, frame 4 of 4. Opt-in is per INPUT (input_restore.N, owner-confirmed), so it lives on the input detail beside conditioning. It is deliberately NOT dressed in the record-red 'printed into the take' language: the chip reads "
+    },
+    {
+      "y": 8877,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1771.203,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "OFFLINE \u00b7 AT LOOP CLOSE and the palette is neutral, because restoration is reversible and never touches the monitor. Two flags map to LE_RESTORE_DECLIP | LE_RESTORE_DENOISE (De-clip + Denoise \u00b7 RNNoise). The state list is the lifecycle of le_track_snapshot.restore_state: armed (0, "
+    },
+    {
+      "y": 8893,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1793.391,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "enabled and waiting), Queued (1 \u2014 one job in flight engine-wide, the rest wait), Restoring (2 \u2014 running, with progress + Cancel), then Restored (done) whose 'Revert to raw take' is just the plain undo peeling one layer \u2014 the raw take is kept one undo away, in-session only (owner decision: no "
+    },
+    {
+      "y": 8909,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1278.781,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "session-bundle format change). Colour carries the state: neutral = waiting, accent = active work, green = done. The trigger policy (fire at loop close \/ overdub finalize) lives in Dart; the engine stays policy-free."
+    }
+  ]
+}

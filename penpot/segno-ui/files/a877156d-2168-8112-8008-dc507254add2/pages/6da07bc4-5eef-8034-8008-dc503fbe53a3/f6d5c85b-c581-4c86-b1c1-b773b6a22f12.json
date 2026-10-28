@@ -1,0 +1,135 @@
+{
+  "id": "f6d5c85b-c581-4c86-b1c1-b773b6a22f12",
+  "name": "c\/pedal",
+  "type": "text",
+  "x": 6820,
+  "y": 15075,
+  "width": 1800,
+  "height": 16,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 15075,
+    "width": 1800,
+    "height": 16,
+    "x1": 6820,
+    "y1": 15075,
+    "x2": 8620,
+    "y2": 15091
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 15075
+    },
+    {
+      "x": 8620,
+      "y": 15075
+    },
+    {
+      "x": 8620,
+      "y": 15091
+    },
+    {
+      "x": 6820,
+      "y": 15091
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "151df63c-5121-4685-8184-bf68eeb157d3",
+  "frameId": "151df63c-5121-4685-8184-bf68eeb157d3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The four transport switches are cards; the track row is a list, because each of its four switches holds a binding per bank and eight cards would outweigh the four above them. The bank toggle is the stage header's own."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503fbe53a3",
+  "positionData": [
+    {
+      "y": 15091,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1334.234,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "The four transport switches are cards; the track row is a list, because each of its four switches holds a binding per bank and eight cards would outweigh the four above them. The bank toggle is the stage header's own."
+    }
+  ]
+}

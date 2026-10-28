@@ -1,0 +1,135 @@
+{
+  "id": "61a7dca2-103d-4821-b1dc-6e6a5448ae4b",
+  "name": "Custom color editor \/ Label",
+  "type": "text",
+  "x": 8900,
+  "y": 14600,
+  "width": 294.781,
+  "height": 39,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 14600,
+    "width": 294.781,
+    "height": 39,
+    "x1": 8900,
+    "y1": 14600,
+    "x2": 9194.781,
+    "y2": 14639
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 14600
+    },
+    {
+      "x": 9194.781,
+      "y": 14600
+    },
+    {
+      "x": 9194.781,
+      "y": 14639
+    },
+    {
+      "x": 8900,
+      "y": 14639
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "526dd75d-1417-4493-8057-bf50f51fcf27",
+  "frameId": "526dd75d-1417-4493-8057-bf50f51fcf27",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1176",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1176",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "34",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#d5ddf5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Custom color editor"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "34",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#d5ddf5",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038a79611",
+  "positionData": [
+    {
+      "y": 14638,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "34px",
+      "fontWeight": "400",
+      "width": 294.781,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#d5ddf5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 38,
+      "text": "Custom color editor"
+    }
+  ]
+}

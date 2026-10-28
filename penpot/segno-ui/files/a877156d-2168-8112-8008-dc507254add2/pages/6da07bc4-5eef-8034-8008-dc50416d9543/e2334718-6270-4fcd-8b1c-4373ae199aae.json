@@ -1,0 +1,189 @@
+{
+  "id": "e2334718-6270-4fcd-8b1c-4373ae199aae",
+  "name": "Lede",
+  "type": "text",
+  "x": 4434,
+  "y": 5108,
+  "width": 1240,
+  "height": 76.5,
+  "rotation": 0,
+  "selrect": {
+    "x": 4434,
+    "y": 5108,
+    "width": 1240,
+    "height": 76.5,
+    "x1": 4434,
+    "y1": 5108,
+    "x2": 5674,
+    "y2": 5184.5
+  },
+  "points": [
+    {
+      "x": 4434,
+      "y": 5108
+    },
+    {
+      "x": 5674,
+      "y": 5108
+    },
+    {
+      "x": 5674,
+      "y": 5184.5
+    },
+    {
+      "x": 4434,
+      "y": 5184.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "32320c71-b0dd-4250-a3a5-468758a409c0",
+  "frameId": "32320c71-b0dd-4250-a3a5-468758a409c0",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "17",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "A rotary is out \u2014 no grip on glass, imprecise drag, and your finger covers the readout. But the compact grid existed to solve density, so removing the knob leaves it with no continuous control. Same 24-parameter channel strip, same 1792\u00d7240 panel, four candidates. Booleans and enums are identical in all four, so only the continuous control varies."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "17",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fix",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontSize": "text-base",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 5130,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "width": 1244.609,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4434,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "A rotary is out \u2014 no grip on glass, imprecise drag, and your finger covers the readout. But the compact grid existed to solve density, so removing the knob "
+    },
+    {
+      "y": 5155.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "width": 1212.484,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4434,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "leaves it with no continuous control. Same 24-parameter channel strip, same 1792\u00d7240 panel, four candidates. Booleans and enums are identical in all "
+    },
+    {
+      "y": 5181,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "width": 342.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4434,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "four, so only the continuous control varies."
+    }
+  ],
+  "layoutItemZIndex": 2
+}

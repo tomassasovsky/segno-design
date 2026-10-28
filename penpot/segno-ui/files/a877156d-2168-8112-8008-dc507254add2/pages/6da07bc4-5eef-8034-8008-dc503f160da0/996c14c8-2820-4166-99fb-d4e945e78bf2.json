@@ -1,0 +1,185 @@
+{
+  "id": "996c14c8-2820-4166-99fb-d4e945e78bf2",
+  "name": "c\/fx-opt-A",
+  "type": "text",
+  "x": 4460,
+  "y": 7691,
+  "width": 1200,
+  "height": 54,
+  "rotation": 0,
+  "selrect": {
+    "x": 4460,
+    "y": 7691,
+    "width": 1200,
+    "height": 54,
+    "x1": 4460,
+    "y1": 7691,
+    "x2": 5660,
+    "y2": 7745
+  },
+  "points": [
+    {
+      "x": 4460,
+      "y": 7691
+    },
+    {
+      "x": 5660,
+      "y": 7691
+    },
+    {
+      "x": 5660,
+      "y": 7745
+    },
+    {
+      "x": 4460,
+      "y": 7745
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ba3f997b-4a4a-49cd-8ebb-d276fe4bc822",
+  "frameId": "ba3f997b-4a4a-49cd-8ebb-d276fe4bc822",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2857",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2857",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "JetBrains Mono",
+                "text": "c\/ fx-opt-A \u2014 Big power button per column. FX mode = unmodified stage (copy of Ob2Mu) + dim scrim; the dimmed column itself is the affordance: one large power glyph centred on the loop, lit $fx when ON, dim when OFF, chain-first label under it. No card, no border. 2026-08-27 pivot away from floating cards (jL8Ib)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "JetBrains Mono"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontFamily": "font-mono"
+  },
+  "positionData": [
+    {
+      "y": 7709,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1201.219,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4460,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 18,
+      "text": "c\/ fx-opt-A \u2014 Big power button per column. FX mode = unmodified stage (copy of Ob2Mu) + dim scrim; the dimmed column itself is the affordance: "
+    },
+    {
+      "y": 7727,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1167.609,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4460,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 18,
+      "text": "one large power glyph centred on the loop, lit $fx when ON, dim when OFF, chain-first label under it. No card, no border. 2026-08-27 pivot "
+    },
+    {
+      "y": 7745,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 277.203,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4460,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 18,
+      "text": "away from floating cards (jL8Ib)."
+    }
+  ]
+}

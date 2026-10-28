@@ -1,0 +1,387 @@
+{
+  "id": "24dd567b-b11a-457a-9cc5-5ddde9ce2aea",
+  "name": "c\/readout",
+  "type": "text",
+  "x": 300,
+  "y": 4763,
+  "width": 1800,
+  "height": 208,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 4763,
+    "width": 1800,
+    "height": 208,
+    "x1": 300,
+    "y1": 4763,
+    "x2": 2100,
+    "y2": 4971
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 4763
+    },
+    {
+      "x": 2100,
+      "y": 4763
+    },
+    {
+      "x": 2100,
+      "y": 4971
+    },
+    {
+      "x": 300,
+      "y": 4971
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b53d86d7-dcab-42cb-b10f-ec5a6b727c53",
+  "frameId": "b53d86d7-dcab-42cb-b10f-ec5a6b727c53",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The console's other panel, redesigned after the #696 bench review: the 7\u2033 glass is read from ~2 m on stage, where it subtends roughly a phone at arm's length \u2014 that viewing distance is the design driver, so every size is set for the glance, not the desk. Owner decision: glance facts + the whole-loop waveform strip only; track names, rows, and per-track state words move to the main screen. The glance facts are tempo, transport time, bars + beat dots, the mode word, the A\/B bank pair, and the armed-capture pill. One nominal state is drawn \u2014 the busiest honest one: tempo present, loop exists, performance record armed with elapsed. The mode word is drawn as MUTE, the longest word in en and es (both locales use REC \/ MUTE \/ FX), to prove header width with margin. The header is a SINGLE row whose height is set by the figure pairs (220): TEMPO pair, TIME pair, then the BARS pair with its beat dots stacked directly beneath the figure (dots read as the subdivision of the bar), then the right column \u2014 the mode word with the bank pair and armed pill SIDE BY SIDE beneath it (18 px gaps; that flat cluster is 213, tucked under the figures' height). Implementation contract at the 1920\u00d71080 reference: figures are $font-ui (Inter \u2014 the owner rejected the mono face's dotted zeros) and MUST use tabular numerals in code (Flutter FontFeature.tabularFigures()) so the ticking clock doesn't jitter. Tempo + transport-time figures 180 (lineHeight 1, \u22121% tracking), captions 36 at the SectionCaption tracking ratio (0.07 em); BARS figure 120; beat dots 44\u2300 with 28 gap, 8 px under the figure; inter-group gap 96. Mode word 84 \/ weight 750 \/ +10% tracking ($led-red in REC mode, $led-green in MUTE, $led-blue in FX; $text-primary only for a mode token the build cannot parse). Bank pair = the stage status bar's idiom scaled ~2.8\u00d7 (224\u00d793: $border-default 2 px capsule, active half $bg-control with $text-primary letter, inactive $text-muted, letters 44). Armed pill = RecPill scaled ~2.8\u00d7 (30\u2300 dot, 40 label, 2 px $led-red outline on $rec-surface) carrying the capture elapsed. Wire protocol: the readout needs activeBank re-added \u2014 it was dropped as unrendered in PR #696; the tolerant decoder takes it back without ceremony. The clock shows m:ss and grows hours only at \u2265 1 h (h:mm:ss); the header width was proven against the full h:mm:ss worst case in Inter (the drawn worst case leaves ~110 px slack beside the flat cluster), so the nominal drawing reads 4:32. Tempo shows an integer (120); the decimal appears only when the tempo is non-integer (120.5). The waveform strip takes all remaining height \u2014 766 px, 71% of the frame (frame padding 32, header gap 28, caption-to-figure 4) \u2014 on $waveform-bg: played bars white, upcoming 18% white, 4 px playhead. #693\/#714 write-back: the whole 7\u2033 surface reads the LED palette, not the chrome tokens \u2014 MUTE $led-green (10.2:1 on $bg-base vs $success's 6.2:1), REC $led-red (5.2:1 vs $rec's 5.0:1), FX $led-blue (5.4:1) \u2014 because at 84 px from two metres contrast beats token tidiness, and these are exactly the hues the pedal's MODE LED throws, so panel and plate say the same thing in the same colour. The RecPill is $led-red throughout (outline, dot, label, elapsed): the 84 px REC word and the pill sit in one column, and two record-reds a shade apart there is the exact defect #693 unified the desktop ModeIndicator to remove. Its wash stays the $rec-surface TOKEN, not an alpha of $led-red, so the high-contrast flavor can lift the fill with the rest of the palette. This pill and the stage bar are also where armed lives now: the pedal's MODE LED no longer blinks for it \u2014 armed already shows on both screens, and a blinking red was only distinguishable from a solid red by watching a full half-period."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "positionData": [
+    {
+      "y": 4779,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1769.563,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "The console's other panel, redesigned after the #696 bench review: the 7\u2033 glass is read from ~2 m on stage, where it subtends roughly a phone at arm's length \u2014 that viewing distance is the design driver, so every size is set for the glance, not the desk. Owner decision: glance facts + the "
+    },
+    {
+      "y": 4795,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1780.297,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "whole-loop waveform strip only; track names, rows, and per-track state words move to the main screen. The glance facts are tempo, transport time, bars + beat dots, the mode word, the A\/B bank pair, and the armed-capture pill. One nominal state is drawn \u2014 the busiest honest one: tempo "
+    },
+    {
+      "y": 4811,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1796.641,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "present, loop exists, performance record armed with elapsed. The mode word is drawn as MUTE, the longest word in en and es (both locales use REC \/ MUTE \/ FX), to prove header width with margin. The header is a SINGLE row whose height is set by the figure pairs (220): TEMPO pair, TIME "
+    },
+    {
+      "y": 4827,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1754.453,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "pair, then the BARS pair with its beat dots stacked directly beneath the figure (dots read as the subdivision of the bar), then the right column \u2014 the mode word with the bank pair and armed pill SIDE BY SIDE beneath it (18 px gaps; that flat cluster is 213, tucked under the figures' height). "
+    },
+    {
+      "y": 4843,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1802.672,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Implementation contract at the 1920\u00d71080 reference: figures are $font-ui (Inter \u2014 the owner rejected the mono face's dotted zeros) and MUST use tabular numerals in code (Flutter FontFeature.tabularFigures()) so the ticking clock doesn't jitter. Tempo + transport-time figures 180 (lineHeight 1, "
+    },
+    {
+      "y": 4859,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1793,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "\u22121% tracking), captions 36 at the SectionCaption tracking ratio (0.07 em); BARS figure 120; beat dots 44\u2300 with 28 gap, 8 px under the figure; inter-group gap 96. Mode word 84 \/ weight 750 \/ +10% tracking ($led-red in REC mode, $led-green in MUTE, $led-blue in FX; $text-primary only for a "
+    },
+    {
+      "y": 4875,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1782.797,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "mode token the build cannot parse). Bank pair = the stage status bar's idiom scaled ~2.8\u00d7 (224\u00d793: $border-default 2 px capsule, active half $bg-control with $text-primary letter, inactive $text-muted, letters 44). Armed pill = RecPill scaled ~2.8\u00d7 (30\u2300 dot, 40 label, 2 px $led-red outline on "
+    },
+    {
+      "y": 4891,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1790.875,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "$rec-surface) carrying the capture elapsed. Wire protocol: the readout needs activeBank re-added \u2014 it was dropped as unrendered in PR #696; the tolerant decoder takes it back without ceremony. The clock shows m:ss and grows hours only at \u2265 1 h (h:mm:ss); the header width was proven "
+    },
+    {
+      "y": 4907,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1792.063,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "against the full h:mm:ss worst case in Inter (the drawn worst case leaves ~110 px slack beside the flat cluster), so the nominal drawing reads 4:32. Tempo shows an integer (120); the decimal appears only when the tempo is non-integer (120.5). The waveform strip takes all remaining height \u2014 "
+    },
+    {
+      "y": 4923,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1790.969,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "766 px, 71% of the frame (frame padding 32, header gap 28, caption-to-figure 4) \u2014 on $waveform-bg: played bars white, upcoming 18% white, 4 px playhead. #693\/#714 write-back: the whole 7\u2033 surface reads the LED palette, not the chrome tokens \u2014 MUTE $led-green (10.2:1 on $bg-base "
+    },
+    {
+      "y": 4939,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1775.688,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "vs $success's 6.2:1), REC $led-red (5.2:1 vs $rec's 5.0:1), FX $led-blue (5.4:1) \u2014 because at 84 px from two metres contrast beats token tidiness, and these are exactly the hues the pedal's MODE LED throws, so panel and plate say the same thing in the same colour. The RecPill is $led-red "
+    },
+    {
+      "y": 4955,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1779.672,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "throughout (outline, dot, label, elapsed): the 84 px REC word and the pill sit in one column, and two record-reds a shade apart there is the exact defect #693 unified the desktop ModeIndicator to remove. Its wash stays the $rec-surface TOKEN, not an alpha of $led-red, so the high-contrast "
+    },
+    {
+      "y": 4971,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1740.984,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "flavor can lift the fill with the rest of the palette. This pill and the stage bar are also where armed lives now: the pedal's MODE LED no longer blinks for it \u2014 armed already shows on both screens, and a blinking red was only distinguishable from a solid red by watching a full half-period."
+    }
+  ]
+}

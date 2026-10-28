@@ -1,0 +1,135 @@
+{
+  "id": "bdc7afe2-1a5e-4fca-9ed1-a556961f164d",
+  "name": "Screen caption",
+  "type": "text",
+  "x": 2300,
+  "y": 92160,
+  "width": 323.672,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 2300,
+    "y": 92160,
+    "width": 323.672,
+    "height": 37,
+    "x1": 2300,
+    "y1": 92160,
+    "x2": 2623.672,
+    "y2": 92197
+  },
+  "points": [
+    {
+      "x": 2300,
+      "y": 92160
+    },
+    {
+      "x": 2623.672,
+      "y": 92160
+    },
+    {
+      "x": 2623.672,
+      "y": 92197
+    },
+    {
+      "x": 2300,
+      "y": 92197
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e6c58ea5-76fa-4e60-8c87-ae09cc3649dc",
+  "frameId": "e6c58ea5-76fa-4e60-8c87-ae09cc3649dc",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#bcc8d8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Record directly to USB"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#bcc8d8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e924487",
+  "positionData": [
+    {
+      "y": 92196,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 323.672,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2300,
+      "fills": [
+        {
+          "fillColor": "#bcc8d8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Record directly to USB"
+    }
+  ]
+}

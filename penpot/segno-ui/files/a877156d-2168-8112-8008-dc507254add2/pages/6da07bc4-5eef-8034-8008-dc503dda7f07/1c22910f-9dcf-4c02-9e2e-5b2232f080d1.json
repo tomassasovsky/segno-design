@@ -1,0 +1,135 @@
+{
+  "id": "1c22910f-9dcf-4c02-9e2e-5b2232f080d1",
+  "name": "Reference notices label",
+  "type": "text",
+  "x": 2292,
+  "y": 67690,
+  "width": 225.688,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 2292,
+    "y": 67690,
+    "width": 225.688,
+    "height": 32,
+    "x1": 2292,
+    "y1": 67690,
+    "x2": 2517.688,
+    "y2": 67722
+  },
+  "points": [
+    {
+      "x": 2292,
+      "y": 67690
+    },
+    {
+      "x": 2517.688,
+      "y": 67690
+    },
+    {
+      "x": 2517.688,
+      "y": 67722
+    },
+    {
+      "x": 2292,
+      "y": 67722
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "97b9b030-f903-4840-a27c-94108213d039",
+  "frameId": "97b9b030-f903-4840-a27c-94108213d039",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1071",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1071",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#bdc9db",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Reference notices"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#bdc9db",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dda7f07",
+  "positionData": [
+    {
+      "y": 67721,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 225.688,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2292,
+      "fills": [
+        {
+          "fillColor": "#bdc9db",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Reference notices"
+    }
+  ]
+}

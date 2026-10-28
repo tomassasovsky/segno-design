@@ -1,0 +1,138 @@
+{
+  "id": "443883c6-239b-48ea-9c8d-c690367d3532",
+  "name": "loopback note",
+  "type": "text",
+  "x": 7020,
+  "y": 23475.984,
+  "width": 661.672,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 7020,
+    "y": 23475.984,
+    "width": 661.672,
+    "height": 21,
+    "x1": 7020,
+    "y1": 23475.984,
+    "x2": 7681.6720000000005,
+    "y2": 23496.984
+  },
+  "points": [
+    {
+      "x": 7020,
+      "y": 23475.984
+    },
+    {
+      "x": 7681.6720000000005,
+      "y": 23475.984
+    },
+    {
+      "x": 7681.6720000000005,
+      "y": 23496.984
+    },
+    {
+      "x": 7020,
+      "y": 23496.984
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3d8cff9d-65b6-4e09-a98e-2619ab5b4ca9",
+  "frameId": "3d8cff9d-65b6-4e09-a98e-2619ab5b4ca9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Loopback detected on Scarlett 18i20 \u2014 latency is auto-measured on start as a digital-path estimate."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50405571ee",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 23494.984,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 661.672,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7020,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Loopback detected on Scarlett 18i20 \u2014 latency is auto-measured on start as a digital-path estimate."
+    }
+  ],
+  "layoutItemZIndex": 0
+}

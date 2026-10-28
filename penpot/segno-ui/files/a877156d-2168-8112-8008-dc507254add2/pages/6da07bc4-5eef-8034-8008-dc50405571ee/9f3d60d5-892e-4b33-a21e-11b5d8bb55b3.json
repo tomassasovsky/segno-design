@@ -1,0 +1,135 @@
+{
+  "id": "9f3d60d5-892e-4b33-a21e-11b5d8bb55b3",
+  "name": "t\/settings-inputs-unnamed",
+  "type": "text",
+  "x": 8900,
+  "y": 23994,
+  "width": 300.578,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 23994,
+    "width": 300.578,
+    "height": 19,
+    "x1": 8900,
+    "y1": 23994,
+    "x2": 9200.578,
+    "y2": 24013
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 23994
+    },
+    {
+      "x": 9200.578,
+      "y": 23994
+    },
+    {
+      "x": 9200.578,
+      "y": 24013
+    },
+    {
+      "x": 8900,
+      "y": 24013
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7069ff82-68ad-43b3-80d6-6db63ff8d24e",
+  "frameId": "7069ff82-68ad-43b3-80d6-6db63ff8d24e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2667",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2667",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "600",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Audio \u2014 a rig where nothing is named yet"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50405571ee",
+  "positionData": [
+    {
+      "y": 24013,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "width": 300.578,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 19,
+      "text": "Audio \u2014 a rig where nothing is named yet"
+    }
+  ]
+}

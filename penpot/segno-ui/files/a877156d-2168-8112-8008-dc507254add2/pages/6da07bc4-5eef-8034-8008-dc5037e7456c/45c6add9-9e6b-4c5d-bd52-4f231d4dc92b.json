@@ -1,0 +1,135 @@
+{
+  "id": "45c6add9-9e6b-4c5d-bd52-4f231d4dc92b",
+  "name": "01   CURRENT UX \/ Description",
+  "type": "text",
+  "x": 180,
+  "y": 196,
+  "width": 810.125,
+  "height": 48,
+  "rotation": 0,
+  "selrect": {
+    "x": 180,
+    "y": 196,
+    "width": 810.125,
+    "height": 48,
+    "x1": 180,
+    "y1": 196,
+    "x2": 990.125,
+    "y2": 244
+  },
+  "points": [
+    {
+      "x": 180,
+      "y": 196
+    },
+    {
+      "x": 990.125,
+      "y": 196
+    },
+    {
+      "x": 990.125,
+      "y": 244
+    },
+    {
+      "x": 180,
+      "y": 244
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "00000000-0000-0000-0000-000000000000",
+  "frameId": "00000000-0000-0000-0000-000000000000",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.119",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.119",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "42",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a5adba",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "The active product studies, grouped by flow"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "42",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a5adba",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5037e7456c",
+  "positionData": [
+    {
+      "y": 243,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "42px",
+      "fontWeight": "400",
+      "width": 810.125,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 180,
+      "fills": [
+        {
+          "fillColor": "#a5adba",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 47,
+      "text": "The active product studies, grouped by flow"
+    }
+  ]
+}

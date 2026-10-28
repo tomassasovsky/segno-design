@@ -1,0 +1,147 @@
+{
+  "id": "5bc50acc-a5f7-4d99-8908-e72094ec22b3",
+  "name": "PEDAL A state text",
+  "type": "text",
+  "x": 726.594,
+  "y": 9501.5,
+  "width": 14.406,
+  "height": 16,
+  "rotation": 0,
+  "selrect": {
+    "x": 726.594,
+    "y": 9501.5,
+    "width": 14.406,
+    "height": 16,
+    "x1": 726.594,
+    "y1": 9501.5,
+    "x2": 741,
+    "y2": 9517.5
+  },
+  "points": [
+    {
+      "x": 726.594,
+      "y": 9501.5
+    },
+    {
+      "x": 741,
+      "y": 9501.5
+    },
+    {
+      "x": 741,
+      "y": 9517.5
+    },
+    {
+      "x": 726.594,
+      "y": 9517.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "97df8d5f-5c25-4f78-9e8b-dede000bec97",
+  "frameId": "97df8d5f-5c25-4f78-9e8b-dede000bec97",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3333",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3333",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+                "fontSize": "12",
+                "fontWeight": "600",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a06be0",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a59614",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "JetBrains Mono",
+                "text": "ON"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+            "fontSize": "12",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a06be0",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a59614",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "JetBrains Mono"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "fx",
+    "fontSize": "text-xs",
+    "fontFamily": "font-mono"
+  },
+  "positionData": [
+    {
+      "y": 9517.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "width": 14.406,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 726.594,
+      "fills": [
+        {
+          "fillColor": "#a06be0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 16,
+      "text": "ON"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

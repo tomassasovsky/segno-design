@@ -1,0 +1,135 @@
+{
+  "id": "b3f8b5ef-aff9-480c-9a23-7726c986d9e1",
+  "name": "Balance",
+  "type": "text",
+  "x": 9688,
+  "y": 4092.5,
+  "width": 86.734,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 9688,
+    "y": 4092.5,
+    "width": 86.734,
+    "height": 24,
+    "x1": 9688,
+    "y1": 4092.5,
+    "x2": 9774.734,
+    "y2": 4116.5
+  },
+  "points": [
+    {
+      "x": 9688,
+      "y": 4092.5
+    },
+    {
+      "x": 9774.734,
+      "y": 4092.5
+    },
+    {
+      "x": 9774.734,
+      "y": 4116.5
+    },
+    {
+      "x": 9688,
+      "y": 4116.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ac5e8f93-29c3-4d64-a205-724490ec74a0",
+  "frameId": "ac5e8f93-29c3-4d64-a205-724490ec74a0",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Balance"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038288efc",
+  "positionData": [
+    {
+      "y": 4117.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 86.734,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9688,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Balance"
+    }
+  ]
+}

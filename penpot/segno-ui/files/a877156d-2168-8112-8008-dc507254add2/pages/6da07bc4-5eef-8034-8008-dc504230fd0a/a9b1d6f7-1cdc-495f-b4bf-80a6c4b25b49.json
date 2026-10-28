@@ -1,0 +1,135 @@
+{
+  "id": "a9b1d6f7-1cdc-495f-b4bf-80a6c4b25b49",
+  "name": "Missing control caption",
+  "type": "text",
+  "x": 210,
+  "y": 9440,
+  "width": 976.578,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 210,
+    "y": 9440,
+    "width": 976.578,
+    "height": 37,
+    "x1": 210,
+    "y1": 9440,
+    "x2": 1186.578,
+    "y2": 9477
+  },
+  "points": [
+    {
+      "x": 210,
+      "y": 9440
+    },
+    {
+      "x": 1186.578,
+      "y": 9440
+    },
+    {
+      "x": 1186.578,
+      "y": 9477
+    },
+    {
+      "x": 210,
+      "y": 9477
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fd95d508-079e-4a8d-9a65-a6cda72ea62d",
+  "frameId": "fd95d508-079e-4a8d-9a65-a6cda72ea62d",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#d5ddf5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Resolve a connection before opening \u00b7 Cancel keeps current session"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#d5ddf5",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc504230fd0a",
+  "positionData": [
+    {
+      "y": 9476,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 976.578,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 210,
+      "fills": [
+        {
+          "fillColor": "#d5ddf5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Resolve a connection before opening \u00b7 Cancel keeps current session"
+    }
+  ]
+}

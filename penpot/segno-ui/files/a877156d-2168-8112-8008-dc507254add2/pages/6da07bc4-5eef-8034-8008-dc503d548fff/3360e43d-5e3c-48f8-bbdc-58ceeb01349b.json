@@ -1,0 +1,135 @@
+{
+  "id": "3360e43d-5e3c-48f8-bbdc-58ceeb01349b",
+  "name": "Choose what this control changes.",
+  "type": "text",
+  "x": 9505,
+  "y": 52080.5,
+  "width": 382.172,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 9505,
+    "y": 52080.5,
+    "width": 382.172,
+    "height": 25,
+    "x1": 9505,
+    "y1": 52080.5,
+    "x2": 9887.172,
+    "y2": 52105.5
+  },
+  "points": [
+    {
+      "x": 9505,
+      "y": 52080.5
+    },
+    {
+      "x": 9887.172,
+      "y": 52080.5
+    },
+    {
+      "x": 9887.172,
+      "y": 52105.5
+    },
+    {
+      "x": 9505,
+      "y": 52105.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "781d7620-e9ca-434b-8704-ba147793573a",
+  "frameId": "781d7620-e9ca-434b-8704-ba147793573a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#969da8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Choose what this control changes."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#969da8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d548fff",
+  "positionData": [
+    {
+      "y": 52106.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 382.172,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9505,
+      "fills": [
+        {
+          "fillColor": "#969da8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Choose what this control changes."
+    }
+  ]
+}

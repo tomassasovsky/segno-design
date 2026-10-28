@@ -1,0 +1,138 @@
+{
+  "id": "0d17bc8f-160c-4836-8b72-4a7ec4332447",
+  "name": "Valhalla Sat",
+  "type": "text",
+  "x": 11738.875,
+  "y": 4207.969,
+  "width": 87.25,
+  "height": 18.078,
+  "rotation": 0,
+  "selrect": {
+    "x": 11738.875,
+    "y": 4207.969,
+    "width": 87.25,
+    "height": 18.078,
+    "x1": 11738.875,
+    "y1": 4207.969,
+    "x2": 11826.125,
+    "y2": 4226.0470000000005
+  },
+  "points": [
+    {
+      "x": 11738.875,
+      "y": 4207.969
+    },
+    {
+      "x": 11826.125,
+      "y": 4207.969
+    },
+    {
+      "x": 11826.125,
+      "y": 4226.0470000000005
+    },
+    {
+      "x": 11738.875,
+      "y": 4226.0470000000005
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c6b7c6ca-c032-4b83-9bf6-6f5a911e5b57",
+  "frameId": "c6b7c6ca-c032-4b83-9bf6-6f5a911e5b57",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.13",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.13",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Valhalla Sat"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 4226.969,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 87.25,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11738.875,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Valhalla Sat"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

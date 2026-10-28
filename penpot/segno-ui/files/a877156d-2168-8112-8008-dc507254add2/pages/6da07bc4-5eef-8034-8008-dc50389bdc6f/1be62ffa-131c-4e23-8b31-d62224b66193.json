@@ -1,0 +1,135 @@
+{
+  "id": "1be62ffa-131c-4e23-8b31-d62224b66193",
+  "name": "Pitch",
+  "type": "text",
+  "x": 400,
+  "y": 16692.984,
+  "width": 71.141,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 400,
+    "y": 16692.984,
+    "width": 71.141,
+    "height": 32,
+    "x1": 400,
+    "y1": 16692.984,
+    "x2": 471.141,
+    "y2": 16724.984
+  },
+  "points": [
+    {
+      "x": 400,
+      "y": 16692.984
+    },
+    {
+      "x": 471.141,
+      "y": 16692.984
+    },
+    {
+      "x": 471.141,
+      "y": 16724.984
+    },
+    {
+      "x": 400,
+      "y": 16724.984
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d3ff1711-dac1-44d3-92af-84a3d5cdc71e",
+  "frameId": "d3ff1711-dac1-44d3-92af-84a3d5cdc71e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Pitch"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50389bdc6f",
+  "positionData": [
+    {
+      "y": 16726.984,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 71.141,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 400,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Pitch"
+    }
+  ]
+}

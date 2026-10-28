@@ -1,0 +1,156 @@
+{
+  "id": "0943bef9-01a1-4f9c-813d-fd0d1a37e481",
+  "name": "c\/settings-inputs",
+  "type": "text",
+  "x": 6820,
+  "y": 19864,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 19864,
+    "width": 1800,
+    "height": 32,
+    "x1": 6820,
+    "y1": 19864,
+    "x2": 8620,
+    "y2": 19896
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 19864
+    },
+    {
+      "x": 8620,
+      "y": 19864
+    },
+    {
+      "x": 8620,
+      "y": 19896
+    },
+    {
+      "x": 6820,
+      "y": 19896
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5000ae91-fb0d-4494-a010-6cf030159b66",
+  "frameId": "5000ae91-fb0d-4494-a010-6cf030159b66",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The hardware says input 2; you say mic. Each chip is a COLUMN \u2014 the name on top, `input 2` under it in grey \u2014 so the socket is always legible and the name is only what you call it. An unnamed chip is the bare `input 3`, centred, in the primary ink (see settings-inputs-unnamed for why the tone moves). Tapping a chip renames it; see settings-inputs-wide for an 18-in rig (#528)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50405571ee",
+  "positionData": [
+    {
+      "y": 19880,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1776.234,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "The hardware says input 2; you say mic. Each chip is a COLUMN \u2014 the name on top, `input 2` under it in grey \u2014 so the socket is always legible and the name is only what you call it. An unnamed chip is the bare `input 3`, centred, in the primary ink (see settings-inputs-unnamed for why the "
+    },
+    {
+      "y": 19896,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 543.906,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "tone moves). Tapping a chip renames it; see settings-inputs-wide for an 18-in rig (#528)."
+    }
+  ]
+}

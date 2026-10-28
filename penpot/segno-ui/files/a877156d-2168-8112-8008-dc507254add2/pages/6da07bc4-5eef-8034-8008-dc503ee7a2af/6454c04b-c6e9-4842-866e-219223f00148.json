@@ -1,0 +1,135 @@
+{
+  "id": "6454c04b-c6e9-4842-866e-219223f00148",
+  "name": "Screen caption",
+  "type": "text",
+  "x": 10980,
+  "y": 97688,
+  "width": 441.125,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 97688,
+    "width": 441.125,
+    "height": 37,
+    "x1": 10980,
+    "y1": 97688,
+    "x2": 11421.125,
+    "y2": 97725
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 97688
+    },
+    {
+      "x": 11421.125,
+      "y": 97688
+    },
+    {
+      "x": 11421.125,
+      "y": 97725
+    },
+    {
+      "x": 10980,
+      "y": 97725
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "47fa51fc-23a4-4569-a898-f5ec92bfe919",
+  "frameId": "47fa51fc-23a4-4569-a898-f5ec92bfe919",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#bcc8d8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Bank and Program \u00b7 Cut sound"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#bcc8d8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503ee7a2af",
+  "positionData": [
+    {
+      "y": 97724,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 441.125,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#bcc8d8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Bank and Program \u00b7 Cut sound"
+    }
+  ]
+}

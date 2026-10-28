@@ -1,0 +1,156 @@
+{
+  "id": "846aa7f0-0b8e-4922-804a-ec9e00828f3a",
+  "name": "c\/loop-output",
+  "type": "text",
+  "x": 4460,
+  "y": 15298,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 4460,
+    "y": 15298,
+    "width": 1800,
+    "height": 32,
+    "x1": 4460,
+    "y1": 15298,
+    "x2": 6260,
+    "y2": 15330
+  },
+  "points": [
+    {
+      "x": 4460,
+      "y": 15298
+    },
+    {
+      "x": 6260,
+      "y": 15298
+    },
+    {
+      "x": 6260,
+      "y": 15330
+    },
+    {
+      "x": 4460,
+      "y": 15330
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1031916b-cc9e-44c4-87c8-888272df41d5",
+  "frameId": "1031916b-cc9e-44c4-87c8-888272df41d5",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The one chooser on these faces that is NOT pick-one: the click sounds on a bitmask of hardware outputs, so several cells are lit at once, a tap toggles one bit rather than replacing the answer, and nothing here closes the grid \u2014 no single tap ends the question. The row summarises: nowhere \/ all outputs \/ Out 1 \u00b7 Out 2 \/ N outputs once naming them all would not fit."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50400567e5",
+  "positionData": [
+    {
+      "y": 15314,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1794.922,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4460,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "The one chooser on these faces that is NOT pick-one: the click sounds on a bitmask of hardware outputs, so several cells are lit at once, a tap toggles one bit rather than replacing the answer, and nothing here closes the grid \u2014 no single tap ends the question. The row summarises: nowhere \/ "
+    },
+    {
+      "y": 15330,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 441.219,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4460,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "all outputs \/ Out 1 \u00b7 Out 2 \/ N outputs once naming them all would not fit."
+    }
+  ]
+}

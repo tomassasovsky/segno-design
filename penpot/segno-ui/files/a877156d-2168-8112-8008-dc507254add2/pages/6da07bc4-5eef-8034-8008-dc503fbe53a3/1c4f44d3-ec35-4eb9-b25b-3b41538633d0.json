@@ -1,0 +1,138 @@
+{
+  "id": "1c4f44d3-ec35-4eb9-b25b-3b41538633d0",
+  "name": "Bus tape",
+  "type": "text",
+  "x": 7893,
+  "y": 15459.109,
+  "width": 67.531,
+  "height": 20,
+  "rotation": 0,
+  "selrect": {
+    "x": 7893,
+    "y": 15459.109,
+    "width": 67.531,
+    "height": 20,
+    "x1": 7893,
+    "y1": 15459.109,
+    "x2": 7960.531,
+    "y2": 15479.109
+  },
+  "points": [
+    {
+      "x": 7893,
+      "y": 15459.109
+    },
+    {
+      "x": 7960.531,
+      "y": 15459.109
+    },
+    {
+      "x": 7960.531,
+      "y": 15479.109
+    },
+    {
+      "x": 7893,
+      "y": 15479.109
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "edc6dea8-cc4b-44ce-90f4-b1e8adbc8fe8",
+  "frameId": "edc6dea8-cc4b-44ce-90f4-b1e8adbc8fe8",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.25",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.25",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "600",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Bus tape"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503fbe53a3",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 15479.109,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "width": 67.531,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7893,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Bus tape"
+    }
+  ],
+  "layoutItemZIndex": 1
+}

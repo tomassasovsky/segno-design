@@ -1,0 +1,135 @@
+{
+  "id": "21d1c62b-dd27-4021-9976-909843c23bc6",
+  "name": "Synths",
+  "type": "text",
+  "x": 685.688,
+  "y": 101805.5,
+  "width": 73.375,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 685.688,
+    "y": 101805.5,
+    "width": 73.375,
+    "height": 24,
+    "x1": 685.688,
+    "y1": 101805.5,
+    "x2": 759.063,
+    "y2": 101829.5
+  },
+  "points": [
+    {
+      "x": 685.688,
+      "y": 101805.5
+    },
+    {
+      "x": 759.063,
+      "y": 101805.5
+    },
+    {
+      "x": 759.063,
+      "y": 101829.5
+    },
+    {
+      "x": 685.688,
+      "y": 101829.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "509353f7-e04c-40f5-a715-f02e48598078",
+  "frameId": "509353f7-e04c-40f5-a715-f02e48598078",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Synths"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eed38eb",
+  "positionData": [
+    {
+      "y": 101830.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 73.375,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 685.688,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Synths"
+    }
+  ]
+}

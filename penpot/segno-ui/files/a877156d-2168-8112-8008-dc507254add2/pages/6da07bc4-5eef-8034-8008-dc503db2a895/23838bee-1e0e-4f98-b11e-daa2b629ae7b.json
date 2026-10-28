@@ -1,0 +1,135 @@
+{
+  "id": "23838bee-1e0e-4f98-b11e-daa2b629ae7b",
+  "name": "Download update",
+  "type": "text",
+  "x": 3950,
+  "y": 65452.5,
+  "width": 200,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 3950,
+    "y": 65452.5,
+    "width": 200,
+    "height": 24,
+    "x1": 3950,
+    "y1": 65452.5,
+    "x2": 4150,
+    "y2": 65476.5
+  },
+  "points": [
+    {
+      "x": 3950,
+      "y": 65452.5
+    },
+    {
+      "x": 4150,
+      "y": 65452.5
+    },
+    {
+      "x": 4150,
+      "y": 65476.5
+    },
+    {
+      "x": 3950,
+      "y": 65476.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "4b09cf68-d032-4bfc-acdc-6066205592dd",
+  "frameId": "4b09cf68-d032-4bfc-acdc-6066205592dd",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#162132",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Download update"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#162132",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503db2a895",
+  "positionData": [
+    {
+      "y": 65477.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "width": 200,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3950,
+      "fills": [
+        {
+          "fillColor": "#162132",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Download update"
+    }
+  ]
+}

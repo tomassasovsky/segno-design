@@ -1,0 +1,135 @@
+{
+  "id": "9a42e0d0-da44-4225-b27b-34ed59f586d0",
+  "name": "Time signature",
+  "type": "text",
+  "x": 4496,
+  "y": 9282.297,
+  "width": 260.828,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 4496,
+    "y": 9282.297,
+    "width": 260.828,
+    "height": 42,
+    "x1": 4496,
+    "y1": 9282.297,
+    "x2": 4756.8279999999995,
+    "y2": 9324.297
+  },
+  "points": [
+    {
+      "x": 4496,
+      "y": 9282.297
+    },
+    {
+      "x": 4756.8279999999995,
+      "y": 9282.297
+    },
+    {
+      "x": 4756.8279999999995,
+      "y": 9324.297
+    },
+    {
+      "x": 4496,
+      "y": 9324.297
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "74b9f239-34c1-44ef-8ec9-89738b32cbf3",
+  "frameId": "74b9f239-34c1-44ef-8ec9-89738b32cbf3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "42",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "-1.1",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Time signature"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "42",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "-1.1",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038748efa",
+  "positionData": [
+    {
+      "y": 9326.297,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "42px",
+      "fontWeight": "400",
+      "width": 260.828,
+      "textDecoration": "none",
+      "letterSpacing": "-1.1px",
+      "x": 4496,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 47,
+      "text": "Time signature"
+    }
+  ]
+}

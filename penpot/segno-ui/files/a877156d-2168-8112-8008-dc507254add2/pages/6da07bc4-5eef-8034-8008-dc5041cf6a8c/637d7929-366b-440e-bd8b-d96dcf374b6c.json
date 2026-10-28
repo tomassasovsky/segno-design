@@ -1,0 +1,135 @@
+{
+  "id": "637d7929-366b-440e-bd8b-d96dcf374b6c",
+  "name": "Artwork heading",
+  "type": "text",
+  "x": 220,
+  "y": 10628,
+  "width": 350.391,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 220,
+    "y": 10628,
+    "width": 350.391,
+    "height": 37,
+    "x1": 220,
+    "y1": 10628,
+    "x2": 570.3910000000001,
+    "y2": 10665
+  },
+  "points": [
+    {
+      "x": 220,
+      "y": 10628
+    },
+    {
+      "x": 570.3910000000001,
+      "y": 10628
+    },
+    {
+      "x": 570.3910000000001,
+      "y": 10665
+    },
+    {
+      "x": 220,
+      "y": 10665
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1b810041-87fe-45f4-ad37-0e4a09f948db",
+  "frameId": "1b810041-87fe-45f4-ad37-0e4a09f948db",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Segno \u00b7 Settings artwork"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5041cf6a8c",
+  "positionData": [
+    {
+      "y": 10664,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 350.391,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 220,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Segno \u00b7 Settings artwork"
+    }
+  ]
+}

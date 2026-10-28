@@ -1,0 +1,135 @@
+{
+  "id": "5a018a61-97a8-4d7e-967a-3ba72ccb393f",
+  "name": "Mute in place \/ Label",
+  "type": "text",
+  "x": 2380,
+  "y": 51632,
+  "width": 397,
+  "height": 43,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 51632,
+    "width": 397,
+    "height": 43,
+    "x1": 2380,
+    "y1": 51632,
+    "x2": 2777,
+    "y2": 51675
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 51632
+    },
+    {
+      "x": 2777,
+      "y": 51632
+    },
+    {
+      "x": 2777,
+      "y": 51675
+    },
+    {
+      "x": 2380,
+      "y": 51675
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2eaf6d2a-7ca7-45e4-bc69-ca8f1c5fff66",
+  "frameId": "2eaf6d2a-7ca7-45e4-bc69-ca8f1c5fff66",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1053",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1053",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "38",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c4cdde",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Mute \u00b7 Same track view"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "38",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c4cdde",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f",
+  "positionData": [
+    {
+      "y": 51674,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "width": 397,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#c4cdde",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 42,
+      "text": "Mute \u00b7 Same track view"
+    }
+  ]
+}

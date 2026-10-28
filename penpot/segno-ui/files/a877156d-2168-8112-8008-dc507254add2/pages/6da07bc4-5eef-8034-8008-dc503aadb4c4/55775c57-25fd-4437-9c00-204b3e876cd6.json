@@ -1,0 +1,135 @@
+{
+  "id": "55775c57-25fd-4437-9c00-204b3e876cd6",
+  "name": "All recorded tracks",
+  "type": "text",
+  "x": 7820,
+  "y": 28148,
+  "width": 215.313,
+  "height": 26,
+  "rotation": 0,
+  "selrect": {
+    "x": 7820,
+    "y": 28148,
+    "width": 215.313,
+    "height": 26,
+    "x1": 7820,
+    "y1": 28148,
+    "x2": 8035.313,
+    "y2": 28174
+  },
+  "points": [
+    {
+      "x": 7820,
+      "y": 28148
+    },
+    {
+      "x": 8035.313,
+      "y": 28148
+    },
+    {
+      "x": 8035.313,
+      "y": 28174
+    },
+    {
+      "x": 7820,
+      "y": 28174
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1ce1b2db-e2e3-4a51-ab02-cc92c2ae8321",
+  "frameId": "1ce1b2db-e2e3-4a51-ab02-cc92c2ae8321",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "26",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aebdd2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "All recorded tracks"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "26",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aebdd2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503aadb4c4",
+  "positionData": [
+    {
+      "y": 28176,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "width": 215.313,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7820,
+      "fills": [
+        {
+          "fillColor": "#aebdd2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 30,
+      "text": "All recorded tracks"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "73ffbba7-55e2-46a3-8acd-9a951c839076",
+  "name": "First take caption",
+  "type": "text",
+  "x": 2380,
+  "y": 75064,
+  "width": 688.422,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 75064,
+    "width": 688.422,
+    "height": 37,
+    "x1": 2380,
+    "y1": 75064,
+    "x2": 3068.422,
+    "y2": 75101
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 75064
+    },
+    {
+      "x": 3068.422,
+      "y": 75064
+    },
+    {
+      "x": 3068.422,
+      "y": 75101
+    },
+    {
+      "x": 2380,
+      "y": 75101
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d8e58a64-8b9e-490e-afe6-51ad5f1921f5",
+  "frameId": "d8e58a64-8b9e-490e-afe6-51ad5f1921f5",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#d5ddf5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "First Auto take \u00b7 Audio duration stays unchanged"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#d5ddf5",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e003bd8",
+  "positionData": [
+    {
+      "y": 75100,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 688.422,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#d5ddf5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "First Auto take \u00b7 Audio duration stays unchanged"
+    }
+  ]
+}

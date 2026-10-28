@@ -1,0 +1,135 @@
+{
+  "id": "c23034b8-fd77-487a-a245-b7a1cdc53ed1",
+  "name": "guitar",
+  "type": "text",
+  "x": 596.734,
+  "y": 50610.5,
+  "width": 85.141,
+  "height": 30,
+  "rotation": 0,
+  "selrect": {
+    "x": 596.734,
+    "y": 50610.5,
+    "width": 85.141,
+    "height": 30,
+    "x1": 596.734,
+    "y1": 50610.5,
+    "x2": 681.875,
+    "y2": 50640.5
+  },
+  "points": [
+    {
+      "x": 596.734,
+      "y": 50610.5
+    },
+    {
+      "x": 681.875,
+      "y": 50610.5
+    },
+    {
+      "x": 681.875,
+      "y": 50640.5
+    },
+    {
+      "x": 596.734,
+      "y": 50640.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "0fb5ea77-e468-4575-be87-387669a21f4b",
+  "frameId": "0fb5ea77-e468-4575-be87-387669a21f4b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "30",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0.3",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "guitar"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "30",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0.3",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f",
+  "positionData": [
+    {
+      "y": 50641.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "30px",
+      "fontWeight": "700",
+      "width": 85.141,
+      "textDecoration": "none",
+      "letterSpacing": "0.3px",
+      "x": 596.734,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 33,
+      "text": "guitar"
+    }
+  ]
+}

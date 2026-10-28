@@ -1,0 +1,135 @@
+{
+  "id": "46788282-3bd3-410c-a372-887f5fd5dd1e",
+  "name": "t\/stage-fx-overlay",
+  "type": "text",
+  "x": 2380,
+  "y": 7691,
+  "width": 260.328,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 7691,
+    "width": 260.328,
+    "height": 19,
+    "x1": 2380,
+    "y1": 7691,
+    "x2": 2640.328,
+    "y2": 7710
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 7691
+    },
+    {
+      "x": 2640.328,
+      "y": 7691
+    },
+    {
+      "x": 2640.328,
+      "y": 7710
+    },
+    {
+      "x": 2380,
+      "y": 7710
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c563223d-90e7-435d-9827-3ef90c762b9d",
+  "frameId": "c563223d-90e7-435d-9827-3ef90c762b9d",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2667",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2667",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "600",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Stage \u2014 FX mode (overlay concept)"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "positionData": [
+    {
+      "y": 7710,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "width": 260.328,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 19,
+      "text": "Stage \u2014 FX mode (overlay concept)"
+    }
+  ]
+}

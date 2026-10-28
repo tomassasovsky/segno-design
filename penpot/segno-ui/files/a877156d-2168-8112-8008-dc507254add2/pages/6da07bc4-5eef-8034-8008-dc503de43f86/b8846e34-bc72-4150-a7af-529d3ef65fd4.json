@@ -1,0 +1,135 @@
+{
+  "id": "b8846e34-bc72-4150-a7af-529d3ef65fd4",
+  "name": "Find audio",
+  "type": "text",
+  "x": 8464.484,
+  "y": 70405.5,
+  "width": 112.078,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 8464.484,
+    "y": 70405.5,
+    "width": 112.078,
+    "height": 24,
+    "x1": 8464.484,
+    "y1": 70405.5,
+    "x2": 8576.562,
+    "y2": 70429.5
+  },
+  "points": [
+    {
+      "x": 8464.484,
+      "y": 70405.5
+    },
+    {
+      "x": 8576.562,
+      "y": 70405.5
+    },
+    {
+      "x": 8576.562,
+      "y": 70429.5
+    },
+    {
+      "x": 8464.484,
+      "y": 70429.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "05969336-c5f6-4081-a04d-59fa7ec26d58",
+  "frameId": "05969336-c5f6-4081-a04d-59fa7ec26d58",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Find audio"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503de43f86",
+  "positionData": [
+    {
+      "y": 70430.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 112.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8464.484,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Find audio"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "8e2574e6-16ae-4327-8e54-c412d77b2e98",
+  "name": "note",
+  "type": "text",
+  "x": 953,
+  "y": 17905.406,
+  "width": 285.141,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 953,
+    "y": 17905.406,
+    "width": 285.141,
+    "height": 21,
+    "x1": 953,
+    "y1": 17905.406,
+    "x2": 1238.141,
+    "y2": 17926.406
+  },
+  "points": [
+    {
+      "x": 953,
+      "y": 17905.406
+    },
+    {
+      "x": 1238.141,
+      "y": 17905.406
+    },
+    {
+      "x": 1238.141,
+      "y": 17926.406
+    },
+    {
+      "x": 953,
+      "y": 17926.406
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "492d65b3-b499-45e8-88b6-7ed9cf0ab18b",
+  "frameId": "492d65b3-b499-45e8-88b6-7ed9cf0ab18b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Effects for this lane live on the Signal page."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50402f9f37",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 17924.406,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 285.141,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 953,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Effects for this lane live on the Signal page."
+    }
+  ],
+  "layoutItemZIndex": 0
+}

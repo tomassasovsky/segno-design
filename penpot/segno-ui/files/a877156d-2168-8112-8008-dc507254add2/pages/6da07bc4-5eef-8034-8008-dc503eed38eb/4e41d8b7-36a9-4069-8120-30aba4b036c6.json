@@ -1,0 +1,135 @@
+{
+  "id": "4e41d8b7-36a9-4069-8120-30aba4b036c6",
+  "name": "Assign notes, sustain or sound controls",
+  "type": "text",
+  "x": 3726,
+  "y": 99474,
+  "width": 313.172,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 3726,
+    "y": 99474,
+    "width": 313.172,
+    "height": 18,
+    "x1": 3726,
+    "y1": 99474,
+    "x2": 4039.172,
+    "y2": 99492
+  },
+  "points": [
+    {
+      "x": 3726,
+      "y": 99474
+    },
+    {
+      "x": 4039.172,
+      "y": 99474
+    },
+    {
+      "x": 4039.172,
+      "y": 99492
+    },
+    {
+      "x": 3726,
+      "y": 99492
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2d813a0d-2173-4b55-b16b-8d8db870a756",
+  "frameId": "2d813a0d-2173-4b55-b16b-8d8db870a756",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b6c7de",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Assign notes, sustain or sound controls"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b6c7de",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eed38eb",
+  "positionData": [
+    {
+      "y": 99493,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 313.172,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3726,
+      "fills": [
+        {
+          "fillColor": "#b6c7de",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 20,
+      "text": "Assign notes, sustain or sound controls"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "e663da76-8c94-46eb-90f8-8fa084132d2e",
+  "name": "Start restarts loops. Continue resumes them.",
+  "type": "text",
+  "x": 1252,
+  "y": 56450,
+  "width": 436.531,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 1252,
+    "y": 56450,
+    "width": 436.531,
+    "height": 22,
+    "x1": 1252,
+    "y1": 56450,
+    "x2": 1688.531,
+    "y2": 56472
+  },
+  "points": [
+    {
+      "x": 1252,
+      "y": 56450
+    },
+    {
+      "x": 1688.531,
+      "y": 56450
+    },
+    {
+      "x": 1688.531,
+      "y": 56472
+    },
+    {
+      "x": 1252,
+      "y": 56472
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ecba07a7-fe48-4ce5-85db-f7daecdd3bff",
+  "frameId": "ecba07a7-fe48-4ce5-85db-f7daecdd3bff",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aeb5c1",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Start restarts loops. Continue resumes them."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aeb5c1",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d68754c",
+  "positionData": [
+    {
+      "y": 56473,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 436.531,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1252,
+      "fills": [
+        {
+          "fillColor": "#aeb5c1",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Start restarts loops. Continue resumes them."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "1573d83a-80ba-4cf2-a1d1-160f45c661ba",
+  "name": "Rename tracks. The name is what the stag",
+  "type": "text",
+  "x": 4660,
+  "y": 18200.078,
+  "width": 623.719,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 4660,
+    "y": 18200.078,
+    "width": 623.719,
+    "height": 21,
+    "x1": 4660,
+    "y1": 18200.078,
+    "x2": 5283.719,
+    "y2": 18221.078
+  },
+  "points": [
+    {
+      "x": 4660,
+      "y": 18200.078
+    },
+    {
+      "x": 5283.719,
+      "y": 18200.078
+    },
+    {
+      "x": 5283.719,
+      "y": 18221.078
+    },
+    {
+      "x": 4660,
+      "y": 18221.078
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c56f29d8-d2ce-4ea1-8b4e-0ee270dcad86",
+  "frameId": "c56f29d8-d2ce-4ea1-8b4e-0ee270dcad86",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Rename tracks. The name is what the stage, the pedal targets and the 7-inch readout all show."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50402f9f37",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 18219.078,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 623.719,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4660,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Rename tracks. The name is what the stage, the pedal targets and the 7-inch readout all show."
+    }
+  ],
+  "layoutItemZIndex": 3
+}

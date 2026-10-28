@@ -1,0 +1,138 @@
+{
+  "id": "b1c69bda-94d8-424d-b6c3-5312c4597f0f",
+  "name": "Switch bank A \/ B",
+  "type": "text",
+  "x": 9549.438,
+  "y": 34339.984,
+  "width": 133.359,
+  "height": 18.078,
+  "rotation": 0,
+  "selrect": {
+    "x": 9549.438,
+    "y": 34339.984,
+    "width": 133.359,
+    "height": 18.078,
+    "x1": 9549.438,
+    "y1": 34339.984,
+    "x2": 9682.797,
+    "y2": 34358.062
+  },
+  "points": [
+    {
+      "x": 9549.438,
+      "y": 34339.984
+    },
+    {
+      "x": 9682.797,
+      "y": 34339.984
+    },
+    {
+      "x": 9682.797,
+      "y": 34358.062
+    },
+    {
+      "x": 9549.438,
+      "y": 34358.062
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "0f2a4f25-fc68-40e9-b90e-8d1c28e24e63",
+  "frameId": "0f2a4f25-fc68-40e9-b90e-8d1c28e24e63",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.13",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.13",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Switch bank A \/ B"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 34358.984,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 133.359,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9549.438,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Switch bank A \/ B"
+    }
+  ],
+  "layoutItemZIndex": 1
+}

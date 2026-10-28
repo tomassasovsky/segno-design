@@ -1,0 +1,198 @@
+{
+  "id": "4fe19c41-f6ea-423b-b1ed-42a0e65fbf79",
+  "name": "c\/signal-detail",
+  "type": "text",
+  "x": 6820,
+  "y": 3242,
+  "width": 1800,
+  "height": 64,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 3242,
+    "width": 1800,
+    "height": 64,
+    "x1": 6820,
+    "y1": 3242,
+    "x2": 8620,
+    "y2": 3306
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 3242
+    },
+    {
+      "x": 8620,
+      "y": 3242
+    },
+    {
+      "x": 8620,
+      "y": 3306
+    },
+    {
+      "x": 6820,
+      "y": 3306
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d569bee5-6caf-487a-adfb-71f9dc8ba934",
+  "frameId": "d569bee5-6caf-487a-adfb-71f9dc8ba934",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Rack chooser, the chain as chips, the level and whether it is in the mix at all. A boolean inside a stack of segmented rows stays segmented; a boolean in a list row is a switch \u2014 which is why the master face\u2019s per-output booleans are switches and \u201cin the mix\u201d is not. \u201cHear while playing\u201d is input-only: the tri-state exists for auto, which resolves against the record arm, and only a hardware input can be armed \u2014 the row is omitted on loop, track and master. The chain caption carries the chain\u2019s own power (\u201cChain on\u201d \/ \u201cChain off\u201d, the consequence sentence in warning beside it while off \u2014 without the pill, a chain switched off by a pedal could never be switched back on) and \u201cRe-sync from input\u201d, offered only while the routed input has an audible chain to copy. An overdub taken against a since-edited input chain shows the mismatch note above the chain: it is captured dry and does not re-inherit."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 3258,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1763.797,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Rack chooser, the chain as chips, the level and whether it is in the mix at all. A boolean inside a stack of segmented rows stays segmented; a boolean in a list row is a switch \u2014 which is why the master face\u2019s per-output booleans are switches and \u201cin the mix\u201d is not. \u201cHear while playing\u201d is "
+    },
+    {
+      "y": 3274,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1775.797,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "input-only: the tri-state exists for auto, which resolves against the record arm, and only a hardware input can be armed \u2014 the row is omitted on loop, track and master. The chain caption carries the chain\u2019s own power (\u201cChain on\u201d \/ \u201cChain off\u201d, the consequence sentence in warning beside it "
+    },
+    {
+      "y": 3290,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1747.859,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "while off \u2014 without the pill, a chain switched off by a pedal could never be switched back on) and \u201cRe-sync from input\u201d, offered only while the routed input has an audible chain to copy. An overdub taken against a since-edited input chain shows the mismatch note above the chain: it is "
+    },
+    {
+      "y": 3306,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 226.984,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "captured dry and does not re-inherit."
+    }
+  ]
+}

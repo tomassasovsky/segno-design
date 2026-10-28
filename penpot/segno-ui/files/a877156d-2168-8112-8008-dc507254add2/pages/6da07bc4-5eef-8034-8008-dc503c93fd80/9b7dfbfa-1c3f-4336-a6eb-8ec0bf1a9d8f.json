@@ -1,0 +1,135 @@
+{
+  "id": "9b7dfbfa-1c3f-4336-a6eb-8ec0bf1a9d8f",
+  "name": "Overhead microphone",
+  "type": "text",
+  "x": 13343,
+  "y": 46141.5,
+  "width": 217.688,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 13343,
+    "y": 46141.5,
+    "width": 217.688,
+    "height": 22,
+    "x1": 13343,
+    "y1": 46141.5,
+    "x2": 13560.688,
+    "y2": 46163.5
+  },
+  "points": [
+    {
+      "x": 13343,
+      "y": 46141.5
+    },
+    {
+      "x": 13560.688,
+      "y": 46141.5
+    },
+    {
+      "x": 13560.688,
+      "y": 46163.5
+    },
+    {
+      "x": 13343,
+      "y": 46163.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e5bb9ef0-98de-48df-9f77-cbb618d976eb",
+  "frameId": "e5bb9ef0-98de-48df-9f77-cbb618d976eb",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c7c7c7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Overhead microphone"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c7c7c7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c93fd80",
+  "positionData": [
+    {
+      "y": 46164.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 217.688,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 13343,
+      "fills": [
+        {
+          "fillColor": "#c7c7c7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Overhead microphone"
+    }
+  ]
+}

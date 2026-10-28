@@ -1,0 +1,135 @@
+{
+  "id": "58494519-1205-49f6-976a-57ab39242f86",
+  "name": "Retry an interrupted copy \/ Label",
+  "type": "text",
+  "x": 10980,
+  "y": 68176,
+  "width": 426.672,
+  "height": 43,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 68176,
+    "width": 426.672,
+    "height": 43,
+    "x1": 10980,
+    "y1": 68176,
+    "x2": 11406.672,
+    "y2": 68219
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 68176
+    },
+    {
+      "x": 11406.672,
+      "y": 68176
+    },
+    {
+      "x": 11406.672,
+      "y": 68219
+    },
+    {
+      "x": 10980,
+      "y": 68219
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8b2dbc3c-707d-4619-8ef8-33e9c9c5efc0",
+  "frameId": "8b2dbc3c-707d-4619-8ef8-33e9c9c5efc0",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1053",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1053",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "38",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e2e7f0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Retry an interrupted copy"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "38",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e2e7f0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503db7bb0f",
+  "positionData": [
+    {
+      "y": 68218,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "width": 426.672,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#e2e7f0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 42,
+      "text": "Retry an interrupted copy"
+    }
+  ]
+}

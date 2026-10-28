@@ -1,0 +1,146 @@
+{
+  "id": "0de63f78-b01f-44d0-a2e9-1fc162b82d7b",
+  "name": "chev",
+  "type": "text",
+  "x": 10770.688,
+  "y": 14218.516,
+  "width": 8.313,
+  "height": 16,
+  "rotation": 0,
+  "selrect": {
+    "x": 10770.688,
+    "y": 14218.516,
+    "width": 8.313,
+    "height": 16,
+    "x1": 10770.688,
+    "y1": 14218.516,
+    "x2": 10779.001,
+    "y2": 14234.516
+  },
+  "points": [
+    {
+      "x": 10770.688,
+      "y": 14218.516
+    },
+    {
+      "x": 10779.001,
+      "y": 14218.516
+    },
+    {
+      "x": 10779.001,
+      "y": 14234.516
+    },
+    {
+      "x": 10770.688,
+      "y": 14234.516
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ba77c381-d113-48b3-a804-641942d54ca0",
+  "frameId": "ba77c381-d113-48b3-a804-641942d54ca0",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "\u25be"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503fbe53a3",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-muted",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 14234.516,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 8.313,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10770.688,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "\u25be"
+    }
+  ],
+  "layoutItemZIndex": 1
+}

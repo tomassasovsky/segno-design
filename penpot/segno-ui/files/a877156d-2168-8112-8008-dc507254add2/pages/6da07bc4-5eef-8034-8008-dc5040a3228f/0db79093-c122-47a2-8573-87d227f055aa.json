@@ -1,0 +1,138 @@
+{
+  "id": "0db79093-c122-47a2-8573-87d227f055aa",
+  "name": "A WPA2 passphrase is at least 8 characte",
+  "type": "text",
+  "x": 2400,
+  "y": 26442.063,
+  "width": 291.984,
+  "height": 16.938,
+  "rotation": 0,
+  "selrect": {
+    "x": 2400,
+    "y": 26442.063,
+    "width": 291.984,
+    "height": 16.938,
+    "x1": 2400,
+    "y1": 26442.063,
+    "x2": 2691.984,
+    "y2": 26459.000999999997
+  },
+  "points": [
+    {
+      "x": 2400,
+      "y": 26442.063
+    },
+    {
+      "x": 2691.984,
+      "y": 26442.063
+    },
+    {
+      "x": 2691.984,
+      "y": 26459.000999999997
+    },
+    {
+      "x": 2400,
+      "y": 26459.000999999997
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "36d60fc0-974a-40b8-aabc-7674bf8dd370",
+  "frameId": "36d60fc0-974a-40b8-aabc-7674bf8dd370",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.21",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.21",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e5484d",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "A WPA2 passphrase is at least 8 characters."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e5484d",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc5040a3228f",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 26458.063,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 291.984,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2400,
+      "fills": [
+        {
+          "fillColor": "#e5484d",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "A WPA2 passphrase is at least 8 characters."
+    }
+  ],
+  "layoutItemZIndex": 4
+}

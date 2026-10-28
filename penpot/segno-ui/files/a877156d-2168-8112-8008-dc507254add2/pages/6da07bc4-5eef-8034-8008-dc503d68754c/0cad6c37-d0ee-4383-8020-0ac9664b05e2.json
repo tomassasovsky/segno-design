@@ -1,0 +1,135 @@
+{
+  "id": "0cad6c37-d0ee-4383-8020-0ac9664b05e2",
+  "name": "Play \/ Stop",
+  "type": "text",
+  "x": 1349.5,
+  "y": 56726.688,
+  "width": 101.563,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 1349.5,
+    "y": 56726.688,
+    "width": 101.563,
+    "height": 21,
+    "x1": 1349.5,
+    "y1": 56726.688,
+    "x2": 1451.063,
+    "y2": 56747.688
+  },
+  "points": [
+    {
+      "x": 1349.5,
+      "y": 56726.688
+    },
+    {
+      "x": 1451.063,
+      "y": 56726.688
+    },
+    {
+      "x": 1451.063,
+      "y": 56747.688
+    },
+    {
+      "x": 1349.5,
+      "y": 56747.688
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "4f5b1876-221c-4f9e-a95f-50c0119c211d",
+  "frameId": "4f5b1876-221c-4f9e-a95f-50c0119c211d",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "21",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#edf3fc",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Play \/ Stop"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "21",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#edf3fc",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d68754c",
+  "positionData": [
+    {
+      "y": 56748.688,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "21px",
+      "fontWeight": "400",
+      "width": 101.563,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1349.5,
+      "fills": [
+        {
+          "fillColor": "#edf3fc",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 23,
+      "text": "Play \/ Stop"
+    }
+  ]
+}

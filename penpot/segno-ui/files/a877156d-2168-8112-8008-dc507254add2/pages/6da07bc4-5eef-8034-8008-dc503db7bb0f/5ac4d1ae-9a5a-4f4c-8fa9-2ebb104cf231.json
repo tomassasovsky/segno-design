@@ -1,0 +1,135 @@
+{
+  "id": "5ac4d1ae-9a5a-4f4c-8fa9-2ebb104cf231",
+  "name": "USB session list \/ Label",
+  "type": "text",
+  "x": 10980,
+  "y": 66904,
+  "width": 274.547,
+  "height": 43,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 66904,
+    "width": 274.547,
+    "height": 43,
+    "x1": 10980,
+    "y1": 66904,
+    "x2": 11254.547,
+    "y2": 66947
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 66904
+    },
+    {
+      "x": 11254.547,
+      "y": 66904
+    },
+    {
+      "x": 11254.547,
+      "y": 66947
+    },
+    {
+      "x": 10980,
+      "y": 66947
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "0c064d2a-c321-43e4-b05d-efa1cae594c4",
+  "frameId": "0c064d2a-c321-43e4-b05d-efa1cae594c4",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1053",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1053",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "38",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e2e7f0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "USB session list"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "38",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e2e7f0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503db7bb0f",
+  "positionData": [
+    {
+      "y": 66946,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "width": 274.547,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#e2e7f0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 42,
+      "text": "USB session list"
+    }
+  ]
+}

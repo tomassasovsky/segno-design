@@ -1,0 +1,138 @@
+{
+  "id": "3a5c0ddc-87a7-4a0d-a533-ddc032e44743",
+  "name": "Tempo",
+  "type": "text",
+  "x": 2400,
+  "y": 11975.469,
+  "width": 60.156,
+  "height": 21.047,
+  "rotation": 0,
+  "selrect": {
+    "x": 2400,
+    "y": 11975.469,
+    "width": 60.156,
+    "height": 21.047,
+    "x1": 2400,
+    "y1": 11975.469,
+    "x2": 2460.156,
+    "y2": 11996.516
+  },
+  "points": [
+    {
+      "x": 2400,
+      "y": 11975.469
+    },
+    {
+      "x": 2460.156,
+      "y": 11975.469
+    },
+    {
+      "x": 2460.156,
+      "y": 11996.516
+    },
+    {
+      "x": 2400,
+      "y": 11996.516
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "a80d5397-e4da-4a1e-a879-e20bb88e6ca9",
+  "frameId": "a80d5397-e4da-4a1e-a879-e20bb88e6ca9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.17",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.17",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "18",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Tempo"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "18",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50400567e5",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 11996.469,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "width": 60.156,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2400,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 21,
+      "text": "Tempo"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

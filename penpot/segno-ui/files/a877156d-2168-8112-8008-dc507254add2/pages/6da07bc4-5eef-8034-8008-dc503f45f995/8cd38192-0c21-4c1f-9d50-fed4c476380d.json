@@ -1,0 +1,156 @@
+{
+  "id": "8cd38192-0c21-4c1f-9d50-fed4c476380d",
+  "name": "c\/master-last-output",
+  "type": "text",
+  "x": 8900,
+  "y": 7436,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 7436,
+    "width": 1800,
+    "height": 32,
+    "x1": 8900,
+    "y1": 7436,
+    "x2": 10700,
+    "y2": 7468
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 7436
+    },
+    {
+      "x": 10700,
+      "y": 7436
+    },
+    {
+      "x": 10700,
+      "y": 7468
+    },
+    {
+      "x": 8900,
+      "y": 7468
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "bfa7a3e4-336c-4dae-8796-39bfd2b86af9",
+  "frameId": "bfa7a3e4-336c-4dae-8796-39bfd2b86af9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Out 1 is already off; the tap on Out 2 stops here instead of landing. Switching the last live output off is the silence the Audio face warns about, and this must not be a way to reach it without being told \u2014 so the last one asks, in the warning\u2019s own amber, not the destructive red: nothing is destroyed, and Keep it on costs nothing. The switch itself has not moved yet \u2014 the dialog intercepts the write, it does not undo it. Any other output\u2019s switch flips silently, because every other off is reversible by ear."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 7452,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1749.25,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Out 1 is already off; the tap on Out 2 stops here instead of landing. Switching the last live output off is the silence the Audio face warns about, and this must not be a way to reach it without being told \u2014 so the last one asks, in the warning\u2019s own amber, not the destructive red: nothing is "
+    },
+    {
+      "y": 7468,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1305.047,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "destroyed, and Keep it on costs nothing. The switch itself has not moved yet \u2014 the dialog intercepts the write, it does not undo it. Any other output\u2019s switch flips silently, because every other off is reversible by ear."
+    }
+  ]
+}

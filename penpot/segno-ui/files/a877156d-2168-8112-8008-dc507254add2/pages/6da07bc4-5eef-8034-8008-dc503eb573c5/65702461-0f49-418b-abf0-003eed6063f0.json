@@ -1,0 +1,135 @@
+{
+  "id": "65702461-0f49-418b-abf0-003eed6063f0",
+  "name": "Use Track 2 for timing?",
+  "type": "text",
+  "x": 9421,
+  "y": 95290,
+  "width": 329,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 9421,
+    "y": 95290,
+    "width": 329,
+    "height": 32,
+    "x1": 9421,
+    "y1": 95290,
+    "x2": 9750,
+    "y2": 95322
+  },
+  "points": [
+    {
+      "x": 9421,
+      "y": 95290
+    },
+    {
+      "x": 9750,
+      "y": 95290
+    },
+    {
+      "x": 9750,
+      "y": 95322
+    },
+    {
+      "x": 9421,
+      "y": 95322
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e1f331e5-0c8d-46f2-b9d9-a1045f5e2fe7",
+  "frameId": "e1f331e5-0c8d-46f2-b9d9-a1045f5e2fe7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Use Track 2 for timing?"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eb573c5",
+  "positionData": [
+    {
+      "y": 95324,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 329,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9421,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Use Track 2 for timing?"
+    }
+  ]
+}

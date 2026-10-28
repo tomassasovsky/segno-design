@@ -1,0 +1,135 @@
+{
+  "id": "636de9cb-87e0-4d01-97d2-c2f1cdf20b09",
+  "name": "Test the touch",
+  "type": "text",
+  "x": 6908,
+  "y": 61709.5,
+  "width": 174.344,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 6908,
+    "y": 61709.5,
+    "width": 174.344,
+    "height": 28,
+    "x1": 6908,
+    "y1": 61709.5,
+    "x2": 7082.344,
+    "y2": 61737.5
+  },
+  "points": [
+    {
+      "x": 6908,
+      "y": 61709.5
+    },
+    {
+      "x": 7082.344,
+      "y": 61709.5
+    },
+    {
+      "x": 7082.344,
+      "y": 61737.5
+    },
+    {
+      "x": 6908,
+      "y": 61737.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d6acef14-17c0-42a2-9a86-81a40dcf5fcd",
+  "frameId": "d6acef14-17c0-42a2-9a86-81a40dcf5fcd",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Test the touch"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d9ceaa7",
+  "positionData": [
+    {
+      "y": 61738.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 174.344,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6908,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Test the touch"
+    }
+  ]
+}

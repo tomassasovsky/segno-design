@@ -1,0 +1,138 @@
+{
+  "id": "687d40b4-9653-4e2b-b64f-a2adf3ad7933",
+  "name": "Time signature",
+  "type": "text",
+  "x": 521,
+  "y": 11529.547,
+  "width": 1593.797,
+  "height": 20.047,
+  "rotation": 0,
+  "selrect": {
+    "x": 521,
+    "y": 11529.547,
+    "width": 1593.797,
+    "height": 20.047,
+    "x1": 521,
+    "y1": 11529.547,
+    "x2": 2114.797,
+    "y2": 11549.594000000001
+  },
+  "points": [
+    {
+      "x": 521,
+      "y": 11529.547
+    },
+    {
+      "x": 2114.797,
+      "y": 11529.547
+    },
+    {
+      "x": 2114.797,
+      "y": 11549.594000000001
+    },
+    {
+      "x": 521,
+      "y": 11549.594000000001
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "f10b92fe-a00e-4da0-8f74-b4ca02bcc3dc",
+  "frameId": "f10b92fe-a00e-4da0-8f74-b4ca02bcc3dc",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.18",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.18",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "17",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Time signature"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "17",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50400567e5",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 11549.547,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "width": 119.438,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 521,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Time signature"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

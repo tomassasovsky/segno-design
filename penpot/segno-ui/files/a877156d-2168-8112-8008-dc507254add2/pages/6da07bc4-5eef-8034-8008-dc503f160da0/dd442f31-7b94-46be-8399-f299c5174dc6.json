@@ -1,0 +1,135 @@
+{
+  "id": "dd442f31-7b94-46be-8399-f299c5174dc6",
+  "name": "c\/stage",
+  "type": "text",
+  "x": 300,
+  "y": 1817,
+  "width": 1800,
+  "height": 16,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 1817,
+    "width": 1800,
+    "height": 16,
+    "x1": 300,
+    "y1": 1817,
+    "x2": 2100,
+    "y2": 1833
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 1817
+    },
+    {
+      "x": 2100,
+      "y": 1817
+    },
+    {
+      "x": 2100,
+      "y": 1833
+    },
+    {
+      "x": 300,
+      "y": 1833
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "bbc5290e-dc17-4a6c-9047-072fdd0cf8a3",
+  "frameId": "bbc5290e-dc17-4a6c-9047-072fdd0cf8a3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Play, play, stop, empty. Ten-slot history dots with page-turn gutters, absent entirely on the empty track."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "positionData": [
+    {
+      "y": 1833,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 634.469,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Play, play, stop, empty. Ten-slot history dots with page-turn gutters, absent entirely on the empty track."
+    }
+  ]
+}

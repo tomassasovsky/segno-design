@@ -1,0 +1,156 @@
+{
+  "id": "151d9f86-184d-44fb-8425-e2834a59f464",
+  "name": "c\/tracks-empty",
+  "type": "text",
+  "x": 300,
+  "y": 20141,
+  "width": 1800,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 20141,
+    "width": 1800,
+    "height": 42,
+    "x1": 300,
+    "y1": 20141,
+    "x2": 2100,
+    "y2": 20183
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 20141
+    },
+    {
+      "x": 2100,
+      "y": 20141
+    },
+    {
+      "x": 2100,
+      "y": 20183
+    },
+    {
+      "x": 300,
+      "y": 20183
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ca747ef0-e919-487c-9d11-86b7efc86504",
+  "frameId": "ca747ef0-e919-487c-9d11-86b7efc86504",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1667",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1667",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "A stopped engine has no tracks to name, time or route \u2014 the card says so instead of collapsing to a sliver. Drawn to the shared empty card the Network face already ships (78px, the stronger edge, the muted sentence) rather than to this screen's own earlier geometry."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50402f9f37",
+  "positionData": [
+    {
+      "y": 20162,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 1766.422,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 21,
+      "text": "A stopped engine has no tracks to name, time or route \u2014 the card says so instead of collapsing to a sliver. Drawn to the shared empty card the Network face already ships (78px, the stronger edge, the muted "
+    },
+    {
+      "y": 20183,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 508.469,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 21,
+      "text": "sentence) rather than to this screen's own earlier geometry."
+    }
+  ]
+}

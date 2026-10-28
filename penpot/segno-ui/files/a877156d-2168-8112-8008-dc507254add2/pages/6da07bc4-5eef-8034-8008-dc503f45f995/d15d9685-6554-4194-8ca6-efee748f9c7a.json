@@ -1,0 +1,156 @@
+{
+  "id": "d15d9685-6554-4194-8ca6-efee748f9c7a",
+  "name": "c\/rack-delete",
+  "type": "text",
+  "x": 10980,
+  "y": 6092,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 6092,
+    "width": 1800,
+    "height": 32,
+    "x1": 10980,
+    "y1": 6092,
+    "x2": 12780,
+    "y2": 6124
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 6092
+    },
+    {
+      "x": 12780,
+      "y": 6092
+    },
+    {
+      "x": 12780,
+      "y": 6124
+    },
+    {
+      "x": 10980,
+      "y": 6124
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "105ff409-14f4-40ce-a4f1-1e93a562f361",
+  "frameId": "105ff409-14f4-40ce-a4f1-1e93a562f361",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Names what is loaded and what deleting costs. Deleting never touches a card that has the rack loaded \u2014 the loaded chain is the card\u2019s own copy and keeps playing; it simply reads \u201cno rack\u201d the next time it is drawn. Frozen inherited copies in existing takes keep the dead rack\u2019s name: there, the name is provenance, not a live reference."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 6108,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1783.063,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Names what is loaded and what deleting costs. Deleting never touches a card that has the rack loaded \u2014 the loaded chain is the card\u2019s own copy and keeps playing; it simply reads \u201cno rack\u201d the next time it is drawn. Frozen inherited copies in existing takes keep the dead rack\u2019s name: there, "
+    },
+    {
+      "y": 6124,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 276.219,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "the name is provenance, not a live reference."
+    }
+  ]
+}

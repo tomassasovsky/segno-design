@@ -1,0 +1,210 @@
+{
+  "id": "02c980ae-6e5e-418e-9910-052133ac6f5c",
+  "name": "Message",
+  "type": "text",
+  "x": 11048,
+  "y": 47606,
+  "width": 1594.188,
+  "height": 78.375,
+  "rotation": 0,
+  "selrect": {
+    "x": 11048,
+    "y": 47606,
+    "width": 1594.188,
+    "height": 78.375,
+    "x1": 11048,
+    "y1": 47606,
+    "x2": 12642.188,
+    "y2": 47684.375
+  },
+  "points": [
+    {
+      "x": 11048,
+      "y": 47606
+    },
+    {
+      "x": 12642.188,
+      "y": 47606
+    },
+    {
+      "x": 12642.188,
+      "y": 47684.375
+    },
+    {
+      "x": 11048,
+      "y": 47684.375
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "45c18c27-598a-4a18-8bec-0fef85c19cd6",
+  "frameId": "45c18c27-598a-4a18-8bec-0fef85c19cd6",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f2f4f8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Mix settings need recovery"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f2f4f8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f2f4f8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Audio was stopped to protect your settings."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f2f4f8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "geometry-group",
+    "text-content-structure",
+    "text-content-attribute"
+  ],
+  "shapeRef": "4d85433e-c655-4157-93f3-5ec1c7fc5aa1",
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c93fd80",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 47642,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 358.891,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11048,
+      "fills": [
+        {
+          "fillColor": "#f2f4f8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 34,
+      "text": "Mix settings need recovery"
+    },
+    {
+      "y": 47681.188,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 577.375,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11048,
+      "fills": [
+        {
+          "fillColor": "#f2f4f8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 34,
+      "text": "Audio was stopped to protect your settings."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

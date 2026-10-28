@@ -1,0 +1,135 @@
+{
+  "id": "36a6d3b5-0a68-44aa-a2ed-34fc05789cd2",
+  "name": "Comp Thresh",
+  "type": "text",
+  "x": 7179,
+  "y": 4022.5,
+  "width": 144.953,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 7179,
+    "y": 4022.5,
+    "width": 144.953,
+    "height": 24,
+    "x1": 7179,
+    "y1": 4022.5,
+    "x2": 7323.953,
+    "y2": 4046.5
+  },
+  "points": [
+    {
+      "x": 7179,
+      "y": 4022.5
+    },
+    {
+      "x": 7323.953,
+      "y": 4022.5
+    },
+    {
+      "x": 7323.953,
+      "y": 4046.5
+    },
+    {
+      "x": 7179,
+      "y": 4046.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "6bc743ea-2172-42c9-97ce-c764f575d989",
+  "frameId": "6bc743ea-2172-42c9-97ce-c764f575d989",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Comp Thresh"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038288efc",
+  "positionData": [
+    {
+      "y": 4047.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 144.953,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7179,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Comp Thresh"
+    }
+  ]
+}

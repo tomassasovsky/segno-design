@@ -1,0 +1,101 @@
+{
+  "id": "a5f9f6ec-db1c-4a4c-90d4-1ab6dfc46f9e",
+  "name": "Play D4",
+  "type": "frame",
+  "x": 972.938,
+  "y": 100865,
+  "width": 80,
+  "height": 206,
+  "rotation": 0,
+  "selrect": {
+    "x": 972.938,
+    "y": 100865,
+    "width": 80,
+    "height": 206,
+    "x1": 972.938,
+    "y1": 100865,
+    "x2": 1052.938,
+    "y2": 101071
+  },
+  "points": [
+    {
+      "x": 972.938,
+      "y": 100865
+    },
+    {
+      "x": 1052.938,
+      "y": 100865
+    },
+    {
+      "x": 1052.938,
+      "y": 101071
+    },
+    {
+      "x": 972.938,
+      "y": 101071
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e98e99c9-ea4e-458b-adb2-8b1fed0c3a8e",
+  "frameId": "e98e99c9-ea4e-458b-adb2-8b1fed0c3a8e",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "r2": 0,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eed38eb",
+  "r3": 0,
+  "r1": 0,
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [
+    {
+      "fillColorGradient": {
+        "type": "linear",
+        "startX": 0.5,
+        "startY": 0,
+        "endX": 0.5,
+        "endY": 1,
+        "width": 1,
+        "stops": [
+          {
+            "color": "#cfd4dc",
+            "opacity": 1,
+            "offset": 0
+          },
+          {
+            "color": "#f1f2f5",
+            "opacity": 1,
+            "offset": 0.5
+          },
+          {
+            "color": "#c9d1dc",
+            "opacity": 1,
+            "offset": 1
+          }
+        ]
+      },
+      "fillOpacity": 1
+    }
+  ],
+  "shapes": [
+    "faa3c740-cbf7-45ae-a034-069f0836299d"
+  ]
+}

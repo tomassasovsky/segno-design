@@ -1,0 +1,156 @@
+{
+  "id": "a61da568-7bb6-4827-911d-fae674e4c0a4",
+  "name": "c\/signal-master",
+  "type": "text",
+  "x": 10980,
+  "y": 1817,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 1817,
+    "width": 1800,
+    "height": 32,
+    "x1": 10980,
+    "y1": 1817,
+    "x2": 12780,
+    "y2": 1849
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 1817
+    },
+    {
+      "x": 12780,
+      "y": 1817
+    },
+    {
+      "x": 12780,
+      "y": 1849
+    },
+    {
+      "x": 10980,
+      "y": 1849
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b9c303c1-d865-494f-9e1c-8888cc1848f5",
+  "frameId": "b9c303c1-d865-494f-9e1c-8888cc1848f5",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "One card, summed after this \u2014 and the hardware outputs it is summed into, each of which can be switched off. Every one off is the silence the Audio face warns about. Output rows carry the ordinal alone: the engine reports a channel count and no names, so \u201cmain\u201d \/ \u201cphones\u201d on a 20-output interface would label sockets wired to something else. And the master card\u2019s panel has no level and no \u201cin the mix\u201d \u2014 the sum has neither a volume nor a mute in the rig."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 1833,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1795,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "One card, summed after this \u2014 and the hardware outputs it is summed into, each of which can be switched off. Every one off is the silence the Audio face warns about. Output rows carry the ordinal alone: the engine reports a channel count and no names, so \u201cmain\u201d \/ \u201cphones\u201d on a 20-output "
+    },
+    {
+      "y": 1849,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1036.047,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "interface would label sockets wired to something else. And the master card\u2019s panel has no level and no \u201cin the mix\u201d \u2014 the sum has neither a volume nor a mute in the rig."
+    }
+  ]
+}

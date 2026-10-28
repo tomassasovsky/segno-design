@@ -1,0 +1,135 @@
+{
+  "id": "2beb6fc6-15b4-4e9f-95c3-6f38e8284b43",
+  "name": "Record and overdub wait for the next bar. The first loop follows Recor",
+  "type": "text",
+  "x": 9000,
+  "y": 11304.484,
+  "width": 877.359,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 9000,
+    "y": 11304.484,
+    "width": 877.359,
+    "height": 24,
+    "x1": 9000,
+    "y1": 11304.484,
+    "x2": 9877.359,
+    "y2": 11328.484
+  },
+  "points": [
+    {
+      "x": 9000,
+      "y": 11304.484
+    },
+    {
+      "x": 9877.359,
+      "y": 11304.484
+    },
+    {
+      "x": 9877.359,
+      "y": 11328.484
+    },
+    {
+      "x": 9000,
+      "y": 11328.484
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5b0e0b8c-05a8-44b3-b5ad-1a1a251c102d",
+  "frameId": "5b0e0b8c-05a8-44b3-b5ad-1a1a251c102d",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b3c3d9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Record and overdub wait for the next bar. The first loop follows Recording settings."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b3c3d9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503889db12",
+  "positionData": [
+    {
+      "y": 11329.484,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 877.359,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9000,
+      "fills": [
+        {
+          "fillColor": "#b3c3d9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Record and overdub wait for the next bar. The first loop follows Recording settings."
+    }
+  ]
+}

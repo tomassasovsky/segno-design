@@ -1,0 +1,135 @@
+{
+  "id": "267b03d3-5d6a-4812-b674-c65f8e75799b",
+  "name": "Holding runs only the Hold action.",
+  "type": "text",
+  "x": 5240,
+  "y": 19793.906,
+  "width": 343.922,
+  "height": 23,
+  "rotation": 0,
+  "selrect": {
+    "x": 5240,
+    "y": 19793.906,
+    "width": 343.922,
+    "height": 23,
+    "x1": 5240,
+    "y1": 19793.906,
+    "x2": 5583.9220000000005,
+    "y2": 19816.906
+  },
+  "points": [
+    {
+      "x": 5240,
+      "y": 19793.906
+    },
+    {
+      "x": 5583.9220000000005,
+      "y": 19793.906
+    },
+    {
+      "x": 5583.9220000000005,
+      "y": 19816.906
+    },
+    {
+      "x": 5240,
+      "y": 19816.906
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7d60ddc0-c6ed-4cf8-83b0-34dea2b855b5",
+  "frameId": "7d60ddc0-c6ed-4cf8-83b0-34dea2b855b5",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "23",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#bac8db",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Holding runs only the Hold action."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "23",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#bac8db",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50391cda77",
+  "positionData": [
+    {
+      "y": 19817.906,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "width": 343.922,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 5240,
+      "fills": [
+        {
+          "fillColor": "#bac8db",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 26,
+      "text": "Holding runs only the Hold action."
+    }
+  ]
+}

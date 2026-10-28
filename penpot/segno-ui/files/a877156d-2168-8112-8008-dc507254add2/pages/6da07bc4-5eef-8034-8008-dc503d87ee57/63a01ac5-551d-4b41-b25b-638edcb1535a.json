@@ -1,0 +1,135 @@
+{
+  "id": "63a01ac5-551d-4b41-b25b-638edcb1535a",
+  "name": "Turn on to find nearby networks.",
+  "type": "text",
+  "x": 487,
+  "y": 60526.078,
+  "width": 314.688,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 487,
+    "y": 60526.078,
+    "width": 314.688,
+    "height": 22,
+    "x1": 487,
+    "y1": 60526.078,
+    "x2": 801.688,
+    "y2": 60548.078
+  },
+  "points": [
+    {
+      "x": 487,
+      "y": 60526.078
+    },
+    {
+      "x": 801.688,
+      "y": 60526.078
+    },
+    {
+      "x": 801.688,
+      "y": 60548.078
+    },
+    {
+      "x": 487,
+      "y": 60548.078
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "72c41799-4eea-44f2-8164-e737f6eac51c",
+  "frameId": "72c41799-4eea-44f2-8164-e737f6eac51c",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b0bbc9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Turn on to find nearby networks."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b0bbc9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d87ee57",
+  "positionData": [
+    {
+      "y": 60549.078,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 314.688,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 487,
+      "fills": [
+        {
+          "fillColor": "#b0bbc9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Turn on to find nearby networks."
+    }
+  ]
+}

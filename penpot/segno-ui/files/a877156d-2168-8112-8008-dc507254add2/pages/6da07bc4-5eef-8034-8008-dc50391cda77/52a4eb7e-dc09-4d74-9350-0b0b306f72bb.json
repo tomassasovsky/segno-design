@@ -1,0 +1,135 @@
+{
+  "id": "52a4eb7e-dc09-4d74-9350-0b0b306f72bb",
+  "name": "Pedal position",
+  "type": "text",
+  "x": 4576,
+  "y": 18408.5,
+  "width": 150.781,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 4576,
+    "y": 18408.5,
+    "width": 150.781,
+    "height": 24,
+    "x1": 4576,
+    "y1": 18408.5,
+    "x2": 4726.781,
+    "y2": 18432.5
+  },
+  "points": [
+    {
+      "x": 4576,
+      "y": 18408.5
+    },
+    {
+      "x": 4726.781,
+      "y": 18408.5
+    },
+    {
+      "x": 4726.781,
+      "y": 18432.5
+    },
+    {
+      "x": 4576,
+      "y": 18432.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "15401e25-7f77-4757-a1da-a49e45fe4db3",
+  "frameId": "15401e25-7f77-4757-a1da-a49e45fe4db3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Pedal position"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50391cda77",
+  "positionData": [
+    {
+      "y": 18433.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 150.781,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4576,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Pedal position"
+    }
+  ]
+}

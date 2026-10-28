@@ -1,0 +1,135 @@
+{
+  "id": "957d07bb-49a8-45de-90c3-aff5038dac78",
+  "name": "Rename",
+  "type": "text",
+  "x": 10546.047,
+  "y": 45460,
+  "width": 86.938,
+  "height": 23,
+  "rotation": 0,
+  "selrect": {
+    "x": 10546.047,
+    "y": 45460,
+    "width": 86.938,
+    "height": 23,
+    "x1": 10546.047,
+    "y1": 45460,
+    "x2": 10632.985,
+    "y2": 45483
+  },
+  "points": [
+    {
+      "x": 10546.047,
+      "y": 45460
+    },
+    {
+      "x": 10632.985,
+      "y": 45460
+    },
+    {
+      "x": 10632.985,
+      "y": 45483
+    },
+    {
+      "x": 10546.047,
+      "y": 45483
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e48773ae-d8bb-4b87-9e75-2681561e7e23",
+  "frameId": "e48773ae-d8bb-4b87-9e75-2681561e7e23",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "23",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a9b9ce",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Rename"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "23",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a9b9ce",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c93fd80",
+  "positionData": [
+    {
+      "y": 45484,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "width": 86.938,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10546.047,
+      "fills": [
+        {
+          "fillColor": "#a9b9ce",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 26,
+      "text": "Rename"
+    }
+  ]
+}

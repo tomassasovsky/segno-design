@@ -1,0 +1,177 @@
+{
+  "id": "d23444a0-1fdc-4cc8-9db5-3175ca4df272",
+  "name": "c\/signal-input",
+  "type": "text",
+  "x": 8900,
+  "y": 1817,
+  "width": 1800,
+  "height": 48,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 1817,
+    "width": 1800,
+    "height": 48,
+    "x1": 8900,
+    "y1": 1817,
+    "x2": 10700,
+    "y2": 1865
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 1817
+    },
+    {
+      "x": 10700,
+      "y": 1817
+    },
+    {
+      "x": 10700,
+      "y": 1865
+    },
+    {
+      "x": 8900,
+      "y": 1865
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ec93333b-bc89-4b07-862f-a583860f6dba",
+  "frameId": "ec93333b-bc89-4b07-862f-a583860f6dba",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Printed into the take. MODIFIED badge. An input card always carries its monitor line, rack or no rack \u2014 whether you hear yourself is a fact about the jack, not about the chain on it. That is where it parts company with the loop face, whose vacant card omits the line because there is no chain to hear. Loopback sockets are excluded from the run \u2014 and a rig whose every socket is loopback gets its own empty message (a running engine with nothing capturable), distinct from no sockets at all, which is a stopped engine. MODIFIED compares the live chain against the rack\u2019s saved copy \u2014 entry set, order, per-entry bypass, parameter values; a parameter nudged by a MIDI mapping counts, because drift is drift whoever\u2019s finger moved it. The chain\u2019s own power is not part of the comparison: on\/off is the card\u2019s switch, not the chain\u2019s content."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 1833,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1791.922,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Printed into the take. MODIFIED badge. An input card always carries its monitor line, rack or no rack \u2014 whether you hear yourself is a fact about the jack, not about the chain on it. That is where it parts company with the loop face, whose vacant card omits the line because there is no chain to "
+    },
+    {
+      "y": 1849,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1790.141,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "hear. Loopback sockets are excluded from the run \u2014 and a rig whose every socket is loopback gets its own empty message (a running engine with nothing capturable), distinct from no sockets at all, which is a stopped engine. MODIFIED compares the live chain against the rack\u2019s saved copy "
+    },
+    {
+      "y": 1865,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1570.766,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "\u2014 entry set, order, per-entry bypass, parameter values; a parameter nudged by a MIDI mapping counts, because drift is drift whoever\u2019s finger moved it. The chain\u2019s own power is not part of the comparison: on\/off is the card\u2019s switch, not the chain\u2019s content."
+    }
+  ]
+}

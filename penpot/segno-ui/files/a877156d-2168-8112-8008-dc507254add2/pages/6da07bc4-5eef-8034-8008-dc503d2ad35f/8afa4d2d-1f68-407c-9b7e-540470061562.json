@@ -1,0 +1,135 @@
+{
+  "id": "8afa4d2d-1f68-407c-9b7e-540470061562",
+  "name": "Name track 1",
+  "type": "text",
+  "x": 2481,
+  "y": 53418.5,
+  "width": 178.391,
+  "height": 30,
+  "rotation": 0,
+  "selrect": {
+    "x": 2481,
+    "y": 53418.5,
+    "width": 178.391,
+    "height": 30,
+    "x1": 2481,
+    "y1": 53418.5,
+    "x2": 2659.391,
+    "y2": 53448.5
+  },
+  "points": [
+    {
+      "x": 2481,
+      "y": 53418.5
+    },
+    {
+      "x": 2659.391,
+      "y": 53418.5
+    },
+    {
+      "x": 2659.391,
+      "y": 53448.5
+    },
+    {
+      "x": 2481,
+      "y": 53448.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "626673a6-b7d2-4596-bd8d-938b3ff0ed71",
+  "frameId": "626673a6-b7d2-4596-bd8d-938b3ff0ed71",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "30",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Name track 1"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "30",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f",
+  "positionData": [
+    {
+      "y": 53449.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "width": 178.391,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2481,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 33,
+      "text": "Name track 1"
+    }
+  ]
+}

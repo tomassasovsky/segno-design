@@ -1,0 +1,138 @@
+{
+  "id": "976d8b2e-ba59-4e69-b566-97559093dd35",
+  "name": "Tremolo",
+  "type": "text",
+  "x": 10093.953,
+  "y": 5346.266,
+  "width": 61.594,
+  "height": 18.078,
+  "rotation": 0,
+  "selrect": {
+    "x": 10093.953,
+    "y": 5346.266,
+    "width": 61.594,
+    "height": 18.078,
+    "x1": 10093.953,
+    "y1": 5346.266,
+    "x2": 10155.546999999999,
+    "y2": 5364.344
+  },
+  "points": [
+    {
+      "x": 10093.953,
+      "y": 5346.266
+    },
+    {
+      "x": 10155.546999999999,
+      "y": 5346.266
+    },
+    {
+      "x": 10155.546999999999,
+      "y": 5364.344
+    },
+    {
+      "x": 10093.953,
+      "y": 5364.344
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "704355b7-f86c-4b92-9a6e-7ea6d6136b6e",
+  "frameId": "704355b7-f86c-4b92-9a6e-7ea6d6136b6e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.13",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.13",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Tremolo"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 5365.266,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 61.594,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10093.953,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Tremolo"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

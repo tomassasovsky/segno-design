@@ -1,0 +1,156 @@
+{
+  "id": "84e590e3-8cb0-4746-9517-bd07ee5be5a8",
+  "name": "c\/control-midi",
+  "type": "text",
+  "x": 8900,
+  "y": 13666,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 13666,
+    "width": 1800,
+    "height": 32,
+    "x1": 8900,
+    "y1": 13666,
+    "x2": 10700,
+    "y2": 13698
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 13666
+    },
+    {
+      "x": 10700,
+      "y": 13666
+    },
+    {
+      "x": 10700,
+      "y": 13698
+    },
+    {
+      "x": 8900,
+      "y": 13698
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "dabb3b2d-5495-4af1-9b4b-8bf9edd85912",
+  "frameId": "dabb3b2d-5495-4af1-9b4b-8bf9edd85912",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Device, status line, and the mapping list. Sweeps and switches, global to the rig. \u201cSimulate input\u201d feeds a synthetic event in wherever a real one would land \u2014 a listening learn capture first, else the open row, else it is dimmed. The event enters through the controller seam itself, the same shape a real CC delivers, so nothing downstream can tell the difference and nothing grows a test-only branch."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503fbe53a3",
+  "positionData": [
+    {
+      "y": 13682,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1797.734,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Device, status line, and the mapping list. Sweeps and switches, global to the rig. \u201cSimulate input\u201d feeds a synthetic event in wherever a real one would land \u2014 a listening learn capture first, else the open row, else it is dimmed. The event enters through the controller seam itself, the same shape "
+    },
+    {
+      "y": 13698,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 634.328,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "a real CC delivers, so nothing downstream can tell the difference and nothing grows a test-only branch."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "055ce561-06dd-42bd-9883-77d53c280923",
+  "name": "c\/fx-reorder",
+  "type": "text",
+  "x": 10980,
+  "y": 3242,
+  "width": 1800,
+  "height": 48,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 3242,
+    "width": 1800,
+    "height": 48,
+    "x1": 10980,
+    "y1": 3242,
+    "x2": 12780,
+    "y2": 3290
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 3242
+    },
+    {
+      "x": 12780,
+      "y": 3242
+    },
+    {
+      "x": 12780,
+      "y": 3290
+    },
+    {
+      "x": 10980,
+      "y": 3290
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "18eec5e7-d8ae-4e72-b6b7-08c36ff2e652",
+  "frameId": "18eec5e7-d8ae-4e72-b6b7-08c36ff2e652",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Drag a chip; a 4px accent bar on a neighbour\u2019s leading or trailing edge marks where it lands. No slot opens between chips \u2014 a finger-wide gap has to come out of the run, which relays the whole strip the instant a press matures: chips sliding, rows appearing and disappearing, and on a scrolled 1024\u00d7600 console the panel shortening, the scroll clamping, and the run sliding out from under the finger. Each chip\u2019s two halves are the drop targets instead \u2014 a far bigger target than any gap between chips could be. The add chip stays in place during a drag and only goes dark: removing it could empty a row and shorten the panel the same way."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 3258,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1753.516,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Drag a chip; a 4px accent bar on a neighbour\u2019s leading or trailing edge marks where it lands. No slot opens between chips \u2014 a finger-wide gap has to come out of the run, which relays the whole strip the instant a press matures: chips sliding, rows appearing and disappearing, and on a "
+    },
+    {
+      "y": 3274,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1772.578,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "scrolled 1024\u00d7600 console the panel shortening, the scroll clamping, and the run sliding out from under the finger. Each chip\u2019s two halves are the drop targets instead \u2014 a far bigger target than any gap between chips could be. The add chip stays in place during a drag and only goes dark: "
+    },
+    {
+      "y": 3290,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 415.469,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "removing it could empty a row and shorten the panel the same way."
+    }
+  ]
+}

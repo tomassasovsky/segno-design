@@ -1,0 +1,135 @@
+{
+  "id": "885cc1a4-8d26-4532-b150-95775f9eead2",
+  "name": "Reconnect audio when you are ready. Loops stay stopped.",
+  "type": "text",
+  "x": 11068,
+  "y": 58204.078,
+  "width": 571.969,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 11068,
+    "y": 58204.078,
+    "width": 571.969,
+    "height": 22,
+    "x1": 11068,
+    "y1": 58204.078,
+    "x2": 11639.969000000001,
+    "y2": 58226.078
+  },
+  "points": [
+    {
+      "x": 11068,
+      "y": 58204.078
+    },
+    {
+      "x": 11639.969000000001,
+      "y": 58204.078
+    },
+    {
+      "x": 11639.969000000001,
+      "y": 58226.078
+    },
+    {
+      "x": 11068,
+      "y": 58226.078
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "cf52555f-9aba-4a29-9f22-f74e0c9f9b12",
+  "frameId": "cf52555f-9aba-4a29-9f22-f74e0c9f9b12",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#d2bf9d",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Reconnect audio when you are ready. Loops stay stopped."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#d2bf9d",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d78a707",
+  "positionData": [
+    {
+      "y": 58227.078,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 571.969,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11068,
+      "fills": [
+        {
+          "fillColor": "#d2bf9d",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Reconnect audio when you are ready. Loops stay stopped."
+    }
+  ]
+}

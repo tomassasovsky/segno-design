@@ -1,0 +1,135 @@
+{
+  "id": "85e3d24e-abbc-464d-94a4-3accc154e02e",
+  "name": "Paired display reference \/ Label",
+  "type": "text",
+  "x": 4460,
+  "y": 50360,
+  "width": 532.969,
+  "height": 43,
+  "rotation": 0,
+  "selrect": {
+    "x": 4460,
+    "y": 50360,
+    "width": 532.969,
+    "height": 43,
+    "x1": 4460,
+    "y1": 50360,
+    "x2": 4992.969,
+    "y2": 50403
+  },
+  "points": [
+    {
+      "x": 4460,
+      "y": 50360
+    },
+    {
+      "x": 4992.969,
+      "y": 50360
+    },
+    {
+      "x": 4992.969,
+      "y": 50403
+    },
+    {
+      "x": 4460,
+      "y": 50403
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b4fd8728-ac54-4251-af74-0c1abc6f03c9",
+  "frameId": "b4fd8728-ac54-4251-af74-0c1abc6f03c9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1053",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1053",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "38",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c4cdde",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Paired display \u00b7 Wave accepted"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "38",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c4cdde",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f",
+  "positionData": [
+    {
+      "y": 50402,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "width": 532.969,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4460,
+      "fills": [
+        {
+          "fillColor": "#c4cdde",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 42,
+      "text": "Paired display \u00b7 Wave accepted"
+    }
+  ]
+}

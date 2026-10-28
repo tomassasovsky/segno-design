@@ -1,0 +1,135 @@
+{
+  "id": "db01c396-86f7-40c6-a441-2cbe03811752",
+  "name": "Repeat",
+  "type": "text",
+  "x": 8024.625,
+  "y": 38135.375,
+  "width": 74.172,
+  "height": 23,
+  "rotation": 0,
+  "selrect": {
+    "x": 8024.625,
+    "y": 38135.375,
+    "width": 74.172,
+    "height": 23,
+    "x1": 8024.625,
+    "y1": 38135.375,
+    "x2": 8098.797,
+    "y2": 38158.375
+  },
+  "points": [
+    {
+      "x": 8024.625,
+      "y": 38135.375
+    },
+    {
+      "x": 8098.797,
+      "y": 38135.375
+    },
+    {
+      "x": 8098.797,
+      "y": 38158.375
+    },
+    {
+      "x": 8024.625,
+      "y": 38158.375
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "93500c4f-8e5d-4226-95f0-3db8f14c6475",
+  "frameId": "93500c4f-8e5d-4226-95f0-3db8f14c6475",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "23",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c6cdd9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Repeat"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "23",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c6cdd9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503bdec65c",
+  "positionData": [
+    {
+      "y": 38159.375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "width": 74.172,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8024.625,
+      "fills": [
+        {
+          "fillColor": "#c6cdd9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 26,
+      "text": "Repeat"
+    }
+  ]
+}

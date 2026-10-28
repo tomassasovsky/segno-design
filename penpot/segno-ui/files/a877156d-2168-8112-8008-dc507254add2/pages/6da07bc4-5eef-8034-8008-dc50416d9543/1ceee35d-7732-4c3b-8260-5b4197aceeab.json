@@ -1,0 +1,210 @@
+{
+  "id": "1ceee35d-7732-4c3b-8260-5b4197aceeab",
+  "name": "Note",
+  "type": "text",
+  "x": 2374,
+  "y": 4180.531,
+  "width": 544,
+  "height": 69.563,
+  "rotation": 0,
+  "selrect": {
+    "x": 2374,
+    "y": 4180.531,
+    "width": 544,
+    "height": 69.563,
+    "x1": 2374,
+    "y1": 4180.531,
+    "x2": 2918,
+    "y2": 4250.094
+  },
+  "points": [
+    {
+      "x": 2374,
+      "y": 4180.531
+    },
+    {
+      "x": 2918,
+      "y": 4180.531
+    },
+    {
+      "x": 2918,
+      "y": 4250.094
+    },
+    {
+      "x": 2374,
+      "y": 4250.094
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2f7d3241-95dc-4f1b-b3f0-5cf53a32c7a2",
+  "frameId": "2f7d3241-95dc-4f1b-b3f0-5cf53a32c7a2",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.45",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.45",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "12",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Widened from 7 steps to 10 so the shipped code does not have to move: 9, 12 and 14 were already load-bearing there. Named numerically because a 10-step ramp inside a 15px band is not a hierarchy \u2014 4, 5 and 6 snap to the nearest step, 20 snaps to 17, and the brightness slider's 28 is a pill."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "12",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-muted",
+    "fontSize": "text-xs",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 4196.531,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 514.063,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2374,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "Widened from 7 steps to 10 so the shipped code does not have to move: 9, 12 and 14 were "
+    },
+    {
+      "y": 4213.922,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 531.844,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2374,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "already load-bearing there. Named numerically because a 10-step ramp inside a 15px band is "
+    },
+    {
+      "y": 4231.313,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 503.656,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2374,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "not a hierarchy \u2014 4, 5 and 6 snap to the nearest step, 20 snaps to 17, and the brightness "
+    },
+    {
+      "y": 4248.703,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 104.688,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2374,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "slider's 28 is a pill."
+    }
+  ],
+  "layoutItemZIndex": 2
+}

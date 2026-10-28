@@ -1,0 +1,135 @@
+{
+  "id": "af689d2a-ceba-446e-803d-76605233cdce",
+  "name": "Full Drive",
+  "type": "text",
+  "x": 1201,
+  "y": 22114.578,
+  "width": 114.016,
+  "height": 27,
+  "rotation": 0,
+  "selrect": {
+    "x": 1201,
+    "y": 22114.578,
+    "width": 114.016,
+    "height": 27,
+    "x1": 1201,
+    "y1": 22114.578,
+    "x2": 1315.016,
+    "y2": 22141.578
+  },
+  "points": [
+    {
+      "x": 1201,
+      "y": 22114.578
+    },
+    {
+      "x": 1315.016,
+      "y": 22114.578
+    },
+    {
+      "x": 1315.016,
+      "y": 22141.578
+    },
+    {
+      "x": 1201,
+      "y": 22141.578
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "6efc7528-689b-4560-8a37-e18724492a5e",
+  "frameId": "6efc7528-689b-4560-8a37-e18724492a5e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "27",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Full Drive"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "27",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50391cda77",
+  "positionData": [
+    {
+      "y": 22142.578,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "27px",
+      "fontWeight": "400",
+      "width": 114.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1201,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 30,
+      "text": "Full Drive"
+    }
+  ]
+}

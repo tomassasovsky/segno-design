@@ -1,0 +1,135 @@
+{
+  "id": "9d3a378b-1a4b-4413-87e5-d4d8c62e361b",
+  "name": "If clock is lost",
+  "type": "text",
+  "x": 5130,
+  "y": 55218.375,
+  "width": 148.656,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 5130,
+    "y": 55218.375,
+    "width": 148.656,
+    "height": 25,
+    "x1": 5130,
+    "y1": 55218.375,
+    "x2": 5278.656,
+    "y2": 55243.375
+  },
+  "points": [
+    {
+      "x": 5130,
+      "y": 55218.375
+    },
+    {
+      "x": 5278.656,
+      "y": 55218.375
+    },
+    {
+      "x": 5278.656,
+      "y": 55243.375
+    },
+    {
+      "x": 5130,
+      "y": 55243.375
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "18a6943f-3e5d-4dbb-b457-5c4bfbe34b04",
+  "frameId": "18a6943f-3e5d-4dbb-b457-5c4bfbe34b04",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "If clock is lost"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d68754c",
+  "positionData": [
+    {
+      "y": 55244.375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 148.656,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 5130,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "If clock is lost"
+    }
+  ]
+}

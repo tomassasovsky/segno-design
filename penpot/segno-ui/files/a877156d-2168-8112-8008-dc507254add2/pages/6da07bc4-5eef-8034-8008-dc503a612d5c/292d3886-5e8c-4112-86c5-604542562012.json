@@ -1,0 +1,135 @@
+{
+  "id": "292d3886-5e8c-4112-86c5-604542562012",
+  "name": "Faded out",
+  "type": "text",
+  "x": 5460,
+  "y": 27939,
+  "width": 81.063,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 5460,
+    "y": 27939,
+    "width": 81.063,
+    "height": 18,
+    "x1": 5460,
+    "y1": 27939,
+    "x2": 5541.063,
+    "y2": 27957
+  },
+  "points": [
+    {
+      "x": 5460,
+      "y": 27939
+    },
+    {
+      "x": 5541.063,
+      "y": 27939
+    },
+    {
+      "x": 5541.063,
+      "y": 27957
+    },
+    {
+      "x": 5460,
+      "y": 27957
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8c50f738-2907-4a84-bf1c-1555991603ec",
+  "frameId": "8c50f738-2907-4a84-bf1c-1555991603ec",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aebdd2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Faded out"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aebdd2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503a612d5c",
+  "positionData": [
+    {
+      "y": 27958,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 81.063,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 5460,
+      "fills": [
+        {
+          "fillColor": "#aebdd2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 20,
+      "text": "Faded out"
+    }
+  ]
+}

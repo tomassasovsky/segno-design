@@ -1,0 +1,164 @@
+{
+  "id": "3c99f348-1dfd-442c-b67a-cb42bcd527a2",
+  "name": "c\/fx-opt-D",
+  "type": "text",
+  "x": 4460,
+  "y": 9141,
+  "width": 1200,
+  "height": 36,
+  "rotation": 0,
+  "selrect": {
+    "x": 4460,
+    "y": 9141,
+    "width": 1200,
+    "height": 36,
+    "x1": 4460,
+    "y1": 9141,
+    "x2": 5660,
+    "y2": 9177
+  },
+  "points": [
+    {
+      "x": 4460,
+      "y": 9141
+    },
+    {
+      "x": 5660,
+      "y": 9141
+    },
+    {
+      "x": 5660,
+      "y": 9177
+    },
+    {
+      "x": 4460,
+      "y": 9177
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "a8142805-87b1-47c7-b93b-7c4be8741722",
+  "frameId": "a8142805-87b1-47c7-b93b-7c4be8741722",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2857",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2857",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "JetBrains Mono",
+                "text": "c\/ fx-opt-D \u2014 Top ribbon segments. FX mode = unmodified stage; a horizontal FX ribbon across the top just under the status bar, 4 segments showing chain-first label + on\/off state; the tracks below stay fully dimmed and untouched. 2026-08-27 pivot away from floating cards (jL8Ib)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "JetBrains Mono"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontFamily": "font-mono"
+  },
+  "positionData": [
+    {
+      "y": 9159,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1167.609,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4460,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 18,
+      "text": "c\/ fx-opt-D \u2014 Top ribbon segments. FX mode = unmodified stage; a horizontal FX ribbon across the top just under the status bar, 4 segments "
+    },
+    {
+      "y": 9177,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1192.813,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4460,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 18,
+      "text": "showing chain-first label + on\/off state; the tracks below stay fully dimmed and untouched. 2026-08-27 pivot away from floating cards (jL8Ib)."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "65721713-9582-4d8a-a5ef-38b7deffb95b",
+  "name": "Connect a USB drive",
+  "type": "text",
+  "x": 821,
+  "y": 41929.5,
+  "width": 298.813,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 821,
+    "y": 41929.5,
+    "width": 298.813,
+    "height": 32,
+    "x1": 821,
+    "y1": 41929.5,
+    "x2": 1119.813,
+    "y2": 41961.5
+  },
+  "points": [
+    {
+      "x": 821,
+      "y": 41929.5
+    },
+    {
+      "x": 1119.813,
+      "y": 41929.5
+    },
+    {
+      "x": 1119.813,
+      "y": 41961.5
+    },
+    {
+      "x": 821,
+      "y": 41961.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "68d17bfe-9d59-471d-b9ef-ead2356eb35a",
+  "frameId": "68d17bfe-9d59-471d-b9ef-ead2356eb35a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Connect a USB drive"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c6eee18",
+  "positionData": [
+    {
+      "y": 41963.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 298.813,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 821,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Connect a USB drive"
+    }
+  ]
+}

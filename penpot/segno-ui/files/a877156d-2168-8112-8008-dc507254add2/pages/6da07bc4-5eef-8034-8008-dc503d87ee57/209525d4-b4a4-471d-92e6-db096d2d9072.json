@@ -1,0 +1,135 @@
+{
+  "id": "209525d4-b4a4-471d-92e6-db096d2d9072",
+  "name": "Delete",
+  "type": "text",
+  "x": 3730.484,
+  "y": 58567,
+  "width": 66.484,
+  "height": 23,
+  "rotation": 0,
+  "selrect": {
+    "x": 3730.484,
+    "y": 58567,
+    "width": 66.484,
+    "height": 23,
+    "x1": 3730.484,
+    "y1": 58567,
+    "x2": 3796.968,
+    "y2": 58590
+  },
+  "points": [
+    {
+      "x": 3730.484,
+      "y": 58567
+    },
+    {
+      "x": 3796.968,
+      "y": 58567
+    },
+    {
+      "x": 3796.968,
+      "y": 58590
+    },
+    {
+      "x": 3730.484,
+      "y": 58590
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "749dd7a4-0d3f-48e9-8f7a-761c185c4f65",
+  "frameId": "749dd7a4-0d3f-48e9-8f7a-761c185c4f65",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "23",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#eaf0fa",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Delete"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "23",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#eaf0fa",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d87ee57",
+  "positionData": [
+    {
+      "y": 58591,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "width": 66.484,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3730.484,
+      "fills": [
+        {
+          "fillColor": "#eaf0fa",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 26,
+      "text": "Delete"
+    }
+  ]
+}

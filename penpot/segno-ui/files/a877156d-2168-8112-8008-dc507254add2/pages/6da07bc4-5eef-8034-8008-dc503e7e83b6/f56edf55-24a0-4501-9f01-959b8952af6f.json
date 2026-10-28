@@ -1,0 +1,135 @@
+{
+  "id": "f56edf55-24a0-4501-9f01-959b8952af6f",
+  "name": "Appliance backup",
+  "type": "text",
+  "x": 4981,
+  "y": 87978.609,
+  "width": 189.469,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 4981,
+    "y": 87978.609,
+    "width": 189.469,
+    "height": 24,
+    "x1": 4981,
+    "y1": 87978.609,
+    "x2": 5170.469,
+    "y2": 88002.609
+  },
+  "points": [
+    {
+      "x": 4981,
+      "y": 87978.609
+    },
+    {
+      "x": 5170.469,
+      "y": 87978.609
+    },
+    {
+      "x": 5170.469,
+      "y": 88002.609
+    },
+    {
+      "x": 4981,
+      "y": 88002.609
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c4e41111-e039-476f-adad-e997bd717668",
+  "frameId": "c4e41111-e039-476f-adad-e997bd717668",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#cacaca",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Appliance backup"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#cacaca",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e7e83b6",
+  "positionData": [
+    {
+      "y": 88003.609,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 189.469,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4981,
+      "fills": [
+        {
+          "fillColor": "#cacaca",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Appliance backup"
+    }
+  ]
+}

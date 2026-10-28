@@ -1,0 +1,153 @@
+{
+  "id": "b78fbfde-b3a8-4865-8235-42f4db1c2313",
+  "name": "Subtitle",
+  "type": "text",
+  "x": 7040,
+  "y": 14553.016,
+  "width": 1132.031,
+  "height": 17,
+  "rotation": 0,
+  "selrect": {
+    "x": 7040,
+    "y": 14553.016,
+    "width": 1132.031,
+    "height": 17,
+    "x1": 7040,
+    "y1": 14553.016,
+    "x2": 8172.031,
+    "y2": 14570.016
+  },
+  "points": [
+    {
+      "x": 7040,
+      "y": 14553.016
+    },
+    {
+      "x": 8172.031,
+      "y": 14553.016
+    },
+    {
+      "x": 8172.031,
+      "y": 14570.016
+    },
+    {
+      "x": 7040,
+      "y": 14570.016
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "9d5395ca-4ce1-4241-b122-2692f8817554",
+  "frameId": "9d5395ca-4ce1-4241-b122-2692f8817554",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2143",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2143",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The pedal's Mode switch only: a press cycles Record and Mute; holding enters and leaves FX. Off, a press cycles all three modes and holding arms performance recording."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "geometry-group",
+    "text-content-text"
+  ],
+  "shapeRef": "41008375-6ca5-485b-8746-8fdff6f752b0",
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503fbe53a3",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-muted",
+    "fontSize": "text-sm",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 14570.016,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1132.031,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7040,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "The pedal's Mode switch only: a press cycles Record and Mute; holding enters and leaves FX. Off, a press cycles all three modes and holding arms performance recording."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

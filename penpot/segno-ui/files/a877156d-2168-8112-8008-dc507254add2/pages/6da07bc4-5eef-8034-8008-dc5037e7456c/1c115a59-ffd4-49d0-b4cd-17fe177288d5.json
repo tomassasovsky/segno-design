@@ -1,0 +1,135 @@
+{
+  "id": "1c115a59-ffd4-49d0-b4cd-17fe177288d5",
+  "name": "Cutting",
+  "type": "text",
+  "x": 7522,
+  "y": 1322.547,
+  "width": 76.047,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 7522,
+    "y": 1322.547,
+    "width": 76.047,
+    "height": 24,
+    "x1": 7522,
+    "y1": 1322.547,
+    "x2": 7598.047,
+    "y2": 1346.547
+  },
+  "points": [
+    {
+      "x": 7522,
+      "y": 1322.547
+    },
+    {
+      "x": 7598.047,
+      "y": 1322.547
+    },
+    {
+      "x": 7598.047,
+      "y": 1346.547
+    },
+    {
+      "x": 7522,
+      "y": 1346.547
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ed9a7f06-3bd0-4ed6-8cd5-de98dad10650",
+  "frameId": "ed9a7f06-3bd0-4ed6-8cd5-de98dad10650",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f0f4fc",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Cutting"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f0f4fc",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5037e7456c",
+  "positionData": [
+    {
+      "y": 1347.547,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 76.047,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7522,
+      "fills": [
+        {
+          "fillColor": "#f0f4fc",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Cutting"
+    }
+  ]
+}

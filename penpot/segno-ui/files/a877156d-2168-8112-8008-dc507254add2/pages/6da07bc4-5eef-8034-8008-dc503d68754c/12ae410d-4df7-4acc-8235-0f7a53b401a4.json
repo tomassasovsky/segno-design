@@ -1,0 +1,135 @@
+{
+  "id": "12ae410d-4df7-4acc-8235-0f7a53b401a4",
+  "name": "Waiting for clock \/ Label",
+  "type": "text",
+  "x": 2380,
+  "y": 54616,
+  "width": 248.156,
+  "height": 39,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 54616,
+    "width": 248.156,
+    "height": 39,
+    "x1": 2380,
+    "y1": 54616,
+    "x2": 2628.156,
+    "y2": 54655
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 54616
+    },
+    {
+      "x": 2628.156,
+      "y": 54616
+    },
+    {
+      "x": 2628.156,
+      "y": 54655
+    },
+    {
+      "x": 2380,
+      "y": 54655
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "f05453d6-c83b-4b23-86c8-67ed44362b8b",
+  "frameId": "f05453d6-c83b-4b23-86c8-67ed44362b8b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1176",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1176",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "34",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Waiting for clock"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "34",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d68754c",
+  "positionData": [
+    {
+      "y": 54654,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "34px",
+      "fontWeight": "400",
+      "width": 248.156,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 38,
+      "text": "Waiting for clock"
+    }
+  ]
+}

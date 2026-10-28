@@ -1,0 +1,135 @@
+{
+  "id": "92b7fb6d-1050-40c8-9556-abf8d7c0744c",
+  "name": "Control repair \/ Review status",
+  "type": "text",
+  "x": 300,
+  "y": 82644,
+  "width": 1254.781,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 82644,
+    "width": 1254.781,
+    "height": 42,
+    "x1": 300,
+    "y1": 82644,
+    "x2": 1554.781,
+    "y2": 82686
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 82644
+    },
+    {
+      "x": 1554.781,
+      "y": 82644
+    },
+    {
+      "x": 1554.781,
+      "y": 82686
+    },
+    {
+      "x": 300,
+      "y": 82686
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b7a889a8-3610-453b-ae00-2b794a66566d",
+  "frameId": "b7a889a8-3610-453b-ae00-2b794a66566d",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1389",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1389",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "36",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Accepted \u00b7 Choose a destination and knob \u00b7 Accepted ranges \u00b7 Apply or cancel"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "36",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e2ddb39",
+  "positionData": [
+    {
+      "y": 82685,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "width": 1254.781,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 41,
+      "text": "Accepted \u00b7 Choose a destination and knob \u00b7 Accepted ranges \u00b7 Apply or cancel"
+    }
+  ]
+}

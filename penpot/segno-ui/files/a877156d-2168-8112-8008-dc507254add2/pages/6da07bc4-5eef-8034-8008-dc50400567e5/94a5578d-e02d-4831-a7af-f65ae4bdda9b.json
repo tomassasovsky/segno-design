@@ -1,0 +1,156 @@
+{
+  "id": "94a5578d-e02d-4831-a7af-f65ae4bdda9b",
+  "name": "c\/loop-tempo",
+  "type": "text",
+  "x": 2380,
+  "y": 12480,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 12480,
+    "width": 1800,
+    "height": 32,
+    "x1": 2380,
+    "y1": 12480,
+    "x2": 4180,
+    "y2": 12512
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 12480
+    },
+    {
+      "x": 4180,
+      "y": 12480
+    },
+    {
+      "x": 4180,
+      "y": 12512
+    },
+    {
+      "x": 2380,
+      "y": 12512
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d4ca579c-fde7-4105-a25c-7e02c3f2aaf1",
+  "frameId": "d4ca579c-fde7-4105-a25c-7e02c3f2aaf1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "A tap pad beside the number pad; the row only says 'tap or type' because both work. Tap goes straight to the engine and the field then MIRRORS what the engine made of it \u2014 a tapped tempo is runtime state with nothing to submit. The first keypress replaces the shown tempo rather than appending. Backspace is an icon, not '\u232b': the text face has no U+232B and a tofu box is a worse mark than none."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50400567e5",
+  "positionData": [
+    {
+      "y": 12496,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1770.953,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "A tap pad beside the number pad; the row only says 'tap or type' because both work. Tap goes straight to the engine and the field then MIRRORS what the engine made of it \u2014 a tapped tempo is runtime state with nothing to submit. The first keypress replaces the shown tempo rather than "
+    },
+    {
+      "y": 12512,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 700.297,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "appending. Backspace is an icon, not '\u232b': the text face has no U+232B and a tofu box is a worse mark than none."
+    }
+  ]
+}

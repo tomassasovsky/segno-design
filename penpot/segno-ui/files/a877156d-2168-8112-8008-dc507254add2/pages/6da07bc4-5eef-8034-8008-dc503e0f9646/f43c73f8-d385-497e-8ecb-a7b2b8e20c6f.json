@@ -1,0 +1,135 @@
+{
+  "id": "f43c73f8-d385-497e-8ecb-a7b2b8e20c6f",
+  "name": "Connection repair \/ Review status",
+  "type": "text",
+  "x": 300,
+  "y": 79660,
+  "width": 1348.734,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 79660,
+    "width": 1348.734,
+    "height": 42,
+    "x1": 300,
+    "y1": 79660,
+    "x2": 1648.734,
+    "y2": 79702
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 79660
+    },
+    {
+      "x": 1648.734,
+      "y": 79660
+    },
+    {
+      "x": 1648.734,
+      "y": 79702
+    },
+    {
+      "x": 300,
+      "y": 79702
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ea2c20a7-f681-42a1-b439-8b45e4944ab2",
+  "frameId": "ea2c20a7-f681-42a1-b439-8b45e4944ab2",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1389",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1389",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "36",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Accepted \u00b7 Select a compatible connection \u00b7 Accepted assignments \u00b7 Apply or cancel"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "36",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e0f9646",
+  "positionData": [
+    {
+      "y": 79701,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "width": 1348.734,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 41,
+      "text": "Accepted \u00b7 Select a compatible connection \u00b7 Accepted assignments \u00b7 Apply or cancel"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "781f45f2-f93e-48dd-b47a-b4429562ff98",
+  "name": "Ends after 4 bars, then plays.",
+  "type": "text",
+  "x": 7248,
+  "y": 10991.797,
+  "width": 286.172,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 7248,
+    "y": 10991.797,
+    "width": 286.172,
+    "height": 22,
+    "x1": 7248,
+    "y1": 10991.797,
+    "x2": 7534.1720000000005,
+    "y2": 11013.797
+  },
+  "points": [
+    {
+      "x": 7248,
+      "y": 10991.797
+    },
+    {
+      "x": 7534.1720000000005,
+      "y": 10991.797
+    },
+    {
+      "x": 7534.1720000000005,
+      "y": 11013.797
+    },
+    {
+      "x": 7248,
+      "y": 11013.797
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "da79a175-2337-4de2-9838-b2fe5cbe6095",
+  "frameId": "da79a175-2337-4de2-9838-b2fe5cbe6095",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aebdd2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Ends after 4 bars, then plays."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aebdd2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503889db12",
+  "positionData": [
+    {
+      "y": 11014.797,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 286.172,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7248,
+      "fills": [
+        {
+          "fillColor": "#aebdd2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Ends after 4 bars, then plays."
+    }
+  ]
+}

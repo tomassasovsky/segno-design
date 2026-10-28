@@ -1,0 +1,135 @@
+{
+  "id": "f21362b8-c6ed-4435-a694-7eb94719d0de",
+  "name": "Hold \u00b7 Bypass",
+  "type": "text",
+  "x": 11121.344,
+  "y": 21533.5,
+  "width": 118.281,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 11121.344,
+    "y": 21533.5,
+    "width": 118.281,
+    "height": 19,
+    "x1": 11121.344,
+    "y1": 21533.5,
+    "x2": 11239.625,
+    "y2": 21552.5
+  },
+  "points": [
+    {
+      "x": 11121.344,
+      "y": 21533.5
+    },
+    {
+      "x": 11239.625,
+      "y": 21533.5
+    },
+    {
+      "x": 11239.625,
+      "y": 21552.5
+    },
+    {
+      "x": 11121.344,
+      "y": 21552.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "4bd3e202-22e4-46ac-9968-0191e0e6cdd7",
+  "frameId": "4bd3e202-22e4-46ac-9968-0191e0e6cdd7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "19",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aebdd2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Hold \u00b7 Bypass"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "19",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aebdd2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503994efd9",
+  "positionData": [
+    {
+      "y": 21553.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "width": 118.281,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11121.344,
+      "fills": [
+        {
+          "fillColor": "#aebdd2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 21,
+      "text": "Hold \u00b7 Bypass"
+    }
+  ]
+}

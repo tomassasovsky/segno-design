@@ -1,0 +1,219 @@
+{
+  "id": "594cc532-3481-444f-aeb3-498dac4d84c5",
+  "name": "c\/input-clip",
+  "type": "text",
+  "x": 8900,
+  "y": 8845,
+  "width": 1800,
+  "height": 80,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 8845,
+    "width": 1800,
+    "height": 80,
+    "x1": 8900,
+    "y1": 8845,
+    "x2": 10700,
+    "y2": 8925
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 8845
+    },
+    {
+      "x": 10700,
+      "y": 8845
+    },
+    {
+      "x": 10700,
+      "y": 8925
+    },
+    {
+      "x": 8900,
+      "y": 8925
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5bf379c2-7a6f-491f-9044-659d53e1d55b",
+  "frameId": "5bf379c2-7a6f-491f-9044-659d53e1d55b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Input-card faces carrying the two live conditioning signals. #697 slice S5, frame 2 of 3. CLIP is the input overload badge (from le_snapshot.input_clip_mask): a filled record-red alarm \u2014 a rail run of >=4 samples at >=0.999 held ~1.5 s. It reads the RAW ADC, upstream of the HPF\/notch, which is why it can light on the guitar card even though that input is being conditioned: the converter clips before any biquad can act, so conditioning must never suppress it. The input's own peak meter turns its top\/peak segment record-red at the same moment, so the meter itself signals clip \u2014 not just the badge. Filled red (not the outline of MODIFIED) marks it as an alarm, not a status. Owner decision 2026-08-27: clip is INPUT-ONLY \u2014 a property of the physical jack (raw ADC), never the track; the track-face clip treatment (the former 'STAGE \/ track-hot' frame) is dropped, and the user-facing word is CLIP, not HOT. Engine state is unchanged: a_input_clip_mask \/ LE_CLIP_* internally; only the label reads CLIP. The COND line (from input_cond_mask) names the active sections \u2014 HPF \u00b7 HUM \u00b7 EXP \u2014 in accent when on, muted 'COND \u00b7 OFF' when the stage is bypassed; it sits below the existing MONITOR line because both are facts about the jack. CLIP (red) \/ MODIFIED (amber outline, chain drift) \/ COND (accent) stay three distinct colours so a glance separates 'the input is overloading' from 'the chain drifted from its rack' from 'the input is being cleaned up'."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 8861,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1803,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Input-card faces carrying the two live conditioning signals. #697 slice S5, frame 2 of 3. CLIP is the input overload badge (from le_snapshot.input_clip_mask): a filled record-red alarm \u2014 a rail run of >=4 samples at >=0.999 held ~1.5 s. It reads the RAW ADC, upstream of the HPF\/notch, which is "
+    },
+    {
+      "y": 8877,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1784.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "why it can light on the guitar card even though that input is being conditioned: the converter clips before any biquad can act, so conditioning must never suppress it. The input's own peak meter turns its top\/peak segment record-red at the same moment, so the meter itself signals clip \u2014 not "
+    },
+    {
+      "y": 8893,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1770.281,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "just the badge. Filled red (not the outline of MODIFIED) marks it as an alarm, not a status. Owner decision 2026-08-27: clip is INPUT-ONLY \u2014 a property of the physical jack (raw ADC), never the track; the track-face clip treatment (the former 'STAGE \/ track-hot' frame) is dropped, and the "
+    },
+    {
+      "y": 8909,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1785.813,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "user-facing word is CLIP, not HOT. Engine state is unchanged: a_input_clip_mask \/ LE_CLIP_* internally; only the label reads CLIP. The COND line (from input_cond_mask) names the active sections \u2014 HPF \u00b7 HUM \u00b7 EXP \u2014 in accent when on, muted 'COND \u00b7 OFF' when the stage is bypassed; it "
+    },
+    {
+      "y": 8925,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1781.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "sits below the existing MONITOR line because both are facts about the jack. CLIP (red) \/ MODIFIED (amber outline, chain drift) \/ COND (accent) stay three distinct colours so a glance separates 'the input is overloading' from 'the chain drifted from its rack' from 'the input is being cleaned up'."
+    }
+  ]
+}

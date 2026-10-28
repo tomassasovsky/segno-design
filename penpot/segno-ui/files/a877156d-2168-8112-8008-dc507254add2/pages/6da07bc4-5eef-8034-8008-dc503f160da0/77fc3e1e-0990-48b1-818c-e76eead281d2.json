@@ -1,0 +1,135 @@
+{
+  "id": "77fc3e1e-0990-48b1-818c-e76eead281d2",
+  "name": "S\/STAGE",
+  "type": "text",
+  "x": 300,
+  "y": 10732,
+  "width": 603.25,
+  "height": 26,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 10732,
+    "width": 603.25,
+    "height": 26,
+    "x1": 300,
+    "y1": 10732,
+    "x2": 903.25,
+    "y2": 10758
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 10732
+    },
+    {
+      "x": 903.25,
+      "y": 10732
+    },
+    {
+      "x": 903.25,
+      "y": 10758
+    },
+    {
+      "x": 300,
+      "y": 10758
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "53988fd0-caf6-4826-926a-57c66919d82d",
+  "frameId": "53988fd0-caf6-4826-926a-57c66919d82d",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1818",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1818",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "the performance surface, and the second screen beside it"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "positionData": [
+    {
+      "y": 10758,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 603.25,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 26,
+      "text": "the performance surface, and the second screen beside it"
+    }
+  ]
+}

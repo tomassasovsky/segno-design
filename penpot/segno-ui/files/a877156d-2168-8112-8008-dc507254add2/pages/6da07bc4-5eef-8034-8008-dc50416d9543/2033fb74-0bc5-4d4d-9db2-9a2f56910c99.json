@@ -1,0 +1,148 @@
+{
+  "id": "2033fb74-0bc5-4d4d-9db2-9a2f56910c99",
+  "name": "PRINTED INTO THE TAKE",
+  "type": "text",
+  "x": 887,
+  "y": 7709.688,
+  "width": 161.266,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 887,
+    "y": 7709.688,
+    "width": 161.266,
+    "height": 18,
+    "x1": 887,
+    "y1": 7709.688,
+    "x2": 1048.266,
+    "y2": 7727.688
+  },
+  "points": [
+    {
+      "x": 887,
+      "y": 7709.688
+    },
+    {
+      "x": 1048.266,
+      "y": 7709.688
+    },
+    {
+      "x": 1048.266,
+      "y": 7727.688
+    },
+    {
+      "x": 887,
+      "y": 7727.688
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "792e67a3-b4d9-4304-8b37-778af4154814",
+  "frameId": "792e67a3-b4d9-4304-8b37-778af4154814",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "center",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "12",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0.72",
+                "fills": [
+                  {
+                    "fillColor": "#e5484d",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a8b",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "PRINTED INTO THE TAKE"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "12",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0.72",
+            "fills": [
+              {
+                "fillColor": "#e5484d",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a8b",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "shapeRef": "c08a5ce2-e642-4fe7-bea6-be14658b7fb2",
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "rec",
+    "fontSize": "text-xs",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 7725.688,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "width": 161.266,
+      "textDecoration": "none",
+      "letterSpacing": "0.72px",
+      "x": 887,
+      "fills": [
+        {
+          "fillColor": "#e5484d",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "PRINTED INTO THE TAKE"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

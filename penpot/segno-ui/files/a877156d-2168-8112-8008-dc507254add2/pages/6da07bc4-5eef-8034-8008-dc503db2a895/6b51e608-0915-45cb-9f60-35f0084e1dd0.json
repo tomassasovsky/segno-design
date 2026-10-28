@@ -1,0 +1,135 @@
+{
+  "id": "6b51e608-0915-45cb-9f60-35f0084e1dd0",
+  "name": "Retry",
+  "type": "text",
+  "x": 6168.297,
+  "y": 66724.5,
+  "width": 61.359,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 6168.297,
+    "y": 66724.5,
+    "width": 61.359,
+    "height": 24,
+    "x1": 6168.297,
+    "y1": 66724.5,
+    "x2": 6229.656,
+    "y2": 66748.5
+  },
+  "points": [
+    {
+      "x": 6168.297,
+      "y": 66724.5
+    },
+    {
+      "x": 6229.656,
+      "y": 66724.5
+    },
+    {
+      "x": 6229.656,
+      "y": 66748.5
+    },
+    {
+      "x": 6168.297,
+      "y": 66748.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "353f24e8-9835-4601-8e5b-a6ec41344080",
+  "frameId": "353f24e8-9835-4601-8e5b-a6ec41344080",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#162132",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Retry"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#162132",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503db2a895",
+  "positionData": [
+    {
+      "y": 66749.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "width": 61.359,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6168.297,
+      "fills": [
+        {
+          "fillColor": "#162132",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Retry"
+    }
+  ]
+}

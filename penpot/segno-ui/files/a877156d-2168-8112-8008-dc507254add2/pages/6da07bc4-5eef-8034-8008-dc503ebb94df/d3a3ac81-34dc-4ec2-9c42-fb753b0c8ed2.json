@@ -1,0 +1,135 @@
+{
+  "id": "d3a3ac81-34dc-4ec2-9c42-fb753b0c8ed2",
+  "name": "Touch locked",
+  "type": "text",
+  "x": 788,
+  "y": 96721.5,
+  "width": 163.438,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 788,
+    "y": 96721.5,
+    "width": 163.438,
+    "height": 28,
+    "x1": 788,
+    "y1": 96721.5,
+    "x2": 951.438,
+    "y2": 96749.5
+  },
+  "points": [
+    {
+      "x": 788,
+      "y": 96721.5
+    },
+    {
+      "x": 951.438,
+      "y": 96721.5
+    },
+    {
+      "x": 951.438,
+      "y": 96749.5
+    },
+    {
+      "x": 788,
+      "y": 96749.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1fd723b8-8afa-4fea-b4d9-c69dbfcea495",
+  "frameId": "1fd723b8-8afa-4fea-b4d9-c69dbfcea495",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Touch locked"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503ebb94df",
+  "positionData": [
+    {
+      "y": 96750.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 163.438,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 788,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Touch locked"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "e590e703-6480-4f2e-a070-310a12036a3e",
+  "name": "c\/track-routing",
+  "type": "text",
+  "x": 300,
+  "y": 18700,
+  "width": 1800,
+  "height": 48,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 18700,
+    "width": 1800,
+    "height": 48,
+    "x1": 300,
+    "y1": 18700,
+    "x2": 2100,
+    "y2": 18748
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 18700
+    },
+    {
+      "x": 2100,
+      "y": 18700
+    },
+    {
+      "x": 2100,
+      "y": 18748
+    },
+    {
+      "x": 300,
+      "y": 18748
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "56601a4c-7005-4f10-a25a-f7f75069a0fd",
+  "frameId": "56601a4c-7005-4f10-a25a-f7f75069a0fd",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Each checked input is a lane; opening one shows that lane's own outputs, in the drawer the rest of the console opens rows into (LOOP \/ loop-output's grid, not the older inline block this screen used to draw). Effects stay on the Signal page. BUILT: the panel is capped to the screen and its two groups scroll, since an eight-input rig with a lane open is taller than 1080. The group captions are sticky \u2014 the current one pins overhead and is pushed out by the next, and the one you have NOT reached waits at the bottom edge until its own caption rises into view, so both of the panel's questions are visible from the start. The lane's output readout is set in the mono face, like the same string one screen over on tracks-routing."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50402f9f37",
+  "positionData": [
+    {
+      "y": 18716,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1791.297,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Each checked input is a lane; opening one shows that lane's own outputs, in the drawer the rest of the console opens rows into (LOOP \/ loop-output's grid, not the older inline block this screen used to draw). Effects stay on the Signal page. BUILT: the panel is capped to the screen and its two "
+    },
+    {
+      "y": 18732,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1767.656,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "groups scroll, since an eight-input rig with a lane open is taller than 1080. The group captions are sticky \u2014 the current one pins overhead and is pushed out by the next, and the one you have NOT reached waits at the bottom edge until its own caption rises into view, so both of the panel's "
+    },
+    {
+      "y": 18748,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 863.891,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "questions are visible from the start. The lane's output readout is set in the mono face, like the same string one screen over on tracks-routing."
+    }
+  ]
+}

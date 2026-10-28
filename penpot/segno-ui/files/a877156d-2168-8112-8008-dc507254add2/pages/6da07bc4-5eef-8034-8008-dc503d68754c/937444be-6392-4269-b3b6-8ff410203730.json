@@ -1,0 +1,135 @@
+{
+  "id": "937444be-6392-4269-b3b6-8ff410203730",
+  "name": "Clock lost",
+  "type": "text",
+  "x": 2670.797,
+  "y": 56457.5,
+  "width": 108.375,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 2670.797,
+    "y": 56457.5,
+    "width": 108.375,
+    "height": 25,
+    "x1": 2670.797,
+    "y1": 56457.5,
+    "x2": 2779.172,
+    "y2": 56482.5
+  },
+  "points": [
+    {
+      "x": 2670.797,
+      "y": 56457.5
+    },
+    {
+      "x": 2779.172,
+      "y": 56457.5
+    },
+    {
+      "x": 2779.172,
+      "y": 56482.5
+    },
+    {
+      "x": 2670.797,
+      "y": 56482.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "bbf1878d-e22d-45de-b8d4-943d4db70ebf",
+  "frameId": "bbf1878d-e22d-45de-b8d4-943d4db70ebf",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#dfbc82",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Clock lost"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#dfbc82",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d68754c",
+  "positionData": [
+    {
+      "y": 56483.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 108.375,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2670.797,
+      "fills": [
+        {
+          "fillColor": "#dfbc82",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Clock lost"
+    }
+  ]
+}

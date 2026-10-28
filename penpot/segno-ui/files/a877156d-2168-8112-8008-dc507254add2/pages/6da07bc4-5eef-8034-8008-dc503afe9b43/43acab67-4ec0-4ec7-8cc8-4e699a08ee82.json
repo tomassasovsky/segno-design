@@ -1,0 +1,135 @@
+{
+  "id": "43acab67-4ec0-4ec7-8cc8-4e699a08ee82",
+  "name": "Divide",
+  "type": "text",
+  "x": 2480,
+  "y": 31832.297,
+  "width": 116.719,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 2480,
+    "y": 31832.297,
+    "width": 116.719,
+    "height": 42,
+    "x1": 2480,
+    "y1": 31832.297,
+    "x2": 2596.719,
+    "y2": 31874.297
+  },
+  "points": [
+    {
+      "x": 2480,
+      "y": 31832.297
+    },
+    {
+      "x": 2596.719,
+      "y": 31832.297
+    },
+    {
+      "x": 2596.719,
+      "y": 31874.297
+    },
+    {
+      "x": 2480,
+      "y": 31874.297
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d30d8545-45d2-496e-a677-9b38b57a113f",
+  "frameId": "d30d8545-45d2-496e-a677-9b38b57a113f",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "42",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Divide"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "42",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503afe9b43",
+  "positionData": [
+    {
+      "y": 31876.297,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "42px",
+      "fontWeight": "400",
+      "width": 116.719,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2480,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 47,
+      "text": "Divide"
+    }
+  ]
+}

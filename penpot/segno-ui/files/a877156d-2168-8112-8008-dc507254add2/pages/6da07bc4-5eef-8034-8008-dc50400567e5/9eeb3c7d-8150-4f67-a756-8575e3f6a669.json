@@ -1,0 +1,135 @@
+{
+  "id": "9eeb3c7d-8150-4f67-a756-8575e3f6a669",
+  "name": "t\/loop-tempo",
+  "type": "text",
+  "x": 2380,
+  "y": 12399,
+  "width": 150.828,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 12399,
+    "width": 150.828,
+    "height": 19,
+    "x1": 2380,
+    "y1": 12399,
+    "x2": 2530.828,
+    "y2": 12418
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 12399
+    },
+    {
+      "x": 2530.828,
+      "y": 12399
+    },
+    {
+      "x": 2530.828,
+      "y": 12418
+    },
+    {
+      "x": 2380,
+      "y": 12418
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d4ca579c-fde7-4105-a25c-7e02c3f2aaf1",
+  "frameId": "d4ca579c-fde7-4105-a25c-7e02c3f2aaf1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2667",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2667",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "600",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Tempo \u2014 tap or type"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50400567e5",
+  "positionData": [
+    {
+      "y": 12418,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "width": 150.828,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 19,
+      "text": "Tempo \u2014 tap or type"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "0dd53636-e581-43e5-961f-63140f1d8b5a",
+  "name": "Auto takes its length from the first take",
+  "type": "text",
+  "x": 2580,
+  "y": 19702.078,
+  "width": 478.844,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 2580,
+    "y": 19702.078,
+    "width": 478.844,
+    "height": 21,
+    "x1": 2580,
+    "y1": 19702.078,
+    "x2": 3058.844,
+    "y2": 19723.078
+  },
+  "points": [
+    {
+      "x": 2580,
+      "y": 19702.078
+    },
+    {
+      "x": 3058.844,
+      "y": 19702.078
+    },
+    {
+      "x": 3058.844,
+      "y": 19723.078
+    },
+    {
+      "x": 2580,
+      "y": 19723.078
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "9985fd6e-f9fa-4f4e-9cb0-5d10745ff979",
+  "frameId": "9985fd6e-f9fa-4f4e-9cb0-5d10745ff979",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Auto takes its length from the first take; a preset records that many bars."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50402f9f37",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 19721.078,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 478.844,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2580,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Auto takes its length from the first take; a preset records that many bars."
+    }
+  ],
+  "layoutItemZIndex": 3
+}

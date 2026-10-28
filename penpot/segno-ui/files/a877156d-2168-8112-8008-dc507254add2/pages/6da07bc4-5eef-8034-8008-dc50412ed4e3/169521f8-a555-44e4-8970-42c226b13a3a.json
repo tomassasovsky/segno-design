@@ -1,0 +1,147 @@
+{
+  "id": "169521f8-a555-44e4-8970-42c226b13a3a",
+  "name": "scratch note text",
+  "type": "text",
+  "x": 11874,
+  "y": 36846.938,
+  "width": 966,
+  "height": 19.594,
+  "rotation": 0,
+  "selrect": {
+    "x": 11874,
+    "y": 36846.938,
+    "width": 966,
+    "height": 19.594,
+    "x1": 11874,
+    "y1": 36846.938,
+    "x2": 12840,
+    "y2": 36866.532
+  },
+  "points": [
+    {
+      "x": 11874,
+      "y": 36846.938
+    },
+    {
+      "x": 12840,
+      "y": 36846.938
+    },
+    {
+      "x": 12840,
+      "y": 36866.532
+    },
+    {
+      "x": 11874,
+      "y": 36866.532
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e8753d18-9492-41c1-8b0d-db58058b7e98",
+  "frameId": "e8753d18-9492-41c1-8b0d-db58058b7e98",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Scratch is the rig's always-present slot. Everything you play persists here on its own \u2014 there is no Save. Rename it to make it a named session."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontSize": "text-sm",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 36864.938,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 945.484,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11874,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Scratch is the rig's always-present slot. Everything you play persists here on its own \u2014 there is no Save. Rename it to make it a named session."
+    }
+  ],
+  "layoutItemZIndex": 0
+}

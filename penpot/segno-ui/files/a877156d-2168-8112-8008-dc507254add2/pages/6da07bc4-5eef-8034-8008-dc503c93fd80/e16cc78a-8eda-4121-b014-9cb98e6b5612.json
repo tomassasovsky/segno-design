@@ -1,0 +1,135 @@
+{
+  "id": "e16cc78a-8eda-4121-b014-9cb98e6b5612",
+  "name": "Violin pickup",
+  "type": "text",
+  "x": 14230,
+  "y": 46154.5,
+  "width": 123.125,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 14230,
+    "y": 46154.5,
+    "width": 123.125,
+    "height": 22,
+    "x1": 14230,
+    "y1": 46154.5,
+    "x2": 14353.125,
+    "y2": 46176.5
+  },
+  "points": [
+    {
+      "x": 14230,
+      "y": 46154.5
+    },
+    {
+      "x": 14353.125,
+      "y": 46154.5
+    },
+    {
+      "x": 14353.125,
+      "y": 46176.5
+    },
+    {
+      "x": 14230,
+      "y": 46176.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "25470ce0-01d5-44e5-ae2a-c89b98b5c277",
+  "frameId": "25470ce0-01d5-44e5-ae2a-c89b98b5c277",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c7c7c7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Violin pickup"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c7c7c7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c93fd80",
+  "positionData": [
+    {
+      "y": 46177.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 123.125,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 14230,
+      "fills": [
+        {
+          "fillColor": "#c7c7c7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Violin pickup"
+    }
+  ]
+}

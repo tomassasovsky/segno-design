@@ -1,0 +1,138 @@
+{
+  "id": "1fe36bc1-0349-4b58-a0a2-3a677cd4ce0e",
+  "name": "Signal",
+  "type": "text",
+  "x": 7020,
+  "y": 6360.5,
+  "width": 60.641,
+  "height": 23,
+  "rotation": 0,
+  "selrect": {
+    "x": 7020,
+    "y": 6360.5,
+    "width": 60.641,
+    "height": 23,
+    "x1": 7020,
+    "y1": 6360.5,
+    "x2": 7080.641,
+    "y2": 6383.5
+  },
+  "points": [
+    {
+      "x": 7020,
+      "y": 6360.5
+    },
+    {
+      "x": 7080.641,
+      "y": 6360.5
+    },
+    {
+      "x": 7080.641,
+      "y": 6383.5
+    },
+    {
+      "x": 7020,
+      "y": 6383.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "6d77eaaf-addc-4d9f-9554-e70df33e2f55",
+  "frameId": "6d77eaaf-addc-4d9f-9554-e70df33e2f55",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.15",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.15",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "20",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Signal"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "20",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 6383.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "width": 60.641,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7020,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 24,
+      "text": "Signal"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

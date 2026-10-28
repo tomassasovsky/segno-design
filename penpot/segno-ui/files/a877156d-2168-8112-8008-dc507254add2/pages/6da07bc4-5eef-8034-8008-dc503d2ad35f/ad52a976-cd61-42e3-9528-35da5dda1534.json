@@ -1,0 +1,135 @@
+{
+  "id": "ad52a976-cd61-42e3-9528-35da5dda1534",
+  "name": "Backing & click",
+  "type": "text",
+  "x": 1710.25,
+  "y": 53013,
+  "width": 134.5,
+  "height": 20,
+  "rotation": 0,
+  "selrect": {
+    "x": 1710.25,
+    "y": 53013,
+    "width": 134.5,
+    "height": 20,
+    "x1": 1710.25,
+    "y1": 53013,
+    "x2": 1844.75,
+    "y2": 53033
+  },
+  "points": [
+    {
+      "x": 1710.25,
+      "y": 53013
+    },
+    {
+      "x": 1844.75,
+      "y": 53013
+    },
+    {
+      "x": 1844.75,
+      "y": 53033
+    },
+    {
+      "x": 1710.25,
+      "y": 53033
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "789dff0a-51ac-4867-a969-98f819c360d1",
+  "frameId": "789dff0a-51ac-4867-a969-98f819c360d1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "20",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e8eef5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Backing & click"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "20",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e8eef5",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f",
+  "positionData": [
+    {
+      "y": 53034,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "width": 134.5,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1710.25,
+      "fills": [
+        {
+          "fillColor": "#e8eef5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 22,
+      "text": "Backing & click"
+    }
+  ]
+}

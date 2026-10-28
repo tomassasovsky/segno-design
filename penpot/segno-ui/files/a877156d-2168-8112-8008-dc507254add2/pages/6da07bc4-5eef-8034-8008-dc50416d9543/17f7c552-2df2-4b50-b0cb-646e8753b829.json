@@ -1,0 +1,168 @@
+{
+  "id": "17f7c552-2df2-4b50-b0cb-646e8753b829",
+  "name": "C and D both lose on the one axis that \u2026",
+  "type": "text",
+  "x": 4824,
+  "y": 7235.25,
+  "width": 1377,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 4824,
+    "y": 7235.25,
+    "width": 1377,
+    "height": 42,
+    "x1": 4824,
+    "y1": 7235.25,
+    "x2": 6201,
+    "y2": 7277.25
+  },
+  "points": [
+    {
+      "x": 4824,
+      "y": 7235.25
+    },
+    {
+      "x": 6201,
+      "y": 7235.25
+    },
+    {
+      "x": 6201,
+      "y": 7277.25
+    },
+    {
+      "x": 4824,
+      "y": 7277.25
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "a87f72dc-65d1-4b0c-95b5-5b2d3bc9e6be",
+  "frameId": "a87f72dc-65d1-4b0c-95b5-5b2d3bc9e6be",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "C and D both lose on the one axis that made us drop the knob. A 44px fader or a 76px bar is no more precise than a 36px rotary \u2014 swapping an imprecise round control for an imprecise flat one fixes the grip problem and keeps the accuracy problem."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontSize": "text-sm",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 7254.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1370.594,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4824,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "C and D both lose on the one axis that made us drop the knob. A 44px fader or a 76px bar is no more precise than a 36px rotary \u2014 swapping an imprecise round control for an imprecise flat one fixes the grip "
+    },
+    {
+      "y": 7275.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 278.75,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4824,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "problem and keeps the accuracy problem."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

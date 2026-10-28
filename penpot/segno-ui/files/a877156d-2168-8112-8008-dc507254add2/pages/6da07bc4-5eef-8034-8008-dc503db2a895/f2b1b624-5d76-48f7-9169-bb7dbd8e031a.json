@@ -1,0 +1,135 @@
+{
+  "id": "f2b1b624-5d76-48f7-9169-bb7dbd8e031a",
+  "name": "Checks only. Updates install when you choose.",
+  "type": "text",
+  "x": 388,
+  "y": 66920.5,
+  "width": 458.188,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 388,
+    "y": 66920.5,
+    "width": 458.188,
+    "height": 22,
+    "x1": 388,
+    "y1": 66920.5,
+    "x2": 846.188,
+    "y2": 66942.5
+  },
+  "points": [
+    {
+      "x": 388,
+      "y": 66920.5
+    },
+    {
+      "x": 846.188,
+      "y": 66920.5
+    },
+    {
+      "x": 846.188,
+      "y": 66942.5
+    },
+    {
+      "x": 388,
+      "y": 66942.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "651f96a4-037a-42a2-9aff-1942387973b6",
+  "frameId": "651f96a4-037a-42a2-9aff-1942387973b6",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aab7c9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Checks only. Updates install when you choose."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aab7c9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503db2a895",
+  "positionData": [
+    {
+      "y": 66943.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 458.188,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 388,
+      "fills": [
+        {
+          "fillColor": "#aab7c9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Checks only. Updates install when you choose."
+    }
+  ]
+}

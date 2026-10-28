@@ -1,0 +1,135 @@
+{
+  "id": "a815c240-b741-44e9-9569-0b2ccbea76e0",
+  "name": "Stop leaves downstream tails caption",
+  "type": "text",
+  "x": 240,
+  "y": 11460,
+  "width": 748.75,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 240,
+    "y": 11460,
+    "width": 748.75,
+    "height": 37,
+    "x1": 240,
+    "y1": 11460,
+    "x2": 988.75,
+    "y2": 11497
+  },
+  "points": [
+    {
+      "x": 240,
+      "y": 11460
+    },
+    {
+      "x": 988.75,
+      "y": 11460
+    },
+    {
+      "x": 988.75,
+      "y": 11497
+    },
+    {
+      "x": 240,
+      "y": 11497
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d5ca8bf2-562c-4b0c-9f90-c248d6838728",
+  "frameId": "d5ca8bf2-562c-4b0c-9f90-c248d6838728",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#d5ddf5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Stop leaves downstream tails \u00b7 Symbolic comparison"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#d5ddf5",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc504238a365",
+  "positionData": [
+    {
+      "y": 11496,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 748.75,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 240,
+      "fills": [
+        {
+          "fillColor": "#d5ddf5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Stop leaves downstream tails \u00b7 Symbolic comparison"
+    }
+  ]
+}

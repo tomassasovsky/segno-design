@@ -1,0 +1,135 @@
+{
+  "id": "6d2c3cd2-eb96-4a2b-adf1-ddbc0b1ad868",
+  "name": "Scan",
+  "type": "text",
+  "x": 2052.141,
+  "y": 60623.875,
+  "width": 54.703,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 2052.141,
+    "y": 60623.875,
+    "width": 54.703,
+    "height": 24,
+    "x1": 2052.141,
+    "y1": 60623.875,
+    "x2": 2106.844,
+    "y2": 60647.875
+  },
+  "points": [
+    {
+      "x": 2052.141,
+      "y": 60623.875
+    },
+    {
+      "x": 2106.844,
+      "y": 60623.875
+    },
+    {
+      "x": 2106.844,
+      "y": 60647.875
+    },
+    {
+      "x": 2052.141,
+      "y": 60647.875
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8348aab2-f4f3-4c2d-abf2-b9ffa4517e35",
+  "frameId": "8348aab2-f4f3-4c2d-abf2-b9ffa4517e35",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Scan"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d87ee57",
+  "positionData": [
+    {
+      "y": 60648.875,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 54.703,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2052.141,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Scan"
+    }
+  ]
+}

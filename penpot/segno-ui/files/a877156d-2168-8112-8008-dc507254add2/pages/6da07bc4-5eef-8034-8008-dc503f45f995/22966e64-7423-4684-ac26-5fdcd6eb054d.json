@@ -1,0 +1,138 @@
+{
+  "id": "22966e64-7423-4684-ac26-5fdcd6eb054d",
+  "name": "Drive",
+  "type": "text",
+  "x": 11213.031,
+  "y": 2653.656,
+  "width": 41.578,
+  "height": 20,
+  "rotation": 0,
+  "selrect": {
+    "x": 11213.031,
+    "y": 2653.656,
+    "width": 41.578,
+    "height": 20,
+    "x1": 11213.031,
+    "y1": 2653.656,
+    "x2": 11254.609,
+    "y2": 2673.656
+  },
+  "points": [
+    {
+      "x": 11213.031,
+      "y": 2653.656
+    },
+    {
+      "x": 11254.609,
+      "y": 2653.656
+    },
+    {
+      "x": 11254.609,
+      "y": 2673.656
+    },
+    {
+      "x": 11213.031,
+      "y": 2673.656
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "a96fcbd3-bcc7-45e6-94c7-b5a56a716920",
+  "frameId": "a96fcbd3-bcc7-45e6-94c7-b5a56a716920",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1905",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1905",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16.8",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Drive"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16.8",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 2673.656,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16.8px",
+      "fontWeight": "400",
+      "width": 41.578,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11213.031,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Drive"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

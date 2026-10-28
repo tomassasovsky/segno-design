@@ -1,0 +1,135 @@
+{
+  "id": "c337d062-7f76-4693-9e1b-4b0832cfeb0a",
+  "name": "Parametric EQ \u00b7 Low Cut",
+  "type": "text",
+  "x": 9894,
+  "y": 58478.5,
+  "width": 266.75,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 9894,
+    "y": 58478.5,
+    "width": 266.75,
+    "height": 24,
+    "x1": 9894,
+    "y1": 58478.5,
+    "x2": 10160.75,
+    "y2": 58502.5
+  },
+  "points": [
+    {
+      "x": 9894,
+      "y": 58478.5
+    },
+    {
+      "x": 10160.75,
+      "y": 58478.5
+    },
+    {
+      "x": 10160.75,
+      "y": 58502.5
+    },
+    {
+      "x": 9894,
+      "y": 58502.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "caf62a44-2c04-4afe-a712-b82e7aa3f7e3",
+  "frameId": "caf62a44-2c04-4afe-a712-b82e7aa3f7e3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Parametric EQ \u00b7 Low Cut"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d548fff",
+  "positionData": [
+    {
+      "y": 58503.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 266.75,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9894,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Parametric EQ \u00b7 Low Cut"
+    }
+  ]
+}

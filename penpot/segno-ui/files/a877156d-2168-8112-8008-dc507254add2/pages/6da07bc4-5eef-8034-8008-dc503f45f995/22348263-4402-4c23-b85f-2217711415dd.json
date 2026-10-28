@@ -1,0 +1,138 @@
+{
+  "id": "22348263-4402-4c23-b85f-2217711415dd",
+  "name": "msg",
+  "type": "text",
+  "x": 11234,
+  "y": 8208.781,
+  "width": 1523.797,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 11234,
+    "y": 8208.781,
+    "width": 1523.797,
+    "height": 19,
+    "x1": 11234,
+    "y1": 8208.781,
+    "x2": 12757.797,
+    "y2": 8227.781
+  },
+  "points": [
+    {
+      "x": 11234,
+      "y": 8208.781
+    },
+    {
+      "x": 12757.797,
+      "y": 8208.781
+    },
+    {
+      "x": 12757.797,
+      "y": 8227.781
+    },
+    {
+      "x": 11234,
+      "y": 8227.781
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "a95941d1-724f-4239-b635-ecf236a7fdef",
+  "frameId": "a95941d1-724f-4239-b635-ecf236a7fdef",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2667",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2667",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Restoring take\u2026  de-clip \u2192 denoise \u00b7 lane 2 of 4"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 8227.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "width": 340.156,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11234,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 19,
+      "text": "Restoring take\u2026  de-clip \u2192 denoise \u00b7 lane 2 of 4"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

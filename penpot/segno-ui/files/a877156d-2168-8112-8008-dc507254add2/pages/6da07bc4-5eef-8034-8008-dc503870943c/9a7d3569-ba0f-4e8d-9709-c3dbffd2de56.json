@@ -1,0 +1,135 @@
+{
+  "id": "9a7d3569-ba0f-4e8d-9709-c3dbffd2de56",
+  "name": "A pedal state",
+  "type": "text",
+  "x": 1293,
+  "y": 6458.875,
+  "width": 138.781,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 1293,
+    "y": 6458.875,
+    "width": 138.781,
+    "height": 24,
+    "x1": 1293,
+    "y1": 6458.875,
+    "x2": 1431.781,
+    "y2": 6482.875
+  },
+  "points": [
+    {
+      "x": 1293,
+      "y": 6458.875
+    },
+    {
+      "x": 1431.781,
+      "y": 6458.875
+    },
+    {
+      "x": 1431.781,
+      "y": 6482.875
+    },
+    {
+      "x": 1293,
+      "y": 6482.875
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "36dcb6c6-c752-4dec-8d11-67ead2924210",
+  "frameId": "36dcb6c6-c752-4dec-8d11-67ead2924210",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e9e9e9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "A pedal state"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e9e9e9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503870943c",
+  "positionData": [
+    {
+      "y": 6483.875,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 138.781,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1293,
+      "fills": [
+        {
+          "fillColor": "#e9e9e9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "A pedal state"
+    }
+  ]
+}

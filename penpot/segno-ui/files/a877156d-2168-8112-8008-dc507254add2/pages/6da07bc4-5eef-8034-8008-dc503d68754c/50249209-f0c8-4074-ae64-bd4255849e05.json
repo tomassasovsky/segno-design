@@ -1,0 +1,135 @@
+{
+  "id": "50249209-f0c8-4074-ae64-bd4255849e05",
+  "name": "Clock & sync",
+  "type": "text",
+  "x": 360,
+  "y": 56094.297,
+  "width": 229.531,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 360,
+    "y": 56094.297,
+    "width": 229.531,
+    "height": 42,
+    "x1": 360,
+    "y1": 56094.297,
+    "x2": 589.531,
+    "y2": 56136.297
+  },
+  "points": [
+    {
+      "x": 360,
+      "y": 56094.297
+    },
+    {
+      "x": 589.531,
+      "y": 56094.297
+    },
+    {
+      "x": 589.531,
+      "y": 56136.297
+    },
+    {
+      "x": 360,
+      "y": 56136.297
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "54f0df94-f98a-4fea-96c2-64c56d4f3f5d",
+  "frameId": "54f0df94-f98a-4fea-96c2-64c56d4f3f5d",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "42",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "-1.1",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Clock & sync"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "42",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "-1.1",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d68754c",
+  "positionData": [
+    {
+      "y": 56138.297,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "42px",
+      "fontWeight": "400",
+      "width": 229.531,
+      "textDecoration": "none",
+      "letterSpacing": "-1.1px",
+      "x": 360,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 47,
+      "text": "Clock & sync"
+    }
+  ]
+}

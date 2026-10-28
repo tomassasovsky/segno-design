@@ -1,0 +1,101 @@
+{
+  "id": "512c9dff-dc8c-4515-b804-dbc2507bf814",
+  "name": "Play A4",
+  "type": "frame",
+  "x": 3372.406,
+  "y": 99625,
+  "width": 80,
+  "height": 206,
+  "rotation": 0,
+  "selrect": {
+    "x": 3372.406,
+    "y": 99625,
+    "width": 80,
+    "height": 206,
+    "x1": 3372.406,
+    "y1": 99625,
+    "x2": 3452.406,
+    "y2": 99831
+  },
+  "points": [
+    {
+      "x": 3372.406,
+      "y": 99625
+    },
+    {
+      "x": 3452.406,
+      "y": 99625
+    },
+    {
+      "x": 3452.406,
+      "y": 99831
+    },
+    {
+      "x": 3372.406,
+      "y": 99831
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "317da4f7-aa89-4b6a-b993-8a40a3c0ae82",
+  "frameId": "317da4f7-aa89-4b6a-b993-8a40a3c0ae82",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "r2": 0,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eed38eb",
+  "r3": 0,
+  "r1": 0,
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [
+    {
+      "fillColorGradient": {
+        "type": "linear",
+        "startX": 0.5,
+        "startY": 0,
+        "endX": 0.5,
+        "endY": 1,
+        "width": 1,
+        "stops": [
+          {
+            "color": "#cfd4dc",
+            "opacity": 1,
+            "offset": 0
+          },
+          {
+            "color": "#f1f2f5",
+            "opacity": 1,
+            "offset": 0.5
+          },
+          {
+            "color": "#c9d1dc",
+            "opacity": 1,
+            "offset": 1
+          }
+        ]
+      },
+      "fillOpacity": 1
+    }
+  ],
+  "shapes": [
+    "b0d53c52-917a-4ee8-b0bf-3a0dc5fcf34c"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "eab71bbd-7d22-4587-a35b-72f5c4d76772",
+  "name": "Desc",
+  "type": "text",
+  "x": 4434,
+  "y": 3863.766,
+  "width": 1200,
+  "height": 40.594,
+  "rotation": 0,
+  "selrect": {
+    "x": 4434,
+    "y": 3863.766,
+    "width": 1200,
+    "height": 40.594,
+    "x1": 4434,
+    "y1": 3863.766,
+    "x2": 5634,
+    "y2": 3904.36
+  },
+  "points": [
+    {
+      "x": 4434,
+      "y": 3863.766
+    },
+    {
+      "x": 5634,
+      "y": 3863.766
+    },
+    {
+      "x": 5634,
+      "y": 3904.36
+    },
+    {
+      "x": 4434,
+      "y": 3904.36
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "835c1e7e-5853-4675-bc8f-35bb1bdf9a18",
+  "frameId": "835c1e7e-5853-4675-bc8f-35bb1bdf9a18",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.45",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.45",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The performance surface. Four columns on pure black, read from across a room: the block height is loop length, its colour is transport state, and the name is set at 26\/800. The focused column is ringed in 4px white \u2014 the only focus ring in the system."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fix",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-muted",
+    "fontSize": "text-sm",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 3881.766,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1164.922,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4434,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "The performance surface. Four columns on pure black, read from across a room: the block height is loop length, its colour is transport state, and the name is set at 26\/800. The "
+    },
+    {
+      "y": 3902.063,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 492.531,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4434,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "focused column is ringed in 4px white \u2014 the only focus ring in the system."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

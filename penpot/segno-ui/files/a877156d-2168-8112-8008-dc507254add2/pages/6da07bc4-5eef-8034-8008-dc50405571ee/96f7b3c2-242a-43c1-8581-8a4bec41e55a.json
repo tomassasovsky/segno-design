@@ -1,0 +1,156 @@
+{
+  "id": "96f7b3c2-242a-43c1-8581-8a4bec41e55a",
+  "name": "c\/settings-inputs-unnamed",
+  "type": "text",
+  "x": 8900,
+  "y": 24075,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 24075,
+    "width": 1800,
+    "height": 32,
+    "x1": 8900,
+    "y1": 24075,
+    "x2": 10700,
+    "y2": 24107
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 24075
+    },
+    {
+      "x": 10700,
+      "y": 24075
+    },
+    {
+      "x": 10700,
+      "y": 24107
+    },
+    {
+      "x": 8900,
+      "y": 24107
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7069ff82-68ad-43b3-80d6-6db63ff8d24e",
+  "frameId": "7069ff82-68ad-43b3-80d6-6db63ff8d24e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The first-run state, and the reason the ordinal changes tone: an unnamed chip carries `input 3` in the PRIMARY ink because it is the only thing the chip says, while a named one drops it to grey under the name. Held at grey throughout, a rig where nothing is named would be a grid of entirely grey chips \u2014 which reads as disabled rather than as nothing having been said about them yet. The row above reads `none named` (#528)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50405571ee",
+  "positionData": [
+    {
+      "y": 24091,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1778.984,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "The first-run state, and the reason the ordinal changes tone: an unnamed chip carries `input 3` in the PRIMARY ink because it is the only thing the chip says, while a named one drops it to grey under the name. Held at grey throughout, a rig where nothing is named would be a grid of entirely "
+    },
+    {
+      "y": 24107,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 848.703,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "grey chips \u2014 which reads as disabled rather than as nothing having been said about them yet. The row above reads `none named` (#528)."
+    }
+  ]
+}

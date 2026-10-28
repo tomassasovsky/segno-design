@@ -1,0 +1,135 @@
+{
+  "id": "68e319e7-89cd-4e6d-a323-eabc1cf4bb02",
+  "name": "Replace a MIDI controller \/ Caption",
+  "type": "text",
+  "x": 300,
+  "y": 81032,
+  "width": 428.734,
+  "height": 43,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 81032,
+    "width": 428.734,
+    "height": 43,
+    "x1": 300,
+    "y1": 81032,
+    "x2": 728.7339999999999,
+    "y2": 81075
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 81032
+    },
+    {
+      "x": 728.7339999999999,
+      "y": 81032
+    },
+    {
+      "x": 728.7339999999999,
+      "y": 81075
+    },
+    {
+      "x": 300,
+      "y": 81075
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "81a0eac3-a679-4adc-bb55-71f26ce580c7",
+  "frameId": "81a0eac3-a679-4adc-bb55-71f26ce580c7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1053",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1053",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "38",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#bdcadb",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Replace a MIDI controller"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "38",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#bdcadb",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e0f9646",
+  "positionData": [
+    {
+      "y": 81074,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "width": 428.734,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#bdcadb",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 42,
+      "text": "Replace a MIDI controller"
+    }
+  ]
+}
