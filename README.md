@@ -103,8 +103,36 @@ on the design machine. The pen shows them as missing:
 - `docs/design/fx-ux-previews/pen-sizing/state-art/Wah1-muted-0.35.png`
 - `docs/design/fx-ux-previews/pen-sizing/state-art/Wham2-muted-0.35.png`
 
-## License
+## Licence
 
-GPL-3.0, the same as Segno. See `LICENSE`. The fonts under `fonts/` are
-licensed under the SIL Open Font License 1.1 (`OFL-Inter.txt`,
-`OFL-JetBrainsMono.txt`).
+Our design work in this repository is licensed under Creative Commons
+Attribution-ShareAlike 4.0 International (`CC-BY-SA-4.0`). The full legal
+code is in [`LICENSE`](LICENSE). It covers `segno-ui.pen`, the design notes
+and browser studies under `docs/design/`, the previews and screenshots of
+Segno, and the art made for Segno together with its sources, scripts and
+prompts (for example `docs/design/own-art/`). Images generated with image
+models are covered to the extent that they are protected.
+
+These are not covered:
+
+- **Code under `tool/`** stays GPL-3.0-or-later, the same as Segno, unless a
+  file says otherwise. The text is in [`tool/LICENSE`](tool/LICENSE).
+- **Fonts.** `fonts/127.0.0.1/` holds Inter and JetBrains Mono under the SIL
+  Open Font License 1.1, in the `OFL-*.txt` files next to them.
+- **Looper X images.** `docs/design/looperx-factory/` holds Looper X images,
+  kept as a reference for layout and sizing. They are third-party material,
+  and we grant no licence for them. The same applies to:
+  - the muted copies in `docs/design/fx-ux-previews/pen-sizing/state-art/`;
+  - the Looper X art in the top ("before") half of each
+    `docs/design/own-art/app-screens/*-before-after.png`;
+  - the "old" column of `docs/design/own-art/review-sheet.png`.
+
+  The pen links to these images by path. Its licence does not extend to
+  them.
+
+Until this licence was added on 2026-10-28, these files were published under
+GPL-3.0, first as part of
+[`tomassasovsky/segno`](https://github.com/tomassasovsky/segno) and then in
+this repository, including the other branches listed above. Copies taken from
+that history remain available under those terms. That notice never applied to
+the Looper X images, because they were never ours to license.
