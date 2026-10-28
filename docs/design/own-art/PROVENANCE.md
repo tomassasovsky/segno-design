@@ -25,7 +25,7 @@ Every flat prompt uses the same frame:
 |---|---|---|
 | drum | generic five-piece drum kit with two cymbals, front view | azure #1e6ff0 |
 | dub | bass speaker cone with concentric sound-wave rings and echo arcs | magenta-purple #b012e0 |
-| edsguitar | small-body acoustic guitar standing upright | amber #f5a400 |
+| edsguitar | small-body acoustic guitar lying sideways, horizontal, neck pointing to the right, body on the left, seen from the front | amber #f5a400 |
 | guitar | solid-body electric guitar, diagonal, three-a-side symmetric headstock, original double-cutaway body | sky blue #7aa6dc |
 | lo-fi | retro cassette in front of warped waveform lines | lime green #3dbb00 |
 | rhythmic | top-down drum machine and mixer surface: pads, faders, knobs | cyan #12d6f0 |
@@ -46,7 +46,7 @@ Every photo prompt uses the same frame:
 |---|---|
 | drum | drum kit on a dark stage, magenta and pink stage light through haze |
 | dub | wall of stacked vintage speaker cabinets, warm low light, purple shadows |
-| edsguitar | small-body acoustic guitar against a dark wall, warm amber raking light |
+| edsguitar | small-body acoustic guitar lying sideways, horizontal across the frame, neck to the right, resting on a dark surface against a dark wall, warm amber raking light |
 | guitar | glossy blue electric guitar body, red rim light from the left and blue from the right, original body outline |
 | lo-fi | cassette deck and tapes on a desk at night, teal and magenta neon, film grain |
 | rhythmic | drum machine and console at a low angle, pads glowing magenta and cyan |
@@ -54,15 +54,22 @@ Every photo prompt uses the same frame:
 | vocal | handheld mic lying on a glossy dark stage floor under a teal spotlight |
 | vocaltuner | mic grille rising under a glowing tuner arc with a green needle, blue haze |
 
+The edsguitar pair was regenerated the same day with the guitar lying sideways, at the owner's request; the upright originals are in `source/superseded/`.
+
 ## In this folder
 
 - `source/`: the 19 generated images, uncropped.
 - `review-sheet.png`: the sheet the owner approved the set from.
-- `pedal-v2-samples/` and `pedal_v2_reference.py`: the approved V2 stomp
-  pedal (the script writes the four samples). The app does not ship pedal
-  images; it draws each pedal in code from this template.
+- `pedal_faces_v3.py`, `pedal-v3-samples/` and `pedal-faces-v3-sheet.png`:
+  the approved pedal design, five enclosure faces with a look per module.
+  The script is the spec of record and writes one sample per module. The app
+  does not ship pedal images; it draws each pedal in code from this design.
+- `pedal-v2-samples/` and `pedal_v2_reference.py`: the earlier single-face
+  V2 pedal, kept as history.
+- `source/superseded/`: the upright Ed's Rack guitar the sideways pair
+  replaced.
 - The `assets/` crops ship in Segno, in `packages/fx_catalogue/assets/images`
   (tomassasovsky/segno#1501).
 - `app-screens/`: the app's FX and pedal setup screens before (top) and
-  after (bottom) the swap, and every catalogue pedal as the app draws it,
-  rendered from the Segno screenshot suites for review.
+  after (bottom) the swap, rendered from the Segno screenshot suites for
+  review, and every pedal as the V2 round drew it.
