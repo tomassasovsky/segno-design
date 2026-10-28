@@ -1,0 +1,75 @@
+#!/bin/sh
+# Exports the design source, the Penpot file "segno-ui", and writes it to
+# penpot/segno-ui/ as the unpacked contents of a .penpot archive. A design PR
+# runs this and commits the result, so git keeps the design's history.
+#
+#   tool/penpot-snapshot
+#
+# It calls the backend's export-binfile method (binfile v3, the format the
+# Penpot dashboard exports and imports) with the access token in
+# $PENPOT_TOKEN_FILE. The token is sent in a header read from stdin, so it
+# never appears in the process list or in the output.
+#
+# The archive is not committed whole: it is about 130 MB, over GitHub's
+# 100 MB per-file limit, because it holds one JSON file per shape. Unpacked,
+# the largest file is a few MB, and a change touches only the shapes it
+# changes. To get an importable .penpot back:
+#
+#   (cd penpot/segno-ui && zip -qrX ../../segno-ui.penpot .)
+#
+# Environment:
+#   PENPOT_URL         default http://192.168.50.122:9001
+#   PENPOT_TOKEN_FILE  default ~/development/penpot-server/.penpot-token
+#   PENPOT_FILE_ID     default the id of "segno-ui" in project "Segno"
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+
+url=${PENPOT_URL:-http://192.168.50.122:9001}
+token_file=${PENPOT_TOKEN_FILE:-$HOME/development/penpot-server/.penpot-token}
+file_id=${PENPOT_FILE_ID:-a877156d-2168-8112-8008-dc507254add2}
+out=penpot/segno-ui
+
+if [ ! -r "$token_file" ]; then
+  echo "penpot-snapshot: no access token at $token_file" >&2
+  exit 1
+fi
+token=$(cat "$token_file")
+
+tmp=$(mktemp -d)
+trap 'rm -rf "$tmp"' EXIT
+
+# Runs curl with the token header, read from stdin.
+authed_curl() {
+  printf 'Authorization: Token %s\n' "$token" | curl -sS -f -H @- "$@"
+}
+
+# The method answers with a server-sent event stream: progress events, then
+# an `end` event whose data is the URI of the exported archive, or an `error`
+# event.
+authed_curl -o "$tmp/events" \
+  -H 'Content-Type: application/json' \
+  -H 'Accept: text/event-stream' \
+  --data "{\"fileId\":\"$file_id\",\"includeLibraries\":false,\"embedAssets\":false,\"version\":3}" \
+  "$url/api/main/methods/export-binfile"
+
+if grep -q '^event: error' "$tmp/events"; then
+  echo "penpot-snapshot: export failed:" >&2
+  grep -A1 '^event: error' "$tmp/events" >&2
+  exit 1
+fi
+archive=$(grep -A1 '^event: end' "$tmp/events" |
+  sed -n 's/^data: .*"~#uri":"\([^"]*\)".*/\1/p')
+if [ -z "$archive" ]; then
+  echo "penpot-snapshot: the export stream has no end event" >&2
+  exit 1
+fi
+
+authed_curl -o "$tmp/segno-ui.penpot" "$archive"
+
+rm -rf "$out"
+mkdir -p "$out"
+unzip -q "$tmp/segno-ui.penpot" -d "$out"
+
+revn=$(sed -n 's/^  "revn": \([0-9]*\),$/\1/p' "$out/files/$file_id.json")
+echo "Exported segno-ui at revision $revn: $(wc -c < "$tmp/segno-ui.penpot" | tr -d ' ') bytes," \
+  "$(find "$out" -type f | wc -l | tr -d ' ') files in $out."
