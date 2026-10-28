@@ -49,7 +49,8 @@ function pageMeasure(textIds) {
   for (const el of document.querySelectorAll('[data-n]')) {
     if (!el.getClientRects().length) continue;
     const r = el.getBoundingClientRect();
-    out[el.dataset.n] = { x: r.left - world.left, y: r.top - world.top, w: r.width, h: r.height };
+    // offsetLeft/Top are untransformed positions in the parent (rotation).
+    out[el.dataset.n] = { x: r.left - world.left, y: r.top - world.top, w: r.width, h: r.height, ox: el.offsetLeft, oy: el.offsetTop, ow: el.offsetWidth, oh: el.offsetHeight };
   }
   const texts = {};
   for (const n of textIds) {

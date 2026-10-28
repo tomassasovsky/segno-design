@@ -2,8 +2,9 @@
 // geometry the browser computed for them.
 
 import * as penpot from '@penpot/library';
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import { randomUUID } from 'node:crypto';
+import svgpath from 'svgpath';
 import { PenDoc, walk } from './pen.mjs';
 import {
   layoutOf,
@@ -17,6 +18,7 @@ import {
 import { iconGlyph, iconFit } from './icons.mjs';
 import { mapPath, placePath } from './geometry.mjs';
 import { imageSize } from './image-size.mjs';
+import { canonicalFamily } from './fonts.mjs';
 
 const round = (v, d = 3) => +Number(v).toFixed(d);
 
@@ -32,8 +34,9 @@ export function splitHex(hex) {
 const JUSTIFY = { start: 'start', center: 'center', end: 'end', space_between: 'space-between', space_around: 'space-around' };
 const ALIGN = { start: 'start', center: 'center', end: 'end' };
 
-// Penpot attributes that matter for override (touched) detection, mapped to
-// their sync group, as in app.common.types.component/sync-attrs.
+// Penpot attributes compared for override (touched) flags, mapped to their
+// sync group as in app.common.types.component/sync-attrs. Text content, size
+// and name are handled separately in touched().
 const TOUCH_GROUPS = {
   fills: 'fill-group',
   strokes: 'stroke-group',
@@ -44,21 +47,136 @@ const TOUCH_GROUPS = {
   r2: 'radius-group',
   r3: 'radius-group',
   r4: 'radius-group',
-  width: 'geometry-group',
-  height: 'geometry-group',
-  content: 'content-group',
+  rotation: 'geometry-group',
   growType: 'text-font-group',
   layout: 'layout-container',
   layoutFlexDir: 'layout-flex-dir',
   layoutGap: 'layout-gap',
+  layoutGapType: 'layout-gap',
   layoutPadding: 'layout-padding',
+  layoutPaddingType: 'layout-padding',
   layoutJustifyContent: 'layout-justify-content',
   layoutAlignItems: 'layout-align-items',
+  layoutAlignContent: 'layout-align-content',
+  layoutWrapType: 'layout-wrap-type',
   layoutItemHSizing: 'layout-item-h-sizing',
   layoutItemVSizing: 'layout-item-v-sizing',
   layoutItemAbsolute: 'layout-item-absolute',
-  name: 'name-group',
+  layoutItemZIndex: 'layout-item-z-index',
 };
+
+// Sync group of each applied-token attribute (token.cljc token-attr->shape-attr
+// then sync-attrs). Text shapes keep fill and font tokens in their content.
+const TOKEN_GROUPS = {
+  fill: 'fill-group',
+  strokeColor: 'stroke-group',
+  r1: 'radius-group',
+  r2: 'radius-group',
+  r3: 'radius-group',
+  r4: 'radius-group',
+  rowGap: 'layout-gap',
+  columnGap: 'layout-gap',
+  p1: 'layout-padding',
+  p2: 'layout-padding',
+  p3: 'layout-padding',
+  p4: 'layout-padding',
+  opacity: 'layer-effects-group',
+  fontSize: 'text-font-group',
+  fontFamily: 'text-font-group',
+};
+
+// Layer names that only repeat the HTML tag the pen node was drawn from.
+const GENERIC_NAMES = new Set(
+  'div span i b strong em small p a button label svg g path rect circle section header footer nav main article aside ul ol li img input form kbd code h1 h2 h3 h4 h5 h6 table tr td frame rectangle ellipse text'.split(' '),
+);
+
+// Penpot 2.18 blends the first drop shadow of a shape with itself (its
+// feBlend has no in2), so a shadow of opacity a renders as 1-(1-a*g)^2 where g
+// is the blurred coverage. This picks the opacity whose rendering is closest
+// to the intended a*g over the whole falloff.
+const shadowOpacityCache = new Map();
+export function penpotShadowOpacity(a) {
+  if (shadowOpacityCache.has(a)) return shadowOpacityCache.get(a);
+  let best = a;
+  let bestErr = Infinity;
+  for (let o = 0; o <= a; o += 0.0005) {
+    let err = 0;
+    for (let g = 0.01; g <= 1; g += 0.01) {
+      const d = 1 - (1 - o * g) ** 2 - a * g;
+      err += d * d;
+    }
+    if (err < bestErr) {
+      bestErr = err;
+      best = o;
+    }
+  }
+  const r = round(best, 4);
+  shadowOpacityCache.set(a, r);
+  return r;
+}
+
+// Port of app.common.types.text/compare-text-content: the kinds of
+// difference between two text contents, which Penpot records as touched
+// groups next to :content-group.
+export function textDiff(a, b) {
+  const out = new Set();
+  const rec = (x, y) => {
+    if (JSON.stringify(x) === JSON.stringify(y)) return;
+    if (Array.isArray(x) !== Array.isArray(y) || typeof x !== typeof y) {
+      out.add('text-content-structure');
+      return;
+    }
+    if (x && typeof x === 'object' && !Array.isArray(x)) {
+      const keys = new Set([...Object.keys(x), ...Object.keys(y)]);
+      keys.delete('key');
+      for (const k of keys) {
+        if (k === 'children') {
+          if ((x.children ?? []).length !== (y.children ?? []).length) out.add('text-content-structure');
+          else x.children.forEach((c, i) => rec(c, y.children[i]));
+        } else if (k === 'text') {
+          if (x.text !== y.text) out.add('text-content-text');
+        } else if (JSON.stringify(x[k] ?? null) !== JSON.stringify(y[k] ?? null)) {
+          out.add('text-content-attribute');
+        }
+      }
+    }
+  };
+  rec(a, b);
+  return out;
+}
+
+// Affine helpers, SVG convention: x' = a x + c y + e, y' = b x + d y + f.
+const apply = (m, x, y) => [m.a * x + m.c * y + m.e, m.b * x + m.d * y + m.f];
+const linearOf = (m) => ({ a: m.a, b: m.b, c: m.c, d: m.d, e: 0, f: 0 });
+function invert(m) {
+  const det = m.a * m.d - m.b * m.c;
+  return {
+    a: m.d / det,
+    b: -m.b / det,
+    c: -m.c / det,
+    d: m.a / det,
+    e: (m.c * m.f - m.d * m.e) / det,
+    f: (m.b * m.e - m.a * m.f) / det,
+  };
+}
+const multiply = (m, n) => ({
+  a: m.a * n.a + m.c * n.b,
+  b: m.b * n.a + m.d * n.b,
+  c: m.a * n.c + m.c * n.d,
+  d: m.b * n.c + m.d * n.d,
+  e: m.a * n.e + m.c * n.f + m.e,
+  f: m.b * n.e + m.d * n.f + m.f,
+});
+// pen rotation: degrees counter-clockwise around the top-left corner.
+function penRotation(deg, x, y) {
+  const t = (deg * Math.PI) / 180;
+  const cos = Math.cos(t);
+  const sin = Math.sin(t);
+  const lin = { a: cos, b: -sin, c: sin, d: cos, e: 0, f: 0 };
+  // translate(x,y) * lin * translate(-x,-y)
+  const [ex, ey] = apply(lin, -x, -y);
+  return { ...lin, e: ex + x, f: ey + y };
+}
 
 export class PenpotWriter {
   constructor(pen, { fonts, imageRoots, report }) {
@@ -70,7 +188,6 @@ export class PenpotWriter {
     this.colorIds = new Map();
     this.media = new Map();
     this.mainRel = new Map();
-    this.mainRoot = new Map();
     this.attrsById = new Map();
     this.components = [];
   }
@@ -89,24 +206,20 @@ export class PenpotWriter {
 
   begin(name) {
     this.fileId = this.ctx.addFile({ name });
-    for (const [name, v] of Object.entries(this.pen.variables)) {
+    for (const [vname, v] of Object.entries(this.pen.variables)) {
       if (v.type !== 'color') continue;
-      const { color, opacity } = splitHex(this.pen.varValue(name));
-      const id = this.ctx.addLibraryColor({ name, color, opacity });
-      this.colorIds.set(name, id);
+      const { color, opacity } = splitHex(this.pen.varValue(vname));
+      this.colorIds.set(vname, this.ctx.addLibraryColor({ name: vname, color, opacity }));
     }
     this.bump('libraryColors', this.colorIds.size);
-    const tokens = this.tokenSets();
-    if (tokens) {
-      this.ctx.addTokensLib(JSON.stringify(tokens));
-    }
+    this.ctx.addTokensLib(JSON.stringify(this.tokenSets()));
   }
 
-  // Number and string variables as Penpot design tokens (DTCG). Colours are
-  // also library colours above; they go into the token set too so a shape can
-  // carry both bindings.
+  // All variables as one Penpot token set (DTCG). Colours are library colours
+  // as well; shapes carry both bindings.
   tokenSets() {
     const set = {};
+    this.tokenTypes = new Map();
     const typeOf = (name, v) => {
       if (v.type === 'color') return 'color';
       if (v.type === 'string') return name.startsWith('font') ? 'fontFamilies' : null;
@@ -120,12 +233,21 @@ export class PenpotWriter {
       const t = typeOf(name, v);
       if (!t) continue;
       let value = this.pen.varValue(name);
-      if (t === 'fontFamilies') value = [value];
+      if (t === 'fontFamilies') value = [canonicalFamily(value)];
       else if (t !== 'color') value = String(value);
       set[name] = { $type: t, $value: value };
+      this.tokenTypes.set(name, t);
     }
-    this.tokenNames = new Set(Object.keys(set));
+    this.bump('tokens', Object.keys(set).length);
     return { segno: set, $themes: [], $metadata: { tokenSetOrder: ['segno'], activeSets: ['segno'] } };
+  }
+
+  // Token name bound by a pen value, if it is one of the given token types.
+  token(value, ...types) {
+    const name = PenDoc.varName(value);
+    if (!name || !this.tokenTypes.has(name)) return undefined;
+    if (types.length && !types.includes(this.tokenTypes.get(name))) return undefined;
+    return name;
   }
 
   // ---- paints --------------------------------------------------------------
@@ -169,7 +291,12 @@ export class PenpotWriter {
         out.push({ fillColorGradient: this.gradient(f), fillOpacity: this.pen.resolve(f.opacity ?? 1) });
         this.bump('gradients');
       } else if (f.type === 'image') {
-        // Handled by the caller (needs geometry).
+        // A fitted image whose box has the image's proportions is a plain
+        // image fill; otherwise the image goes into a child (see #emit).
+        const img = this.media.get(f.url);
+        if (img && node._imageDirect) {
+          out.push({ fillImage: { ...img, keepAspectRatio: true }, fillOpacity: this.pen.resolve(f.opacity ?? 1) });
+        }
       } else {
         this.lossy(`fill type ${f.type}`);
       }
@@ -225,10 +352,15 @@ export class PenpotWriter {
         this.lossy(`effect ${s.type}`);
         continue;
       }
-      const { color, opacity } = splitHex(this.pen.resolve(s.color ?? '#00000040'));
+      let { color, opacity } = splitHex(this.pen.resolve(s.color ?? '#00000040'));
+      const drop = s.shadowType !== 'inner';
+      if (drop && !out.some((x) => x.style === 'drop-shadow')) {
+        opacity = penpotShadowOpacity(opacity);
+        this.bump('shadowsCompensated');
+      }
       out.push({
         id: randomUUID(),
-        style: s.shadowType === 'inner' ? 'inner-shadow' : 'drop-shadow',
+        style: drop ? 'drop-shadow' : 'inner-shadow',
         offsetX: this.pen.resolve(s.offset?.x ?? 0),
         offsetY: this.pen.resolve(s.offset?.y ?? 0),
         blur: this.pen.resolve(s.blur ?? 0),
@@ -241,52 +373,65 @@ export class PenpotWriter {
     return out.length ? out : undefined;
   }
 
-  async imageMedia(url) {
-    if (this.media.has(url)) return this.media.get(url);
-    let file = null;
-    for (const root of this.imageRoots) {
-      const p = `${root}/${url}`;
-      try {
-        readFileSync(p, { flag: 'r' });
-        file = p;
-        break;
-      } catch {}
+  // Loads every image the trees use into the file once, before emission.
+  loadMedia(trees) {
+    for (const tree of trees) {
+      for (const [n] of walk(tree)) {
+        for (const f of fillsOf(n)) {
+          if (typeof f !== 'object' || f.type !== 'image' || this.media.has(f.url)) continue;
+          const file = this.imageRoots.map((r) => `${r}/${f.url}`).find((p) => existsSync(p));
+          if (!file) {
+            this.media.set(f.url, null);
+            continue;
+          }
+          const buf = readFileSync(file);
+          const { width, height } = imageSize(buf);
+          const mtype = file.endsWith('.png') ? 'image/png' : 'image/jpeg';
+          const id = this.ctx.addFileMedia({ name: f.url.split('/').pop(), width, height }, new Blob([buf], { type: mtype }));
+          this.media.set(f.url, { ...this.ctx.getMediaAsImage(id) });
+          this.bump('images');
+        }
+      }
     }
-    if (!file) {
-      this.media.set(url, null);
-      return null;
+  }
+
+  // ---- naming --------------------------------------------------------------
+
+  // Layer name: the pen name, unless it only repeats the HTML tag ("div"),
+  // in which case the role plus the first text inside, or the pen id.
+  layerName(node) {
+    const raw = node.name;
+    const generic = !raw || GENERIC_NAMES.has(raw.toLowerCase()) || raw === node.context;
+    if (!generic) return raw;
+    const snippet = (t) => {
+      const s = String(this.pen.resolve(t.content ?? '')).replace(/\s+/g, ' ').trim();
+      return s.length > 40 ? `${s.slice(0, 39)}…` : s;
+    };
+    const role = (raw ?? node.context ?? node.type).toLowerCase();
+    if (node.type === 'text') return snippet(node) || `text ${node.id}`;
+    if (node.type === 'ellipse') return `dot ${node.id}`;
+    const queue = [...(node.children ?? [])];
+    while (queue.length) {
+      const c = queue.shift();
+      if (c.type === 'text' && !c._hidden && snippet(c)) return `${role}: ${snippet(c)}`;
+      queue.push(...(c.children ?? []));
     }
-    const buf = readFileSync(file);
-    const { width, height } = imageSize(buf);
-    const mtype = file.endsWith('.png') ? 'image/png' : 'image/jpeg';
-    const id = this.ctx.addFileMedia({ name: url.split('/').pop(), width, height }, new Blob([buf], { type: mtype }));
-    const img = { ...this.ctx.getMediaAsImage(id), keepAspectRatio: false };
-    this.media.set(url, img);
-    this.bump('images');
-    return img;
+    return `${role} ${node.id}`;
   }
 
   // ---- text ----------------------------------------------------------------
 
-  font(family, weight) {
-    const f = this.fonts[family];
-    if (!f) {
-      this.lossy('font without Penpot mapping', family);
-      return this.fonts.Inter;
-    }
-    return f;
-  }
-
   textStyle(node, measured) {
     const pen = this.pen;
-    const fam = pen.resolve(node.fontFamily ?? 'Inter');
+    const fam = canonicalFamily(pen.resolve(node.fontFamily ?? 'Inter'));
     let weight = pen.resolve(node.fontWeight ?? 'normal');
     if (weight === 'normal') weight = '400';
     if (weight === 'bold') weight = '700';
     weight = String(weight);
-    const font = this.font(fam, weight);
-    if (font.substitute) this.lossy(`font ${fam} substituted by ${font.family}`);
+    const font = this.fonts[fam];
+    if (!font) throw new Error(`no Penpot font for ${fam}`);
     const variant = font.variant(weight);
+    if (variant.weight !== weight) this.lossy(`font weight ${fam} ${weight} rendered as ${variant.weight}`);
     const size = pen.resolve(node.fontSize ?? 14);
     let lh = pen.resolve(node.lineHeight);
     if (lh === undefined) {
@@ -309,19 +454,17 @@ export class PenpotWriter {
       textTransform: 'none',
       textDecoration: deco,
       fills,
-      _cssFamily: font.cssFamily ?? font.family,
     };
   }
 
   textContent(node, style) {
-    const { _cssFamily, ...st } = style;
     const text = String(this.pen.resolve(node.content ?? ''));
     const align = node.textAlign ?? 'left';
     const paragraphs = text.split('\n').map((line) => ({
       type: 'paragraph',
       textAlign: align,
-      ...st,
-      children: [{ text: line, ...st }],
+      ...style,
+      children: [{ text: line, ...style }],
     }));
     const va = { top: 'top', middle: 'center', bottom: 'bottom' }[node.textAlignVertical ?? 'top'];
     return {
@@ -331,14 +474,14 @@ export class PenpotWriter {
     };
   }
 
-  positionData(measured, style, ox, oy) {
+  positionData(measured, style) {
     return (measured?.lines ?? []).map((l) => ({
-      x: round(ox + l.x),
-      y: round(oy + l.y + l.h),
+      x: round(this.ox + l.x),
+      y: round(this.oy + l.y + l.h),
       width: round(l.w),
       height: round(l.h),
       text: l.text,
-      fontFamily: style._cssFamily,
+      fontFamily: style.fontFamily,
       fontSize: `${style.fontSize}px`,
       fontWeight: style.fontWeight,
       fontStyle: 'normal',
@@ -352,23 +495,21 @@ export class PenpotWriter {
 
   // ---- shapes --------------------------------------------------------------
 
-  // Builds the Penpot params of one node. `geo` is the absolute rect.
-  async shapeParams(node, geo, parentLayout, m) {
+  // Builds the Penpot params of one node. `geo` is its untransformed
+  // absolute rect; `xf` the absolute transform of rotated ancestors (or of
+  // the node itself), if any.
+  shapeParams(node, geo, parentLayout, m, xf) {
     const pen = this.pen;
     const p = {
       id: node._uuid,
-      name: node.name ?? node.id,
-      x: round(geo.x),
-      y: round(geo.y),
-      width: Math.max(round(geo.w), 0.01),
-      height: Math.max(round(geo.h), 0.01),
+      name: this.layerName(node),
+      ...this.placement(geo, xf),
     };
     if (node._hidden) p.hidden = true;
     const op = pen.resolve(node.opacity);
     if (op !== undefined && op !== 1) p.opacity = op;
-    if (pen.resolve(node.rotation)) this.lossy('rotation', node.id);
+    const tokens = {};
 
-    // Layout child attributes.
     const inFlex = parentLayout && parentLayout !== 'none';
     if (inFlex) {
       if (node.layoutPosition === 'absolute') p.layoutItemAbsolute = true;
@@ -381,18 +522,35 @@ export class PenpotWriter {
       p.layoutItemHSizing = this.sizing(node, 'width');
       p.layoutItemVSizing = this.sizing(node, 'height');
     }
+    const opToken = this.token(node.opacity, 'opacity');
+    if (opToken) tokens.opacity = opToken;
 
     const t = node.type;
     if (t === 'frame' || t === 'rectangle' || t === 'ellipse') {
-      const fills = this.fills(node);
-      p.fills = fills;
+      p.fills = this.fills(node);
+      const fl = fillsOf(node);
+      const fillToken = fl.length === 1 && typeof fl[0] === 'string' ? this.token(fl[0], 'color') : undefined;
+      if (fillToken) tokens.fill = fillToken;
       const strokes = this.strokes(node);
-      if (strokes.length) p.strokes = strokes;
+      if (strokes.length) {
+        p.strokes = strokes;
+        const sv = Array.isArray(node.stroke) ? node.stroke[0] : node.stroke;
+        const st = this.token(typeof sv === 'string' ? sv : sv?.color, 'color');
+        if (st) tokens.strokeColor = st;
+      }
       const sh = this.shadow(node);
       if (sh) p.shadow = sh;
       if (t !== 'ellipse') {
         const [r1, r2, r3, r4] = radiiOf(pen, node).map((r) => Math.min(r, Math.min(geo.w, geo.h) / 2));
-        if (r1 || r2 || r3 || r4) Object.assign(p, { r1, r2, r3, r4 });
+        if (r1 || r2 || r3 || r4) {
+          Object.assign(p, { r1, r2, r3, r4 });
+          const raw = node.cornerRadius;
+          const corners = Array.isArray(raw) ? raw : [raw, raw, raw, raw];
+          corners.forEach((c, i) => {
+            const name = this.token(c, 'borderRadius');
+            if (name) tokens[`r${i + 1}`] = name;
+          });
+        }
       }
     }
     if (t === 'frame') {
@@ -413,36 +571,53 @@ export class PenpotWriter {
           layoutAlignItems: ALIGN[node.alignItems ?? 'start'],
           layoutAlignContent: 'stretch',
         });
+        const gapToken = this.token(node.gap, 'spacing');
+        if (gapToken) Object.assign(tokens, { rowGap: gapToken, columnGap: gapToken });
+        const pad = node.padding;
+        const sides = Array.isArray(pad) ? (pad.length === 2 ? [pad[0], pad[1], pad[0], pad[1]] : pad) : [pad, pad, pad, pad];
+        sides.forEach((v, i) => {
+          const name = this.token(v, 'spacing');
+          if (name) tokens[`p${i + 1}`] = name;
+        });
       }
     }
     if (t === 'text') {
       const style = this.textStyle(node, m);
       p.content = this.textContent(node, style);
-      p.positionData = this.positionData(m, style, this.ox, this.oy);
+      p.positionData = this.positionData(m, style);
       const g = node.textGrowth ?? 'auto';
       p.growType = g === 'auto' ? 'auto-width' : g === 'fixed-width' ? 'auto-height' : 'fixed';
       const sh = this.shadow(node);
       if (sh) p.shadow = sh;
+      const f = fillsOf(node)[0];
+      const ft = typeof f === 'string' ? this.token(f, 'color') : undefined;
+      if (ft) tokens.fill = ft;
+      const fs = this.token(node.fontSize, 'fontSizes');
+      if (fs) tokens.fontSize = fs;
+      const ff = this.token(node.fontFamily, 'fontFamilies');
+      if (ff) tokens.fontFamily = ff;
+      if (xf) this.lossy('text inside a rotated layer', node.id);
     }
     if (t === 'path') {
-      const vb = node._viewBox;
-      p.content = mapPath(node.geometry ?? '', vb, geo.x, geo.y, geo.w, geo.h);
+      let d = mapPath(node.geometry ?? '', node._viewBox, geo.x, geo.y, geo.w, geo.h);
+      if (xf) d = svgpath(d).matrix([xf.a, xf.b, xf.c, xf.d, xf.e, xf.f]).round(3).toString();
+      p.content = d;
       p.fills = this.fills(node);
       const strokes = this.strokes(node);
       if (strokes.length) p.strokes = strokes;
       if (node.fillRule === 'evenodd') this.lossy('path fill rule evenodd', node.id);
-      delete p.x;
-      delete p.y;
-      delete p.width;
-      delete p.height;
+      for (const k of ['x', 'y', 'width', 'height', 'rotation', 'transform', 'transformInverse']) delete p[k];
     }
     if (t === 'icon') {
       const g = iconGlyph(pen.resolve(node.library), pen.resolve(node.icon));
       const fit = iconFit(g, geo.w, geo.h);
-      p.content = placePath(g.d, fit.s, geo.x + fit.tx, geo.y + fit.ty);
-      p.name = `${node.name ?? 'icon'} (${pen.resolve(node.library)} ${pen.resolve(node.icon)})`;
+      let d = placePath(g.d, fit.s, geo.x + fit.tx, geo.y + fit.ty);
+      if (xf) d = svgpath(d).matrix([xf.a, xf.b, xf.c, xf.d, xf.e, xf.f]).round(3).toString();
+      p.content = d;
+      p.name = `${node.name && !GENERIC_NAMES.has(node.name.toLowerCase()) ? node.name : 'icon'} (${pen.resolve(node.library)} ${pen.resolve(node.icon)})`;
       const f = fillsOf(node)[0] ?? '#000000';
       const paint = this.colorFill(typeof f === 'string' ? f : f.color);
+      const colorToken = typeof f === 'string' ? this.token(f, 'color') : undefined;
       if (g.mode === 'stroke') {
         p.fills = [];
         p.strokes = [
@@ -457,16 +632,39 @@ export class PenpotWriter {
             ...(paint.fillColorRefId ? { strokeColorRefId: paint.fillColorRefId, strokeColorRefFile: paint.fillColorRefFile } : {}),
           },
         ];
+        if (colorToken) tokens.strokeColor = colorToken;
       } else {
         p.fills = [paint];
+        if (colorToken) tokens.fill = colorToken;
       }
       this.bump('icons');
-      delete p.x;
-      delete p.y;
-      delete p.width;
-      delete p.height;
+      for (const k of ['x', 'y', 'width', 'height', 'rotation', 'transform', 'transformInverse']) delete p[k];
+    }
+    if (Object.keys(tokens).length) {
+      p.appliedTokens = tokens;
+      this.bump('shapesWithTokens');
+      this.bump('appliedTokens', Object.keys(tokens).length);
     }
     return p;
+  }
+
+  // x/y/width/height, plus rotation and transform when `xf` rotates.
+  placement(geo, xf) {
+    const w = Math.max(round(geo.w), 0.01);
+    const h = Math.max(round(geo.h), 0.01);
+    if (!xf) return { x: round(geo.x), y: round(geo.y), width: w, height: h };
+    const [cx, cy] = apply(xf, geo.x + geo.w / 2, geo.y + geo.h / 2);
+    const lin = linearOf(xf);
+    const deg = (((Math.atan2(lin.b, lin.a) * 180) / Math.PI) % 360 + 360) % 360;
+    return {
+      x: round(cx - geo.w / 2),
+      y: round(cy - geo.h / 2),
+      width: w,
+      height: h,
+      rotation: round(deg, 4),
+      transform: lin,
+      transformInverse: invert(lin),
+    };
   }
 
   sizing(node, dim) {
@@ -490,7 +688,7 @@ export class PenpotWriter {
       case 'frame':
         return 'board';
       case 'rectangle':
-        return node._promote ? 'board' : 'rect';
+        return 'rect';
       case 'ellipse':
         return 'circle';
       case 'text':
@@ -516,12 +714,11 @@ export class PenpotWriter {
           const rel = new Map();
           for (const [d] of walk(n)) rel.set(d._path.slice(n._path.length), d);
           this.mainRel.set(n.id, rel);
-          this.mainRoot.set(n.id, n);
         }
       }
     }
-    // Validate copies: every node must have a counterpart in the main.
     for (const tree of trees) this.#markCopies(tree, null, false);
+    this.loadMedia(trees);
   }
 
   #markCopies(node, copyRoot, inMain) {
@@ -532,31 +729,28 @@ export class PenpotWriter {
       for (const c of node.children ?? []) this.#markCopies(c, null, true);
       return;
     }
-    if (node._inst) {
+    if (node._inst && copyRoot === null) {
       const rel = this.mainRel.get(node._comp);
       let ok = !!rel && !node._structural;
-      if (copyRoot === null) {
-        // Check the whole copy against the main.
-        if (ok) {
-          for (const [d] of walk(node)) {
-            if (!rel.has(d._path.slice(node._path.length))) {
-              ok = false;
-              break;
-            }
+      if (ok) {
+        for (const [d] of walk(node)) {
+          if (!rel.has(d._path.slice(node._path.length))) {
+            ok = false;
+            break;
           }
         }
-        if (!ok) {
-          this.lossy('instance detached (structural override or missing main)', `${node._path} -> ${node._comp}`);
-          node._detached = true;
-          for (const c of node.children ?? []) this.#markCopies(c, null, inMain);
-          return;
-        }
-        node._copyRoot = node;
-        node._componentRoot = !inMain;
-        this.bump('copies');
-        for (const c of node.children ?? []) this.#markCopies(c, node, inMain);
+      }
+      if (!ok) {
+        this.lossy('instance detached (structural override or missing main)', `${node._path} -> ${node._comp}`);
+        node._detached = true;
+        for (const c of node.children ?? []) this.#markCopies(c, null, inMain);
         return;
       }
+      node._copyRoot = node;
+      node._componentRoot = !inMain;
+      this.bump('copies');
+      for (const c of node.children ?? []) this.#markCopies(c, node, inMain);
+      return;
     }
     if (copyRoot) node._copyRoot = copyRoot;
     for (const c of node.children ?? []) this.#markCopies(c, copyRoot, inMain);
@@ -575,8 +769,7 @@ export class PenpotWriter {
     }
     if (node._copyRoot) {
       const root = node._copyRoot;
-      const rel = this.mainRel.get(root._comp);
-      const target = rel.get(node._path.slice(root._path.length));
+      const target = this.mainRel.get(root._comp).get(node._path.slice(root._path.length));
       a.shapeRef = target._uuid;
       if (node._inst) {
         a.componentId = this.componentIdOf(node._comp);
@@ -594,75 +787,116 @@ export class PenpotWriter {
     return this.compIds.get(penId);
   }
 
-  // Override flags: groups whose attributes differ from the main's.
-  touched(params, mainParams) {
+  // Override flags of a copy shape: the sync groups whose attributes differ
+  // from the main's, set the way Penpot sets them when the copy is edited
+  // (container.cljc set-shape-attr): text content changes add the kind of
+  // change (text, attribute, structure) next to :content-group, otherwise a
+  // main edit resets the copy's text.
+  touched(p, mp) {
     const groups = new Set();
+    const strip = (k, v) => (k === 'shadow' && v ? v.map(({ id, ...rest }) => rest) : v);
     for (const [k, g] of Object.entries(TOUCH_GROUPS)) {
-      if (k === 'name') continue;
-      const a = k === 'content' && params.content?.type === 'root' ? textOf(params.content) : params[k];
-      const b = k === 'content' && mainParams.content?.type === 'root' ? textOf(mainParams.content) : mainParams[k];
-      if (k === 'width' || k === 'height') {
-        if (a !== undefined && b !== undefined && Math.abs(a - b) > 0.5) groups.add(g);
-        continue;
+      if (JSON.stringify(strip(k, p[k]) ?? null) !== JSON.stringify(strip(k, mp[k]) ?? null)) groups.add(g);
+    }
+    for (const k of ['width', 'height']) {
+      if (p[k] !== undefined && mp[k] !== undefined && Math.abs(p[k] - mp[k]) > 0.5) groups.add('geometry-group');
+    }
+    if (p.name !== mp.name) groups.add('name-group');
+    if (p.content && typeof p.content === 'object') {
+      const diff = textDiff(p.content, mp.content);
+      if (diff.size) {
+        groups.add('content-group');
+        for (const d of diff) groups.add(d);
       }
-      if (k === 'content' && params.content?.type === 'root') {
-        if (a !== b) groups.add('content-group');
-        if (JSON.stringify(stylesOf(params.content)) !== JSON.stringify(stylesOf(mainParams.content))) groups.add('text-font-group');
-        continue;
+    }
+    // Path content is geometry, which never marks a copy as touched by itself.
+    const ta = p.appliedTokens ?? {};
+    const tb = mp.appliedTokens ?? {};
+    for (const k of new Set([...Object.keys(ta), ...Object.keys(tb)])) {
+      if (ta[k] === tb[k]) continue;
+      const g = TOKEN_GROUPS[k];
+      if (!g) continue;
+      if (p.content && typeof p.content === 'object' && ['fill', 'fontSize', 'fontFamily'].includes(k)) {
+        groups.add('content-group');
+        groups.add('text-content-attribute');
+      } else {
+        groups.add(g);
       }
-      if (k === 'content') continue;
-      const strip = (v) => (k === 'shadow' && v ? v.map(({ id, ...rest }) => rest) : v);
-      if (JSON.stringify(strip(a) ?? null) !== JSON.stringify(strip(b) ?? null)) groups.add(g);
     }
     return [...groups];
   }
 
   // ---- emission ------------------------------------------------------------
 
+  async computeMainParams(tree, measure, origin) {
+    this.ox = origin.x;
+    this.oy = origin.y;
+    this.measure = measure;
+    this.silent = true;
+    this.#visit(tree, null, null, null, (n, geo, parentLayout, xf) => {
+      if (!n._inMain) return;
+      this.imagePlan(n, geo);
+      this.attrsById.set(n._uuid, this.shapeParams(n, geo, parentLayout, measure.texts[n._n], xf));
+    });
+    this.silent = false;
+  }
+
+  // Walks a tree computing each node's untransformed geometry and transform.
+  #visit(node, parent, parentGeo, parentXf, fn) {
+    const { geo, xf } = this.geoOf(node, parentGeo, parentXf);
+    fn(node, geo, parent ? layoutOf(parent) : null, xf);
+    for (const c of node.children ?? []) this.#visit(c, node, geo, xf, fn);
+  }
+
+  // Untransformed absolute rect of a node, and the absolute transform that
+  // applies to it (its own rotation and its rotated ancestors').
+  geoOf(node, parentGeo, parentXf) {
+    const r = this.measure.rects[node._n];
+    const pen = this.pen;
+    let geo;
+    if (!r || node._hidden) {
+      const w = typeof pen.resolve(node.width) === 'number' ? pen.resolve(node.width) : (parentGeo?.w ?? 1);
+      const h = typeof pen.resolve(node.height) === 'number' ? pen.resolve(node.height) : (parentGeo?.h ?? 1);
+      const base = parentGeo ?? { x: this.ox, y: this.oy };
+      geo = { x: base.x + (node.x ?? 0), y: base.y + (node.y ?? 0), w, h };
+    } else if (parentXf || pen.resolve(node.rotation)) {
+      // Under a rotation the bounding rect is rotated too: rebuild the box from
+      // the untransformed offsets inside the parent.
+      geo = { x: parentGeo.x + r.ox, y: parentGeo.y + r.oy, w: r.ow, h: r.oh };
+    } else {
+      geo = { x: this.ox + r.x, y: this.oy + r.y, w: r.w, h: r.h };
+    }
+    let xf = parentXf;
+    const rot = pen.resolve(node.rotation);
+    if (rot) {
+      const own = penRotation(rot, geo.x, geo.y);
+      xf = xf ? multiply(xf, own) : own;
+      this.bump('rotated');
+    }
+    return { geo, xf };
+  }
+
   // Emits one top-level pen frame (and its notes) onto the current page.
   async emitScreen(tree, measure, notes, origin) {
     this.ox = origin.x;
     this.oy = origin.y;
     this.measure = measure;
-    // Mains are emitted before copies need their params; params of every main
-    // node are computed in a first pass so copies can be compared.
-    await this.#emit(tree, null);
-    for (const n of notes) await this.#emit(n, null);
+    await this.#emit(tree, null, null, null);
+    for (const n of notes) await this.#emit(n, null, null, null);
   }
 
-  async computeMainParams(tree, measure, origin) {
-    this.ox = origin.x;
-    this.oy = origin.y;
-    this.silent = true;
-    for (const [n, parent] of walk(tree)) {
-      if (!isInsideMain(n)) continue;
-      const geo = this.geo(n, measure);
-      const parentLayout = parent ? layoutOf(parent) : null;
-      this.attrsById.set(n._uuid, await this.shapeParams(n, geo, parentLayout, measure.texts[n._n]));
-    }
-    this.silent = false;
-  }
-
-  geo(node, measure) {
-    const r = measure.rects[node._n];
-    if (!r || node._hidden) {
-      const w = typeof this.pen.resolve(node.width) === 'number' ? this.pen.resolve(node.width) : 1;
-      const h = typeof this.pen.resolve(node.height) === 'number' ? this.pen.resolve(node.height) : 1;
-      return { x: this.ox, y: this.oy, w, h };
-    }
-    return { x: this.ox + r.x, y: this.oy + r.y, w: r.w, h: r.h };
-  }
-
-  async #emit(node, parent) {
+  async #emit(node, parent, parentGeo, parentXf) {
     const kind = this.kind(node);
     if (!kind) {
       this.lossy(`node type ${node.type}`, node.id);
       return;
     }
-    const m = this.measure;
-    const geo = this.geo(node, m);
+    const { geo, xf } = this.geoOf(node, parentGeo, parentXf);
     const parentLayout = parent ? layoutOf(parent) : null;
-    const p = await this.shapeParams(node, geo, parentLayout, m.texts[node._n]);
+
+    const imageChild = this.imagePlan(node, geo);
+
+    const p = this.shapeParams(node, geo, parentLayout, this.measure.texts[node._n], xf);
     Object.assign(p, this.componentAttrs(node));
     if (node._mainNode) {
       const mp = this.attrsById.get(node._mainNode._uuid);
@@ -671,55 +905,21 @@ export class PenpotWriter {
         if (t.length) {
           p.touched = t;
           this.bump('touchedShapes');
+          for (const g of t) this.bump(`touched:${g}`);
         }
       }
     }
     if (node._zIndex !== undefined) p.layoutItemZIndex = node._zIndex;
 
-    // Image fills: pen draws them with 'fit' (contain). Penpot image fills only
-    // stretch or cover, so the image goes into a child rectangle sized to the
-    // contained box.
-    const imgFill = fillsOf(node).find((f) => typeof f === 'object' && f.type === 'image');
-    let imageChild = null;
-    if (imgFill) {
-      const img = await this.imageMedia(imgFill.url);
-      if (!img) this.lossy('missing image file', imgFill.url);
-      else {
-        const mode = imgFill.mode ?? 'cover';
-        let box = { x: geo.x, y: geo.y, w: geo.w, h: geo.h };
-        if (mode === 'fit' || mode === 'contain') {
-          const s = Math.min(geo.w / img.width, geo.h / img.height);
-          const w = img.width * s;
-          const h = img.height * s;
-          box = { x: geo.x + (geo.w - w) / 2, y: geo.y + (geo.h - h) / 2, w, h };
-        }
-        imageChild = {
-          id: randomUUID(),
-          name: `image ${imgFill.url.split('/').pop()}`,
-          x: round(box.x),
-          y: round(box.y),
-          width: round(box.w),
-          height: round(box.h),
-          fills: [{ fillImage: { ...img, keepAspectRatio: mode === 'cover' }, fillOpacity: 1 }],
-          ...(p.r1 ? { r1: p.r1, r2: p.r2, r3: p.r3, r4: p.r4 } : {}),
-        };
-        if (layoutOf(node) !== 'none' && node.type === 'frame') imageChild.layoutItemAbsolute = true;
-        if (kind !== 'board') this.lossy('image fill on non-frame promoted to board', node.id);
-      }
-    }
     const perSide = this.perSideStrokes(node, geo);
+    // A rectangle has no children in Penpot: holding a fitted image or a side
+    // border makes it a board.
     const board = kind === 'board' || imageChild || perSide.length;
 
     if (board) {
       if (kind !== 'board') {
-        // Rectangle promoted to a board to hold the image or side strokes.
         p.showContent = true;
-        delete p.layoutItemHSizing;
-        delete p.layoutItemVSizing;
-        if (parentLayout && parentLayout !== 'none' && node.layoutPosition !== 'absolute') {
-          p.layoutItemHSizing = this.sizing(node, 'width');
-          p.layoutItemVSizing = this.sizing(node, 'height');
-        }
+        this.bump('rectanglesAsBoards');
       }
       this.ctx.addBoard(p);
       this.bump('boards');
@@ -731,7 +931,7 @@ export class PenpotWriter {
       const ordered = flex ? kids.map((c, i) => [c, i]).reverse() : kids.map((c, i) => [c, i]);
       for (const [c, i] of ordered) {
         if (flex) c._zIndex = i;
-        await this.#emit(c, node);
+        await this.#emit(c, node, geo, xf);
       }
       for (const s of perSide) this.ctx.addRect(s);
       this.ctx.closeBoard();
@@ -750,8 +950,49 @@ export class PenpotWriter {
     }
   }
 
-  // Penpot's SVG renderer has no per-side stroke widths: draw each side as a
-  // thin rectangle pinned to that edge.
+  // Image fills: pen draws them 'fit' (contain). A box with the image's
+  // proportions takes the image as a normal fill; any other box gets the
+  // image as a child rectangle sized to the fitted area, which is how Penpot
+  // itself places an image. Returns that child, or null.
+  imagePlan(node, geo) {
+    const imgFill = fillsOf(node).find((f) => typeof f === 'object' && f.type === 'image');
+    if (!imgFill) return null;
+    const img = this.media.get(imgFill.url);
+    if (!img) {
+      this.lossy('missing image file', imgFill.url);
+      return null;
+    }
+    const mode = imgFill.mode ?? 'cover';
+    const ratio = img.width / img.height;
+    if (mode === 'stretch' || mode === 'cover' || Math.abs(geo.w / geo.h - ratio) < 0.005 * ratio) {
+      node._imageDirect = true;
+      this.bump('imageFills');
+      return null;
+    }
+    const s = Math.min(geo.w / img.width, geo.h / img.height);
+    const w = img.width * s;
+    const h = img.height * s;
+    this.bump('fittedImageChildren');
+    return {
+      id: randomUUID(),
+      name: imgFill.url.split('/').pop(),
+      x: round(geo.x + (geo.w - w) / 2),
+      y: round(geo.y + (geo.h - h) / 2),
+      width: round(w),
+      height: round(h),
+      proportionLock: true,
+      fills: [{ fillImage: { ...img, keepAspectRatio: true }, fillOpacity: 1 }],
+      constraintsH: 'scale',
+      constraintsV: 'scale',
+      ...(node.type === 'frame' && layoutOf(node) !== 'none' ? { layoutItemAbsolute: true } : {}),
+    };
+  }
+
+  // Penpot 2.18's renderer has no per-side stroke widths (the stroke-width-*
+  // attributes are read by the experimental WASM renderer only). Every
+  // per-side stroke in the pen draws one side, so it becomes one thin
+  // rectangle named after that side, pinned to the edge by constraints and
+  // bound to the same library colour.
   perSideStrokes(node, geo) {
     if (!['frame', 'rectangle'].includes(node.type)) return [];
     const list = Array.isArray(node.stroke) ? node.stroke : node.stroke ? [node.stroke] : [];
@@ -760,14 +1001,16 @@ export class PenpotWriter {
     if (w.every((x) => x === w[0])) return [];
     this.bump('perSideStrokes');
     const first = list[0];
-    const paint = this.colorFill(typeof first === 'string' ? first : first.color);
+    const value = typeof first === 'string' ? first : first.color;
+    const paint = this.colorFill(value);
+    const colorToken = this.token(value, 'color');
     const align = node.strokeAlignment ?? 'inner';
     const k = align === 'inner' ? 0 : align === 'center' ? 0.5 : 1;
     const [t, r, b, l] = w;
     const flex = node.type === 'frame' && layoutOf(node) !== 'none';
-    const base = (name, x, y, width, height, ch, cv) => ({
+    const side = (name, x, y, width, height, ch, cv) => ({
       id: randomUUID(),
-      name,
+      name: `border-${name}`,
       x: round(x),
       y: round(y),
       width: round(width),
@@ -775,17 +1018,15 @@ export class PenpotWriter {
       fills: [paint],
       constraintsH: ch,
       constraintsV: cv,
+      ...(colorToken ? { appliedTokens: { fill: colorToken } } : {}),
       ...(flex ? { layoutItemAbsolute: true, layoutItemZIndex: 100000 } : {}),
     });
     const out = [];
-    const X = geo.x;
-    const Y = geo.y;
-    const W = geo.w;
-    const H = geo.h;
-    if (t) out.push(base('stroke top', X - k * l, Y - k * t, W + k * (l + r), t, 'leftright', 'top'));
-    if (b) out.push(base('stroke bottom', X - k * l, Y + H - b + k * b, W + k * (l + r), b, 'leftright', 'bottom'));
-    if (l) out.push(base('stroke left', X - k * l, Y - k * t, l, H + k * (t + b), 'left', 'topbottom'));
-    if (r) out.push(base('stroke right', X + W - r + k * r, Y - k * t, r, H + k * (t + b), 'right', 'topbottom'));
+    const { x: X, y: Y, w: W, h: H } = geo;
+    if (t) out.push(side('top', X - k * l, Y - k * t, W + k * (l + r), t, 'leftright', 'top'));
+    if (b) out.push(side('bottom', X - k * l, Y + H - b + k * b, W + k * (l + r), b, 'leftright', 'bottom'));
+    if (l) out.push(side('left', X - k * l, Y - k * t, l, H + k * (t + b), 'left', 'topbottom'));
+    if (r) out.push(side('right', X + W - r + k * r, Y - k * t, r, H + k * (t + b), 'right', 'topbottom'));
     return out;
   }
 
@@ -813,17 +1054,4 @@ export class PenpotWriter {
     this.ctx.closeFile();
     return penpot.exportAsBytes(this.ctx);
   }
-}
-
-function isInsideMain(node) {
-  return node._inMain === true;
-}
-
-function textOf(content) {
-  return content.children[0].children.map((p) => p.children.map((c) => c.text).join('')).join('\n');
-}
-
-function stylesOf(content) {
-  const p = content.children[0].children[0];
-  return [p.fontId, p.fontSize, p.fontWeight, p.lineHeight, p.letterSpacing, p.textAlign];
 }

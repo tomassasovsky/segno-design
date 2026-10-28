@@ -17,7 +17,6 @@ import { PenpotWriter } from '../src/penpot.mjs';
 import { fontTable } from '../src/fonts.mjs';
 
 const DESIGN = '/Users/Tomas/Documents/Work/opensource/segno-design';
-const SEGNO = '/Users/Tomas/Documents/Work/opensource/segno';
 
 // About ten screens covering components with overrides, images, gradients,
 // shadows, icons, deep nesting, absolute children and c/ notes.
@@ -53,7 +52,6 @@ mkdirSync(renderDir, { recursive: true });
 const t0 = Date.now();
 const pen = loadPen(values.pen);
 const imageRoots = [DESIGN, '/Users/Tomas/development/segno-split/segno-main'];
-const fontsDir = join(SEGNO, 'assets/fonts');
 const uploadedFontsFile = values.fonts ?? join(out, 'fonts.json');
 const uploaded = existsSync(uploadedFontsFile) ? JSON.parse(readFileSync(uploadedFontsFile, 'utf8')) : null;
 
@@ -109,7 +107,7 @@ for (const id of ids) {
   const top = pen.byId.get(id);
   const tree = trees.get(id);
   const notes = notesFor(top).map((n) => pen.expand(n));
-  const hb = new HtmlBuilder(pen, { imageRoots, fontsDir });
+  const hb = new HtmlBuilder(pen, { imageRoots });
   const html = hb.document(tree, notes, { pad: PAD });
   const textIds = hb.nodes.filter((n) => n.type === 'text').map((n) => n._n);
   const fitAbs = hb.nodes.filter((n) => n._fitAbs).map((n) => [n._n, n._fitAbs]);
@@ -139,6 +137,7 @@ await browser.close();
 const tRender = Date.now();
 
 // Penpot file: one page per area, screens at their pen canvas positions.
+console.log(`render done at ${Date.now() - t0} ms`);
 const writer = new PenpotWriter(pen, { fonts: fontTable(uploaded), imageRoots, report });
 writer.begin('segno-ui (pen trial)');
 writer.prepare([...results.values()].flatMap((r) => [r.tree, ...r.notes]));
@@ -163,6 +162,7 @@ for (const [area, list] of pages) {
     await writer.emitScreen(r.tree, r.measure, r.notes, { x: r.top.x, y: r.top.y });
   }
   writer.closePage();
+  console.log(`wrote page ${area} at ${Date.now() - tRender} ms`);
 }
 writer.finishComponents(pageOf);
 const bytes = await writer.write();

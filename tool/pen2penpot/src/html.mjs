@@ -6,30 +6,14 @@ import { resolve as resolvePath } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { iconGlyph, iconFit } from './icons.mjs';
 import { pathViewBox } from './geometry.mjs';
+import { FONT_FILES, canonicalFamily } from './fonts.mjs';
 
-// Font files. Inter and JetBrains Mono come from the Segno app's assets, SF
-// Mono and Arial from macOS.
-export function fontFaces(fontsDir) {
-  const f = (file) => pathToFileURL(resolvePath(fontsDir, file)).href;
-  const faces = [
-    ['Inter', 400, f('Inter-Regular.ttf')],
-    ['Inter', 500, f('Inter-Medium.ttf')],
-    ['Inter', 600, f('Inter-SemiBold.ttf')],
-    ['Inter', 700, f('Inter-Bold.ttf')],
-    ['JetBrains Mono', 400, f('JetBrainsMono-Regular.ttf')],
-    ['JetBrains Mono', 500, f('JetBrainsMono-Medium.ttf')],
-    ['JetBrains Mono', 600, f('JetBrainsMono-SemiBold.ttf')],
-  ];
-  const sys = [
-    ['SF Mono', '100 900', '/System/Library/Fonts/SFNSMono.ttf'],
-    ['Arial', 400, '/System/Library/Fonts/Supplemental/Arial.ttf'],
-    ['Arial', 700, '/System/Library/Fonts/Supplemental/Arial Bold.ttf'],
-  ];
-  for (const [fam, w, p] of sys) {
-    if (existsSync(p)) faces.push([fam, w, pathToFileURL(p).href]);
-  }
-  return faces
-    .map(([fam, w, url]) => `@font-face{font-family:"${fam}";font-weight:${w};src:url("${url}");}`)
+// @font-face rules for the open fonts the converter uses (src/fonts.mjs).
+export function fontFaces() {
+  return Object.entries(FONT_FILES)
+    .flatMap(([fam, list]) =>
+      list.map(([w, file]) => `@font-face{font-family:"${fam}";font-weight:${w};src:url("${pathToFileURL(file).href}");}`),
+    )
     .join('\n');
 }
 
@@ -97,10 +81,9 @@ export function strokeWidthsOf(pen, node) {
 }
 
 export class HtmlBuilder {
-  constructor(pen, { imageRoots, fontsDir }) {
+  constructor(pen, { imageRoots }) {
     this.pen = pen;
     this.imageRoots = imageRoots;
-    this.fontsDir = fontsDir;
     this.nodes = [];
     this.notes = [];
     this.missingImages = new Set();
@@ -190,7 +173,7 @@ export class HtmlBuilder {
       })
       .join('');
     return `<!doctype html><html><head><meta charset="utf-8"><style>
-${fontFaces(this.fontsDir)}
+${fontFaces()}
 html,body{margin:0;padding:0;background:#ffffff00;}
 *{box-sizing:border-box;}
 #world{position:absolute;left:${pad}px;top:${pad}px;width:0;height:0;}
@@ -350,7 +333,7 @@ svg{display:block;overflow:visible;}
   textCss(node) {
     const pen = this.pen;
     const st = [];
-    const fam = pen.resolve(node.fontFamily ?? 'Inter');
+    const fam = canonicalFamily(pen.resolve(node.fontFamily ?? 'Inter'));
     st.push(`font-family:'${fam}'`);
     st.push(`font-size:${px(pen.resolve(node.fontSize ?? 14))}`);
     let w = pen.resolve(node.fontWeight ?? 'normal');

@@ -61,8 +61,13 @@ Full file: `node bin/convert.mjs --all`, then
 `node bin/import.mjs out/segno-all.penpot --record import-segno-all.json` and
 `node bin/verify.mjs out/import-segno-all.json --report out/report-all.json --tag all`.
 
-Two extra checks:
+Another instance: set `PENPOT_URL` and `PENPOT_TOKEN_FILE`, upload the fonts
+with `--out` to a separate fonts file, and pass it to `convert.mjs --fonts`.
 
+Extra checks:
+
+- `mcp-checks/` holds the Penpot MCP scripts that edit component mains and
+  check that converted copies keep their overrides (see its README).
 - `bin/workspace-shots.mjs "STAGE / stage" ...` screenshots boards (by name or
   shape id) in the Penpot workspace UI.
 - `bin/relayout-test.mjs out/import-<copy>.json` makes Penpot's layout engine
@@ -78,24 +83,60 @@ Output goes to `~/development/penpot-trial/out` (override with `--out`):
 
 ## Fonts
 
-The reference render loads Inter and JetBrains Mono from the Segno app's
-`assets/fonts`, SF Mono and Arial from macOS. `bin/upload-fonts.mjs` uploads
-the same Inter, JetBrains Mono and SF Mono files to the Penpot team so both
-renders use identical glyphs. SF Mono is Apple's font; its licence covers
-mock-ups of Apple-platform software only, so it should not move to a shared
-server. Arial maps to Arimo (metric-compatible, open) from Penpot's Google
-Fonts catalogue. Inter weights the app does not ship (650, 750, 800) resolve
-to the nearest available file, 700, in both renders.
+Both the reference render and the Penpot file use the same open fonts, so the
+comparison measures the conversion rather than a font swap (`src/fonts.mjs`):
+
+- Inter and JetBrains Mono: the Segno app's own files in `assets/fonts`.
+- SF Mono becomes JetBrains Mono, the app's mono font. Nothing
+  Apple-licensed goes into the output.
+- Arial becomes Arimo, its metric-compatible open counterpart
+  (`@fontsource/arimo`).
+
+`bin/upload-fonts.mjs` uploads these files to the Penpot team as custom fonts.
+Inter weights the app does not ship (650, 750, 800) resolve to the nearest
+available file, 700, in both renders.
+
+## Components and overrides
+
+Reusable nodes become main components and `ref` instances become copies.
+Every copy shape whose attributes differ from its main gets the override
+flags (`touched`) Penpot itself would set for that edit
+(`container.cljc` `set-shape-attr`), so editing a main updates the copies
+without wiping their overrides. Text needs the kind of change next to
+`content-group` (`text-content-text`, `text-content-attribute`,
+`text-content-structure`); with `content-group` alone, a main edit resets the
+copy's text.
+
+## Tokens
+
+All 103 variables become one token set. Where the pen binds a `$variable`,
+the shape carries the token: fills and strokes (colour tokens, next to the
+library colour), corner radii, gap and padding (spacing), font size and
+family, opacity.
+
+## Rendering differences handled
+
+- Penpot 2.18 blends the first drop shadow of a shape with itself (the
+  shadow filter's `feBlend` has no `in2`), so a shadow of opacity a renders
+  as 1-(1-a)². The converter lowers the opacity to the value whose rendering
+  is closest to the pen's across the shadow's falloff (0.6 becomes 0.343).
+- Per-side strokes: Penpot's SVG renderer has no per-side widths (the
+  `stroke-width-*` attributes are read by its experimental WASM renderer
+  only). Every per-side stroke in the pen draws one side, so it becomes one
+  rectangle named `border-bottom` (and so on), pinned to that edge and bound
+  to the same colour. A rectangle that needs one becomes a board.
+- Fitted images: a box with the image's proportions gets a plain image fill;
+  any other box gets the image as a child rectangle sized to the fitted area,
+  the way Penpot places an image.
+- Rotation is carried as Penpot rotation and transform; paths inside a
+  rotated layer are transformed.
+- Layers the pen names after their HTML tag ("div", "span") are named from
+  their role and first text ("button: Rename") or their pen id.
 
 ## Known gaps
 
 Recorded per run in `report.json` under `lossy`:
 
-- Per-side stroke widths: Penpot's renderer has none, so each side becomes a
-  thin rectangle pinned to that edge.
-- Image fills with `fit`: Penpot image fills only stretch or cover, so the
-  image goes into a child rectangle sized to the fitted box.
 - Instances whose `descendants` replace a node or its children cannot be
   Penpot copies; they are written as plain layers.
 - Path stroke joins: Penpot has no line-join setting.
-- Rotation (two nodes in the file) is not carried over.
