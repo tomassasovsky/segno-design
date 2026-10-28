@@ -149,6 +149,9 @@ family, opacity.
   needs one becomes a board.
 - Path fill rule: `fillRule: evenodd` becomes `svg-attrs` `fillRule`, which
   Penpot's renderer applies to the path's fill, as it does for imported SVG.
+- Fill blend modes: Penpot blends whole layers, so a node whose only fill
+  has a blend mode (`light`, the pen's lighten) gets it as its layer blend
+  mode. `linearBurn` and `linearDodge` have no Penpot equivalent.
 - Paths and filled icons without a stroke get an explicit empty stroke
   list: Penpot gives a path with no `strokes` a 1 px black stroke.
 - Fitted images: a box with the image's proportions gets a plain image fill;

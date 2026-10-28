@@ -55,6 +55,34 @@ export function fillsOf(node) {
   return (Array.isArray(f) ? f : [f]).filter((x) => !(typeof x === 'object' && x.enabled === false));
 }
 
+// pen blend modes as CSS mix-blend-mode values (also Penpot's names).
+// linearBurn and linearDodge have no CSS or Penpot equivalent.
+export const BLEND = {
+  darken: 'darken',
+  multiply: 'multiply',
+  colorBurn: 'color-burn',
+  light: 'lighten',
+  screen: 'screen',
+  colorDodge: 'color-dodge',
+  overlay: 'overlay',
+  softLight: 'soft-light',
+  hardLight: 'hard-light',
+  difference: 'difference',
+  exclusion: 'exclusion',
+  hue: 'hue',
+  saturation: 'saturation',
+  color: 'color',
+  luminosity: 'luminosity',
+};
+
+// A node whose only fill has a blend mode blends as a layer; Penpot has
+// blend modes per layer, not per fill. Returns the pen blend mode or null.
+export function fillBlendOf(node) {
+  const fills = fillsOf(node);
+  const m = fills.length === 1 && typeof fills[0] === 'object' ? fills[0].blendMode : undefined;
+  return m && m !== 'normal' ? m : null;
+}
+
 export function paddingOf(pen, node) {
   let p = node.padding;
   if (p === undefined) return [0, 0, 0, 0];
@@ -260,6 +288,8 @@ svg{display:block;overflow:visible;}
       }
       const sh = this.shadows(node);
       if (sh) st.push(`box-shadow:${sh}`);
+      const blend = BLEND[fillBlendOf(node)];
+      if (blend) st.push(`mix-blend-mode:${blend}`);
       if (pen.resolve(node.clip) === true) st.push('overflow:hidden');
       inner += this.strokeCss(node, st);
     }

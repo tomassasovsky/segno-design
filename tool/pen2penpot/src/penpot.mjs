@@ -14,6 +14,8 @@ import {
   strokeWidthsOf,
   parseSize,
   linearEnds,
+  BLEND,
+  fillBlendOf,
 } from './html.mjs';
 import { iconGlyph, iconFit } from './icons.mjs';
 import { mapPath, placePath } from './geometry.mjs';
@@ -48,6 +50,7 @@ const TOUCH_GROUPS = {
   r3: 'radius-group',
   r4: 'radius-group',
   rotation: 'geometry-group',
+  blendMode: 'layer-effects-group',
   growType: 'text-font-group',
   layout: 'layout-container',
   layoutFlexDir: 'layout-flex-dir',
@@ -540,6 +543,11 @@ export class PenpotWriter {
       }
       const sh = this.shadow(node);
       if (sh) p.shadow = sh;
+      const blend = fillBlendOf(node);
+      if (blend) {
+        if (BLEND[blend]) p.blendMode = BLEND[blend];
+        else this.lossy(`fill blend mode ${blend}`, node.id);
+      }
       if (t !== 'ellipse') {
         const [r1, r2, r3, r4] = radiiOf(pen, node).map((r) => Math.min(r, Math.min(geo.w, geo.h) / 2));
         if (r1 || r2 || r3 || r4) {

@@ -125,19 +125,22 @@ export async function renderScreen(browser, html, htmlPath, { textIds, fitAbs, s
   const fontsOk = await page.evaluate(() => [...document.fonts].map((f) => `${f.family} ${f.weight} ${f.status}`));
   const result = await page.evaluate(pageMeasure, textIds);
   if (pngPath) {
-    // Chrome drops raster tiles of very large captures, so shoot in tiles.
+    // Chrome drops raster tiles of very large captures, even in clipped
+    // screenshots. Shift the page under a tile-sized viewport instead and
+    // capture only what is on screen.
     const root = result.rects['0'];
     const W = Math.round(root.w);
     const H = Math.round(root.h);
     const img = new PNG({ width: W, height: H });
+    await page.setViewport({ width: TILE, height: TILE, deviceScaleFactor: 1 });
     for (let y = 0; y < H; y += TILE) {
       for (let x = 0; x < W; x += TILE) {
         const w = Math.min(TILE, W - x);
         const h = Math.min(TILE, H - y);
-        const buf = await page.screenshot({
-          clip: { x: PAD + root.x + x, y: PAD + root.y + y, width: w, height: h },
-          omitBackground: true,
-        });
+        await page.evaluate((dx, dy) => {
+          document.body.style.transform = `translate(${-dx}px,${-dy}px)`;
+        }, PAD + root.x + x, PAD + root.y + y);
+        const buf = await page.screenshot({ clip: { x: 0, y: 0, width: w, height: h }, omitBackground: true, captureBeyondViewport: false });
         PNG.bitblt(PNG.sync.read(Buffer.from(buf)), img, 0, 0, w, h, x, y);
       }
     }
