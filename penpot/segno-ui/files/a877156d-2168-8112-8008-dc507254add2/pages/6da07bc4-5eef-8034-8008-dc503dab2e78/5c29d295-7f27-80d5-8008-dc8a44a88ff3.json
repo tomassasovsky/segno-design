@@ -1,0 +1,168 @@
+{
+  "id": "5c29d295-7f27-80d5-8008-dc8a44a88ff3",
+  "name": "c \/ power-wait-update",
+  "type": "text",
+  "x": 10980,
+  "y": 66361,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 66361,
+    "width": 1800,
+    "height": 32,
+    "x1": 10980,
+    "y1": 66361,
+    "x2": 12780,
+    "y2": 66393
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 66361
+    },
+    {
+      "x": 12780,
+      "y": 66361
+    },
+    {
+      "x": 12780,
+      "y": 66393
+    },
+    {
+      "x": 10980,
+      "y": 66393
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c29d295-7f27-80d5-8008-dc884dda9d78",
+  "frameId": "5c29d295-7f27-80d5-8008-dc884dda9d78",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The same card answers every way to restart or power off while an update is downloading or installing: the power key, Settings\u2019 Power row, Restart, Shut down, and the update\u2019s own Install and restart. #1498 can also show it after Saving or Restarting, when RAUC is found installing. The take refusal (\"Stop the take first\") and the transfer refusal (\"Wait for the transfer\") use the same card with their own title and body. Keep playing returns to the page the player was on. (#1494, #1505)"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 10980,
+      "y": 66377.25,
+      "width": 1781.36669921875,
+      "height": 16.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 1781.36669921875,
+      "y2": 16.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "The same card answers every way to restart or power off while an update is downloading or installing: the power key, Settings\u2019 Power row, Restart, Shut down, and the update\u2019s own Install and restart. #1498 can also show it after Saving or Restarting, when RAUC is found installing. The take "
+    },
+    {
+      "x": 10980,
+      "y": 66393.25,
+      "width": 1183.683349609375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 15.75,
+      "x2": 1183.683349609375,
+      "y2": 32.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "refusal (\"Stop the take first\") and the transfer refusal (\"Wait for the transfer\") use the same card with their own title and body. Keep playing returns to the page the player was on. (#1494, #1505)"
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dab2e78"
+}
