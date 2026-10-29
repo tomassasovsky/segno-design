@@ -1,0 +1,180 @@
+{
+  "id": "66c1bed3-c682-4058-948b-bbb513cfcad3",
+  "name": "body",
+  "type": "text",
+  "x": 9621,
+  "y": 6825.031,
+  "width": 478,
+  "height": 74.391,
+  "rotation": 0,
+  "selrect": {
+    "x": 9621,
+    "y": 6825.031,
+    "width": 478,
+    "height": 74.391,
+    "x1": 9621,
+    "y1": 6825.031,
+    "x2": 10099,
+    "y2": 6899.422
+  },
+  "points": [
+    {
+      "x": 9621,
+      "y": 6825.031
+    },
+    {
+      "x": 10099,
+      "y": 6825.031
+    },
+    {
+      "x": 10099,
+      "y": 6899.422
+    },
+    {
+      "x": 9621,
+      "y": 6899.422
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "cf324399-5681-4944-a129-ce30de91374e",
+  "frameId": "cf324399-5681-4944-a129-ce30de91374e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.55",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.55",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Out 2 is the only output still on. Off, the sum reaches nothing and the console is silent \u2014 the Audio face will warn until one is switched back on."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 6847.031,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 461.859,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9621,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Out 2 is the only output still on. Off, the sum reaches nothing "
+    },
+    {
+      "y": 6871.828,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 479.25,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9621,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "and the console is silent \u2014 the Audio face will warn until one is "
+    },
+    {
+      "y": 6896.625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 137.734,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9621,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "switched back on."
+    }
+  ],
+  "layoutItemZIndex": 2
+}

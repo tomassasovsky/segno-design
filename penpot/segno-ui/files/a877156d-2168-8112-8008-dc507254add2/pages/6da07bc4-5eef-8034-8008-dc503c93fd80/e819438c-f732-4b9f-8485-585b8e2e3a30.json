@@ -1,0 +1,135 @@
+{
+  "id": "e819438c-f732-4b9f-8485-585b8e2e3a30",
+  "name": "Recording trim",
+  "type": "text",
+  "x": 11972,
+  "y": 46396.5,
+  "width": 162.563,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 11972,
+    "y": 46396.5,
+    "width": 162.563,
+    "height": 25,
+    "x1": 11972,
+    "y1": 46396.5,
+    "x2": 12134.563,
+    "y2": 46421.5
+  },
+  "points": [
+    {
+      "x": 11972,
+      "y": 46396.5
+    },
+    {
+      "x": 12134.563,
+      "y": 46396.5
+    },
+    {
+      "x": 12134.563,
+      "y": 46421.5
+    },
+    {
+      "x": 11972,
+      "y": 46421.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "05c5df44-9f8f-4aee-a031-6d02c60a2d86",
+  "frameId": "05c5df44-9f8f-4aee-a031-6d02c60a2d86",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c4cedd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Recording trim"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c4cedd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c93fd80",
+  "positionData": [
+    {
+      "y": 46422.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 162.563,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11972,
+      "fills": [
+        {
+          "fillColor": "#c4cedd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Recording trim"
+    }
+  ]
+}

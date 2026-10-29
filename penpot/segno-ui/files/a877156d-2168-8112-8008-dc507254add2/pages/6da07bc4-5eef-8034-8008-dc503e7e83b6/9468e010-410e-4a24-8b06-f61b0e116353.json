@@ -1,0 +1,135 @@
+{
+  "id": "9468e010-410e-4a24-8b06-f61b0e116353",
+  "name": "Save the whole appliance",
+  "type": "text",
+  "x": 2480,
+  "y": 87941.5,
+  "width": 319.125,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 2480,
+    "y": 87941.5,
+    "width": 319.125,
+    "height": 28,
+    "x1": 2480,
+    "y1": 87941.5,
+    "x2": 2799.125,
+    "y2": 87969.5
+  },
+  "points": [
+    {
+      "x": 2480,
+      "y": 87941.5
+    },
+    {
+      "x": 2799.125,
+      "y": 87941.5
+    },
+    {
+      "x": 2799.125,
+      "y": 87969.5
+    },
+    {
+      "x": 2480,
+      "y": 87969.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c4ba09c9-247e-4a30-a4d3-c1edfd459f50",
+  "frameId": "c4ba09c9-247e-4a30-a4d3-c1edfd459f50",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Save the whole appliance"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e7e83b6",
+  "positionData": [
+    {
+      "y": 87970.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 319.125,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2480,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Save the whole appliance"
+    }
+  ]
+}

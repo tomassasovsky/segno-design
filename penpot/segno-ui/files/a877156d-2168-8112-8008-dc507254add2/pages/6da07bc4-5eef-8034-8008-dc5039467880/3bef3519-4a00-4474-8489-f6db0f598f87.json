@@ -1,0 +1,135 @@
+{
+  "id": "3bef3519-4a00-4474-8489-f6db0f598f87",
+  "name": "STAGE",
+  "type": "text",
+  "x": 11104,
+  "y": 18965,
+  "width": 66.313,
+  "height": 20,
+  "rotation": 0,
+  "selrect": {
+    "x": 11104,
+    "y": 18965,
+    "width": 66.313,
+    "height": 20,
+    "x1": 11104,
+    "y1": 18965,
+    "x2": 11170.313,
+    "y2": 18985
+  },
+  "points": [
+    {
+      "x": 11104,
+      "y": 18965
+    },
+    {
+      "x": 11170.313,
+      "y": 18965
+    },
+    {
+      "x": 11170.313,
+      "y": 18985
+    },
+    {
+      "x": 11104,
+      "y": 18985
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "97bd7385-b8b0-4dc1-845d-fe32db12c5fe",
+  "frameId": "97bd7385-b8b0-4dc1-845d-fe32db12c5fe",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "20",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b5b5b5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "STAGE"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "20",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b5b5b5",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5039467880",
+  "positionData": [
+    {
+      "y": 18986,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "width": 66.313,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11104,
+      "fills": [
+        {
+          "fillColor": "#b5b5b5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 22,
+      "text": "STAGE"
+    }
+  ]
+}

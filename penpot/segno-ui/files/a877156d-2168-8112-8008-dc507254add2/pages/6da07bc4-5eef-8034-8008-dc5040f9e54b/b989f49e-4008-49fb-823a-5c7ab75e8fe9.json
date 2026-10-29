@@ -1,0 +1,138 @@
+{
+  "id": "b989f49e-4008-49fb-823a-5c7ab75e8fe9",
+  "name": "Looks in the background. Never downloads",
+  "type": "text",
+  "x": 9121,
+  "y": 26603.109,
+  "width": 429.797,
+  "height": 16.938,
+  "rotation": 0,
+  "selrect": {
+    "x": 9121,
+    "y": 26603.109,
+    "width": 429.797,
+    "height": 16.938,
+    "x1": 9121,
+    "y1": 26603.109,
+    "x2": 9550.797,
+    "y2": 26620.047
+  },
+  "points": [
+    {
+      "x": 9121,
+      "y": 26603.109
+    },
+    {
+      "x": 9550.797,
+      "y": 26603.109
+    },
+    {
+      "x": 9550.797,
+      "y": 26620.047
+    },
+    {
+      "x": 9121,
+      "y": 26620.047
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "f79b6505-87a6-4644-8c2f-c79c5f0fe324",
+  "frameId": "f79b6505-87a6-4644-8c2f-c79c5f0fe324",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.21",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.21",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Looks in the background. Never downloads or installs on its own."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc5040f9e54b",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 26619.109,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 429.797,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9121,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Looks in the background. Never downloads or installs on its own."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

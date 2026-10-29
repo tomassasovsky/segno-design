@@ -1,0 +1,135 @@
+{
+  "id": "66ec0572-9da2-4cd5-8ea6-03867002603b",
+  "name": "After bounce",
+  "type": "text",
+  "x": 7400.594,
+  "y": 32613.5,
+  "width": 107.75,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 7400.594,
+    "y": 32613.5,
+    "width": 107.75,
+    "height": 19,
+    "x1": 7400.594,
+    "y1": 32613.5,
+    "x2": 7508.344,
+    "y2": 32632.5
+  },
+  "points": [
+    {
+      "x": 7400.594,
+      "y": 32613.5
+    },
+    {
+      "x": 7508.344,
+      "y": 32613.5
+    },
+    {
+      "x": 7508.344,
+      "y": 32632.5
+    },
+    {
+      "x": 7400.594,
+      "y": 32632.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "32763fff-e747-4515-b77e-112646f4d99f",
+  "frameId": "32763fff-e747-4515-b77e-112646f4d99f",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "19",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aebdd2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "After bounce"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "19",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aebdd2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503b7f780b",
+  "positionData": [
+    {
+      "y": 32633.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "width": 107.75,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7400.594,
+      "fills": [
+        {
+          "fillColor": "#aebdd2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 21,
+      "text": "After bounce"
+    }
+  ]
+}

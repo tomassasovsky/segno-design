@@ -1,0 +1,135 @@
+{
+  "id": "2fcc98fa-fe51-4362-a291-57586ef70cda",
+  "name": "Remove an overdub layer",
+  "type": "text",
+  "x": 9709,
+  "y": 50175,
+  "width": 240.469,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 9709,
+    "y": 50175,
+    "width": 240.469,
+    "height": 21,
+    "x1": 9709,
+    "y1": 50175,
+    "x2": 9949.469,
+    "y2": 50196
+  },
+  "points": [
+    {
+      "x": 9709,
+      "y": 50175
+    },
+    {
+      "x": 9949.469,
+      "y": 50175
+    },
+    {
+      "x": 9949.469,
+      "y": 50196
+    },
+    {
+      "x": 9709,
+      "y": 50196
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1889393d-0809-4360-91c8-fb0fd8d88895",
+  "frameId": "1889393d-0809-4360-91c8-fb0fd8d88895",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "21",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b4c2d7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Remove an overdub layer"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "21",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b4c2d7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d218bbe",
+  "positionData": [
+    {
+      "y": 50197,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "21px",
+      "fontWeight": "400",
+      "width": 240.469,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9709,
+      "fills": [
+        {
+          "fillColor": "#b4c2d7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 23,
+      "text": "Remove an overdub layer"
+    }
+  ]
+}

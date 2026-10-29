@@ -1,0 +1,138 @@
+{
+  "id": "5e8d37b1-330e-4e82-b656-d1935a56e1fe",
+  "name": "Waiting for MIDI input",
+  "type": "text",
+  "x": 11246,
+  "y": 12768.141,
+  "width": 1613,
+  "height": 18.078,
+  "rotation": 0,
+  "selrect": {
+    "x": 11246,
+    "y": 12768.141,
+    "width": 1613,
+    "height": 18.078,
+    "x1": 11246,
+    "y1": 12768.141,
+    "x2": 12859,
+    "y2": 12786.219
+  },
+  "points": [
+    {
+      "x": 11246,
+      "y": 12768.141
+    },
+    {
+      "x": 12859,
+      "y": 12768.141
+    },
+    {
+      "x": 12859,
+      "y": 12786.219
+    },
+    {
+      "x": 11246,
+      "y": 12786.219
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "11083974-a989-443a-ac31-d7126e6ed2eb",
+  "frameId": "11083974-a989-443a-ac31-d7126e6ed2eb",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.13",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.13",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Waiting for MIDI input"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503fbe53a3",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 12787.141,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 163.172,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11246,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Waiting for MIDI input"
+    }
+  ],
+  "layoutItemZIndex": 1
+}

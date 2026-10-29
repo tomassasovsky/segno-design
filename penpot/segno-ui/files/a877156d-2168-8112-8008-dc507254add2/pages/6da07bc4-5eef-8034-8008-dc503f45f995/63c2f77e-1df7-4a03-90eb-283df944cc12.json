@@ -1,0 +1,198 @@
+{
+  "id": "63c2f77e-1df7-4a03-90eb-283df944cc12",
+  "name": "c\/input-conditioning",
+  "type": "text",
+  "x": 6820,
+  "y": 8845,
+  "width": 1800,
+  "height": 64,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 8845,
+    "width": 1800,
+    "height": 64,
+    "x1": 6820,
+    "y1": 8845,
+    "x2": 8620,
+    "y2": 8909
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 8845
+    },
+    {
+      "x": 8620,
+      "y": 8845
+    },
+    {
+      "x": 8620,
+      "y": 8909
+    },
+    {
+      "x": 6820,
+      "y": 8909
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "86a9e992-198b-4ba3-afc4-92127c57a8c9",
+  "frameId": "86a9e992-198b-4ba3-afc4-92127c57a8c9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Per-input conditioning detail, reached from the input sub-tab. #697 slice S5, frame 1 of 4. The stage is a fixed utility, not a chain entry \u2014 it cannot be reordered, never enters the chain fingerprint, and its params read in real units (Hz, dB, ratio, ms), which is why the controls are ParamSliders with unit read-outs and not the normalised 0..1 FX knobs. Three sections, each with its own On\/Off because 0 = section off in the engine (HPF cutoff 0, hum base 0): high-pass, hum notch (mains base 50\/60 + harmonic count, default 4), downward expander (threshold \/ ratio \/ release; attack fixed ~5 ms, no look-ahead). Enable and every param are per input, not per lane \u2014 siblings capture identical samples. PRINTED INTO THE TAKE reuses the record-red chip verbatim: conditioning sits upstream of capture, so the recorded PCM already embodies it, and the monitor hears exactly what records (WYSIWYG). Zero added latency is a hard design rule (IIR biquads + no-lookahead envelope follower), stated in the footer so the stage is never mistaken for a look-ahead processor."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 8861,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1778.688,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Per-input conditioning detail, reached from the input sub-tab. #697 slice S5, frame 1 of 4. The stage is a fixed utility, not a chain entry \u2014 it cannot be reordered, never enters the chain fingerprint, and its params read in real units (Hz, dB, ratio, ms), which is why the controls are ParamSliders "
+    },
+    {
+      "y": 8877,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1788.578,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "with unit read-outs and not the normalised 0..1 FX knobs. Three sections, each with its own On\/Off because 0 = section off in the engine (HPF cutoff 0, hum base 0): high-pass, hum notch (mains base 50\/60 + harmonic count, default 4), downward expander (threshold \/ ratio \/ release; attack "
+    },
+    {
+      "y": 8893,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1799.625,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "fixed ~5 ms, no look-ahead). Enable and every param are per input, not per lane \u2014 siblings capture identical samples. PRINTED INTO THE TAKE reuses the record-red chip verbatim: conditioning sits upstream of capture, so the recorded PCM already embodies it, and the monitor hears exactly "
+    },
+    {
+      "y": 8909,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1192.75,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "what records (WYSIWYG). Zero added latency is a hard design rule (IIR biquads + no-lookahead envelope follower), stated in the footer so the stage is never mistaken for a look-ahead processor."
+    }
+  ]
+}

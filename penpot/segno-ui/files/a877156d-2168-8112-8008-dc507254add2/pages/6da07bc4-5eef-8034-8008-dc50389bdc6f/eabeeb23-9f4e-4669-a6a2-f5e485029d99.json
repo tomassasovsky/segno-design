@@ -1,0 +1,135 @@
+{
+  "id": "eabeeb23-9f4e-4669-a6a2-f5e485029d99",
+  "name": "Follow tempo",
+  "type": "text",
+  "x": 400,
+  "y": 16423.406,
+  "width": 190.297,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 400,
+    "y": 16423.406,
+    "width": 190.297,
+    "height": 32,
+    "x1": 400,
+    "y1": 16423.406,
+    "x2": 590.297,
+    "y2": 16455.406
+  },
+  "points": [
+    {
+      "x": 400,
+      "y": 16423.406
+    },
+    {
+      "x": 590.297,
+      "y": 16423.406
+    },
+    {
+      "x": 590.297,
+      "y": 16455.406
+    },
+    {
+      "x": 400,
+      "y": 16455.406
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "da69cfe1-c739-4aa1-bc04-8add5cab1a4a",
+  "frameId": "da69cfe1-c739-4aa1-bc04-8add5cab1a4a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Follow tempo"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50389bdc6f",
+  "positionData": [
+    {
+      "y": 16457.406,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 190.297,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 400,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Follow tempo"
+    }
+  ]
+}

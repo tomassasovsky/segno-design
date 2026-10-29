@@ -1,0 +1,168 @@
+{
+  "id": "44dfea12-0722-4e97-9533-6af9764fe87d",
+  "name": "States note",
+  "type": "text",
+  "x": 4434,
+  "y": 1108.797,
+  "width": 1792,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 4434,
+    "y": 1108.797,
+    "width": 1792,
+    "height": 32,
+    "x1": 4434,
+    "y1": 1108.797,
+    "x2": 6226,
+    "y2": 1140.797
+  },
+  "points": [
+    {
+      "x": 4434,
+      "y": 1108.797
+    },
+    {
+      "x": 6226,
+      "y": 1108.797
+    },
+    {
+      "x": 6226,
+      "y": 1140.797
+    },
+    {
+      "x": 4434,
+      "y": 1140.797
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b01115bb-ed25-4d45-ba82-384d1bb73fad",
+  "frameId": "b01115bb-ed25-4d45-ba82-384d1bb73fad",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "hover = border-hairline-class white-alpha lift on the control surface; pressed = one tier deeper (border-subtle-class); focus-visible = 2px accent ring outside the control (FocusableTapTarget); disabled = opacity-disabled (multiplies with opacity-trace-dim inside untraced rows). Applies to surface controls, rows, tiles, and nav items alike."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontSize": "text-caption",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 1124.797,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1765.25,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4434,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "hover = border-hairline-class white-alpha lift on the control surface; pressed = one tier deeper (border-subtle-class); focus-visible = 2px accent ring outside the control (FocusableTapTarget); disabled = opacity-disabled (multiplies with opacity-trace-dim inside untraced rows). Applies to "
+    },
+    {
+      "y": 1140.797,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 297.672,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4434,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "surface controls, rows, tiles, and nav items alike."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

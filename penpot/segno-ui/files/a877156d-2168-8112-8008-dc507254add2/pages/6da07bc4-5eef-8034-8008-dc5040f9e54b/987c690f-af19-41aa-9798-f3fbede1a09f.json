@@ -1,0 +1,159 @@
+{
+  "id": "987c690f-af19-41aa-9798-f3fbede1a09f",
+  "name": "This program is free softwar",
+  "type": "text",
+  "x": 9456,
+  "y": 29685.906,
+  "width": 828,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 9456,
+    "y": 29685.906,
+    "width": 828,
+    "height": 42,
+    "x1": 9456,
+    "y1": 29685.906,
+    "x2": 10284,
+    "y2": 29727.906
+  },
+  "points": [
+    {
+      "x": 9456,
+      "y": 29685.906
+    },
+    {
+      "x": 10284,
+      "y": 29685.906
+    },
+    {
+      "x": 10284,
+      "y": 29727.906
+    },
+    {
+      "x": 9456,
+      "y": 29727.906
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "4dfb0e3e-4a36-48eb-89d2-69744f6154ac",
+  "frameId": "4dfb0e3e-4a36-48eb-89d2-69744f6154ac",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "This program is free software: you can redistribute it and\/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc5040f9e54b",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 29704.906,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 820.813,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9456,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "This program is free software: you can redistribute it and\/or modify it under the terms of the GNU General Public License as "
+    },
+    {
+      "y": 29725.906,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 736.813,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9456,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version."
+    }
+  ],
+  "layoutItemZIndex": 2
+}

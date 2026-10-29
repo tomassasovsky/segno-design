@@ -1,0 +1,135 @@
+{
+  "id": "e5ba2f27-2d19-4925-93c2-f9206b470ff0",
+  "name": "The marked action happens at 1.2 seconds.",
+  "type": "text",
+  "x": 550.109,
+  "y": 94882,
+  "width": 369.688,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 550.109,
+    "y": 94882,
+    "width": 369.688,
+    "height": 19,
+    "x1": 550.109,
+    "y1": 94882,
+    "x2": 919.797,
+    "y2": 94901
+  },
+  "points": [
+    {
+      "x": 550.109,
+      "y": 94882
+    },
+    {
+      "x": 919.797,
+      "y": 94882
+    },
+    {
+      "x": 919.797,
+      "y": 94901
+    },
+    {
+      "x": 550.109,
+      "y": 94901
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d39bc77b-01cc-49dd-8e32-a8b78b3aa956",
+  "frameId": "d39bc77b-01cc-49dd-8e32-a8b78b3aa956",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "19",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aeb7c5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "The marked action happens at 1.2 seconds."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "19",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aeb7c5",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eaa6f36",
+  "positionData": [
+    {
+      "y": 94902,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "width": 369.688,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 550.109,
+      "fills": [
+        {
+          "fillColor": "#aeb7c5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 21,
+      "text": "The marked action happens at 1.2 seconds."
+    }
+  ]
+}

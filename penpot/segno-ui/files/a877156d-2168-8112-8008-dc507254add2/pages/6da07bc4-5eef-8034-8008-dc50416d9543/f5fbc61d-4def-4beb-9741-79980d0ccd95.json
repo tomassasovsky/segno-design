@@ -1,0 +1,147 @@
+{
+  "id": "f5fbc61d-4def-4beb-9741-79980d0ccd95",
+  "name": "Tile grid is the overview; tapping a ti\u2026",
+  "type": "text",
+  "x": 4824,
+  "y": 7204.25,
+  "width": 1377,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 4824,
+    "y": 7204.25,
+    "width": 1377,
+    "height": 21,
+    "x1": 4824,
+    "y1": 7204.25,
+    "x2": 6201,
+    "y2": 7225.25
+  },
+  "points": [
+    {
+      "x": 4824,
+      "y": 7204.25
+    },
+    {
+      "x": 6201,
+      "y": 7204.25
+    },
+    {
+      "x": 6201,
+      "y": 7225.25
+    },
+    {
+      "x": 4824,
+      "y": 7225.25
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "a87f72dc-65d1-4b0c-95b5-5b2d3bc9e6be",
+  "frameId": "a87f72dc-65d1-4b0c-95b5-5b2d3bc9e6be",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Tile grid is the overview; tapping a tile opens the full-width row as an editor sheet. A and B are the same design at two zoom levels, not two designs."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontSize": "text-sm",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 7223.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 979.609,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4824,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Tile grid is the overview; tapping a tile opens the full-width row as an editor sheet. A and B are the same design at two zoom levels, not two designs."
+    }
+  ],
+  "layoutItemZIndex": 0
+}

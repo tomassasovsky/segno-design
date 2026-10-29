@@ -1,0 +1,138 @@
+{
+  "id": "2b41d867-cf9f-4d75-91e2-90d58a110ff7",
+  "name": "No MIDI input is connected, so these map",
+  "type": "text",
+  "x": 7086,
+  "y": 12883.125,
+  "width": 953.266,
+  "height": 18.078,
+  "rotation": 0,
+  "selrect": {
+    "x": 7086,
+    "y": 12883.125,
+    "width": 953.266,
+    "height": 18.078,
+    "x1": 7086,
+    "y1": 12883.125,
+    "x2": 8039.266,
+    "y2": 12901.203
+  },
+  "points": [
+    {
+      "x": 7086,
+      "y": 12883.125
+    },
+    {
+      "x": 8039.266,
+      "y": 12883.125
+    },
+    {
+      "x": 8039.266,
+      "y": 12901.203
+    },
+    {
+      "x": 7086,
+      "y": 12901.203
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "53487734-838c-462e-9f07-3ca87b62ef6a",
+  "frameId": "53487734-838c-462e-9f07-3ca87b62ef6a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.13",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.13",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "No MIDI input is connected, so these mappings are idle. Connect the controller, or relearn a row on the one you are using now."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503fbe53a3",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 12902.125,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 953.266,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7086,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "No MIDI input is connected, so these mappings are idle. Connect the controller, or relearn a row on the one you are using now."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

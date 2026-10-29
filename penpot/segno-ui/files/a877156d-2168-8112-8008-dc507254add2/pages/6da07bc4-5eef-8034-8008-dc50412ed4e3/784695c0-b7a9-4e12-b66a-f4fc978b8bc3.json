@@ -1,0 +1,133 @@
+{
+  "id": "784695c0-b7a9-4e12-b66a-f4fc978b8bc3",
+  "name": "Value",
+  "type": "text",
+  "x": 9101,
+  "y": 36848,
+  "width": 638,
+  "height": 68,
+  "rotation": 0,
+  "selrect": {
+    "x": 9101,
+    "y": 36848,
+    "width": 638,
+    "height": 68,
+    "x1": 9101,
+    "y1": 36848,
+    "x2": 9739,
+    "y2": 36916
+  },
+  "points": [
+    {
+      "x": 9101,
+      "y": 36848
+    },
+    {
+      "x": 9739,
+      "y": 36848
+    },
+    {
+      "x": 9739,
+      "y": 36916
+    },
+    {
+      "x": 9101,
+      "y": 36916
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "26c86eab-2a4f-4dd8-a04d-68aaf813e0b9",
+  "frameId": "26c86eab-2a4f-4dd8-a04d-68aaf813e0b9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "JetBrains Mono",
+                "text": "Scarlett 18i20"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "right",
+            "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "JetBrains Mono"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "geometry-group",
+    "visibility-group",
+    "text-content-attribute"
+  ],
+  "shapeRef": "11448819-2924-481a-bc0a-fa5dea6cb40a",
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "layoutItemVSizing": "auto",
+  "hidden": true,
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontSize": "text-sm",
+    "fontFamily": "font-mono"
+  },
+  "positionData": [],
+  "layoutItemZIndex": 1
+}

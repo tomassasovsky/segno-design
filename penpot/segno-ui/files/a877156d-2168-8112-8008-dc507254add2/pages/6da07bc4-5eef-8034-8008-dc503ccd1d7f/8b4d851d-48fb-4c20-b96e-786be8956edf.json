@@ -1,0 +1,135 @@
+{
+  "id": "8b4d851d-48fb-4c20-b96e-786be8956edf",
+  "name": "Acoustic guitar",
+  "type": "text",
+  "x": 1300,
+  "y": 47715.5,
+  "width": 177.094,
+  "height": 27,
+  "rotation": 0,
+  "selrect": {
+    "x": 1300,
+    "y": 47715.5,
+    "width": 177.094,
+    "height": 27,
+    "x1": 1300,
+    "y1": 47715.5,
+    "x2": 1477.094,
+    "y2": 47742.5
+  },
+  "points": [
+    {
+      "x": 1300,
+      "y": 47715.5
+    },
+    {
+      "x": 1477.094,
+      "y": 47715.5
+    },
+    {
+      "x": 1477.094,
+      "y": 47742.5
+    },
+    {
+      "x": 1300,
+      "y": 47742.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b5378ba0-6a8c-40c9-a0d1-ef0f784dc3fd",
+  "frameId": "b5378ba0-6a8c-40c9-a0d1-ef0f784dc3fd",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "27",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#dce6f4",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Acoustic guitar"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "27",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#dce6f4",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503ccd1d7f",
+  "positionData": [
+    {
+      "y": 47743.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "27px",
+      "fontWeight": "400",
+      "width": 177.094,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1300,
+      "fills": [
+        {
+          "fillColor": "#dce6f4",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 30,
+      "text": "Acoustic guitar"
+    }
+  ]
+}

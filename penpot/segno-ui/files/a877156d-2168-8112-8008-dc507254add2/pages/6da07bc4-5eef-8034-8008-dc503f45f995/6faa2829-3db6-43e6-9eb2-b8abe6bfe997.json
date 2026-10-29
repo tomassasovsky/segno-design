@@ -1,0 +1,156 @@
+{
+  "id": "6faa2829-3db6-43e6-9eb2-b8abe6bfe997",
+  "name": "c\/signal-loop",
+  "type": "text",
+  "x": 6820,
+  "y": 1817,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 1817,
+    "width": 1800,
+    "height": 32,
+    "x1": 6820,
+    "y1": 1817,
+    "x2": 8620,
+    "y2": 1849
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 1817
+    },
+    {
+      "x": 8620,
+      "y": 1817
+    },
+    {
+      "x": 8620,
+      "y": 1849
+    },
+    {
+      "x": 6820,
+      "y": 1849
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "4b567f7f-4323-4b2e-93fa-2c1a5cfa5061",
+  "frameId": "4b567f7f-4323-4b2e-93fa-2c1a5cfa5061",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Monitor-only chip, loaded cards, and the vacant card \u2014 bordered like the rest, told apart by \u201cno rack\u201d and the monitor line it omits. Cards sit left-aligned in a wrapping run, fixed 202 wide \u2014 the rig decides how many. Until racks exist (#535) row 5 reads \u201cno rack\u201d on every card and the line under it carries the chain run itself; a populated chain switched off reads \u201cChain off \u00b7 <run>\u201d; the summary caps at two lines with an ellipsis, which the 196\/215 card heights already assume."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 1833,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1771.547,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Monitor-only chip, loaded cards, and the vacant card \u2014 bordered like the rest, told apart by \u201cno rack\u201d and the monitor line it omits. Cards sit left-aligned in a wrapping run, fixed 202 wide \u2014 the rig decides how many. Until racks exist (#535) row 5 reads \u201cno rack\u201d on every card and the line "
+    },
+    {
+      "y": 1849,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1154.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "under it carries the chain run itself; a populated chain switched off reads \u201cChain off \u00b7 <run>\u201d; the summary caps at two lines with an ellipsis, which the 196\/215 card heights already assume."
+    }
+  ]
+}

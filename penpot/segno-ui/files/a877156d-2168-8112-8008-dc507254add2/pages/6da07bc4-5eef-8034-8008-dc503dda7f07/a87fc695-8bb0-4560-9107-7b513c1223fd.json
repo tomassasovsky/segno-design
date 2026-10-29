@@ -1,0 +1,135 @@
+{
+  "id": "a87fc695-8bb0-4560-9107-7b513c1223fd",
+  "name": "USB",
+  "type": "text",
+  "x": 815.969,
+  "y": 70985,
+  "width": 37.016,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 815.969,
+    "y": 70985,
+    "width": 37.016,
+    "height": 18,
+    "x1": 815.969,
+    "y1": 70985,
+    "x2": 852.985,
+    "y2": 71003
+  },
+  "points": [
+    {
+      "x": 815.969,
+      "y": 70985
+    },
+    {
+      "x": 852.985,
+      "y": 70985
+    },
+    {
+      "x": 852.985,
+      "y": 71003
+    },
+    {
+      "x": 815.969,
+      "y": 71003
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "70be9509-753d-4705-9aac-e559e68a9623",
+  "frameId": "70be9509-753d-4705-9aac-e559e68a9623",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#969fae",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "USB"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#969fae",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dda7f07",
+  "positionData": [
+    {
+      "y": 71004,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 37.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 815.969,
+      "fills": [
+        {
+          "fillColor": "#969fae",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 20,
+      "text": "USB"
+    }
+  ]
+}

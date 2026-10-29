@@ -1,0 +1,135 @@
+{
+  "id": "c1f9a464-2761-4df5-82c7-b0651d156feb",
+  "name": "Back up to USB",
+  "type": "text",
+  "x": 1696.875,
+  "y": 83782.5,
+  "width": 169.422,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 1696.875,
+    "y": 83782.5,
+    "width": 169.422,
+    "height": 24,
+    "x1": 1696.875,
+    "y1": 83782.5,
+    "x2": 1866.297,
+    "y2": 83806.5
+  },
+  "points": [
+    {
+      "x": 1696.875,
+      "y": 83782.5
+    },
+    {
+      "x": 1866.297,
+      "y": 83782.5
+    },
+    {
+      "x": 1866.297,
+      "y": 83806.5
+    },
+    {
+      "x": 1696.875,
+      "y": 83806.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2cc497c1-e19f-434a-a74f-0fac74dc0f1a",
+  "frameId": "2cc497c1-e19f-434a-a74f-0fac74dc0f1a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Back up to USB"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e2ddb39",
+  "positionData": [
+    {
+      "y": 83807.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 169.422,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1696.875,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Back up to USB"
+    }
+  ]
+}

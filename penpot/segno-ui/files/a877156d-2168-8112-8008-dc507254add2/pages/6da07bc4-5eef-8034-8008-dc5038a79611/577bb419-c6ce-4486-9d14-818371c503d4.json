@@ -1,0 +1,135 @@
+{
+  "id": "577bb419-c6ce-4486-9d14-818371c503d4",
+  "name": "08  Pedal setup & LEDs \/ Status",
+  "type": "text",
+  "x": 6820,
+  "y": 13228,
+  "width": 890.438,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 13228,
+    "width": 890.438,
+    "height": 42,
+    "x1": 6820,
+    "y1": 13228,
+    "x2": 7710.438,
+    "y2": 13270
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 13228
+    },
+    {
+      "x": 7710.438,
+      "y": 13228
+    },
+    {
+      "x": 7710.438,
+      "y": 13270
+    },
+    {
+      "x": 6820,
+      "y": 13270
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "72bdd679-3afe-4c43-a3fc-144e3f0489f1",
+  "frameId": "72bdd679-3afe-4c43-a3fc-144e3f0489f1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1389",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1389",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "36",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Accepted layout \u00b7 custom palette refinement \u00b7 6 screens"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "36",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038a79611",
+  "positionData": [
+    {
+      "y": 13269,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "width": 890.438,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 41,
+      "text": "Accepted layout \u00b7 custom palette refinement \u00b7 6 screens"
+    }
+  ]
+}

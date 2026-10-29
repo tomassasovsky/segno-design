@@ -1,0 +1,135 @@
+{
+  "id": "315faa1e-6aee-4d96-8bfc-34f80fc520aa",
+  "name": "Kick drum microphone",
+  "type": "text",
+  "x": 9251,
+  "y": 45457.375,
+  "width": 288.5,
+  "height": 29,
+  "rotation": 0,
+  "selrect": {
+    "x": 9251,
+    "y": 45457.375,
+    "width": 288.5,
+    "height": 29,
+    "x1": 9251,
+    "y1": 45457.375,
+    "x2": 9539.5,
+    "y2": 45486.375
+  },
+  "points": [
+    {
+      "x": 9251,
+      "y": 45457.375
+    },
+    {
+      "x": 9539.5,
+      "y": 45457.375
+    },
+    {
+      "x": 9539.5,
+      "y": 45486.375
+    },
+    {
+      "x": 9251,
+      "y": 45486.375
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "4e84748d-6cac-47f2-abd9-7835d0380b48",
+  "frameId": "4e84748d-6cac-47f2-abd9-7835d0380b48",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "29",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e5ecf7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Kick drum microphone"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "29",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e5ecf7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c93fd80",
+  "positionData": [
+    {
+      "y": 45487.375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "29px",
+      "fontWeight": "400",
+      "width": 288.5,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9251,
+      "fills": [
+        {
+          "fillColor": "#e5ecf7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 32,
+      "text": "Kick drum microphone"
+    }
+  ]
+}

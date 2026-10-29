@@ -1,0 +1,135 @@
+{
+  "id": "7067066a-9474-486b-9e8c-1f61f23dafa9",
+  "name": "Recording receives silence",
+  "type": "text",
+  "x": 3306,
+  "y": 12313,
+  "width": 279.344,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 3306,
+    "y": 12313,
+    "width": 279.344,
+    "height": 22,
+    "x1": 3306,
+    "y1": 12313,
+    "x2": 3585.344,
+    "y2": 12335
+  },
+  "points": [
+    {
+      "x": 3306,
+      "y": 12313
+    },
+    {
+      "x": 3585.344,
+      "y": 12313
+    },
+    {
+      "x": 3585.344,
+      "y": 12335
+    },
+    {
+      "x": 3306,
+      "y": 12335
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3f404608-96f0-48fd-ac02-4805a08e811b",
+  "frameId": "3f404608-96f0-48fd-ac02-4805a08e811b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#bdd4ea",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Recording receives silence"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#bdd4ea",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc504238a365",
+  "positionData": [
+    {
+      "y": 12337,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 279.344,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3306,
+      "fills": [
+        {
+          "fillColor": "#bdd4ea",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 26,
+      "text": "Recording receives silence"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "f2f2fcf4-1383-4cd7-b215-64d27229298b",
+  "name": "Ejecting USB \/ Label",
+  "type": "text",
+  "x": 2380,
+  "y": 61856,
+  "width": 223.891,
+  "height": 43,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 61856,
+    "width": 223.891,
+    "height": 43,
+    "x1": 2380,
+    "y1": 61856,
+    "x2": 2603.891,
+    "y2": 61899
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 61856
+    },
+    {
+      "x": 2603.891,
+      "y": 61856
+    },
+    {
+      "x": 2603.891,
+      "y": 61899
+    },
+    {
+      "x": 2380,
+      "y": 61899
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b3fa1495-239f-4142-8d54-4184ea83766a",
+  "frameId": "b3fa1495-239f-4142-8d54-4184ea83766a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1053",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1053",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "38",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e2e7f0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Ejecting USB"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "38",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e2e7f0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503da3eb2b",
+  "positionData": [
+    {
+      "y": 61898,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "width": 223.891,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#e2e7f0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 42,
+      "text": "Ejecting USB"
+    }
+  ]
+}

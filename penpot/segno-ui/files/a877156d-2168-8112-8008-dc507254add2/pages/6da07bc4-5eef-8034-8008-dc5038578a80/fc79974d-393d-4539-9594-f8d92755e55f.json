@@ -1,0 +1,135 @@
+{
+  "id": "fc79974d-393d-4539-9594-f8d92755e55f",
+  "name": "Lo-Fi Rack",
+  "type": "text",
+  "x": 7809,
+  "y": 5613.5,
+  "width": 145.047,
+  "height": 30,
+  "rotation": 0,
+  "selrect": {
+    "x": 7809,
+    "y": 5613.5,
+    "width": 145.047,
+    "height": 30,
+    "x1": 7809,
+    "y1": 5613.5,
+    "x2": 7954.047,
+    "y2": 5643.5
+  },
+  "points": [
+    {
+      "x": 7809,
+      "y": 5613.5
+    },
+    {
+      "x": 7954.047,
+      "y": 5613.5
+    },
+    {
+      "x": 7954.047,
+      "y": 5643.5
+    },
+    {
+      "x": 7809,
+      "y": 5643.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d881ee86-e6cf-4070-bd9e-fced02fdcca3",
+  "frameId": "d881ee86-e6cf-4070-bd9e-fced02fdcca3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "30",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Lo-Fi Rack"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "30",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038578a80",
+  "positionData": [
+    {
+      "y": 5644.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "width": 145.047,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7809,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 33,
+      "text": "Lo-Fi Rack"
+    }
+  ]
+}

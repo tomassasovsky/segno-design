@@ -1,0 +1,135 @@
+{
+  "id": "f26e9a21-b495-413a-84ff-19e999b6c331",
+  "name": "Remaining time unavailable",
+  "type": "text",
+  "x": 11093,
+  "y": 90936.766,
+  "width": 331.688,
+  "height": 27,
+  "rotation": 0,
+  "selrect": {
+    "x": 11093,
+    "y": 90936.766,
+    "width": 331.688,
+    "height": 27,
+    "x1": 11093,
+    "y1": 90936.766,
+    "x2": 11424.688,
+    "y2": 90963.766
+  },
+  "points": [
+    {
+      "x": 11093,
+      "y": 90936.766
+    },
+    {
+      "x": 11424.688,
+      "y": 90936.766
+    },
+    {
+      "x": 11424.688,
+      "y": 90963.766
+    },
+    {
+      "x": 11093,
+      "y": 90963.766
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5edc080f-ce15-4a82-83ad-65f3623bc96a",
+  "frameId": "5edc080f-ce15-4a82-83ad-65f3623bc96a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "27",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c8d5e8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Remaining time unavailable"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "27",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c8d5e8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e8ecc83",
+  "positionData": [
+    {
+      "y": 90964.766,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "27px",
+      "fontWeight": "400",
+      "width": 331.688,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11093,
+      "fills": [
+        {
+          "fillColor": "#c8d5e8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 30,
+      "text": "Remaining time unavailable"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "dbd511f5-f233-40ef-b9ac-18b001dd2e48",
+  "name": "Add a plugin",
+  "type": "text",
+  "x": 11000,
+  "y": 4026.484,
+  "width": 109.594,
+  "height": 21.047,
+  "rotation": 0,
+  "selrect": {
+    "x": 11000,
+    "y": 4026.484,
+    "width": 109.594,
+    "height": 21.047,
+    "x1": 11000,
+    "y1": 4026.484,
+    "x2": 11109.594,
+    "y2": 4047.531
+  },
+  "points": [
+    {
+      "x": 11000,
+      "y": 4026.484
+    },
+    {
+      "x": 11109.594,
+      "y": 4026.484
+    },
+    {
+      "x": 11109.594,
+      "y": 4047.531
+    },
+    {
+      "x": 11000,
+      "y": 4047.531
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "480b7fca-6a64-4d9d-8bae-e95bc358e8ee",
+  "frameId": "480b7fca-6a64-4d9d-8bae-e95bc358e8ee",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.17",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.17",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "18",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Add a plugin"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "18",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 4047.484,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "width": 109.594,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11000,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 21,
+      "text": "Add a plugin"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

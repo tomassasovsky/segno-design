@@ -1,0 +1,135 @@
+{
+  "id": "3b060913-a457-45ea-bac7-80c4dbef76ce",
+  "name": "Repair control",
+  "type": "text",
+  "x": 1832.094,
+  "y": 23473,
+  "width": 136.953,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 1832.094,
+    "y": 23473,
+    "width": 136.953,
+    "height": 22,
+    "x1": 1832.094,
+    "y1": 23473,
+    "x2": 1969.047,
+    "y2": 23495
+  },
+  "points": [
+    {
+      "x": 1832.094,
+      "y": 23473
+    },
+    {
+      "x": 1969.047,
+      "y": 23473
+    },
+    {
+      "x": 1969.047,
+      "y": 23495
+    },
+    {
+      "x": 1832.094,
+      "y": 23495
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ddf25677-c60c-4e50-b7fe-9c35cec7edd4",
+  "frameId": "ddf25677-c60c-4e50-b7fe-9c35cec7edd4",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Repair control"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50391cda77",
+  "positionData": [
+    {
+      "y": 23496,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 136.953,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1832.094,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Repair control"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "1adbcb76-709c-4541-ab55-e32e6d2886e6",
+  "name": "c\/fx-browse",
+  "type": "text",
+  "x": 10980,
+  "y": 4683,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 4683,
+    "width": 1800,
+    "height": 32,
+    "x1": 10980,
+    "y1": 4683,
+    "x2": 12780,
+    "y2": 4715
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 4683
+    },
+    {
+      "x": 12780,
+      "y": 4683
+    },
+    {
+      "x": 12780,
+      "y": 4715
+    },
+    {
+      "x": 10980,
+      "y": 4715
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1c83437b-34dd-4a06-812e-6f141e7c62a3",
+  "frameId": "1c83437b-34dd-4a06-812e-6f141e7c62a3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Search over 103 installed plugins. Results are a full-bleed grid: the cells stretch to fill the sheet rather than sitting at the fixed chip width, which on a 1880-wide sheet would strand two thirds of it empty. The keyboard\u2019s action key dismisses \u2014 there is nothing here to commit, since tapping a result is the commit. The header carries Rescan: a plugin installed after first boot could never appear without it. While a scan runs the control becomes a stop and the sheet shows its progress \u2014 a long scan must be interruptible."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 4699,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1774.797,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Search over 103 installed plugins. Results are a full-bleed grid: the cells stretch to fill the sheet rather than sitting at the fixed chip width, which on a 1880-wide sheet would strand two thirds of it empty. The keyboard\u2019s action key dismisses \u2014 there is nothing here to commit, since tapping a "
+    },
+    {
+      "y": 4715,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1397.625,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "result is the commit. The header carries Rescan: a plugin installed after first boot could never appear without it. While a scan runs the control becomes a stop and the sheet shows its progress \u2014 a long scan must be interruptible."
+    }
+  ]
+}

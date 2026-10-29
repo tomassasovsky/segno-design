@@ -1,0 +1,135 @@
+{
+  "id": "cd0ed912-801e-43fa-866f-126e551a2aa2",
+  "name": "Adjust track or live input levels",
+  "type": "text",
+  "x": 10234,
+  "y": 49687,
+  "width": 282.469,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 10234,
+    "y": 49687,
+    "width": 282.469,
+    "height": 21,
+    "x1": 10234,
+    "y1": 49687,
+    "x2": 10516.469,
+    "y2": 49708
+  },
+  "points": [
+    {
+      "x": 10234,
+      "y": 49687
+    },
+    {
+      "x": 10516.469,
+      "y": 49687
+    },
+    {
+      "x": 10516.469,
+      "y": 49708
+    },
+    {
+      "x": 10234,
+      "y": 49708
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "dd691e16-0b6f-494d-a9fc-ce55f9d79a10",
+  "frameId": "dd691e16-0b6f-494d-a9fc-ce55f9d79a10",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "21",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b4c2d7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Adjust track or live input levels"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "21",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b4c2d7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d218bbe",
+  "positionData": [
+    {
+      "y": 49709,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "21px",
+      "fontWeight": "400",
+      "width": 282.469,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10234,
+      "fills": [
+        {
+          "fillColor": "#b4c2d7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 23,
+      "text": "Adjust track or live input levels"
+    }
+  ]
+}

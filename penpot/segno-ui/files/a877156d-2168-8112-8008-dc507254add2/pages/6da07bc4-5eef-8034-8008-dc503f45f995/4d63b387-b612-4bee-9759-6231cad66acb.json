@@ -1,0 +1,156 @@
+{
+  "id": "4d63b387-b612-4bee-9759-6231cad66acb",
+  "name": "c\/fx-param-sheet",
+  "type": "text",
+  "x": 10980,
+  "y": 7517,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 7517,
+    "width": 1800,
+    "height": 32,
+    "x1": 10980,
+    "y1": 7517,
+    "x2": 12780,
+    "y2": 7549
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 7517
+    },
+    {
+      "x": 12780,
+      "y": 7517
+    },
+    {
+      "x": 12780,
+      "y": 7549
+    },
+    {
+      "x": 10980,
+      "y": 7549
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3e804924-c578-4a6e-9fb4-0a657b8eab8b",
+  "frameId": "3e804924-c578-4a6e-9fb4-0a657b8eab8b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Tapping a tile raises this over a scrim; the tile itself changed nothing. That is the rule the grid exists for \u2014 the console lies on the floor under someone playing, and a knee or a cable against a draggable fader is audible and lands in the take. Mid-song adjustment belongs to the foot pedal; this screen is for between takes. The bar spans the sheet, which is far more travel than a 78px tile could offer, and the dialpad swaps it for the keypad when the value is one you know rather than one you feel for. The tile that opened it stays lit behind the scrim."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "positionData": [
+    {
+      "y": 7533,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1785.984,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Tapping a tile raises this over a scrim; the tile itself changed nothing. That is the rule the grid exists for \u2014 the console lies on the floor under someone playing, and a knee or a cable against a draggable fader is audible and lands in the take. Mid-song adjustment belongs to the foot pedal; this "
+    },
+    {
+      "y": 7549,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1564.188,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "screen is for between takes. The bar spans the sheet, which is far more travel than a 78px tile could offer, and the dialpad swaps it for the keypad when the value is one you know rather than one you feel for. The tile that opened it stays lit behind the scrim."
+    }
+  ]
+}

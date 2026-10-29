@@ -1,0 +1,138 @@
+{
+  "id": "33af1d8f-aeaf-4c83-af14-44fa0d200d39",
+  "name": "Tuner",
+  "type": "text",
+  "x": 500,
+  "y": 20953,
+  "width": 56.844,
+  "height": 23,
+  "rotation": 0,
+  "selrect": {
+    "x": 500,
+    "y": 20953,
+    "width": 56.844,
+    "height": 23,
+    "x1": 500,
+    "y1": 20953,
+    "x2": 556.844,
+    "y2": 20976
+  },
+  "points": [
+    {
+      "x": 500,
+      "y": 20953
+    },
+    {
+      "x": 556.844,
+      "y": 20953
+    },
+    {
+      "x": 556.844,
+      "y": 20976
+    },
+    {
+      "x": 500,
+      "y": 20976
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2eeea451-d18d-4c15-9813-2255381f3ec4",
+  "frameId": "2eeea451-d18d-4c15-9813-2255381f3ec4",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.15",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.15",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "20",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Tuner"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "20",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50409bcfad",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 20976,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "width": 56.844,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 500,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 24,
+      "text": "Tuner"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

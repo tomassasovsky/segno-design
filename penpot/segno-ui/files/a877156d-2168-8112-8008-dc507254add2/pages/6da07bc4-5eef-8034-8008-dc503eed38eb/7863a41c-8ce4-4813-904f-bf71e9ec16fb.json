@@ -1,0 +1,135 @@
+{
+  "id": "7863a41c-8ce4-4813-904f-bf71e9ec16fb",
+  "name": "Electric keys",
+  "type": "text",
+  "x": 622.328,
+  "y": 100354,
+  "width": 140.313,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 622.328,
+    "y": 100354,
+    "width": 140.313,
+    "height": 25,
+    "x1": 622.328,
+    "y1": 100354,
+    "x2": 762.641,
+    "y2": 100379
+  },
+  "points": [
+    {
+      "x": 622.328,
+      "y": 100354
+    },
+    {
+      "x": 762.641,
+      "y": 100354
+    },
+    {
+      "x": 762.641,
+      "y": 100379
+    },
+    {
+      "x": 622.328,
+      "y": 100379
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "0f28342e-98f8-4fec-b520-ca53b303dfda",
+  "frameId": "0f28342e-98f8-4fec-b520-ca53b303dfda",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Electric keys"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eed38eb",
+  "positionData": [
+    {
+      "y": 100380,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 140.313,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 622.328,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Electric keys"
+    }
+  ]
+}

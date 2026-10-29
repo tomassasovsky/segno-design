@@ -1,0 +1,135 @@
+{
+  "id": "b17308ed-d091-4f68-b2e0-6d5930951a5f",
+  "name": "Cancel",
+  "type": "text",
+  "x": 1893.125,
+  "y": 36954.5,
+  "width": 74.719,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 1893.125,
+    "y": 36954.5,
+    "width": 74.719,
+    "height": 24,
+    "x1": 1893.125,
+    "y1": 36954.5,
+    "x2": 1967.844,
+    "y2": 36978.5
+  },
+  "points": [
+    {
+      "x": 1893.125,
+      "y": 36954.5
+    },
+    {
+      "x": 1967.844,
+      "y": 36954.5
+    },
+    {
+      "x": 1967.844,
+      "y": 36978.5
+    },
+    {
+      "x": 1893.125,
+      "y": 36978.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "32abcb3e-baa4-4927-bf1c-017e8057a7b3",
+  "frameId": "32abcb3e-baa4-4927-bf1c-017e8057a7b3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Cancel"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c449678",
+  "positionData": [
+    {
+      "y": 36979.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 74.719,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1893.125,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Cancel"
+    }
+  ]
+}

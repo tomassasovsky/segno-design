@@ -1,0 +1,135 @@
+{
+  "id": "d4beaea3-b4b8-4123-8f65-63fdb1807cd7",
+  "name": "Receiving clock",
+  "type": "text",
+  "x": 2883.938,
+  "y": 56674.688,
+  "width": 125.063,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 2883.938,
+    "y": 56674.688,
+    "width": 125.063,
+    "height": 18,
+    "x1": 2883.938,
+    "y1": 56674.688,
+    "x2": 3009.001,
+    "y2": 56692.688
+  },
+  "points": [
+    {
+      "x": 2883.938,
+      "y": 56674.688
+    },
+    {
+      "x": 3009.001,
+      "y": 56674.688
+    },
+    {
+      "x": 3009.001,
+      "y": 56692.688
+    },
+    {
+      "x": 2883.938,
+      "y": 56692.688
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e5a36c8f-9888-444e-85b4-4e2bc3d15c52",
+  "frameId": "e5a36c8f-9888-444e-85b4-4e2bc3d15c52",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#969fae",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Receiving clock"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#969fae",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d68754c",
+  "positionData": [
+    {
+      "y": 56693.688,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 125.063,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2883.938,
+      "fills": [
+        {
+          "fillColor": "#969fae",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 20,
+      "text": "Receiving clock"
+    }
+  ]
+}

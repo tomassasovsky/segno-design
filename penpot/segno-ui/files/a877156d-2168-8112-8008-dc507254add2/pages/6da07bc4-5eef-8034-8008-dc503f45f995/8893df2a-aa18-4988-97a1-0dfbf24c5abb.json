@@ -1,0 +1,138 @@
+{
+  "id": "8893df2a-aa18-4988-97a1-0dfbf24c5abb",
+  "name": "cond",
+  "type": "text",
+  "x": 9332,
+  "y": 8116.938,
+  "width": 129.281,
+  "height": 15.984,
+  "rotation": 0,
+  "selrect": {
+    "x": 9332,
+    "y": 8116.938,
+    "width": 129.281,
+    "height": 15.984,
+    "x1": 9332,
+    "y1": 8116.938,
+    "x2": 9461.281,
+    "y2": 8132.9220000000005
+  },
+  "points": [
+    {
+      "x": 9332,
+      "y": 8116.938
+    },
+    {
+      "x": 9461.281,
+      "y": 8116.938
+    },
+    {
+      "x": 9461.281,
+      "y": 8132.9220000000005
+    },
+    {
+      "x": 9332,
+      "y": 8132.9220000000005
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "67c9854b-4f0d-4432-809e-669d7252fb32",
+  "frameId": "67c9854b-4f0d-4432-809e-669d7252fb32",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.23",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.23",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0.78",
+                "fills": [
+                  {
+                    "fillColor": "#3b82f6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "COND \u00b7 HUM \u00b7 EXP"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0.78",
+            "fills": [
+              {
+                "fillColor": "#3b82f6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 8132.938,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 129.281,
+      "textDecoration": "none",
+      "letterSpacing": "0.78px",
+      "x": 9332,
+      "fills": [
+        {
+          "fillColor": "#3b82f6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "COND \u00b7 HUM \u00b7 EXP"
+    }
+  ],
+  "layoutItemZIndex": 7
+}

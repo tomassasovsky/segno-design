@@ -1,0 +1,177 @@
+{
+  "id": "552d0b92-122e-4844-bf70-3b965187406a",
+  "name": "c\/audio",
+  "type": "text",
+  "x": 6820,
+  "y": 18439,
+  "width": 1800,
+  "height": 48,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 18439,
+    "width": 1800,
+    "height": 48,
+    "x1": 6820,
+    "y1": 18439,
+    "x2": 8620,
+    "y2": 18487
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 18439
+    },
+    {
+      "x": 8620,
+      "y": 18439
+    },
+    {
+      "x": 8620,
+      "y": 18487
+    },
+    {
+      "x": 6820,
+      "y": 18487
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d1d6741d-a686-4860-a528-daba9dd3ca7c",
+  "frameId": "d1d6741d-a686-4860-a528-daba9dd3ca7c",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Device, sample rate and buffer, named inputs, and the round-trip measurement. FOUR rows, not three: the Status tab was dissolved into this one, because everything it reported was either duplicated from here or belonged beside the setting that decides it. The measurement keeps an explicit MEASURE button \u2014 merging the readout and the action into a bare tappable row left nothing on screen saying the row did anything. Record offset rides as the latency row's subtitle: it is a consequence of the measurement, not a setting. No round-trip ESTIMATE \u2014 two buffer periods cannot include converter latency, so it read as authoritative and was not (#528)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50405571ee",
+  "positionData": [
+    {
+      "y": 18455,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1791.328,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Device, sample rate and buffer, named inputs, and the round-trip measurement. FOUR rows, not three: the Status tab was dissolved into this one, because everything it reported was either duplicated from here or belonged beside the setting that decides it. The measurement keeps an explicit "
+    },
+    {
+      "y": 18471,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1782,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "MEASURE button \u2014 merging the readout and the action into a bare tappable row left nothing on screen saying the row did anything. Record offset rides as the latency row's subtitle: it is a consequence of the measurement, not a setting. No round-trip ESTIMATE \u2014 two buffer periods cannot "
+    },
+    {
+      "y": 18487,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 444.406,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "include converter latency, so it read as authoritative and was not (#528)."
+    }
+  ]
+}

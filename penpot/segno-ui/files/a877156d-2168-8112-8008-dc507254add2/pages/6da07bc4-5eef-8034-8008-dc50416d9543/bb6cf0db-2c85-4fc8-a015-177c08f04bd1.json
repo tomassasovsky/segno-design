@@ -1,0 +1,252 @@
+{
+  "id": "bb6cf0db-2c85-4fc8-a015-177c08f04bd1",
+  "name": "The value and its unit live together in\u2026",
+  "type": "text",
+  "x": 1205,
+  "y": 10187.781,
+  "width": 383,
+  "height": 108,
+  "rotation": 0,
+  "selrect": {
+    "x": 1205,
+    "y": 10187.781,
+    "width": 383,
+    "height": 108,
+    "x1": 1205,
+    "y1": 10187.781,
+    "x2": 1588,
+    "y2": 10295.781
+  },
+  "points": [
+    {
+      "x": 1205,
+      "y": 10187.781
+    },
+    {
+      "x": 1588,
+      "y": 10187.781
+    },
+    {
+      "x": 1588,
+      "y": 10295.781
+    },
+    {
+      "x": 1205,
+      "y": 10295.781
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "6f5a6761-5098-4ec1-a1bb-286560a063ec",
+  "frameId": "6f5a6761-5098-4ec1-a1bb-286560a063ec",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "12",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The value and its unit live together in the box, because paramValueText hands them over as a single string \u2014 \"-6.0 dB\", \"Lowpass\", \"1\/4 dotted\". Splitting them would mean parsing the plugin's own formatting apart. When a plugin offers no text, the tile falls back to the numeric value plus the separate unit field; when it does, the unit slot simply goes unused, as on KNEE = \"soft\"."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "12",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontSize": "text-xs",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 10203.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 312.625,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1205,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "The value and its unit live together in the box, because "
+    },
+    {
+      "y": 10221.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 365.109,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1205,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "paramValueText hands them over as a single string \u2014 \"-6.0 dB\", "
+    },
+    {
+      "y": 10239.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 362.344,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1205,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "\"Lowpass\", \"1\/4 dotted\". Splitting them would mean parsing the "
+    },
+    {
+      "y": 10257.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 381.797,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1205,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "plugin's own formatting apart. When a plugin offers no text, the tile "
+    },
+    {
+      "y": 10275.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 378.563,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1205,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "falls back to the numeric value plus the separate unit field; when it "
+    },
+    {
+      "y": 10293.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "width": 339.938,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1205,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 15,
+      "text": "does, the unit slot simply goes unused, as on KNEE = \"soft\"."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

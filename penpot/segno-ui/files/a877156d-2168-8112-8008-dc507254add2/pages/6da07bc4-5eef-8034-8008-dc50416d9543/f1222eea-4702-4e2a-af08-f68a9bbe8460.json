@@ -1,0 +1,147 @@
+{
+  "id": "f1222eea-4702-4e2a-af08-f68a9bbe8460",
+  "name": "Desc",
+  "type": "text",
+  "x": 4434,
+  "y": 1984.984,
+  "width": 1200,
+  "height": 20.297,
+  "rotation": 0,
+  "selrect": {
+    "x": 4434,
+    "y": 1984.984,
+    "width": 1200,
+    "height": 20.297,
+    "x1": 4434,
+    "y1": 1984.984,
+    "x2": 5634,
+    "y2": 2005.281
+  },
+  "points": [
+    {
+      "x": 4434,
+      "y": 1984.984
+    },
+    {
+      "x": 5634,
+      "y": 1984.984
+    },
+    {
+      "x": 5634,
+      "y": 2005.281
+    },
+    {
+      "x": 4434,
+      "y": 2005.281
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fda34d23-1593-41da-bf03-2ec30e172530",
+  "frameId": "fda34d23-1593-41da-bf03-2ec30e172530",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.45",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.45",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "There is no free-text keyboard entry on the stage. A value is either typed into a focused field from the on-screen keypad, or dragged on a full-width bar whose fill is the value."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fix",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-muted",
+    "fontSize": "text-sm",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 2002.984,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1152.328,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4434,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "There is no free-text keyboard entry on the stage. A value is either typed into a focused field from the on-screen keypad, or dragged on a full-width bar whose fill is the value."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

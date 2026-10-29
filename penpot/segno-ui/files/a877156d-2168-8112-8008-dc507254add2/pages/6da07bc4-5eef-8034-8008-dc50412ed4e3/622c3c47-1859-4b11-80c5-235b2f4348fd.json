@@ -1,0 +1,133 @@
+{
+  "id": "622c3c47-1859-4b11-80c5-235b2f4348fd",
+  "name": "Chevron",
+  "type": "text",
+  "x": 7699,
+  "y": 36903.938,
+  "width": 11,
+  "height": 49,
+  "rotation": 0,
+  "selrect": {
+    "x": 7699,
+    "y": 36903.938,
+    "width": 11,
+    "height": 49,
+    "x1": 7699,
+    "y1": 36903.938,
+    "x2": 7710,
+    "y2": 36952.938
+  },
+  "points": [
+    {
+      "x": 7699,
+      "y": 36903.938
+    },
+    {
+      "x": 7710,
+      "y": 36903.938
+    },
+    {
+      "x": 7710,
+      "y": 36952.938
+    },
+    {
+      "x": 7699,
+      "y": 36952.938
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "456a84a8-3759-4163-851d-c2a1f1b028e4",
+  "frameId": "456a84a8-3759-4163-851d-c2a1f1b028e4",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "JetBrains Mono",
+                "text": "\u25b8"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "JetBrains Mono"
+          }
+        ]
+      }
+    ]
+  },
+  "touched": [
+    "content-group",
+    "geometry-group",
+    "visibility-group",
+    "text-content-attribute"
+  ],
+  "shapeRef": "69384af3-49ca-40a8-a858-1f677cc016f7",
+  "layoutItemHSizing": "fix",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "layoutItemVSizing": "auto",
+  "hidden": true,
+  "appliedTokens": {
+    "fill": "text-muted",
+    "fontSize": "text-caption",
+    "fontFamily": "font-mono"
+  },
+  "positionData": [],
+  "layoutItemZIndex": 3
+}

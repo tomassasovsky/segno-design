@@ -1,0 +1,135 @@
+{
+  "id": "af5a7bfd-32a1-4d6c-bc83-ea8401bf96ae",
+  "name": "Delay \u00b7 Feedback",
+  "type": "text",
+  "x": 5002,
+  "y": 87669.688,
+  "width": 195.938,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 5002,
+    "y": 87669.688,
+    "width": 195.938,
+    "height": 25,
+    "x1": 5002,
+    "y1": 87669.688,
+    "x2": 5197.938,
+    "y2": 87694.688
+  },
+  "points": [
+    {
+      "x": 5002,
+      "y": 87669.688
+    },
+    {
+      "x": 5197.938,
+      "y": 87669.688
+    },
+    {
+      "x": 5197.938,
+      "y": 87694.688
+    },
+    {
+      "x": 5002,
+      "y": 87694.688
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "a86954bd-29c1-4715-9fa0-a4e55a2a6ff6",
+  "frameId": "a86954bd-29c1-4715-9fa0-a4e55a2a6ff6",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Delay \u00b7 Feedback"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e2ddb39",
+  "positionData": [
+    {
+      "y": 87695.688,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 195.938,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 5002,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Delay \u00b7 Feedback"
+    }
+  ]
+}

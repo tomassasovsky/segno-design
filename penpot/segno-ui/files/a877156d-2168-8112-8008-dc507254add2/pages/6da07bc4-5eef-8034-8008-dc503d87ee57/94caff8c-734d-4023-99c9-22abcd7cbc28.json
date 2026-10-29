@@ -1,0 +1,135 @@
+{
+  "id": "94caff8c-734d-4023-99c9-22abcd7cbc28",
+  "name": "Wi-Fi",
+  "type": "text",
+  "x": 4496,
+  "y": 57811.297,
+  "width": 92.453,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 4496,
+    "y": 57811.297,
+    "width": 92.453,
+    "height": 42,
+    "x1": 4496,
+    "y1": 57811.297,
+    "x2": 4588.453,
+    "y2": 57853.297
+  },
+  "points": [
+    {
+      "x": 4496,
+      "y": 57811.297
+    },
+    {
+      "x": 4588.453,
+      "y": 57811.297
+    },
+    {
+      "x": 4588.453,
+      "y": 57853.297
+    },
+    {
+      "x": 4496,
+      "y": 57853.297
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "4a588e67-cdca-4a74-806a-d48bce13abe2",
+  "frameId": "4a588e67-cdca-4a74-806a-d48bce13abe2",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "42",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "-1.1",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Wi-Fi"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "42",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "-1.1",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d87ee57",
+  "positionData": [
+    {
+      "y": 57855.297,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "42px",
+      "fontWeight": "400",
+      "width": 92.453,
+      "textDecoration": "none",
+      "letterSpacing": "-1.1px",
+      "x": 4496,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 47,
+      "text": "Wi-Fi"
+    }
+  ]
+}

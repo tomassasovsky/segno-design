@@ -1,0 +1,177 @@
+{
+  "id": "75acd470-4f9f-475a-8783-1ba1665eaa88",
+  "name": "c\/firmware-failed-interrupted",
+  "type": "text",
+  "x": 6820,
+  "y": 39217,
+  "width": 1800,
+  "height": 48,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 39217,
+    "width": 1800,
+    "height": 48,
+    "x1": 6820,
+    "y1": 39217,
+    "x2": 8620,
+    "y2": 39265
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 39217
+    },
+    {
+      "x": 8620,
+      "y": 39217
+    },
+    {
+      "x": 8620,
+      "y": 39265
+    },
+    {
+      "x": 6820,
+      "y": 39265
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "07621acf-996f-495b-a5f2-25b567fd37c4",
+  "frameId": "07621acf-996f-495b-a5f2-25b567fd37c4",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The interrupted class of the failed gate (#690): the flash began writing and did not finish, so the pedal may be parked in its bootloader \u2014 its switches and lights stay off. The failure classes are distinguished because the old dialog showed one generic failure for every cause: the not-started reassurance (still on its previous firmware, Segno will retry) is only true when the write never began, and saying it here would be a lie. No promise of automatic recovery either \u2014 that was deliberately de-promised until the recovery path (slice 3 of #670) ships. The body is the shipping string from app_en.arb (pedalFirmwareGateFailedInterruptedBody), not the PR draft."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "positionData": [
+    {
+      "y": 39233,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1773.516,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "The interrupted class of the failed gate (#690): the flash began writing and did not finish, so the pedal may be parked in its bootloader \u2014 its switches and lights stay off. The failure classes are distinguished because the old dialog showed one generic failure for every cause: the not-started "
+    },
+    {
+      "y": 39249,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1784.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "reassurance (still on its previous firmware, Segno will retry) is only true when the write never began, and saying it here would be a lie. No promise of automatic recovery either \u2014 that was deliberately de-promised until the recovery path (slice 3 of #670) ships. The body is the shipping string "
+    },
+    {
+      "y": 39265,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 477.25,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "from app_en.arb (pedalFirmwareGateFailedInterruptedBody), not the PR draft."
+    }
+  ]
+}

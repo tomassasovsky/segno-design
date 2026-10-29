@@ -1,0 +1,135 @@
+{
+  "id": "d8fc7773-b32b-4ea2-8e1f-9344380f2f82",
+  "name": "CTRL 1 needs expression; current setup is dual.",
+  "type": "text",
+  "x": 817,
+  "y": 80315.688,
+  "width": 512.719,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 817,
+    "y": 80315.688,
+    "width": 512.719,
+    "height": 24,
+    "x1": 817,
+    "y1": 80315.688,
+    "x2": 1329.719,
+    "y2": 80339.688
+  },
+  "points": [
+    {
+      "x": 817,
+      "y": 80315.688
+    },
+    {
+      "x": 1329.719,
+      "y": 80315.688
+    },
+    {
+      "x": 1329.719,
+      "y": 80339.688
+    },
+    {
+      "x": 817,
+      "y": 80339.688
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "006afd20-e623-4534-aac1-b052b3b2f533",
+  "frameId": "006afd20-e623-4534-aac1-b052b3b2f533",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "CTRL 1 needs expression; current setup is dual."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e0f9646",
+  "positionData": [
+    {
+      "y": 80340.688,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 512.719,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 817,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "CTRL 1 needs expression; current setup is dual."
+    }
+  ]
+}

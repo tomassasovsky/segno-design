@@ -1,0 +1,135 @@
+{
+  "id": "6bc21f5d-7cc6-481e-94e7-d31d437ba42c",
+  "name": "Bank B",
+  "type": "text",
+  "x": 4161.281,
+  "y": 6307.5,
+  "width": 77.391,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 4161.281,
+    "y": 6307.5,
+    "width": 77.391,
+    "height": 24,
+    "x1": 4161.281,
+    "y1": 6307.5,
+    "x2": 4238.672,
+    "y2": 6331.5
+  },
+  "points": [
+    {
+      "x": 4161.281,
+      "y": 6307.5
+    },
+    {
+      "x": 4238.672,
+      "y": 6307.5
+    },
+    {
+      "x": 4238.672,
+      "y": 6331.5
+    },
+    {
+      "x": 4161.281,
+      "y": 6331.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "68329f90-688c-4dff-8615-f95325321140",
+  "frameId": "68329f90-688c-4dff-8615-f95325321140",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c7c7c7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Bank B"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c7c7c7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503870943c",
+  "positionData": [
+    {
+      "y": 6332.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 77.391,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4161.281,
+      "fills": [
+        {
+          "fillColor": "#c7c7c7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Bank B"
+    }
+  ]
+}

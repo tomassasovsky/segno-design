@@ -1,0 +1,112 @@
+{
+  "id": "0a041550-2dc5-4c02-ada0-cac1dd3b4703",
+  "name": "Meter",
+  "type": "frame",
+  "x": 1187.5,
+  "y": 6773.391,
+  "width": 410.75,
+  "height": 10,
+  "rotation": 0,
+  "selrect": {
+    "x": 1187.5,
+    "y": 6773.391,
+    "width": 410.75,
+    "height": 10,
+    "x1": 1187.5,
+    "y1": 6773.391,
+    "x2": 1598.25,
+    "y2": 6783.391
+  },
+  "points": [
+    {
+      "x": 1187.5,
+      "y": 6773.391
+    },
+    {
+      "x": 1598.25,
+      "y": 6773.391
+    },
+    {
+      "x": 1598.25,
+      "y": 6783.391
+    },
+    {
+      "x": 1187.5,
+      "y": 6783.391
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d01bd496-85c6-45ea-befa-cac42e31f3b4",
+  "frameId": "d01bd496-85c6-45ea-befa-cac42e31f3b4",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "layoutGapType": "multiple",
+  "layoutPadding": {
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "p4": 0
+  },
+  "layoutWrapType": "nowrap",
+  "layout": "flex",
+  "layoutAlignItems": "center",
+  "layoutPaddingType": "multiple",
+  "touched": [
+    "geometry-group"
+  ],
+  "r2": 0,
+  "shapeRef": "fbff6b74-365e-4576-8658-d0367a406635",
+  "showContent": true,
+  "layoutItemHSizing": "fill",
+  "proportionLock": false,
+  "layoutGap": {
+    "rowGap": 5,
+    "columnGap": 5
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "r3": 0,
+  "layoutJustifyContent": "center",
+  "r1": 0,
+  "layoutFlexDir": "row",
+  "appliedTokens": {
+    "rowGap": "space-2",
+    "columnGap": "space-2"
+  },
+  "layoutAlignContent": "stretch",
+  "componentId": "0d5cce9e-d6e0-4395-8427-734291404df2",
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [],
+  "componentFile": "a877156d-2168-8112-8008-dc507254add2",
+  "layoutItemZIndex": 3,
+  "shapes": [
+    "4315990b-4166-47dd-b593-ac83ca25946d",
+    "1590cbb2-b33d-49a4-84df-84b19dab81ec",
+    "80e9fc5f-f14d-4bd5-a258-160a8005b6d6",
+    "ea8b4a9c-8632-47f9-b7de-bc26b981a6bf",
+    "a18f9ad3-c82c-4f2d-81ee-500f14490a78",
+    "455519e4-122f-4f14-bf23-52950029dfe0",
+    "8b453aab-6a64-42fb-98de-cc118434661a",
+    "2add4516-3917-46fc-9d81-37eabea7f0a3",
+    "7a5c7268-6d27-432f-ab42-e9fff7e3f6b0",
+    "e9515f39-9ff1-436a-bc36-e28c4d019b15"
+  ]
+}

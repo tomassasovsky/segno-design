@@ -1,0 +1,135 @@
+{
+  "id": "1347e6b3-bcf0-4431-abd1-58566c17a574",
+  "name": "Recording receives signal",
+  "type": "text",
+  "x": 2752,
+  "y": 12313,
+  "width": 266.969,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 2752,
+    "y": 12313,
+    "width": 266.969,
+    "height": 22,
+    "x1": 2752,
+    "y1": 12313,
+    "x2": 3018.969,
+    "y2": 12335
+  },
+  "points": [
+    {
+      "x": 2752,
+      "y": 12313
+    },
+    {
+      "x": 3018.969,
+      "y": 12313
+    },
+    {
+      "x": 3018.969,
+      "y": 12335
+    },
+    {
+      "x": 2752,
+      "y": 12335
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "9f6c33fb-cf6a-4635-a366-807b65527606",
+  "frameId": "9f6c33fb-cf6a-4635-a366-807b65527606",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#bdd4ea",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Recording receives signal"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#bdd4ea",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc504238a365",
+  "positionData": [
+    {
+      "y": 12337,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 266.969,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2752,
+      "fills": [
+        {
+          "fillColor": "#bdd4ea",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 26,
+      "text": "Recording receives signal"
+    }
+  ]
+}

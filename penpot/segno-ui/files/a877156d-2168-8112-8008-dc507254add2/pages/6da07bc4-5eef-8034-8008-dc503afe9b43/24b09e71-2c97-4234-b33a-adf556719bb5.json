@@ -1,0 +1,135 @@
+{
+  "id": "24b09e71-2c97-4234-b33a-adf556719bb5",
+  "name": "Stop",
+  "type": "text",
+  "x": 691.453,
+  "y": 33825.5,
+  "width": 51.438,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 691.453,
+    "y": 33825.5,
+    "width": 51.438,
+    "height": 25,
+    "x1": 691.453,
+    "y1": 33825.5,
+    "x2": 742.891,
+    "y2": 33850.5
+  },
+  "points": [
+    {
+      "x": 691.453,
+      "y": 33825.5
+    },
+    {
+      "x": 742.891,
+      "y": 33825.5
+    },
+    {
+      "x": 742.891,
+      "y": 33850.5
+    },
+    {
+      "x": 691.453,
+      "y": 33850.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c370672b-b2d4-4f8f-8873-9fa2dbd458ef",
+  "frameId": "c370672b-b2d4-4f8f-8873-9fa2dbd458ef",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Stop"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503afe9b43",
+  "positionData": [
+    {
+      "y": 33851.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 51.438,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 691.453,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Stop"
+    }
+  ]
+}

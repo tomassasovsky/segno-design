@@ -1,0 +1,135 @@
+{
+  "id": "6a7a4bec-571a-4b3e-9cee-ce6da4b5034a",
+  "name": "Decay",
+  "type": "text",
+  "x": 4899.656,
+  "y": 99328,
+  "width": 59.531,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 4899.656,
+    "y": 99328,
+    "width": 59.531,
+    "height": 21,
+    "x1": 4899.656,
+    "y1": 99328,
+    "x2": 4959.187,
+    "y2": 99349
+  },
+  "points": [
+    {
+      "x": 4899.656,
+      "y": 99328
+    },
+    {
+      "x": 4959.187,
+      "y": 99328
+    },
+    {
+      "x": 4959.187,
+      "y": 99349
+    },
+    {
+      "x": 4899.656,
+      "y": 99349
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "59285bce-b28a-43d8-9954-0aee3ccea8f1",
+  "frameId": "59285bce-b28a-43d8-9954-0aee3ccea8f1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "21",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Decay"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "21",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eed38eb",
+  "positionData": [
+    {
+      "y": 99350,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "21px",
+      "fontWeight": "400",
+      "width": 59.531,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4899.656,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 23,
+      "text": "Decay"
+    }
+  ]
+}

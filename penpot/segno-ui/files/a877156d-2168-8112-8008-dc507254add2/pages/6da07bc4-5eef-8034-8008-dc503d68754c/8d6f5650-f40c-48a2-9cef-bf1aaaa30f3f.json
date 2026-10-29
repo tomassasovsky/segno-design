@@ -1,0 +1,135 @@
+{
+  "id": "8d6f5650-f40c-48a2-9cef-bf1aaaa30f3f",
+  "name": "Received sync keeps its incoming timing. Sender offsets apply with Int",
+  "type": "text",
+  "x": 2440,
+  "y": 56898.688,
+  "width": 732.219,
+  "height": 20,
+  "rotation": 0,
+  "selrect": {
+    "x": 2440,
+    "y": 56898.688,
+    "width": 732.219,
+    "height": 20,
+    "x1": 2440,
+    "y1": 56898.688,
+    "x2": 3172.219,
+    "y2": 56918.688
+  },
+  "points": [
+    {
+      "x": 2440,
+      "y": 56898.688
+    },
+    {
+      "x": 3172.219,
+      "y": 56898.688
+    },
+    {
+      "x": 3172.219,
+      "y": 56918.688
+    },
+    {
+      "x": 2440,
+      "y": 56918.688
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b91eb472-0490-478a-913e-9df00fe687bc",
+  "frameId": "b91eb472-0490-478a-913e-9df00fe687bc",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "20",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aebbd0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Received sync keeps its incoming timing. Sender offsets apply with Internal tempo."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "20",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aebbd0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d68754c",
+  "positionData": [
+    {
+      "y": 56919.688,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "width": 732.219,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2440,
+      "fills": [
+        {
+          "fillColor": "#aebbd0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 22,
+      "text": "Received sync keeps its incoming timing. Sender offsets apply with Internal tempo."
+    }
+  ]
+}

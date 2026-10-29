@@ -1,0 +1,135 @@
+{
+  "id": "13fee446-74b6-4c90-b21f-667fce603c65",
+  "name": "Knob \/ fader",
+  "type": "text",
+  "x": 11121.984,
+  "y": 52287.188,
+  "width": 114.422,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 11121.984,
+    "y": 52287.188,
+    "width": 114.422,
+    "height": 21,
+    "x1": 11121.984,
+    "y1": 52287.188,
+    "x2": 11236.406,
+    "y2": 52308.188
+  },
+  "points": [
+    {
+      "x": 11121.984,
+      "y": 52287.188
+    },
+    {
+      "x": 11236.406,
+      "y": 52287.188
+    },
+    {
+      "x": 11236.406,
+      "y": 52308.188
+    },
+    {
+      "x": 11121.984,
+      "y": 52308.188
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e250c565-1500-46b6-a9d6-7d48d5cea0ed",
+  "frameId": "e250c565-1500-46b6-a9d6-7d48d5cea0ed",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "21",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#edf3fc",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Knob \/ fader"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "21",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#edf3fc",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d548fff",
+  "positionData": [
+    {
+      "y": 52309.188,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "21px",
+      "fontWeight": "400",
+      "width": 114.422,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11121.984,
+      "fills": [
+        {
+          "fillColor": "#edf3fc",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 23,
+      "text": "Knob \/ fader"
+    }
+  ]
+}

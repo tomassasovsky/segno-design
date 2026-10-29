@@ -1,0 +1,156 @@
+{
+  "id": "64ad79b5-0513-4a2b-974d-1367d37b3b12",
+  "name": "c\/firmware-failed",
+  "type": "text",
+  "x": 6820,
+  "y": 36407,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 36407,
+    "width": 1800,
+    "height": 32,
+    "x1": 6820,
+    "y1": 36407,
+    "x2": 8620,
+    "y2": 36439
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 36407
+    },
+    {
+      "x": 8620,
+      "y": 36407
+    },
+    {
+      "x": 8620,
+      "y": 36439
+    },
+    {
+      "x": 6820,
+      "y": 36439
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e2fbd625-fe35-4f72-9be1-94b735193cea",
+  "frameId": "e2fbd625-fe35-4f72-9be1-94b735193cea",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The not-started class of the failed gate (#690): the flash never began writing, so the pedal really does still work on its previous firmware and Segno can safely retry next start \u2014 the only failure class where that reassurance is true. The interrupted class shows its own body (SESSION & CAPTURE \/ firmware-failed-interrupted)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "positionData": [
+    {
+      "y": 36423,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1744.922,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "The not-started class of the failed gate (#690): the flash never began writing, so the pedal really does still work on its previous firmware and Segno can safely retry next start \u2014 the only failure class where that reassurance is true. The interrupted class shows its own body (SESSION & "
+    },
+    {
+      "y": 36439,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 249.438,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "CAPTURE \/ firmware-failed-interrupted)."
+    }
+  ]
+}

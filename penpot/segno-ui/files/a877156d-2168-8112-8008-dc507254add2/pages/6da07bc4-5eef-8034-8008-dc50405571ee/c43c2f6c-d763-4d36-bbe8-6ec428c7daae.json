@@ -1,0 +1,156 @@
+{
+  "id": "c43c2f6c-d763-4d36-bbe8-6ec428c7daae",
+  "name": "c\/settings-inputs-wide",
+  "type": "text",
+  "x": 6820,
+  "y": 24075,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 24075,
+    "width": 1800,
+    "height": 32,
+    "x1": 6820,
+    "y1": 24075,
+    "x2": 8620,
+    "y2": 24107
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 24075
+    },
+    {
+      "x": 8620,
+      "y": 24075
+    },
+    {
+      "x": 8620,
+      "y": 24107
+    },
+    {
+      "x": 6820,
+      "y": 24107
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "94586153-d591-41dd-a0f3-9596abcf8f92",
+  "frameId": "94586153-d591-41dd-a0f3-9596abcf8f92",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Eighteen sockets are TWO ROWS of chips, 106px, and this is why the list is a grid at all: as 70px rows the same list is 1,260px, five times the height of the card it opens inside. The grid fits as many ~166px cells as the measure allows and shares out the remainder, so the run stays flush to both edges whatever the rig has. Naming is NOT capped at the engine's lane ceiling \u2014 that constant caps how many lanes ONE TRACK may have, not which input a lane records, so socket 12 is routable and worth naming (#528)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50405571ee",
+  "positionData": [
+    {
+      "y": 24091,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1790.047,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Eighteen sockets are TWO ROWS of chips, 106px, and this is why the list is a grid at all: as 70px rows the same list is 1,260px, five times the height of the card it opens inside. The grid fits as many ~166px cells as the measure allows and shares out the remainder, so the run stays flush to both "
+    },
+    {
+      "y": 24107,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1368.688,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6820,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "edges whatever the rig has. Naming is NOT capped at the engine's lane ceiling \u2014 that constant caps how many lanes ONE TRACK may have, not which input a lane records, so socket 12 is routable and worth naming (#528)."
+    }
+  ]
+}

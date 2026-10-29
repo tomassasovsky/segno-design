@@ -1,0 +1,135 @@
+{
+  "id": "4561bfc7-0f85-498e-b3a1-323bc639d850",
+  "name": "Save backup",
+  "type": "text",
+  "x": 3607.125,
+  "y": 88489.594,
+  "width": 146.75,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 3607.125,
+    "y": 88489.594,
+    "width": 146.75,
+    "height": 24,
+    "x1": 3607.125,
+    "y1": 88489.594,
+    "x2": 3753.875,
+    "y2": 88513.594
+  },
+  "points": [
+    {
+      "x": 3607.125,
+      "y": 88489.594
+    },
+    {
+      "x": 3753.875,
+      "y": 88489.594
+    },
+    {
+      "x": 3753.875,
+      "y": 88513.594
+    },
+    {
+      "x": 3607.125,
+      "y": 88513.594
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2c261054-76bb-45cd-befd-608ae5a36055",
+  "frameId": "2c261054-76bb-45cd-befd-608ae5a36055",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#162132",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Save backup"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#162132",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e7e83b6",
+  "positionData": [
+    {
+      "y": 88514.594,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "width": 146.75,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3607.125,
+      "fills": [
+        {
+          "fillColor": "#162132",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Save backup"
+    }
+  ]
+}

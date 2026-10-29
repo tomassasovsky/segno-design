@@ -1,0 +1,168 @@
+{
+  "id": "0c3ace14-500c-4bab-8c73-89611b5a2d9a",
+  "name": "Lede",
+  "type": "text",
+  "x": 274,
+  "y": 8208,
+  "width": 1240,
+  "height": 51,
+  "rotation": 0,
+  "selrect": {
+    "x": 274,
+    "y": 8208,
+    "width": 1240,
+    "height": 51,
+    "x1": 274,
+    "y1": 8208,
+    "x2": 1514,
+    "y2": 8259
+  },
+  "points": [
+    {
+      "x": 274,
+      "y": 8208
+    },
+    {
+      "x": 1514,
+      "y": 8208
+    },
+    {
+      "x": 1514,
+      "y": 8259
+    },
+    {
+      "x": 274,
+      "y": 8259
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1445aca2-e03c-4a13-8f87-3c315ff78f32",
+  "frameId": "1445aca2-e03c-4a13-8f87-3c315ff78f32",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "17",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Option A + B, built. The tile grid is the overview; tapping a tile opens the full-width editor sheet. One design at two zoom levels. No rotary controls anywhere \u2014 Knob and FxParamKnobCell have been removed from the masters."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "17",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fix",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontSize": "text-base",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 8230,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "width": 1172.125,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 274,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Option A + B, built. The tile grid is the overview; tapping a tile opens the full-width editor sheet. One design at two zoom levels. No rotary controls "
+    },
+    {
+      "y": 8255.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "width": 639.969,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 274,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "anywhere \u2014 Knob and FxParamKnobCell have been removed from the masters."
+    }
+  ],
+  "layoutItemZIndex": 2
+}

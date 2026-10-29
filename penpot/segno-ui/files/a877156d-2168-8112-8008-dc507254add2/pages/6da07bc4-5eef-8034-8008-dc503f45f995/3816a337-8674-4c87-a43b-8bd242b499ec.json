@@ -1,0 +1,138 @@
+{
+  "id": "3816a337-8674-4c87-a43b-8bd242b499ec",
+  "name": "TDR Nova",
+  "type": "text",
+  "x": 7341.359,
+  "y": 4099.703,
+  "width": 76.625,
+  "height": 18.078,
+  "rotation": 0,
+  "selrect": {
+    "x": 7341.359,
+    "y": 4099.703,
+    "width": 76.625,
+    "height": 18.078,
+    "x1": 7341.359,
+    "y1": 4099.703,
+    "x2": 7417.984,
+    "y2": 4117.781000000001
+  },
+  "points": [
+    {
+      "x": 7341.359,
+      "y": 4099.703
+    },
+    {
+      "x": 7417.984,
+      "y": 4099.703
+    },
+    {
+      "x": 7417.984,
+      "y": 4117.781000000001
+    },
+    {
+      "x": 7341.359,
+      "y": 4117.781000000001
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "f50f3def-52cb-4e80-9e32-4c0701efb6bd",
+  "frameId": "f50f3def-52cb-4e80-9e32-4c0701efb6bd",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.13",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.13",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "600",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#3b82f6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "TDR Nova"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#3b82f6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 4118.703,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "width": 76.625,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 7341.359,
+      "fills": [
+        {
+          "fillColor": "#3b82f6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "TDR Nova"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

@@ -1,0 +1,240 @@
+{
+  "id": "e0ca0285-c5cb-4210-b416-1afa1cfe5d73",
+  "name": "c\/mode-colours",
+  "type": "text",
+  "x": 300,
+  "y": 31982,
+  "width": 1800,
+  "height": 96,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 31982,
+    "width": 1800,
+    "height": 96,
+    "x1": 300,
+    "y1": 31982,
+    "x2": 2100,
+    "y2": 32078
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 31982
+    },
+    {
+      "x": 2100,
+      "y": 31982
+    },
+    {
+      "x": 2100,
+      "y": 32078
+    },
+    {
+      "x": 300,
+      "y": 32078
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "cdc7b3fa-fe53-442f-93a6-6f6e8d3bb2b2",
+  "frameId": "cdc7b3fa-fe53-442f-93a6-6f6e8d3bb2b2",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Mode colours, written back from #693\/#714 (owner calls, 2026-08-20): mute reads GREEN on every surface \u2014 $success over the $success-surface wash on the chrome pills (stage status bar and desktop ModeIndicator; the DS indicator specimen 'mode pill \/ mute' records the variant, and the screens keep drawing the nominal REC state), $led-green on the 7\u2033 readout and on the pedal's MODE LED. Rec is red everywhere: the pedal's LED moved rec green \u2192 red in the same stroke, because mute could not simply take green while rec held it \u2014 that would make the pedal's two BOOT modes (record and mute) indistinguishable on the one indicator whose job is naming them. FX stays blue. The desktop ModeIndicator's REC arm reads $rec #e5484d, the chrome red the pills draw \u2014 not $signal-rec #ff1744, the stage record hue. The pedal plate itself is not drawn in this file, so its two calls are recorded here: (1) the MODE LED is SOLID in every state and reports the interaction mode only \u2014 the performance-armed BLINK is gone, because armed already shows on both screens (the stage bar's pill and the 7\u2033 readout's REC pill with running elapsed) and a blinking red was only distinguishable from a solid red by watching a full half-period; do not reintroduce it on the next pass at the pedal. (2) the ring's idle sweep is a dim neutral $ring-glow in every mode, never a dimmed mode tint \u2014 a dim red idle ring in rec mode reads as a live take from stage distance; red on the ring means recording activity, exclusively."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d03f8",
+  "positionData": [
+    {
+      "y": 31998,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1784.391,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Mode colours, written back from #693\/#714 (owner calls, 2026-08-20): mute reads GREEN on every surface \u2014 $success over the $success-surface wash on the chrome pills (stage status bar and desktop ModeIndicator; the DS indicator specimen 'mode pill \/ mute' records the variant, and "
+    },
+    {
+      "y": 32014,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1777.188,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "the screens keep drawing the nominal REC state), $led-green on the 7\u2033 readout and on the pedal's MODE LED. Rec is red everywhere: the pedal's LED moved rec green \u2192 red in the same stroke, because mute could not simply take green while rec held it \u2014 that would make the pedal's two "
+    },
+    {
+      "y": 32030,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1800.328,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "BOOT modes (record and mute) indistinguishable on the one indicator whose job is naming them. FX stays blue. The desktop ModeIndicator's REC arm reads $rec #e5484d, the chrome red the pills draw \u2014 not $signal-rec #ff1744, the stage record hue. The pedal plate itself is not drawn in this "
+    },
+    {
+      "y": 32046,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1756.672,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "file, so its two calls are recorded here: (1) the MODE LED is SOLID in every state and reports the interaction mode only \u2014 the performance-armed BLINK is gone, because armed already shows on both screens (the stage bar's pill and the 7\u2033 readout's REC pill with running elapsed) and a "
+    },
+    {
+      "y": 32062,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1768.297,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "blinking red was only distinguishable from a solid red by watching a full half-period; do not reintroduce it on the next pass at the pedal. (2) the ring's idle sweep is a dim neutral $ring-glow in every mode, never a dimmed mode tint \u2014 a dim red idle ring in rec mode reads as a live take from "
+    },
+    {
+      "y": 32078,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 420.281,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "stage distance; red on the ring means recording activity, exclusively."
+    }
+  ]
+}

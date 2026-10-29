@@ -1,0 +1,135 @@
+{
+  "id": "61c6dc21-f743-49d7-9c45-b09c2df1f105",
+  "name": "Switch bank",
+  "type": "text",
+  "x": 1020.266,
+  "y": 96277.5,
+  "width": 102.453,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 1020.266,
+    "y": 96277.5,
+    "width": 102.453,
+    "height": 19,
+    "x1": 1020.266,
+    "y1": 96277.5,
+    "x2": 1122.719,
+    "y2": 96296.5
+  },
+  "points": [
+    {
+      "x": 1020.266,
+      "y": 96277.5
+    },
+    {
+      "x": 1122.719,
+      "y": 96277.5
+    },
+    {
+      "x": 1122.719,
+      "y": 96296.5
+    },
+    {
+      "x": 1020.266,
+      "y": 96296.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "40991027-8369-4a0a-9fde-1d01ed2c8910",
+  "frameId": "40991027-8369-4a0a-9fde-1d01ed2c8910",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "19",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aebdd2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Switch bank"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "19",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aebdd2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503ebb94df",
+  "positionData": [
+    {
+      "y": 96297.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "width": 102.453,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1020.266,
+      "fills": [
+        {
+          "fillColor": "#aebdd2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 21,
+      "text": "Switch bank"
+    }
+  ]
+}

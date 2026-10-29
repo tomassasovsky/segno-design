@@ -1,0 +1,138 @@
+{
+  "id": "b5ff5c3c-836b-4064-9ca5-7f94c9917716",
+  "name": "Connected: Nektar Pacer",
+  "type": "text",
+  "x": 9166,
+  "y": 9935.063,
+  "width": 190.656,
+  "height": 18.078,
+  "rotation": 0,
+  "selrect": {
+    "x": 9166,
+    "y": 9935.063,
+    "width": 190.656,
+    "height": 18.078,
+    "x1": 9166,
+    "y1": 9935.063,
+    "x2": 9356.656,
+    "y2": 9953.141
+  },
+  "points": [
+    {
+      "x": 9166,
+      "y": 9935.063
+    },
+    {
+      "x": 9356.656,
+      "y": 9935.063
+    },
+    {
+      "x": 9356.656,
+      "y": 9953.141
+    },
+    {
+      "x": 9166,
+      "y": 9953.141
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "513dadad-5e21-4282-8932-c6892900107a",
+  "frameId": "513dadad-5e21-4282-8932-c6892900107a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.13",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.13",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Connected: Nektar Pacer"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503fbe53a3",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 9954.063,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 190.656,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9166,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Connected: Nektar Pacer"
+    }
+  ],
+  "layoutItemZIndex": 1
+}

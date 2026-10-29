@@ -1,0 +1,135 @@
+{
+  "id": "aacdae3c-f970-4feb-a75b-f5cdb667b945",
+  "name": "Play the keyboard",
+  "type": "text",
+  "x": 4489,
+  "y": 99860.5,
+  "width": 160.109,
+  "height": 20,
+  "rotation": 0,
+  "selrect": {
+    "x": 4489,
+    "y": 99860.5,
+    "width": 160.109,
+    "height": 20,
+    "x1": 4489,
+    "y1": 99860.5,
+    "x2": 4649.109,
+    "y2": 99880.5
+  },
+  "points": [
+    {
+      "x": 4489,
+      "y": 99860.5
+    },
+    {
+      "x": 4649.109,
+      "y": 99860.5
+    },
+    {
+      "x": 4649.109,
+      "y": 99880.5
+    },
+    {
+      "x": 4489,
+      "y": 99880.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "72851e26-bfc4-4759-bd7c-5da5e7f977bb",
+  "frameId": "72851e26-bfc4-4759-bd7c-5da5e7f977bb",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "20",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#99a8be",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Play the keyboard"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "20",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#99a8be",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eed38eb",
+  "positionData": [
+    {
+      "y": 99881.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "width": 160.109,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4489,
+      "fills": [
+        {
+          "fillColor": "#99a8be",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 22,
+      "text": "Play the keyboard"
+    }
+  ]
+}

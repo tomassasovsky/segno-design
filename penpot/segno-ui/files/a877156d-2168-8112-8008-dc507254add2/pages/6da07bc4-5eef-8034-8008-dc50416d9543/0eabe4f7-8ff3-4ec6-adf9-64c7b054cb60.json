@@ -1,0 +1,88 @@
+{
+  "id": "0eabe4f7-8ff3-4ec6-adf9-64c7b054cb60",
+  "name": "Loop block",
+  "type": "rect",
+  "x": 4448,
+  "y": 4030.359,
+  "width": 320.797,
+  "height": 300,
+  "rotation": 0,
+  "selrect": {
+    "x": 4448,
+    "y": 4030.359,
+    "width": 320.797,
+    "height": 300,
+    "x1": 4448,
+    "y1": 4030.359,
+    "x2": 4768.7970000000005,
+    "y2": 4330.359
+  },
+  "points": [
+    {
+      "x": 4448,
+      "y": 4030.359
+    },
+    {
+      "x": 4768.7970000000005,
+      "y": 4030.359
+    },
+    {
+      "x": 4768.7970000000005,
+      "y": 4330.359
+    },
+    {
+      "x": 4448,
+      "y": 4330.359
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "bdcdde3c-88b5-4cd5-b4a0-8b939b25f8cf",
+  "frameId": "bdcdde3c-88b5-4cd5-b4a0-8b939b25f8cf",
+  "flipX": null,
+  "flipY": null,
+  "touched": [
+    "geometry-group"
+  ],
+  "r2": 2,
+  "shapeRef": "46892d0b-f772-4c96-b0ec-2fcbe66f6894",
+  "layoutItemHSizing": "fill",
+  "proportionLock": false,
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "fix",
+  "r3": 2,
+  "r1": 2,
+  "appliedTokens": {
+    "fill": "signal",
+    "r1": "radius-2",
+    "r2": "radius-2",
+    "r3": "radius-2",
+    "r4": "radius-2"
+  },
+  "strokes": [],
+  "proportion": 1,
+  "r4": 2,
+  "fills": [
+    {
+      "fillColor": "#4cda4a",
+      "fillOpacity": 1,
+      "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a8d",
+      "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+    }
+  ],
+  "layoutItemZIndex": 2
+}

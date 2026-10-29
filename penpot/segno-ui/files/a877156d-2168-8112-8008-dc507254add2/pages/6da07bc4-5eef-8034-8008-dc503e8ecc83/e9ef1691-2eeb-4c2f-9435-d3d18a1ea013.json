@@ -1,0 +1,135 @@
+{
+  "id": "e9ef1691-2eeb-4c2f-9435-d3d18a1ea013",
+  "name": "Storage reserve reached. The recorded part of this take is kept.",
+  "type": "text",
+  "x": 10031.719,
+  "y": 91009.516,
+  "width": 645.203,
+  "height": 23,
+  "rotation": 0,
+  "selrect": {
+    "x": 10031.719,
+    "y": 91009.516,
+    "width": 645.203,
+    "height": 23,
+    "x1": 10031.719,
+    "y1": 91009.516,
+    "x2": 10676.921999999999,
+    "y2": 91032.516
+  },
+  "points": [
+    {
+      "x": 10031.719,
+      "y": 91009.516
+    },
+    {
+      "x": 10676.921999999999,
+      "y": 91009.516
+    },
+    {
+      "x": 10676.921999999999,
+      "y": 91032.516
+    },
+    {
+      "x": 10031.719,
+      "y": 91032.516
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e12f9b0d-4059-4670-9d34-5e9b5b1ff224",
+  "frameId": "e12f9b0d-4059-4670-9d34-5e9b5b1ff224",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "23",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#edbc9e",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Storage reserve reached. The recorded part of this take is kept."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "23",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#edbc9e",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e8ecc83",
+  "positionData": [
+    {
+      "y": 91033.516,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "width": 645.203,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10031.719,
+      "fills": [
+        {
+          "fillColor": "#edbc9e",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 26,
+      "text": "Storage reserve reached. The recorded part of this take is kept."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "dac6ab96-2e00-4cfe-b7b1-c7e4e2314890",
+  "name": "Tap Label",
+  "type": "text",
+  "x": 3197.063,
+  "y": 12319.969,
+  "width": 30.359,
+  "height": 20.047,
+  "rotation": 0,
+  "selrect": {
+    "x": 3197.063,
+    "y": 12319.969,
+    "width": 30.359,
+    "height": 20.047,
+    "x1": 3197.063,
+    "y1": 12319.969,
+    "x2": 3227.422,
+    "y2": 12340.016
+  },
+  "points": [
+    {
+      "x": 3197.063,
+      "y": 12319.969
+    },
+    {
+      "x": 3227.422,
+      "y": 12319.969
+    },
+    {
+      "x": 3227.422,
+      "y": 12340.016
+    },
+    {
+      "x": 3197.063,
+      "y": 12340.016
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "f81f56c2-96ea-4114-9849-52c555242fa1",
+  "frameId": "f81f56c2-96ea-4114-9849-52c555242fa1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.18",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.18",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "17",
+                "fontWeight": "600",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Tap"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "17",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50400567e5",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 12339.969,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "width": 30.359,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3197.063,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Tap"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

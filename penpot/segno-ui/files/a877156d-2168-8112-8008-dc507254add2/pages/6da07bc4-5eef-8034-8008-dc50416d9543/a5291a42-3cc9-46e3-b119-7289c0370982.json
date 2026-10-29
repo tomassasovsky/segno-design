@@ -1,0 +1,169 @@
+{
+  "id": "a5291a42-3cc9-46e3-b119-7289c0370982",
+  "name": "Body",
+  "type": "text",
+  "x": 5091,
+  "y": 3591.516,
+  "width": 478,
+  "height": 43.5,
+  "rotation": 0,
+  "selrect": {
+    "x": 5091,
+    "y": 3591.516,
+    "width": 478,
+    "height": 43.5,
+    "x1": 5091,
+    "y1": 3591.516,
+    "x2": 5569,
+    "y2": 3635.016
+  },
+  "points": [
+    {
+      "x": 5091,
+      "y": 3591.516
+    },
+    {
+      "x": 5569,
+      "y": 3591.516
+    },
+    {
+      "x": 5569,
+      "y": 3635.016
+    },
+    {
+      "x": 5091,
+      "y": 3635.016
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "fbb0c0ef-a403-41db-9d4c-ba92d4387b18",
+  "frameId": "fbb0c0ef-a403-41db-9d4c-ba92d4387b18",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.45",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.45",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The passphrase is deleted from this console. You will need it again to rejoin."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "shapeRef": "37d870ab-a61e-4e39-928f-ef83222f510d",
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontSize": "text-btn",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 3611.516,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "width": 475.984,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 5091,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 19,
+      "text": "The passphrase is deleted from this console. You will need it again "
+    },
+    {
+      "y": 3633.266,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "width": 61.563,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 5091,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 19,
+      "text": "to rejoin."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

@@ -1,0 +1,138 @@
+{
+  "id": "91497161-46cd-42db-b5cb-4e4b0fb74ab7",
+  "name": "guitar",
+  "type": "text",
+  "x": 9118,
+  "y": 814.078,
+  "width": 51.922,
+  "height": 21.047,
+  "rotation": 0,
+  "selrect": {
+    "x": 9118,
+    "y": 814.078,
+    "width": 51.922,
+    "height": 21.047,
+    "x1": 9118,
+    "y1": 814.078,
+    "x2": 9169.922,
+    "y2": 835.125
+  },
+  "points": [
+    {
+      "x": 9118,
+      "y": 814.078
+    },
+    {
+      "x": 9169.922,
+      "y": 814.078
+    },
+    {
+      "x": 9169.922,
+      "y": 835.125
+    },
+    {
+      "x": 9118,
+      "y": 835.125
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3f349fd7-95f2-441c-a660-0a6875d50ba9",
+  "frameId": "3f349fd7-95f2-441c-a660-0a6875d50ba9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.17",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.17",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "18",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "guitar"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "18",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 835.078,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "width": 51.922,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9118,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 21,
+      "text": "guitar"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

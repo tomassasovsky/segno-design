@@ -1,0 +1,168 @@
+{
+  "id": "dd70c77e-b14c-452d-be01-4f35c69b3c3b",
+  "name": "Waveform decision",
+  "type": "text",
+  "x": 274,
+  "y": 6860.391,
+  "width": 1792,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 274,
+    "y": 6860.391,
+    "width": 1792,
+    "height": 32,
+    "x1": 274,
+    "y1": 6860.391,
+    "x2": 2066,
+    "y2": 6892.391
+  },
+  "points": [
+    {
+      "x": 274,
+      "y": 6860.391
+    },
+    {
+      "x": 2066,
+      "y": 6860.391
+    },
+    {
+      "x": 2066,
+      "y": 6892.391
+    },
+    {
+      "x": 274,
+      "y": 6892.391
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c59d13b5-1b10-4b68-9336-960986c10eb9",
+  "frameId": "c59d13b5-1b10-4b68-9336-960986c10eb9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Waveform colouring (decided 2026-08-05): state-coloured, not single-cyan. Stopped = signal-stopped at reduced alpha, playing = signal, recording\/overdub = signal-rec; background = waveform-bg. The shipped single cyan 00E5FF retires when Stage 3 lands the per-state LooperTheme API."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d9543",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontSize": "text-caption",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 6876.391,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1774.141,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 274,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Waveform colouring (decided 2026-08-05): state-coloured, not single-cyan. Stopped = signal-stopped at reduced alpha, playing = signal, recording\/overdub = signal-rec; background = waveform-bg. The shipped single cyan 00E5FF retires when Stage 3 lands the per-state LooperTheme "
+    },
+    {
+      "y": 6892.391,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 24.516,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 274,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "API."
+    }
+  ],
+  "layoutItemZIndex": 2
+}

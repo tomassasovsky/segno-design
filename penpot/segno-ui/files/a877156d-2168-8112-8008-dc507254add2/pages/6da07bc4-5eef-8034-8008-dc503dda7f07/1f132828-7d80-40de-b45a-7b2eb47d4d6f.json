@@ -1,0 +1,135 @@
+{
+  "id": "1f132828-7d80-40de-b45a-7b2eb47d4d6f",
+  "name": "Keyboard",
+  "type": "text",
+  "x": 5948.75,
+  "y": 69298.5,
+  "width": 102.75,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 5948.75,
+    "y": 69298.5,
+    "width": 102.75,
+    "height": 24,
+    "x1": 5948.75,
+    "y1": 69298.5,
+    "x2": 6051.5,
+    "y2": 69322.5
+  },
+  "points": [
+    {
+      "x": 5948.75,
+      "y": 69298.5
+    },
+    {
+      "x": 6051.5,
+      "y": 69298.5
+    },
+    {
+      "x": 6051.5,
+      "y": 69322.5
+    },
+    {
+      "x": 5948.75,
+      "y": 69322.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "42c3b26a-e75b-4824-9eec-bc8e6e745a5d",
+  "frameId": "42c3b26a-e75b-4824-9eec-bc8e6e745a5d",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b7bfcb",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Keyboard"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b7bfcb",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dda7f07",
+  "positionData": [
+    {
+      "y": 69323.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 102.75,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 5948.75,
+      "fills": [
+        {
+          "fillColor": "#b7bfcb",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Keyboard"
+    }
+  ]
+}

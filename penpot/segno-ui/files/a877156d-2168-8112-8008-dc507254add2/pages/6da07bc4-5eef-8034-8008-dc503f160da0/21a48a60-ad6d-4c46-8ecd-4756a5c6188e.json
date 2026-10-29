@@ -1,0 +1,118 @@
+{
+  "id": "21a48a60-ad6d-4c46-8ecd-4756a5c6188e",
+  "name": "pill",
+  "type": "frame",
+  "x": 2787,
+  "y": 9054,
+  "width": 41,
+  "height": 26,
+  "rotation": 0,
+  "selrect": {
+    "x": 2787,
+    "y": 9054,
+    "width": 41,
+    "height": 26,
+    "x1": 2787,
+    "y1": 9054,
+    "x2": 2828,
+    "y2": 9080
+  },
+  "points": [
+    {
+      "x": 2787,
+      "y": 9054
+    },
+    {
+      "x": 2828,
+      "y": 9054
+    },
+    {
+      "x": 2828,
+      "y": 9080
+    },
+    {
+      "x": 2787,
+      "y": 9080
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "21d49bf2-26e0-4c9a-a77a-fe823f013b91",
+  "frameId": "21d49bf2-26e0-4c9a-a77a-fe823f013b91",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "layoutGapType": "multiple",
+  "layoutPadding": {
+    "p1": 0,
+    "p2": 13,
+    "p3": 0,
+    "p4": 13
+  },
+  "layoutWrapType": "nowrap",
+  "layout": "flex",
+  "layoutAlignItems": "center",
+  "layoutPaddingType": "multiple",
+  "r2": 13,
+  "showContent": true,
+  "layoutItemHSizing": "auto",
+  "proportionLock": false,
+  "layoutGap": {
+    "rowGap": 0,
+    "columnGap": 0
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "layoutItemVSizing": "fix",
+  "r3": 13,
+  "layoutJustifyContent": "center",
+  "r1": 13,
+  "layoutFlexDir": "row",
+  "appliedTokens": {
+    "fill": "fx-wash",
+    "strokeColor": "fx",
+    "r1": "radius-pill",
+    "r2": "radius-pill",
+    "r3": "radius-pill",
+    "r4": "radius-pill"
+  },
+  "layoutAlignContent": "stretch",
+  "strokes": [
+    {
+      "strokeColor": "#a06be0",
+      "strokeOpacity": 1,
+      "strokeWidth": 1,
+      "strokeAlignment": "inner",
+      "strokeStyle": "solid",
+      "strokeColorRefId": "6da07bc4-5eef-8034-8008-dc5037a59614",
+      "strokeColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+    }
+  ],
+  "proportion": 1,
+  "r4": 13,
+  "fills": [
+    {
+      "fillColor": "#a06be0",
+      "fillOpacity": 0.1412,
+      "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a59616",
+      "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+    }
+  ],
+  "layoutItemZIndex": 1,
+  "shapes": [
+    "aebde68a-2327-4a13-b660-1b0db0fe53aa"
+  ]
+}

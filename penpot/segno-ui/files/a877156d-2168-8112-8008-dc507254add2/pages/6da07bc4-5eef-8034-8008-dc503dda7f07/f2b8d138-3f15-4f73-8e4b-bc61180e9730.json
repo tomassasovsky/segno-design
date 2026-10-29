@@ -1,0 +1,135 @@
+{
+  "id": "f2b8d138-3f15-4f73-8e4b-bc61180e9730",
+  "name": "Wire protocol",
+  "type": "text",
+  "x": 2421,
+  "y": 69485.5,
+  "width": 147.266,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 2421,
+    "y": 69485.5,
+    "width": 147.266,
+    "height": 25,
+    "x1": 2421,
+    "y1": 69485.5,
+    "x2": 2568.266,
+    "y2": 69510.5
+  },
+  "points": [
+    {
+      "x": 2421,
+      "y": 69485.5
+    },
+    {
+      "x": 2568.266,
+      "y": 69485.5
+    },
+    {
+      "x": 2568.266,
+      "y": 69510.5
+    },
+    {
+      "x": 2421,
+      "y": 69510.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e005f6c1-b7d0-4011-bbd7-f8824c57c28c",
+  "frameId": "e005f6c1-b7d0-4011-bbd7-f8824c57c28c",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#afbed4",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Wire protocol"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#afbed4",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dda7f07",
+  "positionData": [
+    {
+      "y": 69511.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 147.266,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2421,
+      "fills": [
+        {
+          "fillColor": "#afbed4",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Wire protocol"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "24af858d-970a-46dd-9ed5-ab5bfbf95c91",
+  "name": "What you hear",
+  "type": "text",
+  "x": 4505,
+  "y": 94490.5,
+  "width": 156.094,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 4505,
+    "y": 94490.5,
+    "width": 156.094,
+    "height": 24,
+    "x1": 4505,
+    "y1": 94490.5,
+    "x2": 4661.094,
+    "y2": 94514.5
+  },
+  "points": [
+    {
+      "x": 4505,
+      "y": 94490.5
+    },
+    {
+      "x": 4661.094,
+      "y": 94490.5
+    },
+    {
+      "x": 4661.094,
+      "y": 94514.5
+    },
+    {
+      "x": 4505,
+      "y": 94514.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "92cdda42-35dc-46a5-8380-a83ea9fd60ba",
+  "frameId": "92cdda42-35dc-46a5-8380-a83ea9fd60ba",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "What you hear"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eaa6f36",
+  "positionData": [
+    {
+      "y": 94515.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 156.094,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4505,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "What you hear"
+    }
+  ]
+}

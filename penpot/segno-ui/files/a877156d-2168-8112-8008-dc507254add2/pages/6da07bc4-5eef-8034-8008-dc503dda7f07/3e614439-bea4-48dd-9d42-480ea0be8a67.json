@@ -1,0 +1,135 @@
+{
+  "id": "3e614439-bea4-48dd-9d42-480ea0be8a67",
+  "name": "Disconnected",
+  "type": "text",
+  "x": 6091.906,
+  "y": 69705,
+  "width": 109.078,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 6091.906,
+    "y": 69705,
+    "width": 109.078,
+    "height": 18,
+    "x1": 6091.906,
+    "y1": 69705,
+    "x2": 6200.984,
+    "y2": 69723
+  },
+  "points": [
+    {
+      "x": 6091.906,
+      "y": 69705
+    },
+    {
+      "x": 6200.984,
+      "y": 69705
+    },
+    {
+      "x": 6200.984,
+      "y": 69723
+    },
+    {
+      "x": 6091.906,
+      "y": 69723
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "49274cac-0779-47d0-b698-3ea56bbf9036",
+  "frameId": "49274cac-0779-47d0-b698-3ea56bbf9036",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#969fae",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Disconnected"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#969fae",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dda7f07",
+  "positionData": [
+    {
+      "y": 69724,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 109.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6091.906,
+      "fills": [
+        {
+          "fillColor": "#969fae",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 20,
+      "text": "Disconnected"
+    }
+  ]
+}

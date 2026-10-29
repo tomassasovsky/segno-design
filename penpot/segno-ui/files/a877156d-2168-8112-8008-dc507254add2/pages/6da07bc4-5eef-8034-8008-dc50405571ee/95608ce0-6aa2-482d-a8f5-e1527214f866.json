@@ -1,0 +1,138 @@
+{
+  "id": "95608ce0-6aa2-482d-a8f5-e1527214f866",
+  "name": "Auto rounds up to whole base loops; a fi",
+  "type": "text",
+  "x": 11201,
+  "y": 19136.531,
+  "width": 473.938,
+  "height": 16.938,
+  "rotation": 0,
+  "selrect": {
+    "x": 11201,
+    "y": 19136.531,
+    "width": 473.938,
+    "height": 16.938,
+    "x1": 11201,
+    "y1": 19136.531,
+    "x2": 11674.938,
+    "y2": 19153.468999999997
+  },
+  "points": [
+    {
+      "x": 11201,
+      "y": 19136.531
+    },
+    {
+      "x": 11674.938,
+      "y": 19136.531
+    },
+    {
+      "x": 11674.938,
+      "y": 19153.468999999997
+    },
+    {
+      "x": 11201,
+      "y": 19153.468999999997
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "a583fac0-b559-4869-b142-c19e94677244",
+  "frameId": "a583fac0-b559-4869-b142-c19e94677244",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.21",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.21",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Auto rounds up to whole base loops; a fixed multiple records that many."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50405571ee",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 19152.531,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 473.938,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11201,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Auto rounds up to whole base loops; a fixed multiple records that many."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

@@ -1,0 +1,135 @@
+{
+  "id": "16ba010c-8137-4494-b984-64924843db86",
+  "name": "Main display \u00b7 Touch calibration",
+  "type": "text",
+  "x": 11016,
+  "y": 60354.297,
+  "width": 550,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 11016,
+    "y": 60354.297,
+    "width": 550,
+    "height": 42,
+    "x1": 11016,
+    "y1": 60354.297,
+    "x2": 11566,
+    "y2": 60396.297
+  },
+  "points": [
+    {
+      "x": 11016,
+      "y": 60354.297
+    },
+    {
+      "x": 11566,
+      "y": 60354.297
+    },
+    {
+      "x": 11566,
+      "y": 60396.297
+    },
+    {
+      "x": 11016,
+      "y": 60396.297
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d3c5744a-681d-4a22-9c1e-b0da053ef951",
+  "frameId": "d3c5744a-681d-4a22-9c1e-b0da053ef951",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "42",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "-1.1",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Main display \u00b7 Touch calibration"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "42",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "-1.1",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d9ceaa7",
+  "positionData": [
+    {
+      "y": 60398.297,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "42px",
+      "fontWeight": "400",
+      "width": 550,
+      "textDecoration": "none",
+      "letterSpacing": "-1.1px",
+      "x": 11016,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 47,
+      "text": "Main display \u00b7 Touch calibration"
+    }
+  ]
+}

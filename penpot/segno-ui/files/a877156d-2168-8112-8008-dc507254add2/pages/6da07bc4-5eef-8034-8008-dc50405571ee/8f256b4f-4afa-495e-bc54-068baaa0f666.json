@@ -1,0 +1,138 @@
+{
+  "id": "8f256b4f-4afa-495e-bc54-068baaa0f666",
+  "name": "Snap record start\/stop to the loop grid.",
+  "type": "text",
+  "x": 11201,
+  "y": 18926.031,
+  "width": 700.938,
+  "height": 16.938,
+  "rotation": 0,
+  "selrect": {
+    "x": 11201,
+    "y": 18926.031,
+    "width": 700.938,
+    "height": 16.938,
+    "x1": 11201,
+    "y1": 18926.031,
+    "x2": 11901.938,
+    "y2": 18942.968999999997
+  },
+  "points": [
+    {
+      "x": 11201,
+      "y": 18926.031
+    },
+    {
+      "x": 11901.938,
+      "y": 18926.031
+    },
+    {
+      "x": 11901.938,
+      "y": 18942.968999999997
+    },
+    {
+      "x": 11201,
+      "y": 18942.968999999997
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2d1dd888-3ad2-4e1e-8c8e-cb69d0fca7f9",
+  "frameId": "2d1dd888-3ad2-4e1e-8c8e-cb69d0fca7f9",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.21",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.21",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Snap record start\/stop to the loop grid. The default for all tracks; override per track from its routing dialog."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50405571ee",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 18942.031,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 700.938,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11201,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Snap record start\/stop to the loop grid. The default for all tracks; override per track from its routing dialog."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

@@ -1,0 +1,102 @@
+{
+  "id": "0d308ba4-e272-443f-be74-ecd86a603682",
+  "name": "Play C5",
+  "type": "frame",
+  "x": 3532.125,
+  "y": 102105,
+  "width": 80,
+  "height": 206,
+  "rotation": 0,
+  "selrect": {
+    "x": 3532.125,
+    "y": 102105,
+    "width": 80,
+    "height": 206,
+    "x1": 3532.125,
+    "y1": 102105,
+    "x2": 3612.125,
+    "y2": 102311
+  },
+  "points": [
+    {
+      "x": 3532.125,
+      "y": 102105
+    },
+    {
+      "x": 3612.125,
+      "y": 102105
+    },
+    {
+      "x": 3612.125,
+      "y": 102311
+    },
+    {
+      "x": 3532.125,
+      "y": 102311
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3ddbdff0-0a74-4603-a2c6-c6ca00a512aa",
+  "frameId": "3ddbdff0-0a74-4603-a2c6-c6ca00a512aa",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "r2": 0,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eed38eb",
+  "r3": 0,
+  "r1": 0,
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [
+    {
+      "fillColorGradient": {
+        "type": "linear",
+        "startX": 0.5,
+        "startY": 0,
+        "endX": 0.5,
+        "endY": 1,
+        "width": 1,
+        "stops": [
+          {
+            "color": "#cfd4dc",
+            "opacity": 1,
+            "offset": 0
+          },
+          {
+            "color": "#f1f2f5",
+            "opacity": 1,
+            "offset": 0.5
+          },
+          {
+            "color": "#c9d1dc",
+            "opacity": 1,
+            "offset": 1
+          }
+        ]
+      },
+      "fillOpacity": 1
+    }
+  ],
+  "shapes": [
+    "d277654f-5a33-4920-9514-203bbf13deb3",
+    "52344260-609b-48bb-94e7-d852d8258816"
+  ]
+}

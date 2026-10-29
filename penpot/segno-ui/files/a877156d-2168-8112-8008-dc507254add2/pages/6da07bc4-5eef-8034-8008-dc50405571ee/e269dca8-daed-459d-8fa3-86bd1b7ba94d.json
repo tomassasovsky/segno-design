@@ -1,0 +1,138 @@
+{
+  "id": "e269dca8-daed-459d-8fa3-86bd1b7ba94d",
+  "name": "After pressing record, capture starts wh",
+  "type": "text",
+  "x": 11201,
+  "y": 19066.031,
+  "width": 594.016,
+  "height": 16.938,
+  "rotation": 0,
+  "selrect": {
+    "x": 11201,
+    "y": 19066.031,
+    "width": 594.016,
+    "height": 16.938,
+    "x1": 11201,
+    "y1": 19066.031,
+    "x2": 11795.016,
+    "y2": 19082.968999999997
+  },
+  "points": [
+    {
+      "x": 11201,
+      "y": 19066.031
+    },
+    {
+      "x": 11795.016,
+      "y": 19066.031
+    },
+    {
+      "x": 11795.016,
+      "y": 19082.968999999997
+    },
+    {
+      "x": 11201,
+      "y": 19082.968999999997
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d8342f12-fe8b-4a79-a7db-44d6d15a09af",
+  "frameId": "d8342f12-fe8b-4a79-a7db-44d6d15a09af",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.21",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.21",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "After pressing record, capture starts when the input signal begins, instead of immediately."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50405571ee",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 19082.031,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 594.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11201,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "After pressing record, capture starts when the input signal begins, instead of immediately."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

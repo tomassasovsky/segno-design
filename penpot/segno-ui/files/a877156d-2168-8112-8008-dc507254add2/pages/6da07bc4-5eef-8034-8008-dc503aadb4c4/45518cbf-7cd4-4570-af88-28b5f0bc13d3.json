@@ -1,0 +1,135 @@
+{
+  "id": "45518cbf-7cd4-4570-af88-28b5f0bc13d3",
+  "name": "Speed",
+  "type": "text",
+  "x": 6920,
+  "y": 28016.297,
+  "width": 121.453,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 6920,
+    "y": 28016.297,
+    "width": 121.453,
+    "height": 42,
+    "x1": 6920,
+    "y1": 28016.297,
+    "x2": 7041.453,
+    "y2": 28058.297
+  },
+  "points": [
+    {
+      "x": 6920,
+      "y": 28016.297
+    },
+    {
+      "x": 7041.453,
+      "y": 28016.297
+    },
+    {
+      "x": 7041.453,
+      "y": 28058.297
+    },
+    {
+      "x": 6920,
+      "y": 28058.297
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7d2943d6-9f45-403e-8ebf-f079dbb172d6",
+  "frameId": "7d2943d6-9f45-403e-8ebf-f079dbb172d6",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "42",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Speed"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "42",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503aadb4c4",
+  "positionData": [
+    {
+      "y": 28060.297,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "42px",
+      "fontWeight": "400",
+      "width": 121.453,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6920,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 47,
+      "text": "Speed"
+    }
+  ]
+}

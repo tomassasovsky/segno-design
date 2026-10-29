@@ -1,0 +1,135 @@
+{
+  "id": "cfeac1a4-94bb-48a4-8532-6ce070c36c81",
+  "name": "Bridge guitar",
+  "type": "text",
+  "x": 4965,
+  "y": 5557.5,
+  "width": 141.75,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 4965,
+    "y": 5557.5,
+    "width": 141.75,
+    "height": 25,
+    "x1": 4965,
+    "y1": 5557.5,
+    "x2": 5106.75,
+    "y2": 5582.5
+  },
+  "points": [
+    {
+      "x": 4965,
+      "y": 5557.5
+    },
+    {
+      "x": 5106.75,
+      "y": 5557.5
+    },
+    {
+      "x": 5106.75,
+      "y": 5582.5
+    },
+    {
+      "x": 4965,
+      "y": 5582.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "32c4e154-176d-44a4-830c-a884b3462100",
+  "frameId": "32c4e154-176d-44a4-830c-a884b3462100",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Bridge guitar"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50420b6971",
+  "positionData": [
+    {
+      "y": 5583.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 141.75,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4965,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Bridge guitar"
+    }
+  ]
+}

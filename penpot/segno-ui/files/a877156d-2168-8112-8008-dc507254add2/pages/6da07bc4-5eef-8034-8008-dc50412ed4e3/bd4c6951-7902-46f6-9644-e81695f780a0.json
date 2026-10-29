@@ -1,0 +1,159 @@
+{
+  "id": "bd4c6951-7902-46f6-9644-e81695f780a0",
+  "name": "Couldn\u2019t load the session \u2014 it was recor",
+  "type": "text",
+  "x": 9579,
+  "y": 31401.016,
+  "width": 607,
+  "height": 36,
+  "rotation": 0,
+  "selrect": {
+    "x": 9579,
+    "y": 31401.016,
+    "width": 607,
+    "height": 36,
+    "x1": 9579,
+    "y1": 31401.016,
+    "x2": 10186,
+    "y2": 31437.016
+  },
+  "points": [
+    {
+      "x": 9579,
+      "y": 31401.016
+    },
+    {
+      "x": 10186,
+      "y": 31401.016
+    },
+    {
+      "x": 10186,
+      "y": 31437.016
+    },
+    {
+      "x": 9579,
+      "y": 31437.016
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8fafa666-37a9-41b3-a084-3b503f34f11a",
+  "frameId": "8fafa666-37a9-41b3-a084-3b503f34f11a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.25",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.25",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Couldn\u2019t load the session \u2014 it was recorded at a different sample rate than the current device."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fix",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "layoutItemVSizing": "fix",
+  "positionData": [
+    {
+      "y": 31421.016,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 596.578,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9579,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Couldn\u2019t load the session \u2014 it was recorded at a different sample rate than the "
+    },
+    {
+      "y": 31441.016,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 113.906,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9579,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "current device."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

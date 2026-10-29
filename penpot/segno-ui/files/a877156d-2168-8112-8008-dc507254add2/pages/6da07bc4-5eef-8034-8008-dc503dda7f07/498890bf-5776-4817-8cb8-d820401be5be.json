@@ -1,0 +1,135 @@
+{
+  "id": "498890bf-5776-4817-8cb8-d820401be5be",
+  "name": "Tempo source",
+  "type": "text",
+  "x": 284,
+  "y": 70517.5,
+  "width": 157.031,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 284,
+    "y": 70517.5,
+    "width": 157.031,
+    "height": 25,
+    "x1": 284,
+    "y1": 70517.5,
+    "x2": 441.031,
+    "y2": 70542.5
+  },
+  "points": [
+    {
+      "x": 284,
+      "y": 70517.5
+    },
+    {
+      "x": 441.031,
+      "y": 70517.5
+    },
+    {
+      "x": 441.031,
+      "y": 70542.5
+    },
+    {
+      "x": 284,
+      "y": 70542.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "6541ae0b-771d-4b11-9eb6-9c3fa8fa9eb6",
+  "frameId": "6541ae0b-771d-4b11-9eb6-9c3fa8fa9eb6",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Tempo source"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dda7f07",
+  "positionData": [
+    {
+      "y": 70543.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 157.031,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 284,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Tempo source"
+    }
+  ]
+}

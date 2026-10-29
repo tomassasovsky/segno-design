@@ -1,0 +1,138 @@
+{
+  "id": "76c8fa5a-11af-42f2-933b-e7764470ecbc",
+  "name": "How often waveforms and meters update. H",
+  "type": "text",
+  "x": 9121,
+  "y": 25371.594,
+  "width": 542,
+  "height": 16.938,
+  "rotation": 0,
+  "selrect": {
+    "x": 9121,
+    "y": 25371.594,
+    "width": 542,
+    "height": 16.938,
+    "x1": 9121,
+    "y1": 25371.594,
+    "x2": 9663,
+    "y2": 25388.532
+  },
+  "points": [
+    {
+      "x": 9121,
+      "y": 25371.594
+    },
+    {
+      "x": 9663,
+      "y": 25371.594
+    },
+    {
+      "x": 9663,
+      "y": 25388.532
+    },
+    {
+      "x": 9121,
+      "y": 25388.532
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "302dd292-52d9-4796-b1d3-5a7789c3764c",
+  "frameId": "302dd292-52d9-4796-b1d3-5a7789c3764c",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.21",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.21",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "How often waveforms and meters update. Higher is smoother but uses more CPU."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc5040f9e54b",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 25387.594,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 542,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9121,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "How often waveforms and meters update. Higher is smoother but uses more CPU."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

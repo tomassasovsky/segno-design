@@ -1,0 +1,135 @@
+{
+  "id": "8093952a-86af-4373-83f4-34ede58cac71",
+  "name": "Organs",
+  "type": "text",
+  "x": 2765.844,
+  "y": 99249.5,
+  "width": 78.703,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 2765.844,
+    "y": 99249.5,
+    "width": 78.703,
+    "height": 24,
+    "x1": 2765.844,
+    "y1": 99249.5,
+    "x2": 2844.547,
+    "y2": 99273.5
+  },
+  "points": [
+    {
+      "x": 2765.844,
+      "y": 99249.5
+    },
+    {
+      "x": 2844.547,
+      "y": 99249.5
+    },
+    {
+      "x": 2844.547,
+      "y": 99273.5
+    },
+    {
+      "x": 2765.844,
+      "y": 99273.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8935c2b7-194b-4dbd-a44f-9754a2fbaa4c",
+  "frameId": "8935c2b7-194b-4dbd-a44f-9754a2fbaa4c",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Organs"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eed38eb",
+  "positionData": [
+    {
+      "y": 99274.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 78.703,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2765.844,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Organs"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "edc60a11-8ceb-4641-89c4-51c79b50b204",
+  "name": "retry. Missing control targets need explicit repair.",
+  "type": "text",
+  "x": 786,
+  "y": 10125.094,
+  "width": 513.109,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 786,
+    "y": 10125.094,
+    "width": 513.109,
+    "height": 24,
+    "x1": 786,
+    "y1": 10125.094,
+    "x2": 1299.109,
+    "y2": 10149.094
+  },
+  "points": [
+    {
+      "x": 786,
+      "y": 10125.094
+    },
+    {
+      "x": 1299.109,
+      "y": 10125.094
+    },
+    {
+      "x": 1299.109,
+      "y": 10149.094
+    },
+    {
+      "x": 786,
+      "y": 10149.094
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1a91280a-2db0-4b6f-9728-6cd6b898d275",
+  "frameId": "1a91280a-2db0-4b6f-9728-6cd6b898d275",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b8c5d7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "retry. Missing control targets need explicit repair."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b8c5d7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc504230fd0a",
+  "positionData": [
+    {
+      "y": 10150.094,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 513.109,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 786,
+      "fills": [
+        {
+          "fillColor": "#b8c5d7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "retry. Missing control targets need explicit repair."
+    }
+  ]
+}

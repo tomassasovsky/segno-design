@@ -1,0 +1,135 @@
+{
+  "id": "edfd4f70-4d66-468c-8a67-065e0dbd3fb9",
+  "name": "Mute guitar",
+  "type": "text",
+  "x": 822.578,
+  "y": 12145,
+  "width": 97.078,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 822.578,
+    "y": 12145,
+    "width": 97.078,
+    "height": 18,
+    "x1": 822.578,
+    "y1": 12145,
+    "x2": 919.656,
+    "y2": 12163
+  },
+  "points": [
+    {
+      "x": 822.578,
+      "y": 12145
+    },
+    {
+      "x": 919.656,
+      "y": 12145
+    },
+    {
+      "x": 919.656,
+      "y": 12163
+    },
+    {
+      "x": 822.578,
+      "y": 12163
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3dc07d36-df78-4666-8c55-ae65dffe78ba",
+  "frameId": "3dc07d36-df78-4666-8c55-ae65dffe78ba",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#dce4ee",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Mute guitar"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#dce4ee",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc504238a365",
+  "positionData": [
+    {
+      "y": 12164,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 97.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 822.578,
+      "fills": [
+        {
+          "fillColor": "#dce4ee",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 21,
+      "text": "Mute guitar"
+    }
+  ]
+}

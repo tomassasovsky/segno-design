@@ -1,0 +1,135 @@
+{
+  "id": "8b428bb6-3047-43c1-852d-4ad372475471",
+  "name": "USB drive",
+  "type": "text",
+  "x": 9540.563,
+  "y": 7856,
+  "width": 108.047,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 9540.563,
+    "y": 7856,
+    "width": 108.047,
+    "height": 24,
+    "x1": 9540.563,
+    "y1": 7856,
+    "x2": 9648.61,
+    "y2": 7880
+  },
+  "points": [
+    {
+      "x": 9540.563,
+      "y": 7856
+    },
+    {
+      "x": 9648.61,
+      "y": 7856
+    },
+    {
+      "x": 9648.61,
+      "y": 7880
+    },
+    {
+      "x": 9540.563,
+      "y": 7880
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "f63b0cf4-a1f5-49e8-b119-6d60c42d2bc6",
+  "frameId": "f63b0cf4-a1f5-49e8-b119-6d60c42d2bc6",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#edf3fc",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "USB drive"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#edf3fc",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038578a80",
+  "positionData": [
+    {
+      "y": 7881,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 108.047,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9540.563,
+      "fills": [
+        {
+          "fillColor": "#edf3fc",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "USB drive"
+    }
+  ]
+}

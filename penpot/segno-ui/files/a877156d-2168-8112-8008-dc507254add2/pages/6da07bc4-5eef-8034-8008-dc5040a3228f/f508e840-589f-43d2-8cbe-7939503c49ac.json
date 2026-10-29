@@ -1,0 +1,138 @@
+{
+  "id": "f508e840-589f-43d2-8cbe-7939503c49ac",
+  "name": "Advertise as Loopy over Bluetooth LE",
+  "type": "text",
+  "x": 521,
+  "y": 30388.625,
+  "width": 247.453,
+  "height": 16.938,
+  "rotation": 0,
+  "selrect": {
+    "x": 521,
+    "y": 30388.625,
+    "width": 247.453,
+    "height": 16.938,
+    "x1": 521,
+    "y1": 30388.625,
+    "x2": 768.453,
+    "y2": 30405.563
+  },
+  "points": [
+    {
+      "x": 521,
+      "y": 30388.625
+    },
+    {
+      "x": 768.453,
+      "y": 30388.625
+    },
+    {
+      "x": 768.453,
+      "y": 30405.563
+    },
+    {
+      "x": 521,
+      "y": 30405.563
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "699594d6-66c7-45cb-9d65-a7146e3c77b7",
+  "frameId": "699594d6-66c7-45cb-9d65-a7146e3c77b7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.21",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.21",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Advertise as Loopy over Bluetooth LE"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc5040a3228f",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 30404.625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 247.453,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 521,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "Advertise as Loopy over Bluetooth LE"
+    }
+  ],
+  "layoutItemZIndex": 1
+}

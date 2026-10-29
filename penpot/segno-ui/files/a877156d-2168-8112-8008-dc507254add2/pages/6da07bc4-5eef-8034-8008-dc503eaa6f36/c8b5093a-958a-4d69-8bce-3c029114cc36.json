@@ -1,0 +1,135 @@
+{
+  "id": "c8b5093a-958a-4d69-8bce-3c029114cc36",
+  "name": "Play example",
+  "type": "text",
+  "x": 344.547,
+  "y": 94879.5,
+  "width": 152.109,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 344.547,
+    "y": 94879.5,
+    "width": 152.109,
+    "height": 24,
+    "x1": 344.547,
+    "y1": 94879.5,
+    "x2": 496.65600000000006,
+    "y2": 94903.5
+  },
+  "points": [
+    {
+      "x": 344.547,
+      "y": 94879.5
+    },
+    {
+      "x": 496.65600000000006,
+      "y": 94879.5
+    },
+    {
+      "x": 496.65600000000006,
+      "y": 94903.5
+    },
+    {
+      "x": 344.547,
+      "y": 94903.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "63d0ed37-213d-422a-9f75-e72c26f7453b",
+  "frameId": "63d0ed37-213d-422a-9f75-e72c26f7453b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#162132",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Play example"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#162132",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eaa6f36",
+  "positionData": [
+    {
+      "y": 94904.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "width": 152.109,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 344.547,
+      "fills": [
+        {
+          "fillColor": "#162132",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Play example"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "6b2815a5-6198-4efc-8c53-01cc8127c945",
+  "name": "Overdub",
+  "type": "text",
+  "x": 1681.5,
+  "y": 9865.5,
+  "width": 92.063,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 1681.5,
+    "y": 9865.5,
+    "width": 92.063,
+    "height": 24,
+    "x1": 1681.5,
+    "y1": 9865.5,
+    "x2": 1773.563,
+    "y2": 9889.5
+  },
+  "points": [
+    {
+      "x": 1681.5,
+      "y": 9865.5
+    },
+    {
+      "x": 1773.563,
+      "y": 9865.5
+    },
+    {
+      "x": 1773.563,
+      "y": 9889.5
+    },
+    {
+      "x": 1681.5,
+      "y": 9889.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b3787d51-6e47-46fd-9767-7cfa0bc8bfe5",
+  "frameId": "b3787d51-6e47-46fd-9767-7cfa0bc8bfe5",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c6d0df",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Overdub"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c6d0df",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038748efa",
+  "positionData": [
+    {
+      "y": 9890.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 92.063,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1681.5,
+      "fills": [
+        {
+          "fillColor": "#c6d0df",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Overdub"
+    }
+  ]
+}

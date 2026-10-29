@@ -1,0 +1,135 @@
+{
+  "id": "cb60ce24-6617-4f7f-b1f2-b0754a016ddb",
+  "name": "Audio disconnected",
+  "type": "text",
+  "x": 10588.188,
+  "y": 71197,
+  "width": 174.578,
+  "height": 20,
+  "rotation": 0,
+  "selrect": {
+    "x": 10588.188,
+    "y": 71197,
+    "width": 174.578,
+    "height": 20,
+    "x1": 10588.188,
+    "y1": 71197,
+    "x2": 10762.766,
+    "y2": 71217
+  },
+  "points": [
+    {
+      "x": 10588.188,
+      "y": 71197
+    },
+    {
+      "x": 10762.766,
+      "y": 71197
+    },
+    {
+      "x": 10762.766,
+      "y": 71217
+    },
+    {
+      "x": 10588.188,
+      "y": 71217
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "35a4415a-754b-4382-9a04-9abfeffd1288",
+  "frameId": "35a4415a-754b-4382-9a04-9abfeffd1288",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "20",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f0c786",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Audio disconnected"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "20",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f0c786",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503de43f86",
+  "positionData": [
+    {
+      "y": 71218,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "width": 174.578,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10588.188,
+      "fills": [
+        {
+          "fillColor": "#f0c786",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 22,
+      "text": "Audio disconnected"
+    }
+  ]
+}

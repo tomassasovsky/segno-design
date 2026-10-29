@@ -1,0 +1,135 @@
+{
+  "id": "ded32ed2-a2a0-4796-87ce-c157e7790be4",
+  "name": "Undo",
+  "type": "text",
+  "x": 11584.609,
+  "y": 25753.5,
+  "width": 59.766,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 11584.609,
+    "y": 25753.5,
+    "width": 59.766,
+    "height": 25,
+    "x1": 11584.609,
+    "y1": 25753.5,
+    "x2": 11644.375,
+    "y2": 25778.5
+  },
+  "points": [
+    {
+      "x": 11584.609,
+      "y": 25753.5
+    },
+    {
+      "x": 11644.375,
+      "y": 25753.5
+    },
+    {
+      "x": 11644.375,
+      "y": 25778.5
+    },
+    {
+      "x": 11584.609,
+      "y": 25778.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "17d8729b-795c-4623-b4b8-9e1688380e1d",
+  "frameId": "17d8729b-795c-4623-b4b8-9e1688380e1d",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Undo"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503a2122b9",
+  "positionData": [
+    {
+      "y": 25779.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 59.766,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11584.609,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Undo"
+    }
+  ]
+}

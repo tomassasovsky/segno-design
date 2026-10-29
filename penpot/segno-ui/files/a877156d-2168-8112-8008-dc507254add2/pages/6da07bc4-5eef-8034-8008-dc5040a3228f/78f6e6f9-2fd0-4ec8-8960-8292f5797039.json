@@ -1,0 +1,138 @@
+{
+  "id": "78f6e6f9-2fd0-4ec8-8960-8292f5797039",
+  "name": "could not pair with AirTurn BT-200",
+  "type": "text",
+  "x": 606.516,
+  "y": 29951.609,
+  "width": 1480.484,
+  "height": 16.938,
+  "rotation": 0,
+  "selrect": {
+    "x": 606.516,
+    "y": 29951.609,
+    "width": 1480.484,
+    "height": 16.938,
+    "x1": 606.516,
+    "y1": 29951.609,
+    "x2": 2087,
+    "y2": 29968.547
+  },
+  "points": [
+    {
+      "x": 606.516,
+      "y": 29951.609
+    },
+    {
+      "x": 2087,
+      "y": 29951.609
+    },
+    {
+      "x": 2087,
+      "y": 29968.547
+    },
+    {
+      "x": 606.516,
+      "y": 29968.547
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "8a960d03-8d36-4d18-8af5-3471e5618f72",
+  "frameId": "8a960d03-8d36-4d18-8af5-3471e5618f72",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.21",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.21",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "could not pair with AirTurn BT-200"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc5040a3228f",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 29967.609,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 226.703,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 606.516,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 17,
+      "text": "could not pair with AirTurn BT-200"
+    }
+  ],
+  "layoutItemZIndex": 1
+}

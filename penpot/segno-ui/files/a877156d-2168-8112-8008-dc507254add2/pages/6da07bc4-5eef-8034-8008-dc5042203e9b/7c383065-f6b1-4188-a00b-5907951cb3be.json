@@ -1,0 +1,135 @@
+{
+  "id": "7c383065-f6b1-4188-a00b-5907951cb3be",
+  "name": "Mute archive title",
+  "type": "text",
+  "x": 210,
+  "y": 7604,
+  "width": 960.594,
+  "height": 62,
+  "rotation": 0,
+  "selrect": {
+    "x": 210,
+    "y": 7604,
+    "width": 960.594,
+    "height": 62,
+    "x1": 210,
+    "y1": 7604,
+    "x2": 1170.594,
+    "y2": 7666
+  },
+  "points": [
+    {
+      "x": 210,
+      "y": 7604
+    },
+    {
+      "x": 1170.594,
+      "y": 7604
+    },
+    {
+      "x": 1170.594,
+      "y": 7666
+    },
+    {
+      "x": 210,
+      "y": 7666
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e2b008bc-bf56-491d-a4c8-17f6e4beff96",
+  "frameId": "e2b008bc-bf56-491d-a4c8-17f6e4beff96",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1111",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1111",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "54",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c9ced9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "03  Separate Mute screen \u00b7 Superseded"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "54",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c9ced9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5042203e9b",
+  "positionData": [
+    {
+      "y": 7665,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "54px",
+      "fontWeight": "400",
+      "width": 960.594,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 210,
+      "fills": [
+        {
+          "fillColor": "#c9ced9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 60,
+      "text": "03  Separate Mute screen \u00b7 Superseded"
+    }
+  ]
+}

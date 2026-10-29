@@ -1,0 +1,135 @@
+{
+  "id": "36d0dba4-b793-42f6-a9df-954c585793e8",
+  "name": "Exit",
+  "type": "text",
+  "x": 9730.656,
+  "y": 92713.5,
+  "width": 41.688,
+  "height": 25,
+  "rotation": 0,
+  "selrect": {
+    "x": 9730.656,
+    "y": 92713.5,
+    "width": 41.688,
+    "height": 25,
+    "x1": 9730.656,
+    "y1": 92713.5,
+    "x2": 9772.344000000001,
+    "y2": 92738.5
+  },
+  "points": [
+    {
+      "x": 9730.656,
+      "y": 92713.5
+    },
+    {
+      "x": 9772.344000000001,
+      "y": 92713.5
+    },
+    {
+      "x": 9772.344000000001,
+      "y": 92738.5
+    },
+    {
+      "x": 9730.656,
+      "y": 92738.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "23482419-0043-42b3-ab49-4b0fec589f87",
+  "frameId": "23482419-0043-42b3-ab49-4b0fec589f87",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "25",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Exit"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "25",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e992025",
+  "positionData": [
+    {
+      "y": 92739.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "width": 41.688,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9730.656,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 28,
+      "text": "Exit"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "09149a18-8a96-4602-9c94-2c59433a4440",
+  "name": "Choose the connection to use for this session.",
+  "type": "text",
+  "x": 2891,
+  "y": 80177.359,
+  "width": 490.969,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 2891,
+    "y": 80177.359,
+    "width": 490.969,
+    "height": 24,
+    "x1": 2891,
+    "y1": 80177.359,
+    "x2": 3381.969,
+    "y2": 80201.359
+  },
+  "points": [
+    {
+      "x": 2891,
+      "y": 80177.359
+    },
+    {
+      "x": 3381.969,
+      "y": 80177.359
+    },
+    {
+      "x": 3381.969,
+      "y": 80201.359
+    },
+    {
+      "x": 2891,
+      "y": 80201.359
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ba0a351c-13ba-4eaf-abf0-a70c58daaa85",
+  "frameId": "ba0a351c-13ba-4eaf-abf0-a70c58daaa85",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b8c5d7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Choose the connection to use for this session."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b8c5d7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e0f9646",
+  "positionData": [
+    {
+      "y": 80202.359,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 490.969,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2891,
+      "fills": [
+        {
+          "fillColor": "#b8c5d7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Choose the connection to use for this session."
+    }
+  ]
+}

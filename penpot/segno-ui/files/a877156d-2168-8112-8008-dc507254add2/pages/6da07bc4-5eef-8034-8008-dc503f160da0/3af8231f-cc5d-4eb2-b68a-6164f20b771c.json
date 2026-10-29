@@ -1,0 +1,185 @@
+{
+  "id": "3af8231f-cc5d-4eb2-b68a-6164f20b771c",
+  "name": "c\/fx-opt-B",
+  "type": "text",
+  "x": 300,
+  "y": 9141,
+  "width": 1200,
+  "height": 54,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 9141,
+    "width": 1200,
+    "height": 54,
+    "x1": 300,
+    "y1": 9141,
+    "x2": 1500,
+    "y2": 9195
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 9141
+    },
+    {
+      "x": 1500,
+      "y": 9141
+    },
+    {
+      "x": 1500,
+      "y": 9195
+    },
+    {
+      "x": 300,
+      "y": 9195
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "cfea3490-67fb-467e-a905-4e6d8b07ec35",
+  "frameId": "cfea3490-67fb-467e-a905-4e6d8b07ec35",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2857",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2857",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "JetBrains Mono",
+                "text": "c\/ fx-opt-B \u2014 Bottom dock bar. FX mode = unmodified stage + dim scrim, nothing floats over the loops; one slim control bar docked across the bottom, split into 4 segments aligned under the columns, each = chain-first label + compact power switch. Consolidated, out of the way. 2026-08-27 pivot away from floating cards (jL8Ib)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "JetBrains Mono"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontFamily": "font-mono"
+  },
+  "positionData": [
+    {
+      "y": 9159,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1184.406,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 18,
+      "text": "c\/ fx-opt-B \u2014 Bottom dock bar. FX mode = unmodified stage + dim scrim, nothing floats over the loops; one slim control bar docked across the "
+    },
+    {
+      "y": 9177,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1184.406,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 18,
+      "text": "bottom, split into 4 segments aligned under the columns, each = chain-first label + compact power switch. Consolidated, out of the way. 2026-"
+    },
+    {
+      "y": 9195,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 378,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 18,
+      "text": "08-27 pivot away from floating cards (jL8Ib)."
+    }
+  ]
+}

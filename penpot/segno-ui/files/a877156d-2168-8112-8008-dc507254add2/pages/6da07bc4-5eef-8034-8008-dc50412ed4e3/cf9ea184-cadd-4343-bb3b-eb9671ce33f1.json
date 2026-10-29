@@ -1,0 +1,138 @@
+{
+  "id": "cf9ea184-cadd-4343-bb3b-eb9671ce33f1",
+  "name": "Rename",
+  "type": "text",
+  "x": 9766.969,
+  "y": 31783.016,
+  "width": 57.359,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 9766.969,
+    "y": 31783.016,
+    "width": 57.359,
+    "height": 18,
+    "x1": 9766.969,
+    "y1": 31783.016,
+    "x2": 9824.328,
+    "y2": 31801.016
+  },
+  "points": [
+    {
+      "x": 9766.969,
+      "y": 31783.016
+    },
+    {
+      "x": 9824.328,
+      "y": 31783.016
+    },
+    {
+      "x": 9824.328,
+      "y": 31801.016
+    },
+    {
+      "x": 9766.969,
+      "y": 31801.016
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e40d41c1-7419-4d90-8aca-ce1b25ac3487",
+  "frameId": "e40d41c1-7419-4d90-8aca-ce1b25ac3487",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Rename"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 31801.016,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "width": 57.359,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9766.969,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 19,
+      "text": "Rename"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

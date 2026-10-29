@@ -1,0 +1,135 @@
+{
+  "id": "66f7da64-ab2d-40c0-a520-680cd7d12bff",
+  "name": "Change recorded pitch",
+  "type": "text",
+  "x": 9709,
+  "y": 49809,
+  "width": 212.484,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 9709,
+    "y": 49809,
+    "width": 212.484,
+    "height": 21,
+    "x1": 9709,
+    "y1": 49809,
+    "x2": 9921.484,
+    "y2": 49830
+  },
+  "points": [
+    {
+      "x": 9709,
+      "y": 49809
+    },
+    {
+      "x": 9921.484,
+      "y": 49809
+    },
+    {
+      "x": 9921.484,
+      "y": 49830
+    },
+    {
+      "x": 9709,
+      "y": 49830
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "0b24785a-18ae-49b9-9fa6-e689a74018ce",
+  "frameId": "0b24785a-18ae-49b9-9fa6-e689a74018ce",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "21",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b4c2d7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Change recorded pitch"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "21",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b4c2d7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d218bbe",
+  "positionData": [
+    {
+      "y": 49831,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "21px",
+      "fontWeight": "400",
+      "width": 212.484,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9709,
+      "fills": [
+        {
+          "fillColor": "#b4c2d7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 23,
+      "text": "Change recorded pitch"
+    }
+  ]
+}

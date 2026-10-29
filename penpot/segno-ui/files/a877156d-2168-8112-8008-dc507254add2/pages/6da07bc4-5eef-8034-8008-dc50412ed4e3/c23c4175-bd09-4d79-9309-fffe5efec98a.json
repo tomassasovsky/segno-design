@@ -1,0 +1,156 @@
+{
+  "id": "c23c4175-bd09-4d79-9309-fffe5efec98a",
+  "name": "Updating your pedal to v3. Its footswitc",
+  "type": "text",
+  "x": 11664,
+  "y": 34376.203,
+  "width": 552,
+  "height": 49.578,
+  "rotation": 0,
+  "selrect": {
+    "x": 11664,
+    "y": 34376.203,
+    "width": 552,
+    "height": 49.578,
+    "x1": 11664,
+    "y1": 34376.203,
+    "x2": 12216,
+    "y2": 34425.781
+  },
+  "points": [
+    {
+      "x": 11664,
+      "y": 34376.203
+    },
+    {
+      "x": 12216,
+      "y": 34376.203
+    },
+    {
+      "x": 12216,
+      "y": 34425.781
+    },
+    {
+      "x": 11664,
+      "y": 34425.781
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3e75a9ea-b4f9-4d05-908b-3cda6eefc943",
+  "frameId": "3e75a9ea-b4f9-4d05-908b-3cda6eefc943",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.55",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.55",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Updating your pedal to v3. Its footswitches and lights are off until this finishes \u2014 don\u2019t unplug it."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "positionData": [
+    {
+      "y": 34398.203,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 527.922,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11678.281,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Updating your pedal to v3. Its footswitches and lights are off until this "
+    },
+    {
+      "y": 34423,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 196.547,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11841.719,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "finishes \u2014 don\u2019t unplug it."
+    }
+  ]
+}

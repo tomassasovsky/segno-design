@@ -1,0 +1,185 @@
+{
+  "id": "9a1f0824-d6ff-4e14-b9a8-1188c1abf816",
+  "name": "c\/fx-opt-C",
+  "type": "text",
+  "x": 2380,
+  "y": 9141,
+  "width": 1200,
+  "height": 54,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 9141,
+    "width": 1200,
+    "height": 54,
+    "x1": 2380,
+    "y1": 9141,
+    "x2": 3580,
+    "y2": 9195
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 9141
+    },
+    {
+      "x": 3580,
+      "y": 9141
+    },
+    {
+      "x": 3580,
+      "y": 9195
+    },
+    {
+      "x": 2380,
+      "y": 9195
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ca61d9d9-9fc6-4b32-907b-f0d4c9293375",
+  "frameId": "ca61d9d9-9fc6-4b32-907b-f0d4c9293375",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2857",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2857",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "JetBrains Mono",
+                "text": "c\/ fx-opt-C \u2014 Slim per-column footer strip. FX mode = unmodified stage + dim scrim; a thin on\/off strip pinned to the bottom edge of each dimmed column (integrated into the column, not a floating card) \u2014 chain-first label + a small ON\/OFF pill, minimal height. 2026-08-27 pivot away from floating cards (jL8Ib)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "JetBrains Mono"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "appliedTokens": {
+    "fill": "text-secondary",
+    "fontFamily": "font-mono"
+  },
+  "positionData": [
+    {
+      "y": 9159,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1159.219,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 18,
+      "text": "c\/ fx-opt-C \u2014 Slim per-column footer strip. FX mode = unmodified stage + dim scrim; a thin on\/off strip pinned to the bottom edge of each "
+    },
+    {
+      "y": 9177,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 1176.016,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 18,
+      "text": "dimmed column (integrated into the column, not a floating card) \u2014 chain-first label + a small ON\/OFF pill, minimal height. 2026-08-27 pivot "
+    },
+    {
+      "y": 9195,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 277.203,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 18,
+      "text": "away from floating cards (jL8Ib)."
+    }
+  ]
+}

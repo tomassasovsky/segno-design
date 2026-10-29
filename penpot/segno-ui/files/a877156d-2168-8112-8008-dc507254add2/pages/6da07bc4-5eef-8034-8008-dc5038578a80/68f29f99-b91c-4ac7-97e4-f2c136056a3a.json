@@ -1,0 +1,135 @@
+{
+  "id": "68f29f99-b91c-4ac7-97e4-f2c136056a3a",
+  "name": "Guitar Rack",
+  "type": "text",
+  "x": 11016,
+  "y": 5015.5,
+  "width": 209.641,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 11016,
+    "y": 5015.5,
+    "width": 209.641,
+    "height": 42,
+    "x1": 11016,
+    "y1": 5015.5,
+    "x2": 11225.641,
+    "y2": 5057.5
+  },
+  "points": [
+    {
+      "x": 11016,
+      "y": 5015.5
+    },
+    {
+      "x": 11225.641,
+      "y": 5015.5
+    },
+    {
+      "x": 11225.641,
+      "y": 5057.5
+    },
+    {
+      "x": 11016,
+      "y": 5057.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "dbdb2809-8ba7-430e-96a3-06c9b0ba84ef",
+  "frameId": "dbdb2809-8ba7-430e-96a3-06c9b0ba84ef",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "42",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "-1.1",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Guitar Rack"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "42",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "-1.1",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038578a80",
+  "positionData": [
+    {
+      "y": 5059.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "42px",
+      "fontWeight": "400",
+      "width": 209.641,
+      "textDecoration": "none",
+      "letterSpacing": "-1.1px",
+      "x": 11016,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 47,
+      "text": "Guitar Rack"
+    }
+  ]
+}

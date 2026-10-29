@@ -1,0 +1,135 @@
+{
+  "id": "9189f5de-12d0-48ef-833e-268432135de0",
+  "name": "Shift",
+  "type": "text",
+  "x": 899.484,
+  "y": 59678.5,
+  "width": 44.031,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 899.484,
+    "y": 59678.5,
+    "width": 44.031,
+    "height": 22,
+    "x1": 899.484,
+    "y1": 59678.5,
+    "x2": 943.515,
+    "y2": 59700.5
+  },
+  "points": [
+    {
+      "x": 899.484,
+      "y": 59678.5
+    },
+    {
+      "x": 943.515,
+      "y": 59678.5
+    },
+    {
+      "x": 943.515,
+      "y": 59700.5
+    },
+    {
+      "x": 899.484,
+      "y": 59700.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "48aa8d74-58f0-4e16-b73a-f9aa4a3c600b",
+  "frameId": "48aa8d74-58f0-4e16-b73a-f9aa4a3c600b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Shift"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d87ee57",
+  "positionData": [
+    {
+      "y": 59701.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 44.031,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 899.484,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Shift"
+    }
+  ]
+}

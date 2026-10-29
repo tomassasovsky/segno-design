@@ -1,0 +1,427 @@
+{
+  "id": "fd995fe6-8917-4692-8be0-c497ee5954d2",
+  "name": "c\/stage-fx",
+  "type": "text",
+  "x": 2380,
+  "y": 3210,
+  "width": 1800,
+  "height": 176,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 3210,
+    "width": 1800,
+    "height": 176,
+    "x1": 2380,
+    "y1": 3210,
+    "x2": 4180,
+    "y2": 3386
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 3210
+    },
+    {
+      "x": 4180,
+      "y": 3210
+    },
+    {
+      "x": 4180,
+      "y": 3386
+    },
+    {
+      "x": 2380,
+      "y": 3386
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "3ef836ed-94a9-4429-9738-8df7b62f0dfe",
+  "frameId": "3ef836ed-94a9-4429-9738-8df7b62f0dfe",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "#692 direction (owner, 2026-08-26): candidate A \u2014 transform in place \u2014 wins. Tile geometry, 1\u20138 key parity and the footswitch map stay frozen; the stage takes the FX surface; each tile re-dresses with chain identity. Grafted from candidate B: the per-chain power pill (the dominant state element per tile) and the entry-run line (entries in signal order). A won on spatial stability and reading distance; B was rejected because it re-maps the performer's space mid-song and duplicates Signal's editing-scale detail one tab away. The entry-run line is where #601's dim\/strikethrough idiom applies to bypassed entries (tile 3 shows the whole-chain-off dim). Meters stay truthful (pre-chain) at 40% alpha \u2014 more present than the spike's 20%. FX mode colour is PURPLE, no longer accent blue: $fx #a06be0 + $fx-surface #1e1430 (flat, per #737) + $fx-wash #a06be024. WCAG (4.5:1 floor, 14px w700): fx on fx-surface 4.74:1, fx on bg-base 5.32:1, fx on stage black 5.67:1, fx on wash-over-bg 4.60:1. High-contrast flavor (where #768\/#770 slipped): fx-hc #c9a8ff on fx-surface-hc #33245a 6.83:1, on black 10.53:1. The Dart theme change \u2014 SurfaceTheme modePair FX arm \u2192 purple across all three flavors (default\/neon share SurfaceTheme.dark, plus highContrast), and every FX accent use on this surface \u2014 is owed by the #692 build."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          },
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": ""
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          },
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Correction (owner, 2026-08-26): the first cut of candidate A conflated the track with the FX control \u2014 it dressed track tile N with chain N's identity + power pill, falsely asserting the chain belongs to that column's track. A footswitch in FX mode toggles a BOUND CHAIN, and that chain may target ANY FX stage (input \/ track \/ lane \/ master) or a rack \u2014 not necessarily the track in that column. Fix: each cell is identified by the bound chain and its REAL target, written TARGET-then-chain (e.g. MASTER \u00b7 REVERB, LANE 2 \u00b7 DRIVE, INPUT \u00b7 GATE, TRACK 3 \u00b7 CRUSH). ALWAYS chain-first: even when a chain genuinely targets the column's own track, show it as \"TRACK n \u00b7 <chain>\" and never borrow the track's name\/number as the cell identity, so the performer never learns the false tile=track-FX model. The track name is gone from the cell; the footswitch number (1\u20134) stays as a small physical-switch position marker, so spatial continuity \u2014 candidate A's one good property \u2014 is preserved. Sample cells now mix stages (MASTER \u00b7 REVERB [ON], LANE 2 \u00b7 DRIVE [OFF], INPUT \u00b7 GATE [ON], NO CHAIN) so it's obvious chains aren't track-bound. Unchanged: purple FX treatment ($fx #a06be0 \/ $fx-surface #1e1430 \/ $fx-wash #a06be024, HC $fx #c9a8ff on #33245a), the ON\/OFF power pill, the entry-run signal-order chips, meters at 40% alpha, and the NO-CHAIN state."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "positionData": [
+    {
+      "y": 3226,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1768.219,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "#692 direction (owner, 2026-08-26): candidate A \u2014 transform in place \u2014 wins. Tile geometry, 1\u20138 key parity and the footswitch map stay frozen; the stage takes the FX surface; each tile re-dresses with chain identity. Grafted from candidate B: the per-chain power pill (the dominant state "
+    },
+    {
+      "y": 3242,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1783.453,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "element per tile) and the entry-run line (entries in signal order). A won on spatial stability and reading distance; B was rejected because it re-maps the performer's space mid-song and duplicates Signal's editing-scale detail one tab away. The entry-run line is where #601's dim\/strikethrough "
+    },
+    {
+      "y": 3258,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1801.938,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "idiom applies to bypassed entries (tile 3 shows the whole-chain-off dim). Meters stay truthful (pre-chain) at 40% alpha \u2014 more present than the spike's 20%. FX mode colour is PURPLE, no longer accent blue: $fx #a06be0 + $fx-surface #1e1430 (flat, per #737) + $fx-wash #a06be024. WCAG "
+    },
+    {
+      "y": 3274,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1794.984,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "(4.5:1 floor, 14px w700): fx on fx-surface 4.74:1, fx on bg-base 5.32:1, fx on stage black 5.67:1, fx on wash-over-bg 4.60:1. High-contrast flavor (where #768\/#770 slipped): fx-hc #c9a8ff on fx-surface-hc #33245a 6.83:1, on black 10.53:1. The Dart theme change \u2014 SurfaceTheme modePair FX "
+    },
+    {
+      "y": 3290,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1031.906,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "arm \u2192 purple across all three flavors (default\/neon share SurfaceTheme.dark, plus highContrast), and every FX accent use on this surface \u2014 is owed by the #692 build."
+    },
+    {
+      "y": 3306,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 0,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": ""
+    },
+    {
+      "y": 3322,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1772.063,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Correction (owner, 2026-08-26): the first cut of candidate A conflated the track with the FX control \u2014 it dressed track tile N with chain N's identity + power pill, falsely asserting the chain belongs to that column's track. A footswitch in FX mode toggles a BOUND CHAIN, and that chain may "
+    },
+    {
+      "y": 3338,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1774.031,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "target ANY FX stage (input \/ track \/ lane \/ master) or a rack \u2014 not necessarily the track in that column. Fix: each cell is identified by the bound chain and its REAL target, written TARGET-then-chain (e.g. MASTER \u00b7 REVERB, LANE 2 \u00b7 DRIVE, INPUT \u00b7 GATE, TRACK 3 \u00b7 CRUSH). ALWAYS chain-"
+    },
+    {
+      "y": 3354,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1775.313,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "first: even when a chain genuinely targets the column's own track, show it as \"TRACK n \u00b7 <chain>\" and never borrow the track's name\/number as the cell identity, so the performer never learns the false tile=track-FX model. The track name is gone from the cell; the footswitch number (1\u20134) "
+    },
+    {
+      "y": 3370,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1765.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "stays as a small physical-switch position marker, so spatial continuity \u2014 candidate A's one good property \u2014 is preserved. Sample cells now mix stages (MASTER \u00b7 REVERB [ON], LANE 2 \u00b7 DRIVE [OFF], INPUT \u00b7 GATE [ON], NO CHAIN) so it's obvious chains aren't track-bound. Unchanged: "
+    },
+    {
+      "y": 3386,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1323.516,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "purple FX treatment ($fx #a06be0 \/ $fx-surface #1e1430 \/ $fx-wash #a06be024, HC $fx #c9a8ff on #33245a), the ON\/OFF power pill, the entry-run signal-order chips, meters at 40% alpha, and the NO-CHAIN state."
+    }
+  ]
+}

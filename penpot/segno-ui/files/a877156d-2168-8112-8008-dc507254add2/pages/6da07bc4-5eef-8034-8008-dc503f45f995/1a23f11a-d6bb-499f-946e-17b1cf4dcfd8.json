@@ -1,0 +1,138 @@
+{
+  "id": "1a23f11a-d6bb-499f-946e-17b1cf4dcfd8",
+  "name": "Room glue",
+  "type": "text",
+  "x": 11580.938,
+  "y": 4016.688,
+  "width": 80.25,
+  "height": 18.078,
+  "rotation": 0,
+  "selrect": {
+    "x": 11580.938,
+    "y": 4016.688,
+    "width": 80.25,
+    "height": 18.078,
+    "x1": 11580.938,
+    "y1": 4016.688,
+    "x2": 11661.188,
+    "y2": 4034.766
+  },
+  "points": [
+    {
+      "x": 11580.938,
+      "y": 4016.688
+    },
+    {
+      "x": 11661.188,
+      "y": 4016.688
+    },
+    {
+      "x": 11661.188,
+      "y": 4034.766
+    },
+    {
+      "x": 11580.938,
+      "y": 4034.766
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "22bc494d-5471-4dc1-a25d-b5bf7e52e6ee",
+  "frameId": "22bc494d-5471-4dc1-a25d-b5bf7e52e6ee",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.13",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.13",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Room glue"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f45f995",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 4035.688,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 80.25,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11580.938,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Room glue"
+    }
+  ],
+  "layoutItemZIndex": 0
+}

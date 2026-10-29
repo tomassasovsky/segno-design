@@ -1,0 +1,135 @@
+{
+  "id": "b2ab3883-6fe4-49ef-94f1-98338c3512c7",
+  "name": "Next bank",
+  "type": "text",
+  "x": 3184.531,
+  "y": 20970.906,
+  "width": 126.078,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 3184.531,
+    "y": 20970.906,
+    "width": 126.078,
+    "height": 28,
+    "x1": 3184.531,
+    "y1": 20970.906,
+    "x2": 3310.609,
+    "y2": 20998.906
+  },
+  "points": [
+    {
+      "x": 3184.531,
+      "y": 20970.906
+    },
+    {
+      "x": 3310.609,
+      "y": 20970.906
+    },
+    {
+      "x": 3310.609,
+      "y": 20998.906
+    },
+    {
+      "x": 3184.531,
+      "y": 20998.906
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2f2e56aa-903e-4553-8508-886e9a282067",
+  "frameId": "2f2e56aa-903e-4553-8508-886e9a282067",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Next bank"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50391cda77",
+  "positionData": [
+    {
+      "y": 20999.906,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 126.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3184.531,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Next bank"
+    }
+  ]
+}

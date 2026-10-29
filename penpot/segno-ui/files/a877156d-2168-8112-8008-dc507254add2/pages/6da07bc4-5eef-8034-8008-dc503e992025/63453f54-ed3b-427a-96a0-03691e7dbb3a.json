@@ -1,0 +1,135 @@
+{
+  "id": "63453f54-ed3b-427a-96a0-03691e7dbb3a",
+  "name": "One audio file, with the selected tracks and their effects.",
+  "type": "text",
+  "x": 6884,
+  "y": 92710.5,
+  "width": 569.781,
+  "height": 23,
+  "rotation": 0,
+  "selrect": {
+    "x": 6884,
+    "y": 92710.5,
+    "width": 569.781,
+    "height": 23,
+    "x1": 6884,
+    "y1": 92710.5,
+    "x2": 7453.781,
+    "y2": 92733.5
+  },
+  "points": [
+    {
+      "x": 6884,
+      "y": 92710.5
+    },
+    {
+      "x": 7453.781,
+      "y": 92710.5
+    },
+    {
+      "x": 7453.781,
+      "y": 92733.5
+    },
+    {
+      "x": 6884,
+      "y": 92733.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d4ff3745-b427-4cc3-90ad-36e466b043c1",
+  "frameId": "d4ff3745-b427-4cc3-90ad-36e466b043c1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "23",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aeb7c6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "One audio file, with the selected tracks and their effects."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "23",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aeb7c6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e992025",
+  "positionData": [
+    {
+      "y": 92734.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "width": 569.781,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6884,
+      "fills": [
+        {
+          "fillColor": "#aeb7c6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 26,
+      "text": "One audio file, with the selected tracks and their effects."
+    }
+  ]
+}

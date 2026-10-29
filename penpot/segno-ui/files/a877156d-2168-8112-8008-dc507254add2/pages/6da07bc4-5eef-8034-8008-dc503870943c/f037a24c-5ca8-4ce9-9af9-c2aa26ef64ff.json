@@ -1,0 +1,135 @@
+{
+  "id": "f037a24c-5ca8-4ce9-9af9-c2aa26ef64ff",
+  "name": "Bank A",
+  "type": "text",
+  "x": 4026.063,
+  "y": 6307.5,
+  "width": 76.063,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 4026.063,
+    "y": 6307.5,
+    "width": 76.063,
+    "height": 24,
+    "x1": 4026.063,
+    "y1": 6307.5,
+    "x2": 4102.126,
+    "y2": 6331.5
+  },
+  "points": [
+    {
+      "x": 4026.063,
+      "y": 6307.5
+    },
+    {
+      "x": 4102.126,
+      "y": 6307.5
+    },
+    {
+      "x": 4102.126,
+      "y": 6331.5
+    },
+    {
+      "x": 4026.063,
+      "y": 6331.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "6ff2524b-fe16-4058-83bf-e06fe2ef016b",
+  "frameId": "6ff2524b-fe16-4058-83bf-e06fe2ef016b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#edf3fc",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Bank A"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#edf3fc",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503870943c",
+  "positionData": [
+    {
+      "y": 6332.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 76.063,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4026.063,
+      "fills": [
+        {
+          "fillColor": "#edf3fc",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Bank A"
+    }
+  ]
+}

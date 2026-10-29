@@ -1,0 +1,135 @@
+{
+  "id": "da00a258-70e4-4696-90b8-5d6259fc473c",
+  "name": "Tuner",
+  "type": "text",
+  "x": 1466.734,
+  "y": 2758.078,
+  "width": 61.813,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 1466.734,
+    "y": 2758.078,
+    "width": 61.813,
+    "height": 24,
+    "x1": 1466.734,
+    "y1": 2758.078,
+    "x2": 1528.547,
+    "y2": 2782.078
+  },
+  "points": [
+    {
+      "x": 1466.734,
+      "y": 2758.078
+    },
+    {
+      "x": 1528.547,
+      "y": 2758.078
+    },
+    {
+      "x": 1528.547,
+      "y": 2782.078
+    },
+    {
+      "x": 1466.734,
+      "y": 2782.078
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "953d685d-43b8-430e-b85e-f0c056784dac",
+  "frameId": "953d685d-43b8-430e-b85e-f0c056784dac",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e4edfc",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Tuner"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e4edfc",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5041d08193",
+  "positionData": [
+    {
+      "y": 2783.078,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "width": 61.813,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1466.734,
+      "fills": [
+        {
+          "fillColor": "#e4edfc",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Tuner"
+    }
+  ]
+}

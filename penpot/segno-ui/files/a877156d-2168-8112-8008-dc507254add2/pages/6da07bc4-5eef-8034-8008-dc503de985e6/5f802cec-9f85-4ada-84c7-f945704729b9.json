@@ -1,0 +1,135 @@
+{
+  "id": "5f802cec-9f85-4ada-84c7-f945704729b9",
+  "name": "Redo Recording",
+  "type": "text",
+  "x": 3411.656,
+  "y": 72576,
+  "width": 231.688,
+  "height": 30,
+  "rotation": 0,
+  "selrect": {
+    "x": 3411.656,
+    "y": 72576,
+    "width": 231.688,
+    "height": 30,
+    "x1": 3411.656,
+    "y1": 72576,
+    "x2": 3643.344,
+    "y2": 72606
+  },
+  "points": [
+    {
+      "x": 3411.656,
+      "y": 72576
+    },
+    {
+      "x": 3643.344,
+      "y": 72576
+    },
+    {
+      "x": 3643.344,
+      "y": 72606
+    },
+    {
+      "x": 3411.656,
+      "y": 72606
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b0c4c6a3-a8c5-4fe6-9686-dc9aa2c1523a",
+  "frameId": "b0c4c6a3-a8c5-4fe6-9686-dc9aa2c1523a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "30",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Redo Recording"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "30",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503de985e6",
+  "positionData": [
+    {
+      "y": 72607,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "30px",
+      "fontWeight": "700",
+      "width": 231.688,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3411.656,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 33,
+      "text": "Redo Recording"
+    }
+  ]
+}

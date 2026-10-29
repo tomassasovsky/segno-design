@@ -1,0 +1,135 @@
+{
+  "id": "db475dc5-3e7a-4268-b91e-2b28fa4f9a54",
+  "name": "Lead vocal",
+  "type": "text",
+  "x": 1817.047,
+  "y": 49322.297,
+  "width": 168.406,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 1817.047,
+    "y": 49322.297,
+    "width": 168.406,
+    "height": 32,
+    "x1": 1817.047,
+    "y1": 49322.297,
+    "x2": 1985.453,
+    "y2": 49354.297
+  },
+  "points": [
+    {
+      "x": 1817.047,
+      "y": 49322.297
+    },
+    {
+      "x": 1985.453,
+      "y": 49322.297
+    },
+    {
+      "x": 1985.453,
+      "y": 49354.297
+    },
+    {
+      "x": 1817.047,
+      "y": 49354.297
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "af25edc5-46b4-4794-901f-8e34eaa29fee",
+  "frameId": "af25edc5-46b4-4794-901f-8e34eaa29fee",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0.3",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Lead vocal"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0.3",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f",
+  "positionData": [
+    {
+      "y": 49356.297,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "width": 168.406,
+      "textDecoration": "none",
+      "letterSpacing": "0.3px",
+      "x": 1817.047,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Lead vocal"
+    }
+  ]
+}

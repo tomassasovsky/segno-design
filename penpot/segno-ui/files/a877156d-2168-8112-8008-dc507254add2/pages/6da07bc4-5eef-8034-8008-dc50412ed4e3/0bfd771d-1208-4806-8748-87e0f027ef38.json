@@ -1,0 +1,168 @@
+{
+  "id": "0bfd771d-1208-4806-8748-87e0f027ef38",
+  "name": "captures empty text",
+  "type": "text",
+  "x": 11200,
+  "y": 36951.781,
+  "width": 600,
+  "height": 44.781,
+  "rotation": 0,
+  "selrect": {
+    "x": 11200,
+    "y": 36951.781,
+    "width": 600,
+    "height": 44.781,
+    "x1": 11200,
+    "y1": 36951.781,
+    "x2": 11800,
+    "y2": 36996.562000000005
+  },
+  "points": [
+    {
+      "x": 11200,
+      "y": 36951.781
+    },
+    {
+      "x": 11800,
+      "y": 36951.781
+    },
+    {
+      "x": 11800,
+      "y": 36996.562000000005
+    },
+    {
+      "x": 11200,
+      "y": 36996.562000000005
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2fbd26e1-7837-4637-a433-5cdbeeb62a99",
+  "frameId": "2fbd26e1-7837-4637-a433-5cdbeeb62a99",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "No captures yet. Arm a capture on the stage \u2014 the take lands here, filed under its session."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50412ed4e3",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-muted",
+    "fontSize": "text-md",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "y": 36972.781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 598.906,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11200,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "No captures yet. Arm a capture on the stage \u2014 the take lands here, filed under "
+    },
+    {
+      "y": 36995.172,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "width": 84.094,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11200,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "its session."
+    }
+  ],
+  "layoutItemZIndex": 0
+}

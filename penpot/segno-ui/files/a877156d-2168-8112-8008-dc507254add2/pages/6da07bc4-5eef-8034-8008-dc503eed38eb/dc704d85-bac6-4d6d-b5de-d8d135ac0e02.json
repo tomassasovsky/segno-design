@@ -1,0 +1,135 @@
+{
+  "id": "dc704d85-bac6-4d6d-b5de-d8d135ac0e02",
+  "name": "Add note",
+  "type": "text",
+  "x": 3620.156,
+  "y": 100658,
+  "width": 80.078,
+  "height": 20,
+  "rotation": 0,
+  "selrect": {
+    "x": 3620.156,
+    "y": 100658,
+    "width": 80.078,
+    "height": 20,
+    "x1": 3620.156,
+    "y1": 100658,
+    "x2": 3700.234,
+    "y2": 100678
+  },
+  "points": [
+    {
+      "x": 3620.156,
+      "y": 100658
+    },
+    {
+      "x": 3700.234,
+      "y": 100658
+    },
+    {
+      "x": 3700.234,
+      "y": 100678
+    },
+    {
+      "x": 3620.156,
+      "y": 100678
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c5318210-e676-4918-aede-0eb8e5fbbad5",
+  "frameId": "c5318210-e676-4918-aede-0eb8e5fbbad5",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "20",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Add note"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "20",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eed38eb",
+  "positionData": [
+    {
+      "y": 100679,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "width": 80.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3620.156,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 22,
+      "text": "Add note"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "4fe3ce23-0cd1-49e8-8027-5bf782519a81",
+  "name": "Screen caption",
+  "type": "text",
+  "x": 220,
+  "y": 95164,
+  "width": 241.297,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 220,
+    "y": 95164,
+    "width": 241.297,
+    "height": 37,
+    "x1": 220,
+    "y1": 95164,
+    "x2": 461.297,
+    "y2": 95201
+  },
+  "points": [
+    {
+      "x": 220,
+      "y": 95164
+    },
+    {
+      "x": 461.297,
+      "y": 95164
+    },
+    {
+      "x": 461.297,
+      "y": 95201
+    },
+    {
+      "x": 220,
+      "y": 95201
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "4182c10c-b780-4eeb-80c8-8622fa06cce3",
+  "frameId": "4182c10c-b780-4eeb-80c8-8622fa06cce3",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#bcc8d8",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Stop \u00b7 Tails finish"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#bcc8d8",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eaa6f36",
+  "positionData": [
+    {
+      "y": 95200,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "width": 241.297,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 220,
+      "fills": [
+        {
+          "fillColor": "#bcc8d8",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 36,
+      "text": "Stop \u00b7 Tails finish"
+    }
+  ]
+}

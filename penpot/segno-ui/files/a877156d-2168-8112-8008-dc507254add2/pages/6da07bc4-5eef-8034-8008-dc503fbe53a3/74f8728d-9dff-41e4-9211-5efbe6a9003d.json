@@ -1,0 +1,138 @@
+{
+  "id": "74f8728d-9dff-41e4-9211-5efbe6a9003d",
+  "name": "Nektar Pacer",
+  "type": "text",
+  "x": 12733.188,
+  "y": 9862.078,
+  "width": 100.813,
+  "height": 15.953,
+  "rotation": 0,
+  "selrect": {
+    "x": 12733.188,
+    "y": 9862.078,
+    "width": 100.813,
+    "height": 15.953,
+    "x1": 12733.188,
+    "y1": 9862.078,
+    "x2": 12834.001,
+    "y2": 9878.030999999999
+  },
+  "points": [
+    {
+      "x": 12733.188,
+      "y": 9862.078
+    },
+    {
+      "x": 12834.001,
+      "y": 9862.078
+    },
+    {
+      "x": 12834.001,
+      "y": 9878.030999999999
+    },
+    {
+      "x": 12733.188,
+      "y": 9878.030999999999
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7234f838-00ac-4c76-aec4-c957a737de2e",
+  "frameId": "7234f838-00ac-4c76-aec4-c957a737de2e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.14",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.14",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9a9aa2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "JetBrains Mono",
+                "text": "Nektar Pacer"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "right",
+            "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9a9aa2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "JetBrains Mono"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503fbe53a3",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 9878.078,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "width": 100.813,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 12733.188,
+      "fills": [
+        {
+          "fillColor": "#9a9aa2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "JetBrains Mono",
+      "height": 18,
+      "text": "Nektar Pacer"
+    }
+  ],
+  "layoutItemZIndex": 1
+}

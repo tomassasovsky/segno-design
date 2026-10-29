@@ -1,0 +1,135 @@
+{
+  "id": "9e721564-7c1c-435b-91f3-d5c7f952fb63",
+  "name": "Active bank",
+  "type": "text",
+  "x": 8095,
+  "y": 60556.5,
+  "width": 113.734,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 8095,
+    "y": 60556.5,
+    "width": 113.734,
+    "height": 22,
+    "x1": 8095,
+    "y1": 60556.5,
+    "x2": 8208.734,
+    "y2": 60578.5
+  },
+  "points": [
+    {
+      "x": 8095,
+      "y": 60556.5
+    },
+    {
+      "x": 8208.734,
+      "y": 60556.5
+    },
+    {
+      "x": 8208.734,
+      "y": 60578.5
+    },
+    {
+      "x": 8095,
+      "y": 60578.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2273eac9-ca29-42f6-93eb-07115aab3d1b",
+  "frameId": "2273eac9-ca29-42f6-93eb-07115aab3d1b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#adbacc",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Active bank"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#adbacc",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d9ceaa7",
+  "positionData": [
+    {
+      "y": 60579.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 113.734,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8095,
+      "fills": [
+        {
+          "fillColor": "#adbacc",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Active bank"
+    }
+  ]
+}

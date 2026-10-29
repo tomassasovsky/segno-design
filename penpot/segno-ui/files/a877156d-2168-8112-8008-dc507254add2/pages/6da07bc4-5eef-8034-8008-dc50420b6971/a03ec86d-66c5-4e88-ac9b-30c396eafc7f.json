@@ -1,0 +1,135 @@
+{
+  "id": "a03ec86d-66c5-4e88-ac9b-30c396eafc7f",
+  "name": "Stage display proposal \/ Status",
+  "type": "text",
+  "x": 210,
+  "y": 4716,
+  "width": 1000.516,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 210,
+    "y": 4716,
+    "width": 1000.516,
+    "height": 42,
+    "x1": 210,
+    "y1": 4716,
+    "x2": 1210.516,
+    "y2": 4758
+  },
+  "points": [
+    {
+      "x": 210,
+      "y": 4716
+    },
+    {
+      "x": 1210.516,
+      "y": 4716
+    },
+    {
+      "x": 1210.516,
+      "y": 4758
+    },
+    {
+      "x": 210,
+      "y": 4758
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d0f1851a-2b0f-4b8c-a4c2-a53107114513",
+  "frameId": "d0f1851a-2b0f-4b8c-a4c2-a53107114513",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1389",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1389",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "36",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Superseded \u00b7 columns and selected-track waveform requested"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "36",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50420b6971",
+  "positionData": [
+    {
+      "y": 4757,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "width": 1000.516,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 210,
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 41,
+      "text": "Superseded \u00b7 columns and selected-track waveform requested"
+    }
+  ]
+}

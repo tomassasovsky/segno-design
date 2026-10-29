@@ -1,0 +1,135 @@
+{
+  "id": "14c89646-b355-4757-abf4-8ac22c98d022",
+  "name": "Section heading",
+  "type": "text",
+  "x": 224,
+  "y": 67596,
+  "width": 804.125,
+  "height": 39,
+  "rotation": 0,
+  "selrect": {
+    "x": 224,
+    "y": 67596,
+    "width": 804.125,
+    "height": 39,
+    "x1": 224,
+    "y1": 67596,
+    "x2": 1028.125,
+    "y2": 67635
+  },
+  "points": [
+    {
+      "x": 224,
+      "y": 67596
+    },
+    {
+      "x": 1028.125,
+      "y": 67596
+    },
+    {
+      "x": 1028.125,
+      "y": 67635
+    },
+    {
+      "x": 224,
+      "y": 67635
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "97b9b030-f903-4840-a27c-94108213d039",
+  "frameId": "97b9b030-f903-4840-a27c-94108213d039",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1176",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1176",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "34",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#edf2fa",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "PARITY REVIEW \/ About, controller and MIDI sync"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "34",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#edf2fa",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dda7f07",
+  "positionData": [
+    {
+      "y": 67634,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "34px",
+      "fontWeight": "700",
+      "width": 804.125,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 224,
+      "fills": [
+        {
+          "fillColor": "#edf2fa",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 38,
+      "text": "PARITY REVIEW \/ About, controller and MIDI sync"
+    }
+  ]
+}

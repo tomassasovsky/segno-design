@@ -1,0 +1,135 @@
+{
+  "id": "d0a84599-8e52-4a9c-8bda-4607b98caa96",
+  "name": "USB \u00b7 Disconnected",
+  "type": "text",
+  "x": 9695,
+  "y": 54543,
+  "width": 162.078,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 9695,
+    "y": 54543,
+    "width": 162.078,
+    "height": 18,
+    "x1": 9695,
+    "y1": 54543,
+    "x2": 9857.078,
+    "y2": 54561
+  },
+  "points": [
+    {
+      "x": 9695,
+      "y": 54543
+    },
+    {
+      "x": 9857.078,
+      "y": 54543
+    },
+    {
+      "x": 9857.078,
+      "y": 54561
+    },
+    {
+      "x": 9695,
+      "y": 54561
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "df363950-fc27-45f8-851d-067b345a1388",
+  "frameId": "df363950-fc27-45f8-851d-067b345a1388",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aebbd0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "USB \u00b7 Disconnected"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aebbd0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d548fff",
+  "positionData": [
+    {
+      "y": 54562,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 162.078,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 9695,
+      "fills": [
+        {
+          "fillColor": "#aebbd0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 20,
+      "text": "USB \u00b7 Disconnected"
+    }
+  ]
+}

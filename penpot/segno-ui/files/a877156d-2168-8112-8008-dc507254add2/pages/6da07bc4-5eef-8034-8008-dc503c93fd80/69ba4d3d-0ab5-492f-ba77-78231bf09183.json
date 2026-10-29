@@ -1,0 +1,135 @@
+{
+  "id": "69ba4d3d-0ab5-492f-ba77-78231bf09183",
+  "name": "CLIP",
+  "type": "text",
+  "x": 8588,
+  "y": 47793,
+  "width": 51.141,
+  "height": 23,
+  "rotation": 0,
+  "selrect": {
+    "x": 8588,
+    "y": 47793,
+    "width": 51.141,
+    "height": 23,
+    "x1": 8588,
+    "y1": 47793,
+    "x2": 8639.141,
+    "y2": 47816
+  },
+  "points": [
+    {
+      "x": 8588,
+      "y": 47793
+    },
+    {
+      "x": 8639.141,
+      "y": 47793
+    },
+    {
+      "x": 8639.141,
+      "y": 47816
+    },
+    {
+      "x": 8588,
+      "y": 47816
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d92d7204-a2a8-4cc2-9aeb-9a920c202749",
+  "frameId": "d92d7204-a2a8-4cc2-9aeb-9a920c202749",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "23",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c5d1e2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "CLIP"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "23",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c5d1e2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c93fd80",
+  "positionData": [
+    {
+      "y": 47817,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "width": 51.141,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8588,
+      "fills": [
+        {
+          "fillColor": "#c5d1e2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 26,
+      "text": "CLIP"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "62b092bf-4ea7-4a5a-893e-cbcef915cb1c",
+  "name": "SETTINGS \/ Pedals",
+  "type": "text",
+  "x": 4584,
+  "y": 17693,
+  "width": 177.844,
+  "height": 20,
+  "rotation": 0,
+  "selrect": {
+    "x": 4584,
+    "y": 17693,
+    "width": 177.844,
+    "height": 20,
+    "x1": 4584,
+    "y1": 17693,
+    "x2": 4761.844,
+    "y2": 17713
+  },
+  "points": [
+    {
+      "x": 4584,
+      "y": 17693
+    },
+    {
+      "x": 4761.844,
+      "y": 17693
+    },
+    {
+      "x": 4761.844,
+      "y": 17713
+    },
+    {
+      "x": 4584,
+      "y": 17713
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "6a2b143d-34fa-42d6-97d2-00c152eba183",
+  "frameId": "6a2b143d-34fa-42d6-97d2-00c152eba183",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "20",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b5b5b5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "SETTINGS \/ Pedals"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "20",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b5b5b5",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50391cda77",
+  "positionData": [
+    {
+      "y": 17714,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "width": 177.844,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4584,
+      "fills": [
+        {
+          "fillColor": "#b5b5b5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 22,
+      "text": "SETTINGS \/ Pedals"
+    }
+  ]
+}

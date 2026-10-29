@@ -1,0 +1,138 @@
+{
+  "id": "7ec2dcc4-394f-4c53-bfa4-109c0207273b",
+  "name": "Song",
+  "type": "text",
+  "x": 568,
+  "y": 14488.531,
+  "width": 1429,
+  "height": 20.047,
+  "rotation": 0,
+  "selrect": {
+    "x": 568,
+    "y": 14488.531,
+    "width": 1429,
+    "height": 20.047,
+    "x1": 568,
+    "y1": 14488.531,
+    "x2": 1997,
+    "y2": 14508.578000000001
+  },
+  "points": [
+    {
+      "x": 568,
+      "y": 14488.531
+    },
+    {
+      "x": 1997,
+      "y": 14488.531
+    },
+    {
+      "x": 1997,
+      "y": 14508.578000000001
+    },
+    {
+      "x": 568,
+      "y": 14508.578000000001
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "e9ef9d40-eb16-4273-8194-7e52433680bc",
+  "frameId": "e9ef9d40-eb16-4273-8194-7e52433680bc",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.18",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.18",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "17",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Song"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "17",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc50400567e5",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "y": 14508.531,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "width": 41.578,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 568,
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 20,
+      "text": "Song"
+    }
+  ],
+  "layoutItemZIndex": 1
+}

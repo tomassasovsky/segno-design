@@ -1,0 +1,135 @@
+{
+  "id": "40b468d5-43c3-4280-9327-2cbb28633f46",
+  "name": "Destination",
+  "type": "text",
+  "x": 2735,
+  "y": 11855.5,
+  "width": 95.656,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 2735,
+    "y": 11855.5,
+    "width": 95.656,
+    "height": 18,
+    "x1": 2735,
+    "y1": 11855.5,
+    "x2": 2830.656,
+    "y2": 11873.5
+  },
+  "points": [
+    {
+      "x": 2735,
+      "y": 11855.5
+    },
+    {
+      "x": 2830.656,
+      "y": 11855.5
+    },
+    {
+      "x": 2830.656,
+      "y": 11873.5
+    },
+    {
+      "x": 2735,
+      "y": 11873.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2db190c6-ca3c-47ef-bd3c-79614a42ed7e",
+  "frameId": "2db190c6-ca3c-47ef-bd3c-79614a42ed7e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#dce4ee",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Destination"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#dce4ee",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc504238a365",
+  "positionData": [
+    {
+      "y": 11874.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 95.656,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2735,
+      "fills": [
+        {
+          "fillColor": "#dce4ee",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 21,
+      "text": "Destination"
+    }
+  ]
+}

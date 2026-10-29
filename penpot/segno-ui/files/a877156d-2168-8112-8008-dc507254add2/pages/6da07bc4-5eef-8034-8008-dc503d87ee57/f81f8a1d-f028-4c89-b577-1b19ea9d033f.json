@@ -1,0 +1,135 @@
+{
+  "id": "f81f8a1d-f028-4c89-b577-1b19ea9d033f",
+  "name": "Password",
+  "type": "text",
+  "x": 745,
+  "y": 59219.5,
+  "width": 96.594,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 745,
+    "y": 59219.5,
+    "width": 96.594,
+    "height": 22,
+    "x1": 745,
+    "y1": 59219.5,
+    "x2": 841.594,
+    "y2": 59241.5
+  },
+  "points": [
+    {
+      "x": 745,
+      "y": 59219.5
+    },
+    {
+      "x": 841.594,
+      "y": 59219.5
+    },
+    {
+      "x": 841.594,
+      "y": 59241.5
+    },
+    {
+      "x": 745,
+      "y": 59241.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b0f75682-2353-4ae8-bbea-e72c91524f4f",
+  "frameId": "b0f75682-2353-4ae8-bbea-e72c91524f4f",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b6bfcc",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Password"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b6bfcc",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d87ee57",
+  "positionData": [
+    {
+      "y": 59242.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "width": 96.594,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 745,
+      "fills": [
+        {
+          "fillColor": "#b6bfcc",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 25,
+      "text": "Password"
+    }
+  ]
+}

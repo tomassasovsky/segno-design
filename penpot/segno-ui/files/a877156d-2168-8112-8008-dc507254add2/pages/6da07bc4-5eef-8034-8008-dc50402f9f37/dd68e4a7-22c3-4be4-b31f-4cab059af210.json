@@ -1,0 +1,135 @@
+{
+  "id": "dd68e4a7-22c3-4be4-b31f-4cab059af210",
+  "name": "c\/track-rename",
+  "type": "text",
+  "x": 4460,
+  "y": 18716,
+  "width": 1068.828,
+  "height": 21,
+  "rotation": 0,
+  "selrect": {
+    "x": 4460,
+    "y": 18716,
+    "width": 1068.828,
+    "height": 21,
+    "x1": 4460,
+    "y1": 18716,
+    "x2": 5528.8279999999995,
+    "y2": 18737
+  },
+  "points": [
+    {
+      "x": 4460,
+      "y": 18716
+    },
+    {
+      "x": 5528.8279999999995,
+      "y": 18716
+    },
+    {
+      "x": 5528.8279999999995,
+      "y": 18737
+    },
+    {
+      "x": 4460,
+      "y": 18737
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "80501472-7624-4b22-8707-ac38843fbd87",
+  "frameId": "80501472-7624-4b22-8707-ac38843fbd87",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1667",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1667",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#6b6b73",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The console has one keyboard, so renaming happens in a sheet with the keys built in \u2014 not over the app-wide keyboard host."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#6b6b73",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50402f9f37",
+  "positionData": [
+    {
+      "y": 18737,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 1068.828,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 4460,
+      "fills": [
+        {
+          "fillColor": "#6b6b73",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 21,
+      "text": "The console has one keyboard, so renaming happens in a sheet with the keys built in \u2014 not over the app-wide keyboard host."
+    }
+  ]
+}

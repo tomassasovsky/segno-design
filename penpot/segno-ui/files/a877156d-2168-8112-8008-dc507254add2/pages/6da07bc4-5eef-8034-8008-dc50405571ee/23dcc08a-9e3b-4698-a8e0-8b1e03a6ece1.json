@@ -1,0 +1,156 @@
+{
+  "id": "23dcc08a-9e3b-4698-a8e0-8b1e03a6ece1",
+  "name": "c\/audio-refused",
+  "type": "text",
+  "x": 10980,
+  "y": 22666,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 22666,
+    "width": 1800,
+    "height": 32,
+    "x1": 10980,
+    "y1": 22666,
+    "x2": 12780,
+    "y2": 22698
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 22666
+    },
+    {
+      "x": 12780,
+      "y": 22666
+    },
+    {
+      "x": 12780,
+      "y": 22698
+    },
+    {
+      "x": 10980,
+      "y": 22698
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "bb7895be-d321-43ee-837b-42f9a360e59a",
+  "frameId": "bb7895be-d321-43ee-837b-42f9a360e59a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The device is not running what was asked for \u2014 it either refused the config outright or opened and negotiated something else. The banner says so and the selection SNAPS to what it IS running; the rig never reports a setting it is not using. There is NO in-flight companion to this screen: reopening the device is a synchronous call, so it has either succeeded or failed by the time anything could be drawn, and a slow driver blocks the app rather than yielding a frame to draw in. An `audio-negotiating` screen was drawn and then deleted for exactly that reason (#528)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50405571ee",
+  "positionData": [
+    {
+      "y": 22682,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1754.578,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "The device is not running what was asked for \u2014 it either refused the config outright or opened and negotiated something else. The banner says so and the selection SNAPS to what it IS running; the rig never reports a setting it is not using. There is NO in-flight companion to this screen: "
+    },
+    {
+      "y": 22698,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1714.453,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 10980,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "reopening the device is a synchronous call, so it has either succeeded or failed by the time anything could be drawn, and a slow driver blocks the app rather than yielding a frame to draw in. An `audio-negotiating` screen was drawn and then deleted for exactly that reason (#528)."
+    }
+  ]
+}

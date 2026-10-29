@@ -1,0 +1,112 @@
+{
+  "id": "e52f3773-cd98-4bb4-8191-6731eb1479a0",
+  "name": "Tapered metal body",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": 0,
+  "selrect": {
+    "x": 428.15399169921875,
+    "y": 48077.7890625,
+    "width": 144.6610107421875,
+    "height": 208.1953125,
+    "x1": 428.15399169921875,
+    "y1": 48077.7890625,
+    "x2": 572.8150024414062,
+    "y2": 48285.984375
+  },
+  "points": [
+    {
+      "x": 428.15399169921875,
+      "y": 48077.7890625
+    },
+    {
+      "x": 572.8150024414062,
+      "y": 48077.7890625
+    },
+    {
+      "x": 572.8150024414062,
+      "y": 48285.984375
+    },
+    {
+      "x": 428.15399169921875,
+      "y": 48285.984375
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ce9cfa55-7edd-49b7-920f-21d089d56cc2",
+  "frameId": "ce9cfa55-7edd-49b7-920f-21d089d56cc2",
+  "flipX": null,
+  "flipY": null,
+  "content": "M428.15399169921875,48077.7890625L572.8150024414062,48077.7890625L569.7080078125,48285.984375L431.260986328125,48285.984375Z",
+  "touched": [
+    "stroke-group"
+  ],
+  "shapeRef": "a6d7fed0-2690-4588-822c-f8e881e46817",
+  "proportionLock": false,
+  "pageId": "6da07bc4-5eef-8034-8008-dc503ccd1d7f",
+  "strokes": [
+    {
+      "strokeColor": "#565f69",
+      "strokeOpacity": 1,
+      "strokeWidth": 0.6631510416666666,
+      "strokeAlignment": "center",
+      "strokeStyle": "solid",
+      "strokeCapStart": "round",
+      "strokeCapEnd": "round"
+    }
+  ],
+  "proportion": 1,
+  "fills": [
+    {
+      "fillColorGradient": {
+        "type": "linear",
+        "startX": 0,
+        "startY": 0.5,
+        "endX": 1,
+        "endY": 0.5,
+        "width": 1,
+        "stops": [
+          {
+            "color": "#2b3035",
+            "opacity": 1,
+            "offset": 0
+          },
+          {
+            "color": "#737b83",
+            "opacity": 1,
+            "offset": 0.18
+          },
+          {
+            "color": "#333a42",
+            "opacity": 1,
+            "offset": 0.85
+          },
+          {
+            "color": "#737b83",
+            "opacity": 1,
+            "offset": 1
+          }
+        ]
+      },
+      "fillOpacity": 1
+    }
+  ]
+}

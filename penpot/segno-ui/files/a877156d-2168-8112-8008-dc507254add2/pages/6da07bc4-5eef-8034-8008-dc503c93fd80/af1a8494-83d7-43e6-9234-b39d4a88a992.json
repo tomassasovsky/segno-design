@@ -1,0 +1,135 @@
+{
+  "id": "af1a8494-83d7-43e6-9234-b39d4a88a992",
+  "name": "Tracks",
+  "type": "text",
+  "x": 11080,
+  "y": 42296.5,
+  "width": 82.969,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 11080,
+    "y": 42296.5,
+    "width": 82.969,
+    "height": 28,
+    "x1": 11080,
+    "y1": 42296.5,
+    "x2": 11162.969,
+    "y2": 42324.5
+  },
+  "points": [
+    {
+      "x": 11080,
+      "y": 42296.5
+    },
+    {
+      "x": 11162.969,
+      "y": 42296.5
+    },
+    {
+      "x": 11162.969,
+      "y": 42324.5
+    },
+    {
+      "x": 11080,
+      "y": 42324.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "21e8116a-ddaf-44f4-88b3-516ae0bbb63b",
+  "frameId": "21e8116a-ddaf-44f4-88b3-516ae0bbb63b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Tracks"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c93fd80",
+  "positionData": [
+    {
+      "y": 42325.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 82.969,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 11080,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Tracks"
+    }
+  ]
+}

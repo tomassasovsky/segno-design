@@ -1,0 +1,102 @@
+{
+  "id": "2466cece-3e2d-41b5-9ce8-7b3a71c740af",
+  "name": "Play C3",
+  "type": "frame",
+  "x": 334,
+  "y": 99625,
+  "width": 80,
+  "height": 206,
+  "rotation": 0,
+  "selrect": {
+    "x": 334,
+    "y": 99625,
+    "width": 80,
+    "height": 206,
+    "x1": 334,
+    "y1": 99625,
+    "x2": 414,
+    "y2": 99831
+  },
+  "points": [
+    {
+      "x": 334,
+      "y": 99625
+    },
+    {
+      "x": 414,
+      "y": 99625
+    },
+    {
+      "x": 414,
+      "y": 99831
+    },
+    {
+      "x": 334,
+      "y": 99831
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b8d2c5b4-51a6-42fc-b3c2-066f821ec018",
+  "frameId": "b8d2c5b4-51a6-42fc-b3c2-066f821ec018",
+  "flipX": null,
+  "flipY": null,
+  "hideFillOnExport": false,
+  "r2": 0,
+  "showContent": true,
+  "proportionLock": false,
+  "pageId": "6da07bc4-5eef-8034-8008-dc503eed38eb",
+  "r3": 0,
+  "r1": 0,
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [
+    {
+      "fillColorGradient": {
+        "type": "linear",
+        "startX": 0.5,
+        "startY": 0,
+        "endX": 0.5,
+        "endY": 1,
+        "width": 1,
+        "stops": [
+          {
+            "color": "#cfd4dc",
+            "opacity": 1,
+            "offset": 0
+          },
+          {
+            "color": "#f1f2f5",
+            "opacity": 1,
+            "offset": 0.5
+          },
+          {
+            "color": "#c9d1dc",
+            "opacity": 1,
+            "offset": 1
+          }
+        ]
+      },
+      "fillOpacity": 1
+    }
+  ],
+  "shapes": [
+    "6ff16f47-7ea7-45cd-b44e-bdda99faa35a",
+    "9fab2988-70e1-4c19-8d62-c53e62d654c9"
+  ]
+}

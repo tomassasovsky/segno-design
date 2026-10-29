@@ -1,0 +1,135 @@
+{
+  "id": "aeac3b15-279a-470a-8737-97e4ac541768",
+  "name": "Hold \u00b7 Tracks",
+  "type": "text",
+  "x": 5255.516,
+  "y": 24933.5,
+  "width": 111.922,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 5255.516,
+    "y": 24933.5,
+    "width": 111.922,
+    "height": 19,
+    "x1": 5255.516,
+    "y1": 24933.5,
+    "x2": 5367.437999999999,
+    "y2": 24952.5
+  },
+  "points": [
+    {
+      "x": 5255.516,
+      "y": 24933.5
+    },
+    {
+      "x": 5367.437999999999,
+      "y": 24933.5
+    },
+    {
+      "x": 5367.437999999999,
+      "y": 24952.5
+    },
+    {
+      "x": 5255.516,
+      "y": 24952.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "690db1e9-d657-4ff4-b490-73768d13d8ab",
+  "frameId": "690db1e9-d657-4ff4-b490-73768d13d8ab",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "19",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#aebdd2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Hold \u00b7 Tracks"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "19",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#aebdd2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5039dd7074",
+  "positionData": [
+    {
+      "y": 24953.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "width": 111.922,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 5255.516,
+      "fills": [
+        {
+          "fillColor": "#aebdd2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 21,
+      "text": "Hold \u00b7 Tracks"
+    }
+  ]
+}

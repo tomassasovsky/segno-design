@@ -1,0 +1,135 @@
+{
+  "id": "5e432bf3-8301-4992-90d7-b57b5d93716e",
+  "name": "Tap tempo",
+  "type": "text",
+  "x": 3274.5,
+  "y": 10977.484,
+  "width": 130.75,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 3274.5,
+    "y": 10977.484,
+    "width": 130.75,
+    "height": 28,
+    "x1": 3274.5,
+    "y1": 10977.484,
+    "x2": 3405.25,
+    "y2": 11005.484
+  },
+  "points": [
+    {
+      "x": 3274.5,
+      "y": 10977.484
+    },
+    {
+      "x": 3405.25,
+      "y": 10977.484
+    },
+    {
+      "x": 3405.25,
+      "y": 11005.484
+    },
+    {
+      "x": 3274.5,
+      "y": 11005.484
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c3867779-58ae-4f64-910c-a856a5d85901",
+  "frameId": "c3867779-58ae-4f64-910c-a856a5d85901",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e0eafa",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Tap tempo"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e0eafa",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038748efa",
+  "positionData": [
+    {
+      "y": 11006.484,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 130.75,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3274.5,
+      "fills": [
+        {
+          "fillColor": "#e0eafa",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Tap tempo"
+    }
+  ]
+}

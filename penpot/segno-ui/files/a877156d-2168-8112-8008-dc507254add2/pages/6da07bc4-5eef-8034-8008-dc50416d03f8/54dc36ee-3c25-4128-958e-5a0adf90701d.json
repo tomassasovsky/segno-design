@@ -1,0 +1,156 @@
+{
+  "id": "54dc36ee-3c25-4128-958e-5a0adf90701d",
+  "name": "c\/capture-recover-retired",
+  "type": "text",
+  "x": 300,
+  "y": 31910,
+  "width": 1800,
+  "height": 32,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 31910,
+    "width": 1800,
+    "height": 32,
+    "x1": 300,
+    "y1": 31910,
+    "x2": 2100,
+    "y2": 31942
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 31910
+    },
+    {
+      "x": 2100,
+      "y": 31910
+    },
+    {
+      "x": 2100,
+      "y": 31942
+    },
+    {
+      "x": 300,
+      "y": 31942
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "cdc7b3fa-fe53-442f-93a6-6f6e8d3bb2b2",
+  "frameId": "cdc7b3fa-fe53-442f-93a6-6f6e8d3bb2b2",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Retired and deleted (#735, 2026-08-26): the recovery flow this screen drew was cut \u2014 #679's silent recovery removed the boot prompt, and dismissed captures are simply retained ~30 days as recovered files, surfaced by the Library's quiet Recovered group (SESSION & CAPTURE \/ library-recovered), where Keep promotes a take back under its session. This note stays as the record of why there is no recover dialog."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc50416d03f8",
+  "positionData": [
+    {
+      "y": 31926,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1784.531,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Retired and deleted (#735, 2026-08-26): the recovery flow this screen drew was cut \u2014 #679's silent recovery removed the boot prompt, and dismissed captures are simply retained ~30 days as recovered files, surfaced by the Library's quiet Recovered group (SESSION & CAPTURE \/ library-"
+    },
+    {
+      "y": 31942,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 785.094,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "recovered), where Keep promotes a take back under its session. This note stays as the record of why there is no recover dialog."
+    }
+  ]
+}

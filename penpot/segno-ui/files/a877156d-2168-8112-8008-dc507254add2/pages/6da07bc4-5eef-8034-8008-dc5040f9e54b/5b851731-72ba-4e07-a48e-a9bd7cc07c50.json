@@ -1,0 +1,135 @@
+{
+  "id": "5b851731-72ba-4e07-a48e-a9bd7cc07c50",
+  "name": "c\/waveform-failed",
+  "type": "text",
+  "x": 8900,
+  "y": 26062,
+  "width": 1800,
+  "height": 16,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 26062,
+    "width": 1800,
+    "height": 16,
+    "x1": 8900,
+    "y1": 26062,
+    "x2": 10700,
+    "y2": 26078
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 26062
+    },
+    {
+      "x": 10700,
+      "y": 26062
+    },
+    {
+      "x": 10700,
+      "y": 26078
+    },
+    {
+      "x": 8900,
+      "y": 26078
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b84c8ec6-b69d-4873-9bb9-e565b9fc0266",
+  "frameId": "b84c8ec6-b69d-4873-9bb9-e565b9fc0266",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The second window did not open, so the switch is back off and the face says why \u2014 the same words the toast uses, where the setting is. The failure is recorded by whoever made the attempt, not by the face: the attempt that matters most is at launch, with the tray shut."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5040f9e54b",
+  "positionData": [
+    {
+      "y": 26078,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1649.984,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 8900,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "The second window did not open, so the switch is back off and the face says why \u2014 the same words the toast uses, where the setting is. The failure is recorded by whoever made the attempt, not by the face: the attempt that matters most is at launch, with the tray shut."
+    }
+  ]
+}

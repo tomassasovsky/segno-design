@@ -1,0 +1,135 @@
+{
+  "id": "6b961673-f639-4b5c-b400-fbfa3ca975fb",
+  "name": "Record",
+  "type": "text",
+  "x": 1849.563,
+  "y": 52281,
+  "width": 103.359,
+  "height": 30,
+  "rotation": 0,
+  "selrect": {
+    "x": 1849.563,
+    "y": 52281,
+    "width": 103.359,
+    "height": 30,
+    "x1": 1849.563,
+    "y1": 52281,
+    "x2": 1952.922,
+    "y2": 52311
+  },
+  "points": [
+    {
+      "x": 1849.563,
+      "y": 52281
+    },
+    {
+      "x": 1952.922,
+      "y": 52281
+    },
+    {
+      "x": 1952.922,
+      "y": 52311
+    },
+    {
+      "x": 1849.563,
+      "y": 52311
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7f801c26-4932-47e3-9b4c-899e09c92fae",
+  "frameId": "7f801c26-4932-47e3-9b4c-899e09c92fae",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "30",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Record"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "30",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f",
+  "positionData": [
+    {
+      "y": 52312,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "30px",
+      "fontWeight": "700",
+      "width": 103.359,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1849.563,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 33,
+      "text": "Record"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "1e22fd23-f338-44d5-a18b-e21d649a7005",
+  "name": "Lead Crunch",
+  "type": "text",
+  "x": 794,
+  "y": 90185.375,
+  "width": 160.344,
+  "height": 28,
+  "rotation": 0,
+  "selrect": {
+    "x": 794,
+    "y": 90185.375,
+    "width": 160.344,
+    "height": 28,
+    "x1": 794,
+    "y1": 90185.375,
+    "x2": 954.344,
+    "y2": 90213.375
+  },
+  "points": [
+    {
+      "x": 794,
+      "y": 90185.375
+    },
+    {
+      "x": 954.344,
+      "y": 90185.375
+    },
+    {
+      "x": 954.344,
+      "y": 90213.375
+    },
+    {
+      "x": 794,
+      "y": 90213.375
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "248db523-de9f-4f55-93f0-8686367b5a19",
+  "frameId": "248db523-de9f-4f55-93f0-8686367b5a19",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Lead Crunch"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e863eb1",
+  "positionData": [
+    {
+      "y": 90214.375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "width": 160.344,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 794,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 31,
+      "text": "Lead Crunch"
+    }
+  ]
+}

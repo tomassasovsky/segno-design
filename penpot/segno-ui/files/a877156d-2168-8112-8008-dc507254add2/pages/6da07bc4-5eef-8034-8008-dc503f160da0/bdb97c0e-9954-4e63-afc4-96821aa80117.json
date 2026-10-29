@@ -1,0 +1,282 @@
+{
+  "id": "bdb97c0e-9954-4e63-afc4-96821aa80117",
+  "name": "c\/readout-volumes",
+  "type": "text",
+  "x": 300,
+  "y": 6267,
+  "width": 1800,
+  "height": 128,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 6267,
+    "width": 1800,
+    "height": 128,
+    "x1": 300,
+    "y1": 6267,
+    "x2": 2100,
+    "y2": 6395
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 6267
+    },
+    {
+      "x": 2100,
+      "y": 6267
+    },
+    {
+      "x": 2100,
+      "y": 6395
+    },
+    {
+      "x": 300,
+      "y": 6395
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "eee43718-9520-44ec-a650-9812b5d1c305",
+  "frameId": "eee43718-9520-44ec-a650-9812b5d1c305",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Tapping ANYWHERE on the 7\u2033 readout opens this volume overlay (#698) \u2014 the whole glass is the touch target; there is no dedicated button. It is drawn as a full-screen panel on $bg-stage, not a modal over dimmed content: at 7\u2033 a modal frame wastes pixels, and the panel keeps the 2 m type discipline. The overlay is a SINGLE full-width SCROLLING list (ListView): the header (INPUTS caption + BACK TO STAGE chip) is PINNED at the top and the list scrolls under it; rows stay full-width (1854) at 110 high so sliders remain touch-controllable \u2014 no column compression. The drawing shows the honest viewport: the rows that fit, the next row (TRACK 6) cut by the bottom edge, and a slim scrollbar hint on the right \u2014 TRACK 7\u20138 exist below the fold. Dismissal: tap the BACK TO STAGE chip, tap any dead space, or 8 s of inactivity auto-reverts to the readout. Both groups are DYNAMIC: INPUTS shows one row per configured input (two drawn), TRACKS shows the LIVE TRACK COUNT \u2014 the engine runs 8; only 4 carry custom names, and default-named tracks (TRACK 5\u20138, l10n defaultTrackName) render their name in $text-secondary, the tone the tracks screen uses for a track's default identity, while custom names are $text-primary. Each row is the ParamSlider idiom (ThalA) scaled to finger + 2 m size: name 42\/700 in a 300 column, $bg-surface capsule track with $accent-surface fill and 4 px $accent right-edge marker, value 40 Inter (signed dB, one decimal, true minus \u2014 signal_style.dart format; tabular numerals at implementation), and a CONFIG ZONE at the row's right edge: an 88\u00d7110 chevron target. Interaction contract: tap\/drag anywhere on the row = volume; tap the chevron zone = that element's own full-screen config panel (STAGE \/ readout-volumes-input, STAGE \/ readout-volumes-track); the panel's BACK chip returns to this list; the 8 s auto-revert chain applies from the panels too (panel \u2192 list \u2192 readout). Wire protocol: volume and config commands flow sub\u2192main over the window channel \u2014 the first control path in that direction (the readout was previously display-only)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "positionData": [
+    {
+      "y": 6283,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1795.641,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "Tapping ANYWHERE on the 7\u2033 readout opens this volume overlay (#698) \u2014 the whole glass is the touch target; there is no dedicated button. It is drawn as a full-screen panel on $bg-stage, not a modal over dimmed content: at 7\u2033 a modal frame wastes pixels, and the panel keeps the 2 m type "
+    },
+    {
+      "y": 6299,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1781.422,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "discipline. The overlay is a SINGLE full-width SCROLLING list (ListView): the header (INPUTS caption + BACK TO STAGE chip) is PINNED at the top and the list scrolls under it; rows stay full-width (1854) at 110 high so sliders remain touch-controllable \u2014 no column compression. The drawing "
+    },
+    {
+      "y": 6315,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1781.984,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "shows the honest viewport: the rows that fit, the next row (TRACK 6) cut by the bottom edge, and a slim scrollbar hint on the right \u2014 TRACK 7\u20138 exist below the fold. Dismissal: tap the BACK TO STAGE chip, tap any dead space, or 8 s of inactivity auto-reverts to the readout. Both groups are "
+    },
+    {
+      "y": 6331,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1777.813,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "DYNAMIC: INPUTS shows one row per configured input (two drawn), TRACKS shows the LIVE TRACK COUNT \u2014 the engine runs 8; only 4 carry custom names, and default-named tracks (TRACK 5\u20138, l10n defaultTrackName) render their name in $text-secondary, the tone the tracks screen "
+    },
+    {
+      "y": 6347,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1786.109,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "uses for a track's default identity, while custom names are $text-primary. Each row is the ParamSlider idiom (ThalA) scaled to finger + 2 m size: name 42\/700 in a 300 column, $bg-surface capsule track with $accent-surface fill and 4 px $accent right-edge marker, value 40 Inter (signed dB, "
+    },
+    {
+      "y": 6363,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1782.875,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "one decimal, true minus \u2014 signal_style.dart format; tabular numerals at implementation), and a CONFIG ZONE at the row's right edge: an 88\u00d7110 chevron target. Interaction contract: tap\/drag anywhere on the row = volume; tap the chevron zone = that element's own full-screen config panel "
+    },
+    {
+      "y": 6379,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 1796.953,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "(STAGE \/ readout-volumes-input, STAGE \/ readout-volumes-track); the panel's BACK chip returns to this list; the 8 s auto-revert chain applies from the panels too (panel \u2192 list \u2192 readout). Wire protocol: volume and config commands flow sub\u2192main over the window channel \u2014 the first control "
+    },
+    {
+      "y": 6395,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "width": 387.734,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 300,
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 16,
+      "text": "path in that direction (the readout was previously display-only)."
+    }
+  ]
+}

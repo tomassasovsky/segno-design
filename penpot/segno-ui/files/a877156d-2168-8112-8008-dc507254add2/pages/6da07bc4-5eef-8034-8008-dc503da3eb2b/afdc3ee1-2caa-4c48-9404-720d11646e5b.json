@@ -1,0 +1,135 @@
+{
+  "id": "afdc3ee1-2caa-4c48-9404-720d11646e5b",
+  "name": "Eject",
+  "type": "text",
+  "x": 6160,
+  "y": 63988.5,
+  "width": 57.375,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 6160,
+    "y": 63988.5,
+    "width": 57.375,
+    "height": 24,
+    "x1": 6160,
+    "y1": 63988.5,
+    "x2": 6217.375,
+    "y2": 64012.5
+  },
+  "points": [
+    {
+      "x": 6160,
+      "y": 63988.5
+    },
+    {
+      "x": 6217.375,
+      "y": 63988.5
+    },
+    {
+      "x": 6217.375,
+      "y": 64012.5
+    },
+    {
+      "x": 6160,
+      "y": 64012.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5839a82f-d594-4382-b870-457effa08e4f",
+  "frameId": "5839a82f-d594-4382-b870-457effa08e4f",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#162132",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Eject"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#162132",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503da3eb2b",
+  "positionData": [
+    {
+      "y": 64013.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "width": 57.375,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 6160,
+      "fills": [
+        {
+          "fillColor": "#162132",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 27,
+      "text": "Eject"
+    }
+  ]
+}

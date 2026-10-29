@@ -1,0 +1,135 @@
+{
+  "id": "2ba7e6fc-6fec-46fd-afb4-6a08ffc14d6a",
+  "name": "Bypass delay",
+  "type": "text",
+  "x": 1126.703,
+  "y": 12145,
+  "width": 113.109,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 1126.703,
+    "y": 12145,
+    "width": 113.109,
+    "height": 18,
+    "x1": 1126.703,
+    "y1": 12145,
+    "x2": 1239.812,
+    "y2": 12163
+  },
+  "points": [
+    {
+      "x": 1126.703,
+      "y": 12145
+    },
+    {
+      "x": 1239.812,
+      "y": 12145
+    },
+    {
+      "x": 1239.812,
+      "y": 12163
+    },
+    {
+      "x": 1126.703,
+      "y": 12163
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1e017203-2459-4a8f-9fc3-42c094b03786",
+  "frameId": "1e017203-2459-4a8f-9fc3-42c094b03786",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#dce4ee",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Bypass delay"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#dce4ee",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc504238a365",
+  "positionData": [
+    {
+      "y": 12164,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 113.109,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 1126.703,
+      "fills": [
+        {
+          "fillColor": "#dce4ee",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "height": 21,
+      "text": "Bypass delay"
+    }
+  ]
+}

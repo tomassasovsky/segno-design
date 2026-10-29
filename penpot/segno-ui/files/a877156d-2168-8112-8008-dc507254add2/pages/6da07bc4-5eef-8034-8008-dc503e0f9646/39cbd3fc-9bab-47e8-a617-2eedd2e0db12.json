@@ -1,0 +1,135 @@
+{
+  "id": "39cbd3fc-9bab-47e8-a617-2eedd2e0db12",
+  "name": "Choose a compatible pedal \/ Caption",
+  "type": "text",
+  "x": 2380,
+  "y": 79760,
+  "width": 460.531,
+  "height": 43,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 79760,
+    "width": 460.531,
+    "height": 43,
+    "x1": 2380,
+    "y1": 79760,
+    "x2": 2840.531,
+    "y2": 79803
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 79760
+    },
+    {
+      "x": 2840.531,
+      "y": 79760
+    },
+    {
+      "x": 2840.531,
+      "y": 79803
+    },
+    {
+      "x": 2380,
+      "y": 79803
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "062d15d9-742c-4351-b8c2-bf8b9dfc6826",
+  "frameId": "062d15d9-742c-4351-b8c2-bf8b9dfc6826",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1053",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1053",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "38",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#bdcadb",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Choose a compatible pedal"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "38",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#bdcadb",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503e0f9646",
+  "positionData": [
+    {
+      "y": 79802,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "width": 460.531,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2380,
+      "fills": [
+        {
+          "fillColor": "#bdcadb",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 42,
+      "text": "Choose a compatible pedal"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "de37e18f-1d20-4993-8923-d3d4f16906da",
+  "name": "Hold \u00b7 Undo",
+  "type": "text",
+  "x": 2966.469,
+  "y": 32629.188,
+  "width": 96.047,
+  "height": 18,
+  "rotation": 0,
+  "selrect": {
+    "x": 2966.469,
+    "y": 32629.188,
+    "width": 96.047,
+    "height": 18,
+    "x1": 2966.469,
+    "y1": 32629.188,
+    "x2": 3062.516,
+    "y2": 32647.188
+  },
+  "points": [
+    {
+      "x": 2966.469,
+      "y": 32629.188
+    },
+    {
+      "x": 3062.516,
+      "y": 32629.188
+    },
+    {
+      "x": 3062.516,
+      "y": 32647.188
+    },
+    {
+      "x": 2966.469,
+      "y": 32647.188
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "2ada0a17-bb75-4f80-bd51-b061772e3923",
+  "frameId": "2ada0a17-bb75-4f80-bd51-b061772e3923",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "18",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#becce0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Hold \u00b7 Undo"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "18",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#becce0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503afe9b43",
+  "positionData": [
+    {
+      "y": 32648.188,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "width": 96.047,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 2966.469,
+      "fills": [
+        {
+          "fillColor": "#becce0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 20,
+      "text": "Hold \u00b7 Undo"
+    }
+  ]
+}

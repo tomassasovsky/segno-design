@@ -1,0 +1,135 @@
+{
+  "id": "e4e92778-e58d-4f20-a772-48f7ea7f3fde",
+  "name": "microphone",
+  "type": "text",
+  "x": 3605,
+  "y": 47062.375,
+  "width": 120.188,
+  "height": 23,
+  "rotation": 0,
+  "selrect": {
+    "x": 3605,
+    "y": 47062.375,
+    "width": 120.188,
+    "height": 23,
+    "x1": 3605,
+    "y1": 47062.375,
+    "x2": 3725.188,
+    "y2": 47085.375
+  },
+  "points": [
+    {
+      "x": 3605,
+      "y": 47062.375
+    },
+    {
+      "x": 3725.188,
+      "y": 47062.375
+    },
+    {
+      "x": 3725.188,
+      "y": 47085.375
+    },
+    {
+      "x": 3605,
+      "y": 47085.375
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5101027e-1e4d-41b7-bcdc-dd2643a675a1",
+  "frameId": "5101027e-1e4d-41b7-bcdc-dd2643a675a1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "23",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "microphone"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "23",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503ccd1d7f",
+  "positionData": [
+    {
+      "y": 47086.375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "width": 120.188,
+      "textDecoration": "none",
+      "letterSpacing": "0px",
+      "x": 3605,
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "height": 26,
+      "text": "microphone"
+    }
+  ]
+}
