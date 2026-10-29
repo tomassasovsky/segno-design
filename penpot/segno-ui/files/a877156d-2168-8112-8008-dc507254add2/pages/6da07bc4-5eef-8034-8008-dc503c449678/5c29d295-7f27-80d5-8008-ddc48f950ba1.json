@@ -5,17 +5,17 @@
   "x": 2380,
   "y": 37152,
   "width": 1840,
-  "height": 549,
+  "height": 628,
   "rotation": 0,
   "selrect": {
     "x": 2380,
     "y": 37152,
     "width": 1840,
-    "height": 549,
+    "height": 628,
     "x1": 2380,
     "y1": 37152,
     "x2": 4220,
-    "y2": 37701
+    "y2": 37780
   },
   "points": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "x": 4220,
-      "y": 37701
+      "y": 37780
     },
     {
       "x": 2380,
-      "y": 37701
+      "y": 37780
     }
   ],
   "transform": {
@@ -349,7 +349,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "The summary line replaces \"Keep your effects, tempo and pedal setup.\" while Ed's setup is chosen. Open questions for the owner (the plan on #1513): racks within the 96 kHz effects budget, an Octaver footswitch, and whether track names stay shared by every session."
+                "text": "The summary line replaces \"Keep your effects, tempo and pedal setup.\" while Ed's setup is chosen. While the Ed's Rack sounds load, or when they would not fit the effects budget, the line says so and Start new loop is disabled for Ed's setup; nothing changes. Open questions for the owner (the plan on #1513): racks within the 96 kHz effects budget, an Octaver footswitch, whether track names stay shared by every session, and racks heard on playback only (not while recording)."
               }
             ],
             "textTransform": "none",
@@ -680,11 +680,11 @@
     {
       "x": 2380,
       "y": 37657.75,
-      "width": 1770.7333984375,
+      "width": 1832.0833740234375,
       "height": 31.5,
       "x1": 0,
       "y1": 474.25,
-      "x2": 1770.7333984375,
+      "x2": 1832.0833740234375,
       "y2": 505.75,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -700,16 +700,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "\"Arimo\"",
-      "text": "The summary line replaces \"Keep your effects, tempo and pedal setup.\" while Ed's setup is chosen. Open questions for the owner (the plan on "
+      "text": "The summary line replaces \"Keep your effects, tempo and pedal setup.\" while Ed's setup is chosen. While the Ed's Rack sounds load, or when they "
     },
     {
       "x": 2380,
       "y": 37696.95001220703,
-      "width": 1564.933349609375,
+      "width": 1814.816650390625,
       "height": 31.5,
       "x1": 0,
       "y1": 513.4500122070312,
-      "x2": 1564.933349609375,
+      "x2": 1814.816650390625,
       "y2": 544.9500122070312,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -725,7 +725,57 @@
       ],
       "direction": "ltr",
       "fontFamily": "\"Arimo\"",
-      "text": "#1513): racks within the 96 kHz effects budget, an Octaver footswitch, and whether track names stay shared by every session."
+      "text": "would not fit the effects budget, the line says so and Start new loop is disabled for Ed's setup; nothing changes. Open questions for the owner (the "
+    },
+    {
+      "x": 2380,
+      "y": 37736.15002441406,
+      "width": 1826.36669921875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 552.6500244140625,
+      "x2": 1826.36669921875,
+      "y2": 584.1500244140625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "plan on #1513): racks within the 96 kHz effects budget, an Octaver footswitch, whether track names stay shared by every session, and racks heard "
+    },
+    {
+      "x": 2380,
+      "y": 37775.34997558594,
+      "width": 477.683349609375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 591.8499755859375,
+      "x2": 477.683349609375,
+      "y2": 623.3499755859375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "on playback only (not while recording)."
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678"
