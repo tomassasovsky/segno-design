@@ -1,0 +1,142 @@
+{
+  "id": "5c29d295-7f27-80d5-8008-ddc45f46ed23",
+  "name": "Screen label \/ New loop \/ Ed's setup",
+  "type": "text",
+  "x": 300,
+  "y": 37162,
+  "width": 1920,
+  "height": 36,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 37162,
+    "width": 1920,
+    "height": 36,
+    "x1": 300,
+    "y1": 37162,
+    "x2": 2220,
+    "y2": 37198
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 37162
+    },
+    {
+      "x": 2220,
+      "y": 37162
+    },
+    {
+      "x": 2220,
+      "y": 37198
+    },
+    {
+      "x": 300,
+      "y": 37198
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c29d295-7f27-80d5-8008-ddc45f46ed22",
+  "frameId": "5c29d295-7f27-80d5-8008-ddc45f46ed22",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "700",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c9ced9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "07  New loop \/ Ed's setup"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "700",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c9ced9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c449678",
+  "positionData": [
+    {
+      "x": 300,
+      "y": 37198,
+      "width": 382.7833251953125,
+      "height": 36,
+      "x1": 0,
+      "y1": 0,
+      "x2": 382.7833251953125,
+      "y2": 36,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#c9ced9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "07  New loop \/ Ed's setup"
+    }
+  ]
+}
