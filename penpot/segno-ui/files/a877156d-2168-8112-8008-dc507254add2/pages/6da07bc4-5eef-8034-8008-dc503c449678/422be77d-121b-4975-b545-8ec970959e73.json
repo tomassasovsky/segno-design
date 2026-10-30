@@ -3,36 +3,36 @@
   "name": "Evening loop",
   "type": "text",
   "x": 2956,
-  "y": 35110,
-  "width": 138.781,
+  "y": 35065.5,
+  "width": 139,
   "height": 24,
   "rotation": 0,
   "selrect": {
     "x": 2956,
-    "y": 35110,
-    "width": 138.781,
+    "y": 35065.5,
+    "width": 139,
     "height": 24,
     "x1": 2956,
-    "y1": 35110,
-    "x2": 3094.781,
-    "y2": 35134
+    "y1": 35065.5,
+    "x2": 3095,
+    "y2": 35089.5
   },
   "points": [
     {
       "x": 2956,
-      "y": 35110
+      "y": 35065.5
     },
     {
-      "x": 3094.781,
-      "y": 35110
+      "x": 3095,
+      "y": 35065.5
     },
     {
-      "x": 3094.781,
-      "y": 35134
+      "x": 3095,
+      "y": 35089.5
     },
     {
       "x": 2956,
-      "y": 35134
+      "y": 35089.5
     }
   ],
   "transform": {
@@ -111,15 +111,20 @@
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678",
   "positionData": [
     {
-      "y": 35135,
+      "x": 2956,
+      "y": 35091.25,
+      "width": 138.78334045410156,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 138.78334045410156,
+      "y2": 25.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "24px",
       "fontWeight": "400",
-      "width": 138.781,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2956,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#e3eaf4",
@@ -127,8 +132,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Arimo",
-      "height": 27,
+      "fontFamily": "\"Arimo\"",
       "text": "Evening loop"
     }
   ]
