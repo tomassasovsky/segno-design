@@ -3,36 +3,36 @@
   "name": "Start new loop",
   "type": "text",
   "x": 3533.313,
-  "y": 35352,
-  "width": 165.344,
+  "y": 35395.5,
+  "width": 166,
   "height": 24,
   "rotation": 0,
   "selrect": {
     "x": 3533.313,
-    "y": 35352,
-    "width": 165.344,
+    "y": 35395.5,
+    "width": 166,
     "height": 24,
     "x1": 3533.313,
-    "y1": 35352,
-    "x2": 3698.657,
-    "y2": 35376
+    "y1": 35395.5,
+    "x2": 3699.313,
+    "y2": 35419.5
   },
   "points": [
     {
       "x": 3533.313,
-      "y": 35352
+      "y": 35395.5
     },
     {
-      "x": 3698.657,
-      "y": 35352
+      "x": 3699.313,
+      "y": 35395.5
     },
     {
-      "x": 3698.657,
-      "y": 35376
+      "x": 3699.313,
+      "y": 35419.5
     },
     {
       "x": 3533.313,
-      "y": 35376
+      "y": 35419.5
     }
   ],
   "transform": {
@@ -111,15 +111,20 @@
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678",
   "positionData": [
     {
-      "y": 35377,
+      "x": 3533.313,
+      "y": 35421.25,
+      "width": 165.36666870117188,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 165.36666870117188,
+      "y2": 25.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "24px",
       "fontWeight": "700",
-      "width": 165.344,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 3533.313,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#162132",
@@ -127,8 +132,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Arimo",
-      "height": 27,
+      "fontFamily": "\"Arimo\"",
       "text": "Start new loop"
     }
   ]

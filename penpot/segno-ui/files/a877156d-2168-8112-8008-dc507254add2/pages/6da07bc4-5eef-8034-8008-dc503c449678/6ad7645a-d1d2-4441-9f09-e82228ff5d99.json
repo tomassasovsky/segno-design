@@ -3,36 +3,36 @@
   "name": "Cancel",
   "type": "text",
   "x": 3392.797,
-  "y": 35352,
-  "width": 74.719,
+  "y": 35395.5,
+  "width": 75,
   "height": 24,
   "rotation": 0,
   "selrect": {
     "x": 3392.797,
-    "y": 35352,
-    "width": 74.719,
+    "y": 35395.5,
+    "width": 75,
     "height": 24,
     "x1": 3392.797,
-    "y1": 35352,
-    "x2": 3467.516,
-    "y2": 35376
+    "y1": 35395.5,
+    "x2": 3467.797,
+    "y2": 35419.5
   },
   "points": [
     {
       "x": 3392.797,
-      "y": 35352
+      "y": 35395.5
     },
     {
-      "x": 3467.516,
-      "y": 35352
+      "x": 3467.797,
+      "y": 35395.5
     },
     {
-      "x": 3467.516,
-      "y": 35376
+      "x": 3467.797,
+      "y": 35419.5
     },
     {
       "x": 3392.797,
-      "y": 35376
+      "y": 35419.5
     }
   ],
   "transform": {
@@ -111,15 +111,20 @@
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678",
   "positionData": [
     {
-      "y": 35377,
+      "x": 3392.797,
+      "y": 35421.25,
+      "width": 74.71665954589844,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 74.71665954589844,
+      "y2": 25.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "24px",
       "fontWeight": "400",
-      "width": 74.719,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 3392.797,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#e7edf6",
@@ -127,8 +132,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Arimo",
-      "height": 27,
+      "fontFamily": "\"Arimo\"",
       "text": "Cancel"
     }
   ]
