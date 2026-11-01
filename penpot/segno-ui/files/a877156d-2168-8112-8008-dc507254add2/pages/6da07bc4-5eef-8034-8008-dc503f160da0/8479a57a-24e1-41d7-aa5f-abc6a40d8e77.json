@@ -2,36 +2,36 @@
   "id": "8479a57a-24e1-41d7-aa5f-abc6a40d8e77",
   "name": "PEDAL C fx name",
   "type": "text",
-  "x": 1452.406,
+  "x": 1452,
   "y": 9901,
-  "width": 90.172,
+  "width": 91,
   "height": 41,
   "rotation": 0,
   "selrect": {
-    "x": 1452.406,
+    "x": 1452,
     "y": 9901,
-    "width": 90.172,
+    "width": 91,
     "height": 41,
-    "x1": 1452.406,
+    "x1": 1452,
     "y1": 9901,
-    "x2": 1542.578,
+    "x2": 1543,
     "y2": 9942
   },
   "points": [
     {
-      "x": 1452.406,
+      "x": 1452,
       "y": 9901
     },
     {
-      "x": 1542.578,
+      "x": 1543,
       "y": 9901
     },
     {
-      "x": 1542.578,
+      "x": 1543,
       "y": 9942
     },
     {
-      "x": 1452.406,
+      "x": 1452,
       "y": 9942
     }
   ],
@@ -121,24 +121,30 @@
   },
   "positionData": [
     {
-      "y": 9942,
+      "x": 1452,
+      "y": 9942.25,
+      "width": 90.16667175292969,
+      "height": 41.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 90.16667175292969,
+      "y2": 41.25,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "34px",
       "fontWeight": "700",
-      "width": 90.172,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 1452.406,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#f3f4f7",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a7f",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 41,
+      "fontFamily": "\"Inter\"",
       "text": "GATE"
     }
   ],

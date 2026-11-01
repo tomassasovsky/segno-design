@@ -1,0 +1,142 @@
+{
+  "id": "ecdbacde-f558-8025-8008-e1353328fa0e",
+  "name": "Bridge idea 3",
+  "type": "text",
+  "x": 4489,
+  "y": 9421.5,
+  "width": 102,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 4489,
+    "y": 9421.5,
+    "width": 102,
+    "height": 19,
+    "x1": 4489,
+    "y1": 9421.5,
+    "x2": 4591,
+    "y2": 9440.5
+  },
+  "points": [
+    {
+      "x": 4489,
+      "y": 9421.5
+    },
+    {
+      "x": 4591,
+      "y": 9421.5
+    },
+    {
+      "x": 4591,
+      "y": 9440.5
+    },
+    {
+      "x": 4489,
+      "y": 9440.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ecdbacde-f558-8025-8008-e1353328f9fe",
+  "frameId": "ecdbacde-f558-8025-8008-e1353328f9fe",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.13",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.13",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "16",
+                "fontWeight": "600",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Bridge idea 3"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "16",
+            "fontWeight": "600",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "x": 4489,
+      "y": 9440.300003051758,
+      "width": 101.85000610351562,
+      "height": 19.5,
+      "x1": 0,
+      "y1": -0.6999969482421875,
+      "x2": 101.85000610351562,
+      "y2": 18.800003051757812,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "Bridge idea 3"
+    }
+  ],
+  "layoutItemZIndex": 1
+}

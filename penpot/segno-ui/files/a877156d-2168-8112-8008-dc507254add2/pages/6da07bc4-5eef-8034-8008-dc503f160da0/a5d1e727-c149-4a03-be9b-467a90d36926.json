@@ -2,36 +2,36 @@
   "id": "a5d1e727-c149-4a03-be9b-467a90d36926",
   "name": "Entry label",
   "type": "text",
-  "x": 3613.266,
+  "x": 3612.4999999999995,
   "y": 2489,
-  "width": 32.375,
+  "width": 33,
   "height": 21,
   "rotation": 0,
   "selrect": {
-    "x": 3613.266,
+    "x": 3612.4999999999995,
     "y": 2489,
-    "width": 32.375,
+    "width": 33,
     "height": 21,
-    "x1": 3613.266,
+    "x1": 3612.4999999999995,
     "y1": 2489,
-    "x2": 3645.641,
+    "x2": 3645.4999999999995,
     "y2": 2510
   },
   "points": [
     {
-      "x": 3613.266,
+      "x": 3612.4999999999995,
       "y": 2489
     },
     {
-      "x": 3645.641,
+      "x": 3645.4999999999995,
       "y": 2489
     },
     {
-      "x": 3645.641,
+      "x": 3645.4999999999995,
       "y": 2510
     },
     {
-      "x": 3613.266,
+      "x": 3612.4999999999995,
       "y": 2510
     }
   ],
@@ -121,24 +121,30 @@
   },
   "positionData": [
     {
-      "y": 2510,
+      "x": 3612.4999999999995,
+      "y": 2510.5,
+      "width": 32.366668701171875,
+      "height": 22,
+      "x1": 0,
+      "y1": -0.5,
+      "x2": 32.366668701171875,
+      "y2": 21.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "18px",
       "fontWeight": "600",
-      "width": 32.375,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 3613.266,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#f3f4f7",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a7f",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 21,
+      "fontFamily": "\"Inter\"",
       "text": "Exp"
     }
   ],

@@ -2,36 +2,36 @@
   "id": "d858b1a4-7cb3-4be2-a1d2-a0217046ad69",
   "name": "Entry label",
   "type": "text",
-  "x": 3024.609,
+  "x": 3022.5,
   "y": 2489,
-  "width": 51.672,
+  "width": 52,
   "height": 21,
   "rotation": 0,
   "selrect": {
-    "x": 3024.609,
+    "x": 3022.5,
     "y": 2489,
-    "width": 51.672,
+    "width": 52,
     "height": 21,
-    "x1": 3024.609,
+    "x1": 3022.5,
     "y1": 2489,
-    "x2": 3076.281,
+    "x2": 3074.5,
     "y2": 2510
   },
   "points": [
     {
-      "x": 3024.609,
+      "x": 3022.5,
       "y": 2489
     },
     {
-      "x": 3076.281,
+      "x": 3074.5,
       "y": 2489
     },
     {
-      "x": 3076.281,
+      "x": 3074.5,
       "y": 2510
     },
     {
-      "x": 3024.609,
+      "x": 3022.5,
       "y": 2510
     }
   ],
@@ -121,24 +121,30 @@
   },
   "positionData": [
     {
-      "y": 2510,
+      "x": 3022.5,
+      "y": 2510.5,
+      "width": 51.66667175292969,
+      "height": 22,
+      "x1": 0,
+      "y1": -0.5,
+      "x2": 51.66667175292969,
+      "y2": 21.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "18px",
       "fontWeight": "600",
-      "width": 51.672,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 3024.609,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#f3f4f7",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a7f",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 21,
+      "fontFamily": "\"Inter\"",
       "text": "Comp"
     }
   ],

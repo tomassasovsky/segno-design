@@ -2,36 +2,36 @@
   "id": "b61deb6a-31ab-438f-b3ec-f86b5b6e6d37",
   "name": "PEDAL A bypass text",
   "type": "text",
-  "x": 410.25,
+  "x": 410.25800000000004,
   "y": 10392,
-  "width": 51.984,
+  "width": 51.98399999999998,
   "height": 16,
   "rotation": 0,
   "selrect": {
-    "x": 410.25,
+    "x": 410.25800000000004,
     "y": 10392,
-    "width": 51.984,
+    "width": 51.98399999999998,
     "height": 16,
-    "x1": 410.25,
+    "x1": 410.25800000000004,
     "y1": 10392,
-    "x2": 462.234,
+    "x2": 462.242,
     "y2": 10408
   },
   "points": [
     {
-      "x": 410.25,
+      "x": 410.25800000000004,
       "y": 10392
     },
     {
-      "x": 462.234,
+      "x": 462.242,
       "y": 10392
     },
     {
-      "x": 462.234,
+      "x": 462.242,
       "y": 10408
     },
     {
-      "x": 410.25,
+      "x": 410.25800000000004,
       "y": 10408
     }
   ],
@@ -122,24 +122,30 @@
   },
   "positionData": [
     {
-      "y": 10408,
+      "x": 410.25800000000004,
+      "y": 10408.25,
+      "width": 52,
+      "height": 16.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 52,
+      "y2": 16.25,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "13px",
       "fontWeight": "700",
-      "width": 51.984,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 410.25,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#9a9aa2",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 16,
+      "fontFamily": "\"Inter\"",
       "text": "BYPASS"
     }
   ],

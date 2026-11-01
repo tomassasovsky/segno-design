@@ -4,17 +4,17 @@
   "type": "text",
   "x": 325,
   "y": 3054,
-  "width": 440.5,
+  "width": 439,
   "height": 26,
   "rotation": 0,
   "selrect": {
     "x": 325,
     "y": 3054,
-    "width": 440.5,
+    "width": 439,
     "height": 26,
     "x1": 325,
     "y1": 3054,
-    "x2": 765.5,
+    "x2": 764,
     "y2": 3080
   },
   "points": [
@@ -23,11 +23,11 @@
       "y": 3054
     },
     {
-      "x": 765.5,
+      "x": 764,
       "y": 3054
     },
     {
-      "x": 765.5,
+      "x": 764,
       "y": 3080
     },
     {
@@ -113,15 +113,20 @@
   "layoutItemVSizing": "auto",
   "positionData": [
     {
-      "y": 3082,
+      "x": 495.76666259765625,
+      "y": 3083,
+      "width": 97.4666748046875,
+      "height": 32,
+      "x1": 170.76666259765625,
+      "y1": -3,
+      "x2": 268.23333740234375,
+      "y2": 29,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "26px",
       "fontWeight": "700",
-      "width": 97.438,
       "textDecoration": "none",
       "letterSpacing": "0.26px",
-      "x": 496.531,
       "fills": [
         {
           "fillColor": "#ffffff",
@@ -129,8 +134,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 31,
+      "fontFamily": "\"Inter\"",
       "text": "DRUMS"
     }
   ],

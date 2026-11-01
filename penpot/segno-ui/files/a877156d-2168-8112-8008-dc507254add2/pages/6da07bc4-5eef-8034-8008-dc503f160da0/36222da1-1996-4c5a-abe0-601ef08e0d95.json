@@ -2,24 +2,24 @@
   "id": "36222da1-1996-4c5a-abe0-601ef08e0d95",
   "name": "LEAD",
   "type": "text",
-  "x": 5915.5,
+  "x": 5915,
   "y": 9067,
-  "width": 440.5,
+  "width": 441,
   "height": 26,
   "rotation": 0,
   "selrect": {
-    "x": 5915.5,
+    "x": 5915,
     "y": 9067,
-    "width": 440.5,
+    "width": 441,
     "height": 26,
-    "x1": 5915.5,
+    "x1": 5915,
     "y1": 9067,
     "x2": 6356,
     "y2": 9093
   },
   "points": [
     {
-      "x": 5915.5,
+      "x": 5915,
       "y": 9067
     },
     {
@@ -31,7 +31,7 @@
       "y": 9093
     },
     {
-      "x": 5915.5,
+      "x": 5915,
       "y": 9093
     }
   ],
@@ -113,15 +113,20 @@
   "layoutItemVSizing": "auto",
   "positionData": [
     {
-      "y": 9095,
+      "x": 6100.616668701172,
+      "y": 9096,
+      "width": 69.76666259765625,
+      "height": 32,
+      "x1": 185.61666870117188,
+      "y1": -3,
+      "x2": 255.38333129882812,
+      "y2": 29,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "26px",
       "fontWeight": "700",
-      "width": 69.734,
       "textDecoration": "none",
       "letterSpacing": "0.26px",
-      "x": 6100.875,
       "fills": [
         {
           "fillColor": "#ffffff",
@@ -129,8 +134,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 31,
+      "fontFamily": "\"Inter\"",
       "text": "LEAD"
     }
   ],

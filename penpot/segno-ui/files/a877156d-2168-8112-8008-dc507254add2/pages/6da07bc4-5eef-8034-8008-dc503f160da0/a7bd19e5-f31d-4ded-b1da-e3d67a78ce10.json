@@ -3,36 +3,36 @@
   "name": "Bridge idea 3",
   "type": "text",
   "x": 4489,
-  "y": 3612.953,
-  "width": 101.859,
-  "height": 18.078,
+  "y": 3612.5,
+  "width": 102,
+  "height": 19,
   "rotation": 0,
   "selrect": {
     "x": 4489,
-    "y": 3612.953,
-    "width": 101.859,
-    "height": 18.078,
+    "y": 3612.5,
+    "width": 102,
+    "height": 19,
     "x1": 4489,
-    "y1": 3612.953,
-    "x2": 4590.859,
-    "y2": 3631.031
+    "y1": 3612.5,
+    "x2": 4591,
+    "y2": 3631.5
   },
   "points": [
     {
       "x": 4489,
-      "y": 3612.953
+      "y": 3612.5
     },
     {
-      "x": 4590.859,
-      "y": 3612.953
+      "x": 4591,
+      "y": 3612.5
     },
     {
-      "x": 4590.859,
-      "y": 3631.031
+      "x": 4591,
+      "y": 3631.5
     },
     {
       "x": 4489,
-      "y": 3631.031
+      "y": 3631.5
     }
   ],
   "transform": {
@@ -113,15 +113,20 @@
   "layoutItemVSizing": "auto",
   "positionData": [
     {
-      "y": 3631.953,
+      "x": 4489,
+      "y": 3631.300003051758,
+      "width": 101.85000610351562,
+      "height": 19.5,
+      "x1": 0,
+      "y1": -0.6999969482421875,
+      "x2": 101.85000610351562,
+      "y2": 18.800003051757812,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "16px",
       "fontWeight": "600",
-      "width": 101.859,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 4489,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#f3f4f7",
@@ -129,8 +134,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 20,
+      "fontFamily": "\"Inter\"",
       "text": "Bridge idea 3"
     }
   ],

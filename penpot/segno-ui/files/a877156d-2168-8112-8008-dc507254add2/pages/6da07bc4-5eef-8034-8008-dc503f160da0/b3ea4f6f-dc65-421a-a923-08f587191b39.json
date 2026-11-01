@@ -2,24 +2,24 @@
   "id": "b3ea4f6f-dc65-421a-a923-08f587191b39",
   "name": "LEAD",
   "type": "text",
-  "x": 3835.5,
+  "x": 3835,
   "y": 4608,
-  "width": 440.5,
+  "width": 441,
   "height": 26,
   "rotation": 0,
   "selrect": {
-    "x": 3835.5,
+    "x": 3835,
     "y": 4608,
-    "width": 440.5,
+    "width": 441,
     "height": 26,
-    "x1": 3835.5,
+    "x1": 3835,
     "y1": 4608,
     "x2": 4276,
     "y2": 4634
   },
   "points": [
     {
-      "x": 3835.5,
+      "x": 3835,
       "y": 4608
     },
     {
@@ -31,7 +31,7 @@
       "y": 4634
     },
     {
-      "x": 3835.5,
+      "x": 3835,
       "y": 4634
     }
   ],
@@ -113,15 +113,20 @@
   "layoutItemVSizing": "auto",
   "positionData": [
     {
-      "y": 4636,
+      "x": 4020.616668701172,
+      "y": 4637,
+      "width": 69.76666259765625,
+      "height": 32,
+      "x1": 185.61666870117188,
+      "y1": -3,
+      "x2": 255.38333129882812,
+      "y2": 29,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "26px",
       "fontWeight": "700",
-      "width": 69.734,
       "textDecoration": "none",
       "letterSpacing": "0.26px",
-      "x": 4020.875,
       "fills": [
         {
           "fillColor": "#ffffff",
@@ -129,8 +134,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 31,
+      "fontFamily": "\"Inter\"",
       "text": "LEAD"
     }
   ],
