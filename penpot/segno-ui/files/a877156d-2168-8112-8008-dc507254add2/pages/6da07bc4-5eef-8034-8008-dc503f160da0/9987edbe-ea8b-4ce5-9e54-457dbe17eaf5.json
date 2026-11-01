@@ -2,36 +2,36 @@
   "id": "9987edbe-ea8b-4ce5-9e54-457dbe17eaf5",
   "name": "Chain name",
   "type": "text",
-  "x": 2988.953,
+  "x": 2987,
   "y": 2423,
-  "width": 228.094,
+  "width": 229,
   "height": 36,
   "rotation": 0,
   "selrect": {
-    "x": 2988.953,
+    "x": 2987,
     "y": 2423,
-    "width": 228.094,
+    "width": 229,
     "height": 36,
-    "x1": 2988.953,
+    "x1": 2987,
     "y1": 2423,
-    "x2": 3217.047,
+    "x2": 3216,
     "y2": 2459
   },
   "points": [
     {
-      "x": 2988.953,
+      "x": 2987,
       "y": 2423
     },
     {
-      "x": 3217.047,
+      "x": 3216,
       "y": 2423
     },
     {
-      "x": 3217.047,
+      "x": 3216,
       "y": 2459
     },
     {
-      "x": 2988.953,
+      "x": 2987,
       "y": 2459
     }
   ],
@@ -121,24 +121,30 @@
   },
   "positionData": [
     {
-      "y": 2459,
+      "x": 2987,
+      "y": 2459.5,
+      "width": 228.06666564941406,
+      "height": 37,
+      "x1": 0,
+      "y1": -0.5,
+      "x2": 228.06666564941406,
+      "y2": 36.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "30px",
       "fontWeight": "700",
-      "width": 228.094,
       "textDecoration": "none",
       "letterSpacing": "0.5px",
-      "x": 2988.953,
       "fills": [
         {
           "fillColor": "#9a9aa2",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a80",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 36,
+      "fontFamily": "\"Inter\"",
       "text": "LANE 2 \u00b7 DRIVE"
     }
   ],

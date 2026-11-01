@@ -2,36 +2,36 @@
   "id": "65b600bc-aaf7-442d-b927-f037ce7d997f",
   "name": "Mode word",
   "type": "text",
-  "x": 1906.563,
+  "x": 1906,
   "y": 3611,
-  "width": 280.438,
+  "width": 281,
   "height": 101,
   "rotation": 0,
   "selrect": {
-    "x": 1906.563,
+    "x": 1906,
     "y": 3611,
-    "width": 280.438,
+    "width": 281,
     "height": 101,
-    "x1": 1906.563,
+    "x1": 1906,
     "y1": 3611,
-    "x2": 2187.001,
+    "x2": 2187,
     "y2": 3712
   },
   "points": [
     {
-      "x": 1906.563,
+      "x": 1906,
       "y": 3611
     },
     {
-      "x": 2187.001,
+      "x": 2187,
       "y": 3611
     },
     {
-      "x": 2187.001,
+      "x": 2187,
       "y": 3712
     },
     {
-      "x": 1906.563,
+      "x": 1906,
       "y": 3712
     }
   ],
@@ -121,24 +121,30 @@
   },
   "positionData": [
     {
-      "y": 3712,
+      "x": 1906,
+      "y": 3712.5,
+      "width": 280.41668701171875,
+      "height": 102,
+      "x1": 0,
+      "y1": -0.5,
+      "x2": 280.41668701171875,
+      "y2": 101.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "84px",
       "fontWeight": "700",
-      "width": 280.438,
       "textDecoration": "none",
       "letterSpacing": "8.4px",
-      "x": 1906.563,
       "fills": [
         {
           "fillColor": "#34d399",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a98",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 101,
+      "fontFamily": "\"Inter\"",
       "text": "MUTE"
     }
   ],

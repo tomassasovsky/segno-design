@@ -2,36 +2,36 @@
   "id": "fa0ed063-67a4-4688-9ffa-f8109b544dd4",
   "name": "State label",
   "type": "text",
-  "x": 2592.438,
+  "x": 2592,
   "y": 2556,
-  "width": 64.109,
+  "width": 65,
   "height": 49,
   "rotation": 0,
   "selrect": {
-    "x": 2592.438,
+    "x": 2592,
     "y": 2556,
-    "width": 64.109,
+    "width": 65,
     "height": 49,
-    "x1": 2592.438,
+    "x1": 2592,
     "y1": 2556,
-    "x2": 2656.547,
+    "x2": 2657,
     "y2": 2605
   },
   "points": [
     {
-      "x": 2592.438,
+      "x": 2592,
       "y": 2556
     },
     {
-      "x": 2656.547,
+      "x": 2657,
       "y": 2556
     },
     {
-      "x": 2656.547,
+      "x": 2657,
       "y": 2605
     },
     {
-      "x": 2592.438,
+      "x": 2592,
       "y": 2605
     }
   ],
@@ -121,24 +121,30 @@
   },
   "positionData": [
     {
+      "x": 2592,
       "y": 2605,
+      "width": 64.10000610351562,
+      "height": 49,
+      "x1": 0,
+      "y1": 0,
+      "x2": 64.10000610351562,
+      "y2": 49,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "40px",
       "fontWeight": "700",
-      "width": 64.109,
       "textDecoration": "none",
       "letterSpacing": "1.4px",
-      "x": 2592.438,
       "fills": [
         {
           "fillColor": "#ffffff",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a83",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 49,
+      "fontFamily": "\"Inter\"",
       "text": "ON"
     }
   ],

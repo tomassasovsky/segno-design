@@ -1,0 +1,164 @@
+{
+  "id": "5c29d295-7f27-80d5-8008-dfc8919a905d",
+  "name": "Message",
+  "type": "text",
+  "x": 2424,
+  "y": 9483,
+  "width": 1084,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 2424,
+    "y": 9483,
+    "width": 1084,
+    "height": 19,
+    "x1": 2424,
+    "y1": 9483,
+    "x2": 3508,
+    "y2": 9502
+  },
+  "points": [
+    {
+      "x": 2424,
+      "y": 9483
+    },
+    {
+      "x": 3508,
+      "y": 9483
+    },
+    {
+      "x": 3508,
+      "y": 9502
+    },
+    {
+      "x": 2424,
+      "y": 9502
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c29d295-7f27-80d5-8008-dfc8919a9059",
+  "frameId": "5c29d295-7f27-80d5-8008-dfc8919a9059",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2667",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2667",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1,
+                    "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a7f",
+                    "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Some effects are off: the rig doesn't fit the audio processing available. TRACK 3 and Guitar's input chain are off. Remove effects, then turn them back on."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1,
+                "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a7f",
+                "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "touched": [
+    "text-font-group",
+    "content-group",
+    "geometry-group",
+    "layout-item-h-sizing",
+    "text-content-text"
+  ],
+  "shapeRef": "4d85433e-c655-4157-93f3-5ec1c7fc5aa1",
+  "layoutItemHSizing": "auto",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "layoutItemVSizing": "auto",
+  "appliedTokens": {
+    "fill": "text-primary",
+    "fontSize": "text-btn",
+    "fontFamily": "font-ui"
+  },
+  "positionData": [
+    {
+      "x": 2424,
+      "y": 9502,
+      "width": 1083.066650390625,
+      "height": 19,
+      "x1": 0,
+      "y1": 0,
+      "x2": 1083.066650390625,
+      "y2": 19,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a7f",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "Some effects are off: the rig doesn't fit the audio processing available. TRACK 3 and Guitar's input chain are off. Remove effects, then turn them back on."
+    }
+  ],
+  "layoutItemZIndex": 1
+}

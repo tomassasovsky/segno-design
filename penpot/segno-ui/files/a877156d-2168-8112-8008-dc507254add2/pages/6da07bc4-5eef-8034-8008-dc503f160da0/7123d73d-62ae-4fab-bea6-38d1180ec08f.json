@@ -2,36 +2,36 @@
   "id": "7123d73d-62ae-4fab-bea6-38d1180ec08f",
   "name": "Chain name",
   "type": "text",
-  "x": 3478.25,
+  "x": 3476.9999999999995,
   "y": 2423,
-  "width": 202.5,
+  "width": 203,
   "height": 36,
   "rotation": 0,
   "selrect": {
-    "x": 3478.25,
+    "x": 3476.9999999999995,
     "y": 2423,
-    "width": 202.5,
+    "width": 203,
     "height": 36,
-    "x1": 3478.25,
+    "x1": 3476.9999999999995,
     "y1": 2423,
-    "x2": 3680.75,
+    "x2": 3679.9999999999995,
     "y2": 2459
   },
   "points": [
     {
-      "x": 3478.25,
+      "x": 3476.9999999999995,
       "y": 2423
     },
     {
-      "x": 3680.75,
+      "x": 3679.9999999999995,
       "y": 2423
     },
     {
-      "x": 3680.75,
+      "x": 3679.9999999999995,
       "y": 2459
     },
     {
-      "x": 3478.25,
+      "x": 3476.9999999999995,
       "y": 2459
     }
   ],
@@ -121,24 +121,30 @@
   },
   "positionData": [
     {
-      "y": 2459,
+      "x": 3476.9999999999995,
+      "y": 2459.5,
+      "width": 202.4499969482422,
+      "height": 37,
+      "x1": 0,
+      "y1": -0.5,
+      "x2": 202.4499969482422,
+      "y2": 36.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "30px",
       "fontWeight": "700",
-      "width": 202.5,
       "textDecoration": "none",
       "letterSpacing": "0.5px",
-      "x": 3478.25,
       "fills": [
         {
           "fillColor": "#f3f4f7",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a7f",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 36,
+      "fontFamily": "\"Inter\"",
       "text": "INPUT \u00b7 GATE"
     }
   ],

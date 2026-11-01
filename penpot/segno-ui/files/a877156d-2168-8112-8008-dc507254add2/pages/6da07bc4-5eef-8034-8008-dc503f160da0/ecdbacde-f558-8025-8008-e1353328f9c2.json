@@ -1,0 +1,192 @@
+{
+  "id": "ecdbacde-f558-8025-8008-e1353328f9c2",
+  "name": "c \/ effects-off-take-toast",
+  "type": "text",
+  "x": 4460,
+  "y": 10491,
+  "width": 1800,
+  "height": 48,
+  "rotation": 0,
+  "selrect": {
+    "x": 4460,
+    "y": 10491,
+    "width": 1800,
+    "height": 48,
+    "x1": 4460,
+    "y1": 10491,
+    "x2": 6260,
+    "y2": 10539
+  },
+  "points": [
+    {
+      "x": 4460,
+      "y": 10491
+    },
+    {
+      "x": 6260,
+      "y": 10491
+    },
+    {
+      "x": 6260,
+      "y": 10539
+    },
+    {
+      "x": 4460,
+      "y": 10539
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ecdbacde-f558-8025-8008-e13533288537",
+  "frameId": "ecdbacde-f558-8025-8008-e13533288537",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "A take whose copied chains do not fit (#1515, owner's R1, 2026-10-31). A take always records and keeps its input's chain by value; when that copy would put the rig over the effects budget it comes in switched off: kept whole, saved switch on, no audio-thread time. The take plays dry until the player makes room, which matters little in the moment, so a toast in the warning amber, self-dismissing, no action (the app sends it as one line: \"GUITAR's effects are off: they don't fit with the rest of the rig. Remove an effect to turn them on.\"). Turning the chain on is refused with the over-budget message until it fits. One notice per cause: while the effects-off banner stands (see 20 \/ effects off), the take's chains join the banner and no toast is shown. Takes started together are weighed together."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "positionData": [
+    {
+      "x": 4460,
+      "y": 10507.25,
+      "width": 1795.449951171875,
+      "height": 16.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 1795.449951171875,
+      "y2": 16.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "A take whose copied chains do not fit (#1515, owner's R1, 2026-10-31). A take always records and keeps its input's chain by value; when that copy would put the rig over the effects budget it comes in switched off: kept whole, saved switch on, no audio-thread time. The take plays dry until the "
+    },
+    {
+      "x": 4460,
+      "y": 10523.25,
+      "width": 1769.63330078125,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 15.75,
+      "x2": 1769.63330078125,
+      "y2": 32.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "player makes room, which matters little in the moment, so a toast in the warning amber, self-dismissing, no action (the app sends it as one line: \"GUITAR's effects are off: they don't fit with the rest of the rig. Remove an effect to turn them on.\"). Turning the chain on is refused with the over-"
+    },
+    {
+      "x": 4460,
+      "y": 10539.25,
+      "width": 1285.38330078125,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 31.75,
+      "x2": 1285.38330078125,
+      "y2": 48.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "budget message until it fits. One notice per cause: while the effects-off banner stands (see 20 \/ effects off), the take's chains join the banner and no toast is shown. Takes started together are weighed together."
+    }
+  ]
+}

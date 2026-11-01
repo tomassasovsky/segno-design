@@ -2,36 +2,36 @@
   "id": "4fcfcc02-e737-4001-ac88-3b0facf2e847",
   "name": "PEDAL D edit text",
   "type": "text",
-  "x": 2056.813,
+  "x": 2056.75,
   "y": 10392,
-  "width": 49.859,
+  "width": 50,
   "height": 16,
   "rotation": 0,
   "selrect": {
-    "x": 2056.813,
+    "x": 2056.75,
     "y": 10392,
-    "width": 49.859,
+    "width": 50,
     "height": 16,
-    "x1": 2056.813,
+    "x1": 2056.75,
     "y1": 10392,
-    "x2": 2106.672,
+    "x2": 2106.75,
     "y2": 10408
   },
   "points": [
     {
-      "x": 2056.813,
+      "x": 2056.75,
       "y": 10392
     },
     {
-      "x": 2106.672,
+      "x": 2106.75,
       "y": 10392
     },
     {
-      "x": 2106.672,
+      "x": 2106.75,
       "y": 10408
     },
     {
-      "x": 2056.813,
+      "x": 2056.75,
       "y": 10408
     }
   ],
@@ -122,24 +122,30 @@
   },
   "positionData": [
     {
-      "y": 10408,
+      "x": 2056.75,
+      "y": 10408.25,
+      "width": 49.866668701171875,
+      "height": 16.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 49.866668701171875,
+      "y2": 16.25,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "13px",
       "fontWeight": "700",
-      "width": 49.859,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2056.813,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a06be0",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a59614",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 16,
+      "fontFamily": "\"Inter\"",
       "text": "ASSIGN"
     }
   ],

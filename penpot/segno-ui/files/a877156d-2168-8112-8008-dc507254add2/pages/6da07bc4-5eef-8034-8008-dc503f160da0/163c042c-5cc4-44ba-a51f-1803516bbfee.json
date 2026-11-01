@@ -2,36 +2,36 @@
   "id": "163c042c-5cc4-44ba-a51f-1803516bbfee",
   "name": "Start",
   "type": "text",
-  "x": 2604.281,
+  "x": 2604.203,
   "y": 3625,
-  "width": 33.828,
+  "width": 34,
   "height": 18,
   "rotation": 0,
   "selrect": {
-    "x": 2604.281,
+    "x": 2604.203,
     "y": 3625,
-    "width": 33.828,
+    "width": 34,
     "height": 18,
-    "x1": 2604.281,
+    "x1": 2604.203,
     "y1": 3625,
-    "x2": 2638.109,
+    "x2": 2638.203,
     "y2": 3643
   },
   "points": [
     {
-      "x": 2604.281,
+      "x": 2604.203,
       "y": 3625
     },
     {
-      "x": 2638.109,
+      "x": 2638.203,
       "y": 3625
     },
     {
-      "x": 2638.109,
+      "x": 2638.203,
       "y": 3643
     },
     {
-      "x": 2604.281,
+      "x": 2604.203,
       "y": 3643
     }
   ],
@@ -113,15 +113,20 @@
   "layoutItemVSizing": "auto",
   "positionData": [
     {
-      "y": 3643,
+      "x": 2604.203,
+      "y": 3643.5,
+      "width": 33.80000305175781,
+      "height": 19,
+      "x1": 0,
+      "y1": -0.5,
+      "x2": 33.80000305175781,
+      "y2": 18.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "15px",
       "fontWeight": "400",
-      "width": 33.828,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2604.281,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#f3f4f7",
@@ -129,8 +134,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 19,
+      "fontFamily": "\"Inter\"",
       "text": "Start"
     }
   ],

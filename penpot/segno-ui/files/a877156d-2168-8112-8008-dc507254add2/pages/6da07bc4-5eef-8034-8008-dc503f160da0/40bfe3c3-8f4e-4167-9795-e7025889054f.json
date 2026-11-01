@@ -2,36 +2,36 @@
   "id": "40bfe3c3-8f4e-4167-9795-e7025889054f",
   "name": "FX CHAIN",
   "type": "text",
-  "x": 5784.719,
+  "x": 5784.5,
   "y": 5558.5,
-  "width": 209.547,
+  "width": 210,
   "height": 49,
   "rotation": 0,
   "selrect": {
-    "x": 5784.719,
+    "x": 5784.5,
     "y": 5558.5,
-    "width": 209.547,
+    "width": 210,
     "height": 49,
-    "x1": 5784.719,
+    "x1": 5784.5,
     "y1": 5558.5,
-    "x2": 5994.266,
+    "x2": 5994.5,
     "y2": 5607.5
   },
   "points": [
     {
-      "x": 5784.719,
+      "x": 5784.5,
       "y": 5558.5
     },
     {
-      "x": 5994.266,
+      "x": 5994.5,
       "y": 5558.5
     },
     {
-      "x": 5994.266,
+      "x": 5994.5,
       "y": 5607.5
     },
     {
-      "x": 5784.719,
+      "x": 5784.5,
       "y": 5607.5
     }
   ],
@@ -121,24 +121,30 @@
   },
   "positionData": [
     {
+      "x": 5784.5,
       "y": 5607.5,
+      "width": 209.53334045410156,
+      "height": 49,
+      "x1": 0,
+      "y1": 0,
+      "x2": 209.53334045410156,
+      "y2": 49,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "40px",
       "fontWeight": "700",
-      "width": 209.547,
       "textDecoration": "none",
       "letterSpacing": "2px",
-      "x": 5784.719,
       "fills": [
         {
           "fillColor": "#f3f4f7",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a7f",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 49,
+      "fontFamily": "\"Inter\"",
       "text": "FX CHAIN"
     }
   ],

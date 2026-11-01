@@ -2,36 +2,36 @@
   "id": "b9634051-d72f-4074-a3be-469691c81f09",
   "name": "RHYTHM",
   "type": "text",
-  "x": 3359,
+  "x": 3358,
   "y": 4608,
-  "width": 440.5,
+  "width": 441.00000000000045,
   "height": 26,
   "rotation": 0,
   "selrect": {
-    "x": 3359,
+    "x": 3358,
     "y": 4608,
-    "width": 440.5,
+    "width": 441.00000000000045,
     "height": 26,
-    "x1": 3359,
+    "x1": 3358,
     "y1": 4608,
-    "x2": 3799.5,
+    "x2": 3799.0000000000005,
     "y2": 4634
   },
   "points": [
     {
-      "x": 3359,
+      "x": 3358,
       "y": 4608
     },
     {
-      "x": 3799.5,
+      "x": 3799.0000000000005,
       "y": 4608
     },
     {
-      "x": 3799.5,
+      "x": 3799.0000000000005,
       "y": 4634
     },
     {
-      "x": 3359,
+      "x": 3358,
       "y": 4634
     }
   ],
@@ -113,15 +113,20 @@
   "layoutItemVSizing": "auto",
   "positionData": [
     {
-      "y": 4636,
+      "x": 3519.3333282470703,
+      "y": 4637,
+      "width": 118.31666564941406,
+      "height": 32,
+      "x1": 161.3333282470703,
+      "y1": -3,
+      "x2": 279.6499938964844,
+      "y2": 29,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "26px",
       "fontWeight": "700",
-      "width": 118.297,
       "textDecoration": "none",
       "letterSpacing": "0.26px",
-      "x": 3520.094,
       "fills": [
         {
           "fillColor": "#ffffff",
@@ -129,8 +134,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 31,
+      "fontFamily": "\"Inter\"",
       "text": "RHYTHM"
     }
   ],

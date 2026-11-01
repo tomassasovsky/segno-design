@@ -2,36 +2,36 @@
   "id": "82b997a3-e4af-48b4-a0d7-3cf3956a6e3d",
   "name": "fx",
   "type": "text",
-  "x": 5640.891,
+  "x": 5640.5,
   "y": 7278.5,
-  "width": 35.203,
+  "width": 36,
   "height": 17,
   "rotation": 0,
   "selrect": {
-    "x": 5640.891,
+    "x": 5640.5,
     "y": 7278.5,
-    "width": 35.203,
+    "width": 36,
     "height": 17,
-    "x1": 5640.891,
+    "x1": 5640.5,
     "y1": 7278.5,
-    "x2": 5676.094,
+    "x2": 5676.5,
     "y2": 7295.5
   },
   "points": [
     {
-      "x": 5640.891,
+      "x": 5640.5,
       "y": 7278.5
     },
     {
-      "x": 5676.094,
+      "x": 5676.5,
       "y": 7278.5
     },
     {
-      "x": 5676.094,
+      "x": 5676.5,
       "y": 7295.5
     },
     {
-      "x": 5640.891,
+      "x": 5640.5,
       "y": 7295.5
     }
   ],
@@ -122,24 +122,30 @@
   },
   "positionData": [
     {
-      "y": 7295.5,
+      "x": 5640.5,
+      "y": 7295.75,
+      "width": 35.19999694824219,
+      "height": 17.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 35.19999694824219,
+      "y2": 17.25,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "13px",
       "fontWeight": "400",
-      "width": 35.203,
       "textDecoration": "none",
       "letterSpacing": "1px",
-      "x": 5640.891,
       "fills": [
         {
           "fillColor": "#a06be0",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a59614",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "JetBrains Mono",
-      "height": 17,
+      "fontFamily": "\"JetBrains Mono\"",
       "text": "GATE"
     }
   ],

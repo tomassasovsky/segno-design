@@ -1,0 +1,217 @@
+{
+  "id": "5c29d295-7f27-80d5-8008-dfc8919a9055",
+  "name": "c \/ effects-off",
+  "type": "text",
+  "x": 2380,
+  "y": 10491,
+  "width": 1800,
+  "height": 64,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 10491,
+    "width": 1800,
+    "height": 64,
+    "x1": 2380,
+    "y1": 10491,
+    "x2": 4180,
+    "y2": 10555
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 10491
+    },
+    {
+      "x": 4180,
+      "y": 10491
+    },
+    {
+      "x": 4180,
+      "y": 10555
+    },
+    {
+      "x": 2380,
+      "y": 10555
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5c29d295-7f27-80d5-8008-dfc8919a9052",
+  "frameId": "5c29d295-7f27-80d5-8008-dfc8919a9052",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Effects that do not fit come in switched off (#1515, owner's R1 and R2, 2026-10-31). When the rig comes up over the effects budget (a restore, a reopen, a session load, fewer effects workers than it was saved with), chains are switched off until the rest fits: chains the player already had off first, then the newest stage (lane chains, then track, All tracks, output and input chains). Every chain keeps its entries and its saved switch; nothing is deleted and the switch-off is never saved, so a rig with more room brings everything back. This banner names the chains that were on. It is a banner, not a toast, because the sound differs from what was saved until the player acts, and it uses the warning amber, not the record red: nothing is lost. It stands until every chain it names is back on, or Dismiss (the chains stay off). Turning one on is refused with the over-budget message until it fits. One notice per cause: a take whose copied chains do not fit while this banner stands joins it instead of a toast (see 21 \/ effects off take toast). It sits under the device-lost banner when both stand: two causes, two strips."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "positionData": [
+    {
+      "x": 2380,
+      "y": 10507.25,
+      "width": 1772.9000244140625,
+      "height": 16.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 1772.9000244140625,
+      "y2": 16.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "Effects that do not fit come in switched off (#1515, owner's R1 and R2, 2026-10-31). When the rig comes up over the effects budget (a restore, a reopen, a session load, fewer effects workers than it was saved with), chains are switched off until the rest fits: chains the player already had off "
+    },
+    {
+      "x": 2380,
+      "y": 10523.25,
+      "width": 1784.86669921875,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 15.75,
+      "x2": 1784.86669921875,
+      "y2": 32.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "first, then the newest stage (lane chains, then track, All tracks, output and input chains). Every chain keeps its entries and its saved switch; nothing is deleted and the switch-off is never saved, so a rig with more room brings everything back. This banner names the chains that were on. It is a "
+    },
+    {
+      "x": 2380,
+      "y": 10539.25,
+      "width": 1787.0999755859375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 31.75,
+      "x2": 1787.0999755859375,
+      "y2": 48.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "banner, not a toast, because the sound differs from what was saved until the player acts, and it uses the warning amber, not the record red: nothing is lost. It stands until every chain it names is back on, or Dismiss (the chains stay off). Turning one on is refused with the over-budget message "
+    },
+    {
+      "x": 2380,
+      "y": 10555.25,
+      "width": 1409.4000244140625,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 47.75,
+      "x2": 1409.4000244140625,
+      "y2": 64.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "until it fits. One notice per cause: a take whose copied chains do not fit while this banner stands joins it instead of a toast (see 21 \/ effects off take toast). It sits under the device-lost banner when both stand: two causes, two strips."
+    }
+  ]
+}

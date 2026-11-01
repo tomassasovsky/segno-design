@@ -2,37 +2,37 @@
   "id": "0c5e8e2d-a16b-43ad-aca6-521da8aac6fd",
   "name": "Save",
   "type": "text",
-  "x": 6152.859,
-  "y": 3049.969,
-  "width": 40.266,
-  "height": 20.047,
+  "x": 6152.5,
+  "y": 3049.5,
+  "width": 41,
+  "height": 21,
   "rotation": 0,
   "selrect": {
-    "x": 6152.859,
-    "y": 3049.969,
-    "width": 40.266,
-    "height": 20.047,
-    "x1": 6152.859,
-    "y1": 3049.969,
-    "x2": 6193.125,
-    "y2": 3070.016
+    "x": 6152.5,
+    "y": 3049.5,
+    "width": 41,
+    "height": 21,
+    "x1": 6152.5,
+    "y1": 3049.5,
+    "x2": 6193.5,
+    "y2": 3070.5
   },
   "points": [
     {
-      "x": 6152.859,
-      "y": 3049.969
+      "x": 6152.5,
+      "y": 3049.5
     },
     {
-      "x": 6193.125,
-      "y": 3049.969
+      "x": 6193.5,
+      "y": 3049.5
     },
     {
-      "x": 6193.125,
-      "y": 3070.016
+      "x": 6193.5,
+      "y": 3070.5
     },
     {
-      "x": 6152.859,
-      "y": 3070.016
+      "x": 6152.5,
+      "y": 3070.5
     }
   ],
   "transform": {
@@ -113,15 +113,20 @@
   "layoutItemVSizing": "auto",
   "positionData": [
     {
-      "y": 3069.969,
+      "x": 6152.5,
+      "y": 3070.0333404541016,
+      "width": 40.25,
+      "height": 21,
+      "x1": 0,
+      "y1": -0.4666595458984375,
+      "x2": 40.25,
+      "y2": 20.533340454101562,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "17px",
       "fontWeight": "600",
-      "width": 40.266,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 6152.859,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#ffffff",
@@ -129,8 +134,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 20,
+      "fontFamily": "\"Inter\"",
       "text": "Save"
     }
   ],

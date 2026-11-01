@@ -2,36 +2,36 @@
   "id": "9369d480-65d6-4317-b349-3bb9e1ffd3d1",
   "name": "No chain",
   "type": "text",
-  "x": 3981.344,
+  "x": 3980.5000000000005,
   "y": 2483.5,
-  "width": 149.297,
+  "width": 149.99999999999955,
   "height": 34,
   "rotation": 0,
   "selrect": {
-    "x": 3981.344,
+    "x": 3980.5000000000005,
     "y": 2483.5,
-    "width": 149.297,
+    "width": 149.99999999999955,
     "height": 34,
-    "x1": 3981.344,
+    "x1": 3980.5000000000005,
     "y1": 2483.5,
-    "x2": 4130.641,
+    "x2": 4130.5,
     "y2": 2517.5
   },
   "points": [
     {
-      "x": 3981.344,
+      "x": 3980.5,
       "y": 2483.5
     },
     {
-      "x": 4130.641,
+      "x": 4130.5,
       "y": 2483.5
     },
     {
-      "x": 4130.641,
+      "x": 4130.5,
       "y": 2517.5
     },
     {
-      "x": 3981.344,
+      "x": 3980.5,
       "y": 2517.5
     }
   ],
@@ -121,24 +121,30 @@
   },
   "positionData": [
     {
-      "y": 2517.5,
+      "x": 3980.5000000000005,
+      "y": 2517.75,
+      "width": 149.3000030517578,
+      "height": 34.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 149.3000030517578,
+      "y2": 34.25,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "700",
-      "width": 149.297,
       "textDecoration": "none",
       "letterSpacing": "1px",
-      "x": 3981.344,
       "fills": [
         {
           "fillColor": "#6b6b73",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a82",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 34,
+      "fontFamily": "\"Inter\"",
       "text": "NO CHAIN"
     }
   ],

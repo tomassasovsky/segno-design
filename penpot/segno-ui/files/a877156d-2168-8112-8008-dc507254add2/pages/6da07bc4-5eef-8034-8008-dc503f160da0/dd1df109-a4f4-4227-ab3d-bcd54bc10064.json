@@ -2,36 +2,36 @@
   "id": "dd1df109-a4f4-4227-ab3d-bcd54bc10064",
   "name": "BASS",
   "type": "text",
-  "x": 4962.5,
+  "x": 4961,
   "y": 9067,
-  "width": 440.5,
+  "width": 441.0000000000009,
   "height": 26,
   "rotation": 0,
   "selrect": {
-    "x": 4962.5,
+    "x": 4961,
     "y": 9067,
-    "width": 440.5,
+    "width": 441.0000000000009,
     "height": 26,
-    "x1": 4962.5,
+    "x1": 4961,
     "y1": 9067,
-    "x2": 5403,
+    "x2": 5402.000000000001,
     "y2": 9093
   },
   "points": [
     {
-      "x": 4962.5,
+      "x": 4961,
       "y": 9067
     },
     {
-      "x": 5403,
+      "x": 5402.000000000001,
       "y": 9067
     },
     {
-      "x": 5403,
+      "x": 5402.000000000001,
       "y": 9093
     },
     {
-      "x": 4962.5,
+      "x": 4961,
       "y": 9093
     }
   ],
@@ -113,15 +113,20 @@
   "layoutItemVSizing": "auto",
   "positionData": [
     {
-      "y": 9095,
+      "x": 5145.83332824707,
+      "y": 9096,
+      "width": 71.31666564941406,
+      "height": 32,
+      "x1": 184.8333282470703,
+      "y1": -3,
+      "x2": 256.1499938964844,
+      "y2": 29,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "26px",
       "fontWeight": "700",
-      "width": 71.313,
       "textDecoration": "none",
       "letterSpacing": "0.26px",
-      "x": 5147.094,
       "fills": [
         {
           "fillColor": "#ffffff",
@@ -129,8 +134,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 31,
+      "fontFamily": "\"Inter\"",
       "text": "BASS"
     }
   ],

@@ -2,36 +2,36 @@
   "id": "fea816b4-bfa4-434d-a42d-aa676ca76abf",
   "name": "Rec label",
   "type": "text",
-  "x": 1964.344,
+  "x": 1964.108999999999,
   "y": 3752.5,
-  "width": 89.766,
+  "width": 90,
   "height": 49,
   "rotation": 0,
   "selrect": {
-    "x": 1964.344,
+    "x": 1964.108999999999,
     "y": 3752.5,
-    "width": 89.766,
+    "width": 90,
     "height": 49,
-    "x1": 1964.344,
+    "x1": 1964.108999999999,
     "y1": 3752.5,
-    "x2": 2054.11,
+    "x2": 2054.108999999999,
     "y2": 3801.5
   },
   "points": [
     {
-      "x": 1964.344,
+      "x": 1964.108999999999,
       "y": 3752.5
     },
     {
-      "x": 2054.11,
+      "x": 2054.108999999999,
       "y": 3752.5
     },
     {
-      "x": 2054.11,
+      "x": 2054.108999999999,
       "y": 3801.5
     },
     {
-      "x": 1964.344,
+      "x": 1964.108999999999,
       "y": 3801.5
     }
   ],
@@ -121,24 +121,30 @@
   },
   "positionData": [
     {
+      "x": 1964.108999999999,
       "y": 3801.5,
+      "width": 89.75,
+      "height": 49,
+      "x1": 0,
+      "y1": 0,
+      "x2": 89.75,
+      "y2": 49,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "40px",
       "fontWeight": "700",
-      "width": 89.766,
       "textDecoration": "none",
       "letterSpacing": "3.2px",
-      "x": 1964.344,
       "fills": [
         {
           "fillColor": "#ef4444",
-          "fillOpacity": 1
+          "fillOpacity": 1,
+          "fillColorRefId": "6da07bc4-5eef-8034-8008-dc5037a55a99",
+          "fillColorRefFile": "a877156d-2168-8112-8008-dc507254add2"
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 49,
+      "fontFamily": "\"Inter\"",
       "text": "REC"
     }
   ],
