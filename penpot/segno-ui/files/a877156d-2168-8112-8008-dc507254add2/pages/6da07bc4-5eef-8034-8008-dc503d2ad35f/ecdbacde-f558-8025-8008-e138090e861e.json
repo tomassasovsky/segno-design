@@ -1,0 +1,501 @@
+{
+  "id": "ecdbacde-f558-8025-8008-e138090e861e",
+  "name": "c \/ Fit \u00b7 stage counts, legend face and view menu (#1524)",
+  "type": "text",
+  "x": 4460,
+  "y": 52904,
+  "width": 1840,
+  "height": 392,
+  "rotation": 0,
+  "selrect": {
+    "x": 4460,
+    "y": 52904,
+    "width": 1840,
+    "height": 392,
+    "x1": 4460,
+    "y1": 52904,
+    "x2": 6300,
+    "y2": 53296
+  },
+  "points": [
+    {
+      "x": 4460,
+      "y": 52904
+    },
+    {
+      "x": 6300,
+      "y": 52904
+    },
+    {
+      "x": 6300,
+      "y": 53296
+    },
+    {
+      "x": 4460,
+      "y": 53296
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1e2f37ef-8710-404f-b470-50c4a53f3d26",
+  "frameId": "1e2f37ef-8710-404f-b470-50c4a53f3d26",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "c\/ Fit \u00b7 stage counts, legend face and view menu (#1524)"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Every count shows in full at 1920 x 1080, in English and in Spanish. A figure keeps its own width and its unit takes the rest of the slot; the two never split a slot in halves, which cut \"0 layers\" to \"0 laye...\". The Track meta row is number 30, bar count 3 parts, layer count 2 parts, REV and FX 82, 8 apart: in the 230 left that fits \"128 compases\" (134.5) and \"12 capas\" (84.6). FX keeps its width and REV takes the rest of the markers. The Mixer's pan word is 68 wide, enough for \"Paneo\"."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "The stage's legend face is Arimo, bundled with the app. The appliance image carries no system fonts, so Helvetica, Arial or sans-serif drew nothing on the console: the view menu's Track, Wave and Mixer rows and the Mixer's Backing & click. The view menu, like every pick-one menu (#1275), names the UI face (Inter)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Wave rows number every bar while the numbers fit. When bars are narrower than a number, only every 2nd, 4th, 8th... bar is numbered, so numbers never touch or run past the end of the ruler."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f",
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 4460,
+      "y": 52939.350006103516,
+      "width": 704.933349609375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 3.850006103515625,
+      "x2": 704.933349609375,
+      "y2": 35.350006103515625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "c\/ Fit \u00b7 stage counts, legend face and view menu (#1524)"
+    },
+    {
+      "x": 4460,
+      "y": 52978.55000305176,
+      "width": 1833.2833251953125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 43.05000305175781,
+      "x2": 1833.2833251953125,
+      "y2": 74.55000305175781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "Every count shows in full at 1920 x 1080, in English and in Spanish. A figure keeps its own width and its unit takes the rest of the slot; the two never "
+    },
+    {
+      "x": 4460,
+      "y": 53017.75,
+      "width": 1811.0999755859375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 82.25,
+      "x2": 1811.0999755859375,
+      "y2": 113.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "split a slot in halves, which cut \"0 layers\" to \"0 laye...\". The Track meta row is number 30, bar count 3 parts, layer count 2 parts, REV and FX 82, 8 "
+    },
+    {
+      "x": 4460,
+      "y": 53056.94999694824,
+      "width": 1820.63330078125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 121.44999694824219,
+      "x2": 1820.63330078125,
+      "y2": 152.9499969482422,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "apart: in the 230 left that fits \"128 compases\" (134.5) and \"12 capas\" (84.6). FX keeps its width and REV takes the rest of the markers. The Mixer's "
+    },
+    {
+      "x": 4460,
+      "y": 53096.149993896484,
+      "width": 513.2166748046875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 160.64999389648438,
+      "x2": 513.2166748046875,
+      "y2": 192.14999389648438,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "pan word is 68 wide, enough for \"Paneo\"."
+    },
+    {
+      "x": 4460,
+      "y": 53135.350006103516,
+      "width": 1827.5,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 199.85000610351562,
+      "x2": 1827.5,
+      "y2": 231.35000610351562,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "The stage's legend face is Arimo, bundled with the app. The appliance image carries no system fonts, so Helvetica, Arial or sans-serif drew nothing "
+    },
+    {
+      "x": 4460,
+      "y": 53174.55000305176,
+      "width": 1801.0833740234375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 239.0500030517578,
+      "x2": 1801.0833740234375,
+      "y2": 270.5500030517578,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "on the console: the view menu's Track, Wave and Mixer rows and the Mixer's Backing & click. The view menu, like every pick-one menu (#1275), "
+    },
+    {
+      "x": 4460,
+      "y": 53213.75,
+      "width": 317.41668701171875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 278.25,
+      "x2": 317.41668701171875,
+      "y2": 309.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "names the UI face (Inter)."
+    },
+    {
+      "x": 4460,
+      "y": 53252.95001220703,
+      "width": 1726.13330078125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 317.45001220703125,
+      "x2": 1726.13330078125,
+      "y2": 348.95001220703125,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "Wave rows number every bar while the numbers fit. When bars are narrower than a number, only every 2nd, 4th, 8th... bar is numbered, so "
+    },
+    {
+      "x": 4460,
+      "y": 53292.149993896484,
+      "width": 653.5999755859375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 356.6499938964844,
+      "x2": 653.5999755859375,
+      "y2": 388.1499938964844,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "numbers never touch or run past the end of the ruler."
+    }
+  ]
+}
