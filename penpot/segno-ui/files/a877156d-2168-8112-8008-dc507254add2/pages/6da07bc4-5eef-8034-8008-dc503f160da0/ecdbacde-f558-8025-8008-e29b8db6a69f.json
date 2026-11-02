@@ -1,0 +1,217 @@
+{
+  "id": "ecdbacde-f558-8025-8008-e29b8db6a69f",
+  "name": "c \/ audio-starting",
+  "type": "text",
+  "x": 300,
+  "y": 11932,
+  "width": 1800,
+  "height": 64,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 11932,
+    "width": 1800,
+    "height": 64,
+    "x1": 300,
+    "y1": 11932,
+    "x2": 2100,
+    "y2": 11996
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 11932
+    },
+    {
+      "x": 2100,
+      "y": 11932
+    },
+    {
+      "x": 2100,
+      "y": 11996
+    },
+    {
+      "x": 300,
+      "y": 11996
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ecdbacde-f558-8025-8008-e29b8db6a69a",
+  "frameId": "ecdbacde-f558-8025-8008-e29b8db6a69a",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Audio is starting (#1533, owner's direction 2026-11-02). Every start the console makes on its own (the boot auto-start, the recovery after the interface comes back, a reconnect) first opens the device in a warm-up: the player's sample rate with a 512-frame buffer, outputs silent and monitoring off. It switches to the player's own buffer once the console has run 3 s with no late periods, gaps or xruns, or after 20 s at most. While the warm-up runs, this strip stands where the engine-stopped banner sits, under the top bar: $bg-surface fill, radius 10, an hourglass and \"Audio is starting\u2026\". It has no action because it ends on its own, and the device-lost banner replaces it when both apply. While it shows, nothing is heard and the transport is closed: record, play, clear, clear all, undo, redo, peel and edit length do nothing visible and the contact does not light; the cable test and performance takes are refused. If the device refuses the player's settings, the 512 setting runs and is heard, and the audio-refused banner explains it. The 7\u2033 readout does not echo this strip yet."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "positionData": [
+    {
+      "x": 300,
+      "y": 11948.25,
+      "width": 1795.2666015625,
+      "height": 16.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 1795.2666015625,
+      "y2": 16.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "Audio is starting (#1533, owner's direction 2026-11-02). Every start the console makes on its own (the boot auto-start, the recovery after the interface comes back, a reconnect) first opens the device in a warm-up: the player's sample rate with a 512-frame buffer, outputs silent and monitoring "
+    },
+    {
+      "x": 300,
+      "y": 11964.25,
+      "width": 1798.8333740234375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 15.75,
+      "x2": 1798.8333740234375,
+      "y2": 32.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "off. It switches to the player's own buffer once the console has run 3 s with no late periods, gaps or xruns, or after 20 s at most. While the warm-up runs, this strip stands where the engine-stopped banner sits, under the top bar: $bg-surface fill, radius 10, an hourglass and \"Audio is starting\u2026\". "
+    },
+    {
+      "x": 300,
+      "y": 11980.25,
+      "width": 1771.63330078125,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 31.75,
+      "x2": 1771.63330078125,
+      "y2": 48.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "It has no action because it ends on its own, and the device-lost banner replaces it when both apply. While it shows, nothing is heard and the transport is closed: record, play, clear, clear all, undo, redo, peel and edit length do nothing visible and the contact does not light; the cable test and "
+    },
+    {
+      "x": 300,
+      "y": 11996.25,
+      "width": 1186.88330078125,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 47.75,
+      "x2": 1186.88330078125,
+      "y2": 64.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "performance takes are refused. If the device refuses the player's settings, the 512 setting runs and is heard, and the audio-refused banner explains it. The 7\u2033 readout does not echo this strip yet."
+    }
+  ]
+}
