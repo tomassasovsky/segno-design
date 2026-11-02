@@ -1,0 +1,143 @@
+{
+  "id": "ecdbacde-f558-8025-8008-e289c1c3ca33",
+  "name": "Screen label \/ Pedals \/ LED pill \u00b7 clear-track hold",
+  "type": "text",
+  "x": 10980,
+  "y": 15882,
+  "width": 570,
+  "height": 39,
+  "rotation": 0,
+  "selrect": {
+    "x": 10980,
+    "y": 15882,
+    "width": 570,
+    "height": 39,
+    "x1": 10980,
+    "y1": 15882,
+    "x2": 11550,
+    "y2": 15921
+  },
+  "points": [
+    {
+      "x": 10980,
+      "y": 15882
+    },
+    {
+      "x": 11550,
+      "y": 15882
+    },
+    {
+      "x": 11550,
+      "y": 15921
+    },
+    {
+      "x": 10980,
+      "y": 15921
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ecdbacde-f558-8025-8008-e289c16f87e5",
+  "frameId": "ecdbacde-f558-8025-8008-e289c16f87e5",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "32",
+                "fontWeight": "700",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c9ced9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "05  Pedals \/ LED pill \u00b7 clear-track hold"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "32",
+            "fontWeight": "700",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c9ced9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 10980,
+      "y": 15919.199996948242,
+      "width": 569.0166625976562,
+      "height": 36,
+      "x1": 0,
+      "y1": 1.1999969482421875,
+      "x2": 569.0166625976562,
+      "y2": 37.19999694824219,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#c9ced9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "05  Pedals \/ LED pill \u00b7 clear-track hold"
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038a79611"
+}

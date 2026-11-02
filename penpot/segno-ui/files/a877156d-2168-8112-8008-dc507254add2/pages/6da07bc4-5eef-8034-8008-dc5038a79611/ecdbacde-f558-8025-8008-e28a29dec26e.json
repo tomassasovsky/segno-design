@@ -1,0 +1,287 @@
+{
+  "id": "ecdbacde-f558-8025-8008-e28a29dec26e",
+  "name": "c \/ Clear-track hold fill \u00b7 #1534",
+  "type": "text",
+  "x": 8900,
+  "y": 16280,
+  "width": 1840,
+  "height": 144,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 16280,
+    "width": 1840,
+    "height": 144,
+    "x1": 8900,
+    "y1": 16280,
+    "x2": 10740,
+    "y2": 16424
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 16280
+    },
+    {
+      "x": 10740,
+      "y": 16280
+    },
+    {
+      "x": 10740,
+      "y": 16424
+    },
+    {
+      "x": 8900,
+      "y": 16424
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "72bdd679-3afe-4c43-a3fc-144e3f0489f1",
+  "frameId": "72bdd679-3afe-4c43-a3fc-144e3f0489f1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "c\/ Clear-track hold fill (#1534)"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "A hold that clears a track fills the held pedal's LED pill: red grows from both ends toward the centre over the long-press time (800 ms by default), and the track clears when the ends meet. Releasing early, a mode change or a lost link ends the fill at once and the pill shows its normal state; after the clear it shows the empty-track state. The app streams the progress every 20 ms in the optional CLEAR_HOLD message (console firmware 2.6, protocol still 12, so older firmware shows no fill and nothing wrong). No screen mirrors the LED pill: Tracks draws no pedals, and the Custom face's Pending Hold bar already times the same hold."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 8900,
+      "y": 16308.149993896484,
+      "width": 313.51666259765625,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 0.649993896484375,
+      "x2": 313.51666259765625,
+      "y2": 28.149993896484375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "c\/ Clear-track hold fill (#1534)"
+    },
+    {
+      "x": 8900,
+      "y": 16336.949996948242,
+      "width": 1816.38330078125,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 29.449996948242188,
+      "x2": 1816.38330078125,
+      "y2": 56.94999694824219,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "A hold that clears a track fills the held pedal's LED pill: red grows from both ends toward the centre over the long-press time (800 ms by default), and the track clears when "
+    },
+    {
+      "x": 8900,
+      "y": 16365.75,
+      "width": 1815.36669921875,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 58.25,
+      "x2": 1815.36669921875,
+      "y2": 85.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "the ends meet. Releasing early, a mode change or a lost link ends the fill at once and the pill shows its normal state; after the clear it shows the empty-track state. The app "
+    },
+    {
+      "x": 8900,
+      "y": 16394.550003051758,
+      "width": 1797.050048828125,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 87.05000305175781,
+      "x2": 1797.050048828125,
+      "y2": 114.55000305175781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "streams the progress every 20 ms in the optional CLEAR_HOLD message (console firmware 2.6, protocol still 12, so older firmware shows no fill and nothing wrong). No "
+    },
+    {
+      "x": 8900,
+      "y": 16423.350006103516,
+      "width": 1305.800048828125,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 115.85000610351562,
+      "x2": 1305.800048828125,
+      "y2": 143.35000610351562,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "screen mirrors the LED pill: Tracks draws no pedals, and the Custom face's Pending Hold bar already times the same hold."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038a79611"
+}
