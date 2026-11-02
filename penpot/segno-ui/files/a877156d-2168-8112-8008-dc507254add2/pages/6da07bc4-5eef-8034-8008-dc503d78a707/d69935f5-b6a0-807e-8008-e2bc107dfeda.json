@@ -1,0 +1,244 @@
+{
+  "id": "d69935f5-b6a0-807e-8008-e2bc107dfeda",
+  "name": "c \/ automatic-measurement",
+  "type": "text",
+  "x": 8900,
+  "y": 58432,
+  "width": 1920,
+  "height": 205,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 58432,
+    "width": 1920,
+    "height": 205,
+    "x1": 8900,
+    "y1": 58432,
+    "x2": 10820,
+    "y2": 58637
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 58432
+    },
+    {
+      "x": 10820,
+      "y": 58432
+    },
+    {
+      "x": 10820,
+      "y": 58637
+    },
+    {
+      "x": 8900,
+      "y": 58637
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "02273779-aa99-4242-9016-9fb75d9cc496",
+  "frameId": "02273779-aa99-4242-9016-9fb75d9cc496",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1389",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1389",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "36",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a4adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "c \/ automatic-measurement (#1541): no dialog. When an open owes a record offset that was never saved for its device, rate and buffer (the warm-up switch at start, a start that needs no warm-up, an Apply here) and the interface has a loopback channel, the console measures it through the loopback while every output is still silent: a 10 ms, -80 dBFS burst on output 1, twice, saved when both agree. The row reads Measuring\u2026 meanwhile. If it fails, nothing is saved, the offset is 0, and the row says so (this card). A saved offset, including a cable result, is never measured over."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "36",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a4adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d78a707",
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 8900,
+      "y": 58473,
+      "width": 1906,
+      "height": 41,
+      "x1": 0,
+      "y1": 0,
+      "x2": 1906,
+      "y2": 41,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a4adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "c \/ automatic-measurement (#1541): no dialog. When an open owes a record offset that was never saved for its device, "
+    },
+    {
+      "x": 8900,
+      "y": 58514,
+      "width": 1823.933349609375,
+      "height": 41,
+      "x1": 0,
+      "y1": 41,
+      "x2": 1823.933349609375,
+      "y2": 82,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a4adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "rate and buffer (the warm-up switch at start, a start that needs no warm-up, an Apply here) and the interface has a "
+    },
+    {
+      "x": 8900,
+      "y": 58555,
+      "width": 1848.7166748046875,
+      "height": 41,
+      "x1": 0,
+      "y1": 82,
+      "x2": 1848.7166748046875,
+      "y2": 123,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a4adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "loopback channel, the console measures it through the loopback while every output is still silent: a 10 ms, -80 dBFS "
+    },
+    {
+      "x": 8900,
+      "y": 58596,
+      "width": 1914.699951171875,
+      "height": 41,
+      "x1": 0,
+      "y1": 123,
+      "x2": 1914.699951171875,
+      "y2": 164,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a4adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "burst on output 1, twice, saved when both agree. The row reads Measuring\u2026 meanwhile. If it fails, nothing is saved, the "
+    },
+    {
+      "x": 8900,
+      "y": 58637,
+      "width": 1701.25,
+      "height": 41,
+      "x1": 0,
+      "y1": 164,
+      "x2": 1701.25,
+      "y2": 205,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a4adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "offset is 0, and the row says so (this card). A saved offset, including a cable result, is never measured over."
+    }
+  ]
+}

@@ -1,20 +1,20 @@
 {
   "id": "65949cf2-12a6-479b-a68c-cbe4268d2b26",
-  "name": "Measure to align new recordings.",
+  "name": "Loopback measurement failed. Measure with a cable.",
   "type": "text",
-  "x": 9939.547,
+  "x": 9939.547000000002,
   "y": 56541.5,
-  "width": 324.063,
+  "width": 521.0000000000018,
   "height": 22,
   "rotation": 0,
   "selrect": {
-    "x": 9939.547,
+    "x": 9939.547000000002,
     "y": 56541.5,
-    "width": 324.063,
+    "width": 521.0000000000018,
     "height": 22,
-    "x1": 9939.547,
+    "x1": 9939.547000000002,
     "y1": 56541.5,
-    "x2": 10263.61,
+    "x2": 10460.547000000004,
     "y2": 56563.5
   },
   "points": [
@@ -23,11 +23,11 @@
       "y": 56541.5
     },
     {
-      "x": 10263.61,
+      "x": 10460.547000000002,
       "y": 56541.5
     },
     {
-      "x": 10263.61,
+      "x": 10460.547000000002,
       "y": 56563.5
     },
     {
@@ -58,7 +58,6 @@
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "22",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Measure to align new recordings."
+                "text": "Loopback measurement failed. Measure with a cable."
               }
             ],
             "textTransform": "none",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "22",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,20 +108,26 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc503d78a707",
   "positionData": [
     {
-      "y": 56564.5,
+      "x": 9939.547000000002,
+      "y": 56565,
+      "width": 520.9666748046875,
+      "height": 25,
+      "x1": 0,
+      "y1": -1.5,
+      "x2": 520.9666748046875,
+      "y2": 23.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "22px",
       "fontWeight": "400",
-      "width": 324.063,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 9939.547,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#aab2c0",
@@ -128,8 +136,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 25,
-      "text": "Measure to align new recordings."
+      "text": "Loopback measurement failed. Measure with a cable."
     }
   ]
 }
