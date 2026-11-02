@@ -1,0 +1,168 @@
+{
+  "id": "ecdbacde-f558-8025-8008-e289c278c16b",
+  "name": "Lede",
+  "type": "text",
+  "x": 11080,
+  "y": 16104,
+  "width": 1720,
+  "height": 58,
+  "rotation": 0,
+  "selrect": {
+    "x": 11080,
+    "y": 16104,
+    "width": 1720,
+    "height": 58,
+    "x1": 11080,
+    "y1": 16104,
+    "x2": 12800,
+    "y2": 16162
+  },
+  "points": [
+    {
+      "x": 11080,
+      "y": 16104
+    },
+    {
+      "x": 12800,
+      "y": 16104
+    },
+    {
+      "x": 12800,
+      "y": 16162
+    },
+    {
+      "x": 11080,
+      "y": 16162
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ecdbacde-f558-8025-8008-e289c209d956",
+  "frameId": "ecdbacde-f558-8025-8008-e289c209d956",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Track Hold = Clear track (Tracks), or a Custom pedal whose Hold is Clear or Clear all. Red grows from both ends of the held pedal's pill toward the centre over the long-press time; the track clears when the ends meet."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 11080,
+      "y": 16132.149993896484,
+      "width": 1688.433349609375,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 0.649993896484375,
+      "x2": 1688.433349609375,
+      "y2": 28.149993896484375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "Track Hold = Clear track (Tracks), or a Custom pedal whose Hold is Clear or Clear all. Red grows from both ends of the held pedal's pill toward the centre over "
+    },
+    {
+      "x": 11080,
+      "y": 16160.949996948242,
+      "width": 609.7166748046875,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 29.449996948242188,
+      "x2": 609.7166748046875,
+      "y2": 56.94999694824219,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "the long-press time; the track clears when the ends meet."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038a79611"
+}
