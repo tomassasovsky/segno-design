@@ -2,37 +2,37 @@
   "id": "77fc3e1e-0990-48b1-818c-e76eead281d2",
   "name": "S\/STAGE",
   "type": "text",
-  "x": 300,
-  "y": 10732,
-  "width": 603.25,
+  "x": 299.99999999999994,
+  "y": 12173,
+  "width": 604,
   "height": 26,
   "rotation": 0,
   "selrect": {
-    "x": 300,
-    "y": 10732,
-    "width": 603.25,
+    "x": 299.99999999999994,
+    "y": 12173,
+    "width": 604,
     "height": 26,
-    "x1": 300,
-    "y1": 10732,
-    "x2": 903.25,
-    "y2": 10758
+    "x1": 299.99999999999994,
+    "y1": 12173,
+    "x2": 904,
+    "y2": 12199
   },
   "points": [
     {
       "x": 300,
-      "y": 10732
+      "y": 12173
     },
     {
-      "x": 903.25,
-      "y": 10732
+      "x": 904.0000000000001,
+      "y": 12173
     },
     {
-      "x": 903.25,
-      "y": 10758
+      "x": 904.0000000000001,
+      "y": 12199
     },
     {
       "x": 300,
-      "y": 10758
+      "y": 12199
     }
   ],
   "transform": {
@@ -111,15 +111,20 @@
   "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
   "positionData": [
     {
-      "y": 10758,
+      "x": 299.99999999999994,
+      "y": 12199.5,
+      "width": 603.316650390625,
+      "height": 27,
+      "x1": 0,
+      "y1": -0.5,
+      "x2": 603.316650390625,
+      "y2": 26.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "22px",
       "fontWeight": "400",
-      "width": 603.25,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 300,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#9ea3b0",
@@ -127,8 +132,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 26,
+      "fontFamily": "\"Inter\"",
       "text": "the performance surface, and the second screen beside it"
     }
   ]

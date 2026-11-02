@@ -3,36 +3,36 @@
   "name": "H\/STAGE",
   "type": "text",
   "x": 300,
-  "y": 10645,
-  "width": 169.469,
+  "y": 12086,
+  "width": 170,
   "height": 63,
   "rotation": 0,
   "selrect": {
     "x": 300,
-    "y": 10645,
-    "width": 169.469,
+    "y": 12086,
+    "width": 170,
     "height": 63,
     "x1": 300,
-    "y1": 10645,
-    "x2": 469.469,
-    "y2": 10708
+    "y1": 12086,
+    "x2": 470,
+    "y2": 12149
   },
   "points": [
     {
       "x": 300,
-      "y": 10645
+      "y": 12086
     },
     {
-      "x": 469.469,
-      "y": 10645
+      "x": 470,
+      "y": 12086
     },
     {
-      "x": 469.469,
-      "y": 10708
+      "x": 470,
+      "y": 12149
     },
     {
       "x": 300,
-      "y": 10708
+      "y": 12149
     }
   ],
   "transform": {
@@ -111,15 +111,20 @@
   "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
   "positionData": [
     {
-      "y": 10708,
+      "x": 300,
+      "y": 12149.25,
+      "width": 169.46665954589844,
+      "height": 63.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 169.46665954589844,
+      "y2": 63.25,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "52px",
       "fontWeight": "600",
-      "width": 169.469,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 300,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#ffffff",
@@ -127,8 +132,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "Inter",
-      "height": 63,
+      "fontFamily": "\"Inter\"",
       "text": "STAGE"
     }
   ]

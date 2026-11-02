@@ -1,0 +1,142 @@
+{
+  "id": "ecdbacde-f558-8025-8008-e29b8db6a6ab",
+  "name": "RHYTHM",
+  "type": "text",
+  "x": 1278,
+  "y": 11777,
+  "width": 441.00000000000045,
+  "height": 26,
+  "rotation": 0,
+  "selrect": {
+    "x": 1278,
+    "y": 11777,
+    "width": 441.00000000000045,
+    "height": 26,
+    "x1": 1278,
+    "y1": 11777,
+    "x2": 1719.0000000000005,
+    "y2": 11803
+  },
+  "points": [
+    {
+      "x": 1278,
+      "y": 11777
+    },
+    {
+      "x": 1719.0000000000005,
+      "y": 11777
+    },
+    {
+      "x": 1719.0000000000005,
+      "y": 11803
+    },
+    {
+      "x": 1278,
+      "y": 11803
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "ecdbacde-f558-8025-8008-e29b8db6a6a6",
+  "frameId": "ecdbacde-f558-8025-8008-e29b8db6a6a6",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "26",
+                "fontWeight": "700",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0.26",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "RHYTHM"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "26",
+            "fontWeight": "700",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0.26",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "layoutItemHSizing": "fill",
+  "pageId": "6da07bc4-5eef-8034-8008-dc503f160da0",
+  "layoutItemVSizing": "auto",
+  "positionData": [
+    {
+      "x": 1439.3333282470703,
+      "y": 11806,
+      "width": 118.31666564941406,
+      "height": 32,
+      "x1": 161.3333282470703,
+      "y1": -3,
+      "x2": 279.6499938964844,
+      "y2": 29,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "26px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "0.26px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Inter\"",
+      "text": "RHYTHM"
+    }
+  ],
+  "layoutItemZIndex": 3
+}
