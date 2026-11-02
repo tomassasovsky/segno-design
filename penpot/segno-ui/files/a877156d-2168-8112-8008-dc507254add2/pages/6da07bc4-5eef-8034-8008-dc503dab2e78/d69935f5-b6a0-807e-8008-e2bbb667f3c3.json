@@ -1,0 +1,168 @@
+{
+  "id": "d69935f5-b6a0-807e-8008-e2bbb667f3c3",
+  "name": "c \/ power-save-failed",
+  "type": "text",
+  "x": 6820,
+  "y": 68296,
+  "width": 1800,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 68296,
+    "width": 1800,
+    "height": 37,
+    "x1": 6820,
+    "y1": 68296,
+    "x2": 8620,
+    "y2": 68333
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 68296
+    },
+    {
+      "x": 8620,
+      "y": 68296
+    },
+    {
+      "x": 8620,
+      "y": 68333
+    },
+    {
+      "x": 6820,
+      "y": 68333
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d69935f5-b6a0-807e-8008-e2ba8814ac22",
+  "frameId": "d69935f5-b6a0-807e-8008-e2ba8814ac22",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The same panel as Power options, with the title in the warning colour and an alert icon. Stay on drops the panel and Segno stays on; Retry runs the same steps again with the settings flush in its repairing mode. There is no way to switch off without saving. The 7\" readout keeps \"Power options on the main screen\", so the player looks up."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 6820,
+      "y": 68313.35000610352,
+      "width": 1797.3499755859375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 0.850006103515625,
+      "x2": 1797.3499755859375,
+      "y2": 17.350006103515625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "The same panel as Power options, with the title in the warning colour and an alert icon. Stay on drops the panel and Segno stays on; Retry runs the same steps again with the settings flush in its repairing mode. There is no way to switch off without saving. The 7\" readout keeps \"Power options "
+    },
+    {
+      "x": 6820,
+      "y": 68331.55000305176,
+      "width": 268.3833312988281,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 19.050003051757812,
+      "x2": 268.3833312988281,
+      "y2": 35.55000305175781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "on the main screen\", so the player looks up."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dab2e78"
+}

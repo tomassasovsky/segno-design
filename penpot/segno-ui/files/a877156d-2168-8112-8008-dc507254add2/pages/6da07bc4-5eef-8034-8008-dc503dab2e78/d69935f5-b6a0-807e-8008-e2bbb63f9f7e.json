@@ -1,0 +1,168 @@
+{
+  "id": "d69935f5-b6a0-807e-8008-e2bbb63f9f7e",
+  "name": "c \/ power-restarting",
+  "type": "text",
+  "x": 9972,
+  "y": 66696,
+  "width": 1800,
+  "height": 37,
+  "rotation": 0,
+  "selrect": {
+    "x": 9972,
+    "y": 66696,
+    "width": 1800,
+    "height": 37,
+    "x1": 9972,
+    "y1": 66696,
+    "x2": 11772,
+    "y2": 66733
+  },
+  "points": [
+    {
+      "x": 9972,
+      "y": 66696
+    },
+    {
+      "x": 11772,
+      "y": 66696
+    },
+    {
+      "x": 11772,
+      "y": 66733
+    },
+    {
+      "x": 9972,
+      "y": 66733
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d69935f5-b6a0-807e-8008-e2ba0973c51e",
+  "frameId": "d69935f5-b6a0-807e-8008-e2ba0973c51e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "No restart icon on the main screen's Restarting view (owner, 2026-11-02, #1543): the headline and its sub lines carry it. The sub lines are the saved session with its time and, when a staged update installs during the restart, \"Installing Segno <version>\". The 7\" readout keeps the restart icon with \"Restarting\", and shows no Segno logo."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 9972,
+      "y": 66713.35000610352,
+      "width": 1779.4166259765625,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 0.850006103515625,
+      "x2": 1779.4166259765625,
+      "y2": 17.350006103515625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "No restart icon on the main screen's Restarting view (owner, 2026-11-02, #1543): the headline and its sub lines carry it. The sub lines are the saved session with its time and, when a staged update installs during the restart, \"Installing Segno <version>\". The 7\" readout keeps the restart icon "
+    },
+    {
+      "x": 9972,
+      "y": 66731.55000305176,
+      "width": 272.683349609375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 19.050003051757812,
+      "x2": 272.683349609375,
+      "y2": 35.55000305175781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "with \"Restarting\", and shows no Segno logo."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dab2e78"
+}
