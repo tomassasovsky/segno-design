@@ -5,17 +5,17 @@
   "x": 8900,
   "y": 16280,
   "width": 1840,
-  "height": 173,
+  "height": 260,
   "rotation": 0,
   "selrect": {
     "x": 8900,
     "y": 16280,
     "width": 1840,
-    "height": 173,
+    "height": 260,
     "x1": 8900,
     "y1": 16280,
     "x2": 10740,
-    "y2": 16453
+    "y2": 16540
   },
   "points": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "x": 10740,
-      "y": 16453
+      "y": 16540
     },
     {
       "x": 8900,
-      "y": 16453
+      "y": 16540
     }
   ],
   "transform": {
@@ -129,7 +129,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "A hold that clears (Track Hold = Clear track, or a Custom pedal whose Hold is Clear or Clear all) fills the held pedal's LED pill: red grows from both ends toward the centre over the long-press time (800 ms by default). When it fires the ends meet and the pill shows full for a moment, then the empty-track state. Releasing early, a mode change, a lost link, or a hold that can no longer fire (a take locked) ends the fill at once and the pill shows its normal state. With two clear holds pending the newest fills, and the older one fills again if the newer settles first. The app streams the progress every 20 ms in the optional CLEAR_HOLD message (console firmware 2.6, protocol still 12, so older firmware shows no fill and nothing wrong). No screen mirrors the LED pill: Tracks draws no pedals, and the Custom face's Pending Hold bar already times the same hold."
+                "text": "A hold that clears (Track Hold = Clear track, or a Custom pedal whose Hold is Clear or Clear all) fills the held pedal's LED pill: red grows from both ends toward the centre over the long-press time (800 ms by default). The track clears when the ends meet; once the clear is accepted the board confirms it by flashing the full red pill 3 times, 120 ms on and 120 ms off (about 0.7 s), on its own clock, and the pill shows the empty-track state. The flash is not cut short by the app's next pill frame or the stale-fill time; a new hold on that pill takes over, and each pill flashes on its own clock. On a pill already red (a recording track, or any red state) the pill's own red drops to about a third while the hold runs and the fill is drawn at full brightness; releasing early restores it at once. Releasing early, a mode change, a lost link, or a hold that can no longer fire ends the fill at once. With two clear holds pending the newest fills, and the older one fills again if the newer settles first. Wire: optional CLEAR_HOLD message (progress every 20 ms, 255 once when it fires), console firmware 2.6, protocol 12. No screen mirrors the LED pill. While the fill runs, the held pill's base is its track's own state colour (green playing, red recording), not the pressed colour, so a recording track gets the dimmed red."
               }
             ],
             "textTransform": "none",
@@ -179,7 +179,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
+      "fontFamily": "Arimo",
       "text": "c\/ Clear-track hold fill (#1534)"
     },
     {
@@ -204,17 +204,17 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
+      "fontFamily": "Arimo",
       "text": "A hold that clears (Track Hold = Clear track, or a Custom pedal whose Hold is Clear or Clear all) fills the held pedal's LED pill: red grows from both ends toward the centre "
     },
     {
       "x": 8900,
       "y": 16365.75,
-      "width": 1838.0333251953125,
+      "width": 1813.1500244140625,
       "height": 27.5,
       "x1": 0,
       "y1": 58.25,
-      "x2": 1838.0333251953125,
+      "x2": 1813.1500244140625,
       "y2": 85.75,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -229,17 +229,17 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
-      "text": "over the long-press time (800 ms by default). When it fires the ends meet and the pill shows full for a moment, then the empty-track state. Releasing early, a mode change, a "
+      "fontFamily": "Arimo",
+      "text": "over the long-press time (800 ms by default). The track clears when the ends meet; once the clear is accepted the board confirms it by flashing the full red pill 3 times, 120 "
     },
     {
       "x": 8900,
       "y": 16394.550003051758,
-      "width": 1814.5166015625,
+      "width": 1797.183349609375,
       "height": 27.5,
       "x1": 0,
       "y1": 87.05000305175781,
-      "x2": 1814.5166015625,
+      "x2": 1797.183349609375,
       "y2": 114.55000305175781,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -254,17 +254,17 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
-      "text": "lost link, or a hold that can no longer fire (a take locked) ends the fill at once and the pill shows its normal state. With two clear holds pending the newest fills, and the older "
+      "fontFamily": "Arimo",
+      "text": "ms on and 120 ms off (about 0.7 s), on its own clock, and the pill shows the empty-track state. The flash is not cut short by the app's next pill frame or the stale-fill time; a "
     },
     {
       "x": 8900,
       "y": 16423.350006103516,
-      "width": 1811.7333984375,
+      "width": 1831.11669921875,
       "height": 27.5,
       "x1": 0,
       "y1": 115.85000610351562,
-      "x2": 1811.7333984375,
+      "x2": 1831.11669921875,
       "y2": 143.35000610351562,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -279,17 +279,17 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
-      "text": "one fills again if the newer settles first. The app streams the progress every 20 ms in the optional CLEAR_HOLD message (console firmware 2.6, protocol still 12, so older "
+      "fontFamily": "Arimo",
+      "text": "new hold on that pill takes over, and each pill flashes on its own clock. On a pill already red (a recording track, or any red state) the pill's own red drops to about a third while "
     },
     {
       "x": 8900,
       "y": 16452.149993896484,
-      "width": 1798.0999755859375,
+      "width": 1819.4833984375,
       "height": 27.5,
       "x1": 0,
       "y1": 144.64999389648438,
-      "x2": 1798.0999755859375,
+      "x2": 1819.4833984375,
       "y2": 172.14999389648438,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -304,8 +304,83 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
-      "text": "firmware shows no fill and nothing wrong). No screen mirrors the LED pill: Tracks draws no pedals, and the Custom face's Pending Hold bar already times the same hold."
+      "fontFamily": "Arimo",
+      "text": "the hold runs and the fill is drawn at full brightness; releasing early restores it at once. Releasing early, a mode change, a lost link, or a hold that can no longer fire ends the "
+    },
+    {
+      "x": 8900,
+      "y": 16480.949996948242,
+      "width": 1795.7166748046875,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 173.4499969482422,
+      "x2": 1795.7166748046875,
+      "y2": 200.9499969482422,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "fill at once. With two clear holds pending the newest fills, and the older one fills again if the newer settles first. Wire: optional CLEAR_HOLD message (progress every 20 "
+    },
+    {
+      "x": 8900,
+      "y": 16509.75,
+      "width": 1787.4833984375,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 202.25,
+      "x2": 1787.4833984375,
+      "y2": 229.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "ms, 255 once when it fires), console firmware 2.6, protocol 12. No screen mirrors the LED pill. While the fill runs, the held pill's base is its track's own state colour (green "
+    },
+    {
+      "x": 8900,
+      "y": 16538.550003051758,
+      "width": 944.6500244140625,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 231.0500030517578,
+      "x2": 944.6500244140625,
+      "y2": 258.5500030517578,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "playing, red recording), not the pressed colour, so a recording track gets the dimmed red."
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc5038a79611"

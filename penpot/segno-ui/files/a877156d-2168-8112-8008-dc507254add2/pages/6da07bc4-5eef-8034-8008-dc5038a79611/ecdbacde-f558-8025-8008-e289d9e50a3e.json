@@ -3,36 +3,36 @@
   "name": "Footnote",
   "type": "text",
   "x": 11080,
-  "y": 16934,
+  "y": 16919,
   "width": 1720,
-  "height": 58,
+  "height": 87,
   "rotation": 0,
   "selrect": {
     "x": 11080,
-    "y": 16934,
+    "y": 16919,
     "width": 1720,
-    "height": 58,
+    "height": 87,
     "x1": 11080,
-    "y1": 16934,
+    "y1": 16919,
     "x2": 12800,
-    "y2": 16992
+    "y2": 17006
   },
   "points": [
     {
       "x": 11080,
-      "y": 16934
+      "y": 16919
     },
     {
       "x": 12800,
-      "y": 16934
+      "y": 16919
     },
     {
       "x": 12800,
-      "y": 16992
+      "y": 17006
     },
     {
       "x": 11080,
-      "y": 16992
+      "y": 17006
     }
   ],
   "transform": {
@@ -85,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Shown on a playing track (green, diffused). Red pixels sit at the uniform fill level (110 of 255), the same as the Song queue fill; each leading pixel blends so the edges move smoothly. After the clear the pill shows the empty-track state."
+                "text": "Shown on a playing track (green, diffused). Fill pixels sit at the uniform fill level (110 of 255), like the Song queue fill; each leading pixel blends so the edges move smoothly. On a pill already red (recording, or any red state) its own red drops to about a third and the fill is drawn at full brightness. The flash runs on the board's clock (PILL_CLEAR_FLASHES 3, PILL_CLEAR_FLASH_MS 120); a new hold on that pill takes over."
               }
             ],
             "textTransform": "none",
@@ -115,12 +115,12 @@
   "positionData": [
     {
       "x": 11080,
-      "y": 16962.149993896484,
-      "width": 1689.61669921875,
+      "y": 16947.149993896484,
+      "width": 1718.949951171875,
       "height": 27.5,
       "x1": 0,
       "y1": 0.649993896484375,
-      "x2": 1689.61669921875,
+      "x2": 1718.949951171875,
       "y2": 28.149993896484375,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -136,16 +136,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "\"Arimo\"",
-      "text": "Shown on a playing track (green, diffused). Red pixels sit at the uniform fill level (110 of 255), the same as the Song queue fill; each leading pixel blends so the "
+      "text": "Shown on a playing track (green, diffused). Fill pixels sit at the uniform fill level (110 of 255), like the Song queue fill; each leading pixel blends so the edges move "
     },
     {
       "x": 11080,
-      "y": 16990.949996948242,
-      "width": 782.6500244140625,
+      "y": 16975.949996948242,
+      "width": 1705.2666015625,
       "height": 27.5,
       "x1": 0,
       "y1": 29.449996948242188,
-      "x2": 782.6500244140625,
+      "x2": 1705.2666015625,
       "y2": 56.94999694824219,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -161,7 +161,32 @@
       ],
       "direction": "ltr",
       "fontFamily": "\"Arimo\"",
-      "text": "edges move smoothly. After the clear the pill shows the empty-track state."
+      "text": "smoothly. On a pill already red (recording, or any red state) its own red drops to about a third and the fill is drawn at full brightness. The flash runs on the board's "
+    },
+    {
+      "x": 11080,
+      "y": 17004.75,
+      "width": 1073.88330078125,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 58.25,
+      "x2": 1073.88330078125,
+      "y2": 85.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "\"Arimo\"",
+      "text": "clock (PILL_CLEAR_FLASHES 3, PILL_CLEAR_FLASH_MS 120); a new hold on that pill takes over."
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc5038a79611"
