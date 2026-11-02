@@ -1,0 +1,193 @@
+{
+  "id": "d69935f5-b6a0-807e-8008-e2bbb6733344",
+  "name": "c \/ power-wait-update",
+  "type": "text",
+  "x": 9972,
+  "y": 68296,
+  "width": 1800,
+  "height": 55,
+  "rotation": 0,
+  "selrect": {
+    "x": 9972,
+    "y": 68296,
+    "width": 1800,
+    "height": 55,
+    "x1": 9972,
+    "y1": 68296,
+    "x2": 11772,
+    "y2": 68351
+  },
+  "points": [
+    {
+      "x": 9972,
+      "y": 68296
+    },
+    {
+      "x": 11772,
+      "y": 68296
+    },
+    {
+      "x": 11772,
+      "y": 68351
+    },
+    {
+      "x": 9972,
+      "y": 68351
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "d69935f5-b6a0-807e-8008-e2bb4fdca451",
+  "frameId": "d69935f5-b6a0-807e-8008-e2bb4fdca451",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The same card answers every way to restart or power off while an update is downloading or installing: the power key, Settings\u2019 Power row, Restart, Shut down, and the update\u2019s own Install and restart. #1498 can also show it after Saving or Restarting, when RAUC is found installing. The take refusal (\"Stop the take first\") and the transfer refusal (\"Wait for the transfer\") use the same card with their own title and body. Keep playing returns to the page the player was on. (#1494, #1505) The refusals rise in the power panel too. The 7\" readout keeps the performance readout under a refusal: a take may be running."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 9972,
+      "y": 68313.35000610352,
+      "width": 1781.36669921875,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 0.850006103515625,
+      "x2": 1781.36669921875,
+      "y2": 17.350006103515625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "The same card answers every way to restart or power off while an update is downloading or installing: the power key, Settings\u2019 Power row, Restart, Shut down, and the update\u2019s own Install and restart. #1498 can also show it after Saving or Restarting, when RAUC is found installing. The take "
+    },
+    {
+      "x": 9972,
+      "y": 68331.55000305176,
+      "width": 1781.316650390625,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 19.050003051757812,
+      "x2": 1781.316650390625,
+      "y2": 35.55000305175781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "refusal (\"Stop the take first\") and the transfer refusal (\"Wait for the transfer\") use the same card with their own title and body. Keep playing returns to the page the player was on. (#1494, #1505) The refusals rise in the power panel too. The 7\" readout keeps the performance readout under a "
+    },
+    {
+      "x": 9972,
+      "y": 68349.75,
+      "width": 189.28334045410156,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 37.25,
+      "x2": 189.28334045410156,
+      "y2": 53.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "refusal: a take may be running."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dab2e78"
+}

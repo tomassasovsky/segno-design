@@ -1,0 +1,193 @@
+{
+  "id": "d69935f5-b6a0-807e-8008-e2bba7bf4b2e",
+  "name": "c \/ power-panel",
+  "type": "text",
+  "x": 6820,
+  "y": 65096,
+  "width": 1800,
+  "height": 55,
+  "rotation": 0,
+  "selrect": {
+    "x": 6820,
+    "y": 65096,
+    "width": 1800,
+    "height": 55,
+    "x1": 6820,
+    "y1": 65096,
+    "x2": 8620,
+    "y2": 65151
+  },
+  "points": [
+    {
+      "x": 6820,
+      "y": 65096
+    },
+    {
+      "x": 8620,
+      "y": 65096
+    },
+    {
+      "x": 8620,
+      "y": 65151
+    },
+    {
+      "x": 6820,
+      "y": 65151
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "7463a59a-706e-4e4d-8315-dce4843c660e",
+  "frameId": "7463a59a-706e-4e4d-8315-dce4843c660e",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The panel replaces the centred dialog (owner, 2026-11-02, #1543). Power options rise as a 760 px panel anchored bottom-centre, 48 px above the edge, over whatever screen is up: here Settings, usually the stage. The body has three variants: a named session (\"Playback stops and <name> is saved first.\"), an unnamed one (\"Playback stops and this session is saved first. You name it before it saves.\") and an empty one (\"Playback stops. This session is empty, so there is nothing to save.\"). The staged-update line at 18 px appears only when an update is staged. The 7\" readout says where the choice is: the power icon and \"Power options on the main screen\". It keeps that face while Save As is open and after a failed save."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 6820,
+      "y": 65113.350006103516,
+      "width": 1790.3333740234375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 0.850006103515625,
+      "x2": 1790.3333740234375,
+      "y2": 17.350006103515625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "The panel replaces the centred dialog (owner, 2026-11-02, #1543). Power options rise as a 760 px panel anchored bottom-centre, 48 px above the edge, over whatever screen is up: here Settings, usually the stage. The body has three variants: a named session (\"Playback stops and <name> "
+    },
+    {
+      "x": 6820,
+      "y": 65131.55000305176,
+      "width": 1772.38330078125,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 19.050003051757812,
+      "x2": 1772.38330078125,
+      "y2": 35.55000305175781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "is saved first.\"), an unnamed one (\"Playback stops and this session is saved first. You name it before it saves.\") and an empty one (\"Playback stops. This session is empty, so there is nothing to save.\"). The staged-update line at 18 px appears only when an update is staged. The 7\" readout "
+    },
+    {
+      "x": 6820,
+      "y": 65149.75,
+      "width": 894.2000122070312,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 37.25,
+      "x2": 894.2000122070312,
+      "y2": 53.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "says where the choice is: the power icon and \"Power options on the main screen\". It keeps that face while Save As is open and after a failed save."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503dab2e78"
+}
