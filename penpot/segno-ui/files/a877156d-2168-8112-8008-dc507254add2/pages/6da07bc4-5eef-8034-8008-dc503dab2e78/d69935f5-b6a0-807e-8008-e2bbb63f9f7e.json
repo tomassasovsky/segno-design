@@ -5,17 +5,17 @@
   "x": 9972,
   "y": 66696,
   "width": 1800,
-  "height": 37,
+  "height": 55,
   "rotation": 0,
   "selrect": {
     "x": 9972,
     "y": 66696,
     "width": 1800,
-    "height": 37,
+    "height": 55,
     "x1": 9972,
     "y1": 66696,
     "x2": 11772,
-    "y2": 66733
+    "y2": 66751
   },
   "points": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "x": 11772,
-      "y": 66733
+      "y": 66751
     },
     {
       "x": 9972,
-      "y": 66733
+      "y": 66751
     }
   ],
   "transform": {
@@ -85,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Inter",
-                "text": "No restart icon on the main screen's Restarting view (owner, 2026-11-02, #1543): the headline and its sub lines carry it. The sub lines are the saved session with its time and, when a staged update installs during the restart, \"Installing Segno <version>\". The 7\" readout keeps the restart icon with \"Restarting\", and shows no Segno logo."
+                "text": "Restarting shows only while a staged update installs during the restart, and always names it: \"Installing Segno <version>\" (owner, 2026-11-02, #1553). A plain restart shows no face: both screens show the plain dark field until the boot splash (see Restart \u00b7 no update). A screen shows only when it tells the player something: the console coming back on a new version is news, a plain restart is not. No restart icon on the main screen's Restarting view (owner, 2026-11-02, #1543): the headline and its sub lines carry it. The sub lines are the saved session with its time, then the version that installs. The 7\" readout keeps the restart icon with \"Restarting\", and shows no Segno logo."
               }
             ],
             "textTransform": "none",
@@ -116,11 +116,11 @@
     {
       "x": 9972,
       "y": 66713.35000610352,
-      "width": 1779.4166259765625,
+      "width": 1766.9666748046875,
       "height": 16.5,
       "x1": 0,
       "y1": 0.850006103515625,
-      "x2": 1779.4166259765625,
+      "x2": 1766.9666748046875,
       "y2": 17.350006103515625,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -136,16 +136,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Inter",
-      "text": "No restart icon on the main screen's Restarting view (owner, 2026-11-02, #1543): the headline and its sub lines carry it. The sub lines are the saved session with its time and, when a staged update installs during the restart, \"Installing Segno <version>\". The 7\" readout keeps the restart icon "
+      "text": "Restarting shows only while a staged update installs during the restart, and always names it: \"Installing Segno <version>\" (owner, 2026-11-02, #1553). A plain restart shows no face: both screens show the plain dark field until the boot splash (see Restart \u00b7 no update). A screen shows only "
     },
     {
       "x": 9972,
       "y": 66731.55000305176,
-      "width": 272.683349609375,
+      "width": 1753.25,
       "height": 16.5,
       "x1": 0,
       "y1": 19.050003051757812,
-      "x2": 272.683349609375,
+      "x2": 1753.25,
       "y2": 35.55000305175781,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -161,7 +161,32 @@
       ],
       "direction": "ltr",
       "fontFamily": "Inter",
-      "text": "with \"Restarting\", and shows no Segno logo."
+      "text": "when it tells the player something: the console coming back on a new version is news, a plain restart is not. No restart icon on the main screen's Restarting view (owner, 2026-11-02, #1543): the headline and its sub lines carry it. The sub lines are the saved session with its time, then the "
+    },
+    {
+      "x": 9972,
+      "y": 66749.75,
+      "width": 630.9000244140625,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 37.25,
+      "x2": 630.9000244140625,
+      "y2": 53.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "version that installs. The 7\" readout keeps the restart icon with \"Restarting\", and shows no Segno logo."
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc503dab2e78"
