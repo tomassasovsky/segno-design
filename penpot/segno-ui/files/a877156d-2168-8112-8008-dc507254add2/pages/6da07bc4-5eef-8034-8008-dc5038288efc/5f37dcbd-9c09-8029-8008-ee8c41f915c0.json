@@ -1,0 +1,142 @@
+{
+  "id": "5f37dcbd-9c09-8029-8008-ee8c41f915c0",
+  "name": "LARGE STUDIO",
+  "type": "text",
+  "x": 8135,
+  "y": 3980,
+  "width": 160,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 8135,
+    "y": 3980,
+    "width": 160,
+    "height": 22,
+    "x1": 8135,
+    "y1": 3980,
+    "x2": 8295,
+    "y2": 4002
+  },
+  "points": [
+    {
+      "x": 8135,
+      "y": 3980
+    },
+    {
+      "x": 8295,
+      "y": 3980
+    },
+    {
+      "x": 8295,
+      "y": 4002
+    },
+    {
+      "x": 8135,
+      "y": 4002
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5f37dcbd-9c09-8029-8008-ee8c41f915bf",
+  "frameId": "5f37dcbd-9c09-8029-8008-ee8c41f915bf",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "21.4",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "LARGE STUDIO"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "21.4",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038288efc",
+  "positionData": [
+    {
+      "x": 8135,
+      "y": 4002.949996948242,
+      "width": 159.31666564941406,
+      "height": 24.5,
+      "x1": 0,
+      "y1": -1.5500030517578125,
+      "x2": 159.31666564941406,
+      "y2": 22.949996948242188,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "21.4px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "LARGE STUDIO"
+    }
+  ]
+}

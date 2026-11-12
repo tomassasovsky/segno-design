@@ -1,38 +1,38 @@
 {
   "id": "bc85654a-1b3b-4777-a866-49c2314afede",
-  "name": "Cab",
+  "name": "Cabinet",
   "type": "text",
   "x": 11027,
-  "y": 1802.5,
-  "width": 44.031,
+  "y": 1602.5,
+  "width": 83,
   "height": 24,
   "rotation": 0,
   "selrect": {
     "x": 11027,
-    "y": 1802.5,
-    "width": 44.031,
+    "y": 1602.5,
+    "width": 83,
     "height": 24,
     "x1": 11027,
-    "y1": 1802.5,
-    "x2": 11071.031,
-    "y2": 1826.5
+    "y1": 1602.5,
+    "x2": 11110,
+    "y2": 1626.5
   },
   "points": [
     {
       "x": 11027,
-      "y": 1802.5
+      "y": 1602.5
     },
     {
-      "x": 11071.031,
-      "y": 1802.5
+      "x": 11110,
+      "y": 1602.5
     },
     {
-      "x": 11071.031,
-      "y": 1826.5
+      "x": 11110,
+      "y": 1626.5
     },
     {
       "x": 11027,
-      "y": 1826.5
+      "y": 1626.5
     }
   ],
   "transform": {
@@ -58,7 +58,6 @@
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "24",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Cab"
+                "text": "Cabinet"
               }
             ],
             "textTransform": "none",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "24",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,20 +108,26 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc5038288efc",
   "positionData": [
     {
-      "y": 1827.5,
+      "x": 11027,
+      "y": 1628.25,
+      "width": 82.73333740234375,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 82.73333740234375,
+      "y2": 25.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "24px",
       "fontWeight": "400",
-      "width": 44.031,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 11027,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#e7edf6",
@@ -128,8 +136,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 27,
-      "text": "Cab"
+      "text": "Cabinet"
     }
   ]
 }
