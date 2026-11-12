@@ -1,38 +1,38 @@
 {
   "id": "e0f2b387-2cc2-4be2-b52f-e065a4cd0bf0",
-  "name": "Comp Thresh",
+  "name": "Make-up",
   "type": "text",
   "x": 11651,
-  "y": 1802.5,
-  "width": 144.953,
+  "y": 1602.5,
+  "width": 94,
   "height": 24,
   "rotation": 0,
   "selrect": {
     "x": 11651,
-    "y": 1802.5,
-    "width": 144.953,
+    "y": 1602.5,
+    "width": 94,
     "height": 24,
     "x1": 11651,
-    "y1": 1802.5,
-    "x2": 11795.953,
-    "y2": 1826.5
+    "y1": 1602.5,
+    "x2": 11745,
+    "y2": 1626.5
   },
   "points": [
     {
       "x": 11651,
-      "y": 1802.5
+      "y": 1602.5
     },
     {
-      "x": 11795.953,
-      "y": 1802.5
+      "x": 11745,
+      "y": 1602.5
     },
     {
-      "x": 11795.953,
-      "y": 1826.5
+      "x": 11745,
+      "y": 1626.5
     },
     {
       "x": 11651,
-      "y": 1826.5
+      "y": 1626.5
     }
   ],
   "transform": {
@@ -58,7 +58,6 @@
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "24",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Comp Thresh"
+                "text": "Make-up"
               }
             ],
             "textTransform": "none",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "24",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,20 +108,26 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc5038288efc",
   "positionData": [
     {
-      "y": 1827.5,
+      "x": 11651,
+      "y": 1628.25,
+      "width": 93.39999389648438,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 93.39999389648438,
+      "y2": 25.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "24px",
       "fontWeight": "400",
-      "width": 144.953,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 11651,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#e7edf6",
@@ -128,8 +136,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 27,
-      "text": "Comp Thresh"
+      "text": "Make-up"
     }
   ]
 }
