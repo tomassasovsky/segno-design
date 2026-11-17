@@ -219,3 +219,15 @@ GPL-3.0, first as part of
 this repository, including the other branches listed above. Copies taken from
 that history remain available under those terms. That notice never applied to
 the Looper X images, because they were never ours to license.
+
+### The name, commercial licences and contributions
+
+The Segno name and logo aren't covered by this licence.
+[TRADEMARKS.md](https://github.com/tomassasovsky/segno/blob/claude/segno-integration/TRADEMARKS.md) in the main repository says how you can
+use them. Companies that want to use the design files under other terms can ask for a
+commercial licence at tomas@aquiles.dev.
+
+Contributions are covered by the
+[Segno Contributor License Agreement](https://github.com/tomassasovsky/segno/blob/claude/segno-integration/CLA.md): you keep your copyright,
+your contribution stays available under CC BY-SA 4.0, and the agreement also lets
+the maintainer offer it under other terms. See [CONTRIBUTING.md](CONTRIBUTING.md).
