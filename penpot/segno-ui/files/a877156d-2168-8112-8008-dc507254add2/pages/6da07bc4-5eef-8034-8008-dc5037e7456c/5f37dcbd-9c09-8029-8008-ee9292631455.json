@@ -5,17 +5,17 @@
   "x": 4640,
   "y": 5948,
   "width": 1840,
-  "height": 628,
+  "height": 667,
   "rotation": 0,
   "selrect": {
     "x": 4640,
     "y": 5948,
     "width": 1840,
-    "height": 628,
+    "height": 667,
     "x1": 4640,
     "y1": 5948,
     "x2": 6480,
-    "y2": 6576
+    "y2": 6615
   },
   "points": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "x": 6480,
-      "y": 6576
+      "y": 6615
     },
     {
       "x": 4640,
-      "y": 6576
+      "y": 6615
     }
   ],
   "transform": {
@@ -437,7 +437,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Pre and Post runs are split by a 72 px break with no cable (09). Recorded guitar on Track 1 (05) shows the mixed row; the output Reverb (10) is a single card."
+                "text": "Pre and Post runs are split by a 72 px break with no cable (09). Recorded guitar on Track 1 (05) shows the mixed row; the output Reverb (10) is a single card, drawn with the built-in Reverb face (three knobs: Size, Damping, Mix), as the app draws a standalone built-in; the six-knob face is the Reverb module in a rack."
               }
             ],
             "textTransform": "none",
@@ -843,11 +843,11 @@
     {
       "x": 4640,
       "y": 6571.3499755859375,
-      "width": 143.14999389648438,
+      "width": 1806.5833740234375,
       "height": 31.5,
       "x1": 0,
       "y1": 591.8499755859375,
-      "x2": 143.14999389648438,
+      "x2": 1806.5833740234375,
       "y2": 623.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -863,7 +863,32 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "single card."
+      "text": "single card, drawn with the built-in Reverb face (three knobs: Size, Damping, Mix), as the app draws a standalone built-in; the six-knob face is the "
+    },
+    {
+      "x": 4640,
+      "y": 6610.549987792969,
+      "width": 311.183349609375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 631.0499877929688,
+      "x2": 311.183349609375,
+      "y2": 662.5499877929688,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "Reverb module in a rack."
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc5037e7456c"
