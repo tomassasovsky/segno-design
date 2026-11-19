@@ -1,0 +1,143 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f897b37867e1",
+  "name": "Pistas \u00b7 Banco A",
+  "type": "text",
+  "x": 1486.7000000000116,
+  "y": 54999,
+  "width": 111,
+  "height": 17,
+  "rotation": 0,
+  "selrect": {
+    "x": 1486.7000000000116,
+    "y": 54999,
+    "width": 111,
+    "height": 17,
+    "x1": 1486.7000000000116,
+    "y1": 54999,
+    "x2": 1597.7000000000116,
+    "y2": 55016
+  },
+  "points": [
+    {
+      "x": 1486.7000000000116,
+      "y": 54999
+    },
+    {
+      "x": 1597.7000000000116,
+      "y": 54999
+    },
+    {
+      "x": 1597.7000000000116,
+      "y": 55016
+    },
+    {
+      "x": 1486.7000000000116,
+      "y": 55016
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f897b38e6c86",
+  "frameId": "b81f93bb-012e-8063-8008-f897b2e2ca22",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.214",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.214",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "14",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0.25",
+                "fills": [
+                  {
+                    "fillColor": "#f3f4f7",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Pistas \u00b7 Banco A"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "14",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0.25",
+            "fills": [
+              {
+                "fillColor": "#f3f4f7",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 1486.7000000000116,
+      "y": 55016.25,
+      "width": 110.80000305175781,
+      "height": 17.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 110.80000305175781,
+      "y2": 17.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "0.25px",
+      "fills": [
+        {
+          "fillColor": "#f3f4f7",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "Pistas \u00b7 Banco A"
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f"
+}

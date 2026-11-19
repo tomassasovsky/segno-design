@@ -1,0 +1,143 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f897f27c99e2",
+  "name": "Screen label \/ clear-tempo-refused",
+  "type": "text",
+  "x": 1020,
+  "y": 56276,
+  "width": 287,
+  "height": 27,
+  "rotation": 0,
+  "selrect": {
+    "x": 1020,
+    "y": 56276,
+    "width": 287,
+    "height": 27,
+    "x1": 1020,
+    "y1": 56276,
+    "x2": 1307,
+    "y2": 56303
+  },
+  "points": [
+    {
+      "x": 1020,
+      "y": 56276
+    },
+    {
+      "x": 1307,
+      "y": 56276
+    },
+    {
+      "x": 1307,
+      "y": 56303
+    },
+    {
+      "x": 1020,
+      "y": 56303
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f897f26f2914",
+  "frameId": "b81f93bb-012e-8063-8008-f897f26f2914",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "700",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c9ced9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "10  Clear tempo \u00b7 refused"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "700",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c9ced9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 1020,
+      "y": 56303.25,
+      "width": 286.79998779296875,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 286.79998779296875,
+      "y2": 27.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#c9ced9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "10  Clear tempo \u00b7 refused"
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f"
+}

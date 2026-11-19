@@ -4,18 +4,18 @@
   "type": "text",
   "x": 11048,
   "y": 47606,
-  "width": 1594.188,
-  "height": 78.375,
+  "width": 1594,
+  "height": 79,
   "rotation": 0,
   "selrect": {
     "x": 11048,
     "y": 47606,
-    "width": 1594.188,
-    "height": 78.375,
+    "width": 1594,
+    "height": 79,
     "x1": 11048,
     "y1": 47606,
-    "x2": 12642.188,
-    "y2": 47684.375
+    "x2": 12642,
+    "y2": 47685
   },
   "points": [
     {
@@ -23,16 +23,16 @@
       "y": 47606
     },
     {
-      "x": 12642.188,
+      "x": 12642,
       "y": 47606
     },
     {
-      "x": 12642.188,
-      "y": 47684.375
+      "x": 12642,
+      "y": 47685
     },
     {
       "x": 11048,
-      "y": 47684.375
+      "y": 47685
     }
   ],
   "transform": {
@@ -164,15 +164,20 @@
   },
   "positionData": [
     {
-      "y": 47642,
+      "x": 11048,
+      "y": 47642.850006103516,
+      "width": 358.933349609375,
+      "height": 34.5,
+      "x1": 0,
+      "y1": 2.350006103515625,
+      "x2": 358.933349609375,
+      "y2": 36.850006103515625,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 358.891,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 11048,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#f2f4f8",
@@ -181,19 +186,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Inter",
-      "height": 34,
       "text": "Mix settings need recovery"
     },
     {
-      "y": 47681.188,
+      "x": 11048,
+      "y": 47682.05000305176,
+      "width": 577.4000244140625,
+      "height": 34.5,
+      "x1": 0,
+      "y1": 41.55000305175781,
+      "x2": 577.4000244140625,
+      "y2": 76.05000305175781,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 577.375,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 11048,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#f2f4f8",
@@ -202,7 +211,6 @@
       ],
       "direction": "ltr",
       "fontFamily": "Inter",
-      "height": 34,
       "text": "Audio was stopped to protect your settings."
     }
   ],

@@ -1,20 +1,20 @@
 {
   "id": "02b9bc7a-2f83-4e14-b734-297eba7d19bf",
-  "name": "Always on",
+  "name": "5 effects",
   "type": "text",
   "x": 3738,
   "y": 2754.5,
-  "width": 91.156,
+  "width": 76,
   "height": 20,
   "rotation": 0,
   "selrect": {
     "x": 3738,
     "y": 2754.5,
-    "width": 91.156,
+    "width": 76,
     "height": 20,
     "x1": 3738,
     "y1": 2754.5,
-    "x2": 3829.156,
+    "x2": 3814,
     "y2": 2774.5
   },
   "points": [
@@ -23,11 +23,11 @@
       "y": 2754.5
     },
     {
-      "x": 3829.156,
+      "x": 3814,
       "y": 2754.5
     },
     {
-      "x": 3829.156,
+      "x": 3814,
       "y": 2774.5
     },
     {
@@ -58,7 +58,6 @@
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "20",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Always on"
+                "text": "5 effects"
               }
             ],
             "textTransform": "none",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "20",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,20 +108,26 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc5037e7456c",
   "positionData": [
     {
-      "y": 2775.5,
+      "x": 3738,
+      "y": 2776,
+      "width": 75.19999694824219,
+      "height": 23,
+      "x1": 0,
+      "y1": -1.5,
+      "x2": 75.19999694824219,
+      "y2": 21.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "20px",
       "fontWeight": "400",
-      "width": 91.156,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 3738,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#bbcce5",
@@ -128,8 +136,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 22,
-      "text": "Always on"
+      "text": "5 effects"
     }
   ]
 }

@@ -2,36 +2,36 @@
   "id": "9616838a-042f-4c3d-a38d-cc8c8bb50b64",
   "name": "Funk Wah",
   "type": "text",
-  "x": 5642,
+  "x": 5690,
   "y": 3914.547,
-  "width": 108.484,
+  "width": 109,
   "height": 24,
   "rotation": 0,
   "selrect": {
-    "x": 5642,
+    "x": 5690,
     "y": 3914.547,
-    "width": 108.484,
+    "width": 109,
     "height": 24,
-    "x1": 5642,
+    "x1": 5690,
     "y1": 3914.547,
-    "x2": 5750.484,
+    "x2": 5799,
     "y2": 3938.547
   },
   "points": [
     {
-      "x": 5642,
+      "x": 5690,
       "y": 3914.547
     },
     {
-      "x": 5750.484,
+      "x": 5799,
       "y": 3914.547
     },
     {
-      "x": 5750.484,
+      "x": 5799,
       "y": 3938.547
     },
     {
-      "x": 5642,
+      "x": 5690,
       "y": 3938.547
     }
   ],
@@ -111,15 +111,20 @@
   "pageId": "6da07bc4-5eef-8034-8008-dc5037e7456c",
   "positionData": [
     {
-      "y": 3939.547,
+      "x": 5690,
+      "y": 3940.297,
+      "width": 108.5,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 108.5,
+      "y2": 25.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "24px",
       "fontWeight": "400",
-      "width": 108.484,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 5642,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#f0f4fc",
@@ -128,7 +133,6 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 27,
       "text": "Funk Wah"
     }
   ]

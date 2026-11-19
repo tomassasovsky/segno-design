@@ -1,0 +1,139 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f89b68f34400",
+  "name": "Audio routing",
+  "type": "text",
+  "x": 11080,
+  "y": 49690.297,
+  "width": 234,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 11080,
+    "y": 49690.297,
+    "width": 234,
+    "height": 42,
+    "x1": 11080,
+    "y1": 49690.297,
+    "x2": 11314,
+    "y2": 49732.297
+  },
+  "points": [
+    {
+      "x": 11080,
+      "y": 49690.297
+    },
+    {
+      "x": 11314,
+      "y": 49690.297
+    },
+    {
+      "x": 11314,
+      "y": 49732.297
+    },
+    {
+      "x": 11080,
+      "y": 49732.297
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f89b68f343ff",
+  "frameId": "b81f93bb-012e-8063-8008-f89b68f343ff",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "verticalAlign": "top",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "42",
+                "fontWeight": "400",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "-1.1",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Audio routing"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "42",
+            "fontWeight": "400",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "-1.1",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c93fd80",
+  "positionData": [
+    {
+      "x": 11080,
+      "y": 49735.047,
+      "width": 233.26666259765625,
+      "height": 47.5,
+      "x1": 0,
+      "y1": -2.75,
+      "x2": 233.26666259765625,
+      "y2": 44.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "42px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "-1.1px",
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "Audio routing"
+    }
+  ]
+}
