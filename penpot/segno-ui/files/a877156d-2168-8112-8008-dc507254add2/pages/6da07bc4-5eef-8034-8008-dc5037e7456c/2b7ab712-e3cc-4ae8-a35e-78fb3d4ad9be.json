@@ -1,20 +1,20 @@
 {
   "id": "2b7ab712-e3cc-4ae8-a35e-78fb3d4ad9be",
-  "name": "B1 \u00b7 ON",
+  "name": "8 effects",
   "type": "text",
   "x": 5266,
   "y": 4026.5,
-  "width": 72.25,
+  "width": 76,
   "height": 20,
   "rotation": 0,
   "selrect": {
     "x": 5266,
     "y": 4026.5,
-    "width": 72.25,
+    "width": 76,
     "height": 20,
     "x1": 5266,
     "y1": 4026.5,
-    "x2": 5338.25,
+    "x2": 5342,
     "y2": 4046.5
   },
   "points": [
@@ -23,11 +23,11 @@
       "y": 4026.5
     },
     {
-      "x": 5338.25,
+      "x": 5342,
       "y": 4026.5
     },
     {
-      "x": 5338.25,
+      "x": 5342,
       "y": 4046.5
     },
     {
@@ -58,7 +58,6 @@
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "20",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "B1 \u00b7 ON"
+                "text": "8 effects"
               }
             ],
             "textTransform": "none",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "20",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,20 +108,26 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc5037e7456c",
   "positionData": [
     {
-      "y": 4047.5,
+      "x": 5266,
+      "y": 4048,
+      "width": 75.19999694824219,
+      "height": 23,
+      "x1": 0,
+      "y1": -1.5,
+      "x2": 75.19999694824219,
+      "y2": 21.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "20px",
       "fontWeight": "400",
-      "width": 72.25,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 5266,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#909090",
@@ -128,8 +136,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 22,
-      "text": "B1 \u00b7 ON"
+      "text": "8 effects"
     }
   ]
 }

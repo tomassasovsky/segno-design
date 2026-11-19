@@ -2,36 +2,36 @@
   "id": "345a71d1-ea35-4e73-9bda-9b7162e04c3d",
   "name": "Turn effects on",
   "type": "text",
-  "x": 1979.844,
+  "x": 1979.4999999999998,
   "y": 6268,
-  "width": 132.297,
+  "width": 133.00000000000023,
   "height": 20,
   "rotation": 0,
   "selrect": {
-    "x": 1979.844,
+    "x": 1979.4999999999998,
     "y": 6268,
-    "width": 132.297,
+    "width": 133.00000000000023,
     "height": 20,
-    "x1": 1979.844,
+    "x1": 1979.4999999999998,
     "y1": 6268,
-    "x2": 2112.141,
+    "x2": 2112.5,
     "y2": 6288
   },
   "points": [
     {
-      "x": 1979.844,
+      "x": 1979.5,
       "y": 6268
     },
     {
-      "x": 2112.141,
+      "x": 2112.5,
       "y": 6268
     },
     {
-      "x": 2112.141,
+      "x": 2112.5,
       "y": 6288
     },
     {
-      "x": 1979.844,
+      "x": 1979.5,
       "y": 6288
     }
   ],
@@ -113,15 +113,20 @@
   "layoutItemVSizing": "auto",
   "positionData": [
     {
-      "y": 6289,
+      "x": 1979.4999999999998,
+      "y": 6289.5,
+      "width": 132.23333740234375,
+      "height": 23,
+      "x1": 0,
+      "y1": -1.5,
+      "x2": 132.23333740234375,
+      "y2": 21.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "20px",
       "fontWeight": "400",
-      "width": 132.297,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 1979.844,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#ffffff",
@@ -130,7 +135,6 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 22,
       "text": "Turn effects on"
     }
   ],

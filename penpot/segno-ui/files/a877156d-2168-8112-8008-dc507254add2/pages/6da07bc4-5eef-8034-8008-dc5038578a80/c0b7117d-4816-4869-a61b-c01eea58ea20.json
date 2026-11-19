@@ -1,37 +1,37 @@
 {
   "id": "c0b7117d-4816-4869-a61b-c01eea58ea20",
-  "name": "HP \/ Gate",
+  "name": "High-pass gate",
   "type": "text",
-  "x": 10273.484,
+  "x": 10245.656,
   "y": 5524.5,
-  "width": 104.953,
+  "width": 162,
   "height": 24,
   "rotation": 0,
   "selrect": {
-    "x": 10273.484,
+    "x": 10245.656,
     "y": 5524.5,
-    "width": 104.953,
+    "width": 162,
     "height": 24,
-    "x1": 10273.484,
+    "x1": 10245.656,
     "y1": 5524.5,
-    "x2": 10378.437,
+    "x2": 10407.656,
     "y2": 5548.5
   },
   "points": [
     {
-      "x": 10273.484,
+      "x": 10245.656,
       "y": 5524.5
     },
     {
-      "x": 10378.437,
+      "x": 10407.656,
       "y": 5524.5
     },
     {
-      "x": 10378.437,
+      "x": 10407.656,
       "y": 5548.5
     },
     {
-      "x": 10273.484,
+      "x": 10245.656,
       "y": 5548.5
     }
   ],
@@ -58,7 +58,6 @@
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "24",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "HP \/ Gate"
+                "text": "High-pass gate"
               }
             ],
             "textTransform": "none",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "24",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,20 +108,26 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc5038578a80",
   "positionData": [
     {
-      "y": 5549.5,
+      "x": 10245.656,
+      "y": 5550.25,
+      "width": 161.4499969482422,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 161.4499969482422,
+      "y2": 25.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "24px",
       "fontWeight": "400",
-      "width": 104.953,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 10273.484,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#e7edf6",
@@ -128,8 +136,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 27,
-      "text": "HP \/ Gate"
+      "text": "High-pass gate"
     }
   ]
 }

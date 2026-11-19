@@ -1,20 +1,20 @@
 {
   "id": "a984a5d7-8920-45ed-860e-bb332d23c528",
-  "name": "Chor Depth",
+  "name": "Rate",
   "type": "text",
   "x": 11339,
   "y": 1154.5,
-  "width": 122.734,
+  "width": 51,
   "height": 24,
   "rotation": 0,
   "selrect": {
     "x": 11339,
     "y": 1154.5,
-    "width": 122.734,
+    "width": 51,
     "height": 24,
     "x1": 11339,
     "y1": 1154.5,
-    "x2": 11461.734,
+    "x2": 11390,
     "y2": 1178.5
   },
   "points": [
@@ -23,11 +23,11 @@
       "y": 1154.5
     },
     {
-      "x": 11461.734,
+      "x": 11390,
       "y": 1154.5
     },
     {
-      "x": 11461.734,
+      "x": 11390,
       "y": 1178.5
     },
     {
@@ -58,7 +58,6 @@
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "24",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Chor Depth"
+                "text": "Rate"
               }
             ],
             "textTransform": "none",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "24",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,20 +108,26 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc5038288efc",
   "positionData": [
     {
-      "y": 1179.5,
+      "x": 11339,
+      "y": 1180.25,
+      "width": 50.69999694824219,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 50.69999694824219,
+      "y2": 25.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "24px",
       "fontWeight": "400",
-      "width": 122.734,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 11339,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#e7edf6",
@@ -128,8 +136,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 27,
-      "text": "Chor Depth"
+      "text": "Rate"
     }
   ]
 }

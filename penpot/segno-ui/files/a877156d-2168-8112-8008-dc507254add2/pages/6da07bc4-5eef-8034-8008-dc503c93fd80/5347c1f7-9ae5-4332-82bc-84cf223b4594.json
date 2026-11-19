@@ -3,36 +3,36 @@
   "name": "Mix recovery behavior",
   "type": "text",
   "x": 10980,
-  "y": 47732.375,
+  "y": 47733,
   "width": 1840,
-  "height": 195.938,
+  "height": 195.93800000000192,
   "rotation": 0,
   "selrect": {
     "x": 10980,
-    "y": 47732.375,
+    "y": 47733,
     "width": 1840,
-    "height": 195.938,
+    "height": 195.93800000000192,
     "x1": 10980,
-    "y1": 47732.375,
+    "y1": 47733,
     "x2": 12820,
-    "y2": 47928.313
+    "y2": 47928.938
   },
   "points": [
     {
       "x": 10980,
-      "y": 47732.375
+      "y": 47733
     },
     {
       "x": 12820,
-      "y": 47732.375
+      "y": 47733
     },
     {
       "x": 12820,
-      "y": 47928.313
+      "y": 47928.938
     },
     {
       "x": 10980,
-      "y": 47928.313
+      "y": 47928.938
     }
   ],
   "transform": {
@@ -195,15 +195,20 @@
   "layoutItemVSizing": "auto",
   "positionData": [
     {
-      "y": 47767.375,
+      "x": 10980,
+      "y": 47768.350006103516,
+      "width": 1738.11669921875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 3.850006103515625,
+      "x2": 1738.11669921875,
+      "y2": 35.350006103515625,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 1845.781,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 10980,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -212,19 +217,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
-      "text": "A failed mix write keeps the prior active settings. If restoring the prior saved value also fails, stop audio and keep this message visible. Retry restores "
+      "text": "A failed mix write keeps the prior active settings. If restoring the prior saved value also fails, stop audio and keep this message visible. Retry "
     },
     {
-      "y": 47806.563,
+      "x": 10980,
+      "y": 47807.55000305176,
+      "width": 811.7666625976562,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 43.05000305175781,
+      "x2": 811.7666625976562,
+      "y2": 74.55000305175781,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 703,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 10980,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -233,19 +242,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
-      "text": "that saved value; it does not resume audio automatically."
+      "text": "restores that saved value; it does not resume audio automatically."
     },
     {
-      "y": 47845.75,
+      "x": 10980,
+      "y": 47846.75,
+      "width": 7.7833404541015625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 82.25,
+      "x2": 7.7833404541015625,
+      "y2": 113.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 0,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 10980,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -254,19 +267,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
-      "text": ""
+      "text": "\u00a0"
     },
     {
-      "y": 47884.938,
+      "x": 10980,
+      "y": 47885.94999694824,
+      "width": 1786.25,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 121.44999694824219,
+      "x2": 1786.25,
+      "y2": 152.9499969482422,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 1786.641,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 10980,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -275,19 +292,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
       "text": "No dismiss action while recovery is required. Mix edits and session replacement remain unavailable until Retry succeeds. Input setup requires a "
     },
     {
-      "y": 47924.125,
+      "x": 10980,
+      "y": 47925.149993896484,
+      "width": 958.6500244140625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 160.64999389648438,
+      "x2": 958.6500244140625,
+      "y2": 192.14999389648438,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 958.828,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 10980,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -296,7 +317,6 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
       "text": "connected device; a device change during session capture cancels that save."
     }
   ],

@@ -1,0 +1,168 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f89af07c68ad",
+  "name": "Body",
+  "type": "text",
+  "x": 11502,
+  "y": 48702,
+  "width": 876,
+  "height": 72,
+  "rotation": 0,
+  "selrect": {
+    "x": 11502,
+    "y": 48702,
+    "width": 876,
+    "height": 72,
+    "x1": 11502,
+    "y1": 48702,
+    "x2": 12378,
+    "y2": 48774
+  },
+  "points": [
+    {
+      "x": 11502,
+      "y": 48702
+    },
+    {
+      "x": 12378,
+      "y": 48702
+    },
+    {
+      "x": 12378,
+      "y": 48774
+    },
+    {
+      "x": 11502,
+      "y": 48774
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f89af04daa22",
+  "frameId": "b81f93bb-012e-8063-8008-f89af04daa22",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.5",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.5",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b1bed1",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "48 V will reach inputs 1\u20132. Use it only for condenser microphones that need it, and plug or unplug microphones only while it is off."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b1bed1",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 11502,
+      "y": 48733.75,
+      "width": 835.2166748046875,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 4.25,
+      "x2": 835.2166748046875,
+      "y2": 31.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#b1bed1",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "48 V will reach inputs 1\u20132. Use it only for condenser microphones that need it, "
+    },
+    {
+      "x": 11502,
+      "y": 48769.75,
+      "width": 537.2833251953125,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 40.25,
+      "x2": 537.2833251953125,
+      "y2": 67.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#b1bed1",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "and plug or unplug microphones only while it is off."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c93fd80"
+}

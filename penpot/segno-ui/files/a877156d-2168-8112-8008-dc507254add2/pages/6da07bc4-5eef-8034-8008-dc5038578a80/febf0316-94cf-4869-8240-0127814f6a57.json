@@ -1,37 +1,37 @@
 {
   "id": "febf0316-94cf-4869-8240-0127814f6a57",
-  "name": "Spring Reverb",
+  "name": "Spring reverb",
   "type": "text",
-  "x": 9938.297,
+  "x": 9942.969,
   "y": 6008.5,
-  "width": 153.422,
+  "width": 145,
   "height": 24,
   "rotation": 0,
   "selrect": {
-    "x": 9938.297,
+    "x": 9942.969,
     "y": 6008.5,
-    "width": 153.422,
+    "width": 145,
     "height": 24,
-    "x1": 9938.297,
+    "x1": 9942.969,
     "y1": 6008.5,
-    "x2": 10091.719000000001,
+    "x2": 10087.969,
     "y2": 6032.5
   },
   "points": [
     {
-      "x": 9938.297,
+      "x": 9942.969,
       "y": 6008.5
     },
     {
-      "x": 10091.719000000001,
+      "x": 10087.969,
       "y": 6008.5
     },
     {
-      "x": 10091.719000000001,
+      "x": 10087.969,
       "y": 6032.5
     },
     {
-      "x": 9938.297,
+      "x": 9942.969,
       "y": 6032.5
     }
   ],
@@ -58,7 +58,6 @@
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "24",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Spring Reverb"
+                "text": "Spring reverb"
               }
             ],
             "textTransform": "none",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "24",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,20 +108,26 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc5038578a80",
   "positionData": [
     {
-      "y": 6033.5,
+      "x": 9942.969,
+      "y": 6034.25,
+      "width": 144.10000610351562,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 144.10000610351562,
+      "y2": 25.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "24px",
       "fontWeight": "400",
-      "width": 153.422,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 9938.297,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#e7edf6",
@@ -128,8 +136,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 27,
-      "text": "Spring Reverb"
+      "text": "Spring reverb"
     }
   ]
 }

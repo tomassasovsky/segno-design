@@ -1,0 +1,142 @@
+{
+  "id": "5f37dcbd-9c09-8029-8008-ee8bff8c7870",
+  "name": "DIGI GRV",
+  "type": "text",
+  "x": 8967,
+  "y": 4171,
+  "width": 108,
+  "height": 24,
+  "rotation": 0,
+  "selrect": {
+    "x": 8967,
+    "y": 4171,
+    "width": 108,
+    "height": 24,
+    "x1": 8967,
+    "y1": 4171,
+    "x2": 9075,
+    "y2": 4195
+  },
+  "points": [
+    {
+      "x": 8967,
+      "y": 4171
+    },
+    {
+      "x": 9075,
+      "y": 4171
+    },
+    {
+      "x": 9075,
+      "y": 4195
+    },
+    {
+      "x": 8967,
+      "y": 4195
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5f37dcbd-9c09-8029-8008-ee8bff8c786f",
+  "frameId": "5f37dcbd-9c09-8029-8008-ee8bff8c786f",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "DIGI GRV"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038288efc",
+  "positionData": [
+    {
+      "x": 8967,
+      "y": 4196.75,
+      "width": 107.56666564941406,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 107.56666564941406,
+      "y2": 25.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "DIGI GRV"
+    }
+  ]
+}
