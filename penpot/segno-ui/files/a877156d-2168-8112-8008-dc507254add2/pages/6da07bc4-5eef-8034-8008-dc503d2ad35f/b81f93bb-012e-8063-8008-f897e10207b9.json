@@ -1,0 +1,268 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f897e10207b9",
+  "name": "c \/ time-signatures",
+  "type": "text",
+  "x": 1740,
+  "y": 55942,
+  "width": 640,
+  "height": 96,
+  "rotation": 0,
+  "selrect": {
+    "x": 1740,
+    "y": 55942,
+    "width": 640,
+    "height": 96,
+    "x1": 1740,
+    "y1": 55942,
+    "x2": 2380,
+    "y2": 56038
+  },
+  "points": [
+    {
+      "x": 1740,
+      "y": 55942
+    },
+    {
+      "x": 2380,
+      "y": 55942
+    },
+    {
+      "x": 2380,
+      "y": 56038
+    },
+    {
+      "x": 1740,
+      "y": 56038
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f897db200e05",
+  "frameId": "b81f93bb-012e-8063-8008-f897db200e05",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "More replaces the right column with all 17 time signatures the engine accepts (2\/4 to 7\/4, then 5\/8 to 15\/8), four across in the same 73.5\u00d748 buttons as the panel's signature row, with Back in the last row's free cell. One fixed 4 px gap across and down (#1672 RO-4), so the grid reads as one block. The current signature (7\/8 here) is selected in accentSurface with an accent edge, and the beat lights grow to its count (seven). Picking one sends the signature and returns to the column. Before the first take only: once loops exist More is dimmed with the rest of the row (04)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 1740,
+      "y": 55958.25,
+      "width": 619.7166748046875,
+      "height": 16.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 619.7166748046875,
+      "y2": 16.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "More replaces the right column with all 17 time signatures the engine accepts (2\/4 to 7\/4, then 5\/8 to "
+    },
+    {
+      "x": 1740,
+      "y": 55974.25,
+      "width": 633.1666870117188,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 15.75,
+      "x2": 633.1666870117188,
+      "y2": 32.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "15\/8), four across in the same 73.5\u00d748 buttons as the panel's signature row, with Back in the last row's "
+    },
+    {
+      "x": 1740,
+      "y": 55990.25,
+      "width": 596.11669921875,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 31.75,
+      "x2": 596.11669921875,
+      "y2": 48.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "free cell. One fixed 4 px gap across and down (#1672 RO-4), so the grid reads as one block. The "
+    },
+    {
+      "x": 1740,
+      "y": 56006.25,
+      "width": 634.2000122070312,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 47.75,
+      "x2": 634.2000122070312,
+      "y2": 64.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "current signature (7\/8 here) is selected in accentSurface with an accent edge, and the beat lights grow "
+    },
+    {
+      "x": 1740,
+      "y": 56022.25,
+      "width": 615.2000122070312,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 63.75,
+      "x2": 615.2000122070312,
+      "y2": 80.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "to its count (seven). Picking one sends the signature and returns to the column. Before the first take "
+    },
+    {
+      "x": 1740,
+      "y": 56038.25,
+      "width": 414.683349609375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 79.75,
+      "x2": 414.683349609375,
+      "y2": 96.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "only: once loops exist More is dimmed with the rest of the row (04)."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f"
+}

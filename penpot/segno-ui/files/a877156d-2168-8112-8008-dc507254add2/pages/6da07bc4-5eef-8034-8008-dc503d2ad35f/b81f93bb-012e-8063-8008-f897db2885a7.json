@@ -1,0 +1,143 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f897db2885a7",
+  "name": "Screen label \/ time-signatures",
+  "type": "text",
+  "x": 1740,
+  "y": 55456,
+  "width": 255,
+  "height": 27,
+  "rotation": 0,
+  "selrect": {
+    "x": 1740,
+    "y": 55456,
+    "width": 255,
+    "height": 27,
+    "x1": 1740,
+    "y1": 55456,
+    "x2": 1995,
+    "y2": 55483
+  },
+  "points": [
+    {
+      "x": 1740,
+      "y": 55456
+    },
+    {
+      "x": 1995,
+      "y": 55456
+    },
+    {
+      "x": 1995,
+      "y": 55483
+    },
+    {
+      "x": 1740,
+      "y": 55483
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f897db200e05",
+  "frameId": "b81f93bb-012e-8063-8008-f897db200e05",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.125",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.125",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "700",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c9ced9",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "07  All time signatures"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "700",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c9ced9",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 1740,
+      "y": 55483.25,
+      "width": 254.78334045410156,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 254.78334045410156,
+      "y2": 27.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#c9ced9",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "07  All time signatures"
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f"
+}

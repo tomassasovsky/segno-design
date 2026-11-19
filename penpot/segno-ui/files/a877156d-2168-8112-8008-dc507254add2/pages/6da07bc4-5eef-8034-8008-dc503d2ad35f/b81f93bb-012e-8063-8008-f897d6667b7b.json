@@ -1,0 +1,318 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f897d6667b7b",
+  "name": "c \/ loop-panel-recording",
+  "type": "text",
+  "x": 300,
+  "y": 55942,
+  "width": 640,
+  "height": 128,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 55942,
+    "width": 640,
+    "height": 128,
+    "x1": 300,
+    "y1": 55942,
+    "x2": 940,
+    "y2": 56070
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 55942
+    },
+    {
+      "x": 940,
+      "y": 55942
+    },
+    {
+      "x": 940,
+      "y": 56070
+    },
+    {
+      "x": 300,
+      "y": 56070
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f897d0be6e1f",
+  "frameId": "b81f93bb-012e-8063-8008-f897d0be6e1f",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "While a take records (tempoFollow busy, captureLocked) the panel stays open and readable but nothing that would change the take can be pressed. A band under the header, rec at 13 % with a 40 % rec edge and the lock, says it once in a sentence: 'Recording: tempo, length and start are locked until the take ends'. Each locked section's label carries a lock (rec in the tempo card, muted elsewhere), and its controls take the disabled opacity (0.4). The band pushes the panel's columns down by 34, so the tempo note gives up its place: the card keeps the figure, nudges and Tap at their usual height. Clear tempo stays live: the engine's lock refuses it with the main screen's reason (10), rather than the readout guessing at the lock. The time signature is locked from the first take on, recording or not."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 300,
+      "y": 55958.25,
+      "width": 592,
+      "height": 16.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 592,
+      "y2": 16.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "While a take records (tempoFollow busy, captureLocked) the panel stays open and readable but "
+    },
+    {
+      "x": 300,
+      "y": 55974.25,
+      "width": 630.683349609375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 15.75,
+      "x2": 630.683349609375,
+      "y2": 32.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "nothing that would change the take can be pressed. A band under the header, rec at 13 % with a 40 % "
+    },
+    {
+      "x": 300,
+      "y": 55990.25,
+      "width": 624.4500122070312,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 31.75,
+      "x2": 624.4500122070312,
+      "y2": 48.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "rec edge and the lock, says it once in a sentence: 'Recording: tempo, length and start are locked until "
+    },
+    {
+      "x": 300,
+      "y": 56006.25,
+      "width": 637.11669921875,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 47.75,
+      "x2": 637.11669921875,
+      "y2": 64.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "the take ends'. Each locked section's label carries a lock (rec in the tempo card, muted elsewhere), and "
+    },
+    {
+      "x": 300,
+      "y": 56022.25,
+      "width": 624.066650390625,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 63.75,
+      "x2": 624.066650390625,
+      "y2": 80.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "its controls take the disabled opacity (0.4). The band pushes the panel's columns down by 34, so the "
+    },
+    {
+      "x": 300,
+      "y": 56038.25,
+      "width": 615.8499755859375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 79.75,
+      "x2": 615.8499755859375,
+      "y2": 96.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "tempo note gives up its place: the card keeps the figure, nudges and Tap at their usual height. Clear "
+    },
+    {
+      "x": 300,
+      "y": 56054.25,
+      "width": 639,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 95.75,
+      "x2": 639,
+      "y2": 112.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "tempo stays live: the engine's lock refuses it with the main screen's reason (10), rather than the readout "
+    },
+    {
+      "x": 300,
+      "y": 56070.25,
+      "width": 545.0833129882812,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 111.75,
+      "x2": 545.0833129882812,
+      "y2": 128.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "guessing at the lock. The time signature is locked from the first take on, recording or not."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f"
+}

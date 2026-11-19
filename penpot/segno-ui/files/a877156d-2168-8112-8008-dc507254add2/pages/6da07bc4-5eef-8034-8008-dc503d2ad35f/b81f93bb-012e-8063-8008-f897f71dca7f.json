@@ -1,0 +1,343 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f897f71dca7f",
+  "name": "c \/ clear-tempo-refused",
+  "type": "text",
+  "x": 1020,
+  "y": 56762,
+  "width": 640,
+  "height": 144,
+  "rotation": 0,
+  "selrect": {
+    "x": 1020,
+    "y": 56762,
+    "width": 640,
+    "height": 144,
+    "x1": 1020,
+    "y1": 56762,
+    "x2": 1660,
+    "y2": 56906
+  },
+  "points": [
+    {
+      "x": 1020,
+      "y": 56762
+    },
+    {
+      "x": 1660,
+      "y": 56762
+    },
+    {
+      "x": 1660,
+      "y": 56906
+    },
+    {
+      "x": 1020,
+      "y": 56906
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f897f26f2914",
+  "frameId": "b81f93bb-012e-8063-8008-f897f26f2914",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Clear tempo sends tempo.clear over the screen link, and the main screen applies it through TempoSettings.clearTempo() (#1653), so the engine's tempo lock decides, exactly as on the main screen's Tempo page. A refusal is the link's one reply (ScreenLinkOp.refused, a ReadoutRefusal): the panel shows the main screen's notice in the tempo note's place, the title in 13 w600 warning and the reason in 13 w400 textSecondary, wrapped whole with NoticeSentence, up to three lines, for 6 s (the main screen's warning time). The next command or closing the panel drops it, and a refusal that arrives while the panel is closed is ignored. While it shows it replaces the recording band (05): with both, the 7\u2033 overflowed by 9 px, and the reason already names the take. Clear tempo is offered whenever a tempo is set and dims to the disabled opacity when none is."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 1020,
+      "y": 56778.25,
+      "width": 562.4666748046875,
+      "height": 16.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 562.4666748046875,
+      "y2": 16.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "Clear tempo sends tempo.clear over the screen link, and the main screen applies it through "
+    },
+    {
+      "x": 1020,
+      "y": 56794.25,
+      "width": 600.9833374023438,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 15.75,
+      "x2": 600.9833374023438,
+      "y2": 32.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "TempoSettings.clearTempo() (#1653), so the engine's tempo lock decides, exactly as on the main "
+    },
+    {
+      "x": 1020,
+      "y": 56810.25,
+      "width": 624.5166625976562,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 31.75,
+      "x2": 624.5166625976562,
+      "y2": 48.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "screen's Tempo page. A refusal is the link's one reply (ScreenLinkOp.refused, a ReadoutRefusal): the "
+    },
+    {
+      "x": 1020,
+      "y": 56826.25,
+      "width": 619.5999755859375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 47.75,
+      "x2": 619.5999755859375,
+      "y2": 64.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "panel shows the main screen's notice in the tempo note's place, the title in 13 w600 warning and the "
+    },
+    {
+      "x": 1020,
+      "y": 56842.25,
+      "width": 622.9166870117188,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 63.75,
+      "x2": 622.9166870117188,
+      "y2": 80.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "reason in 13 w400 textSecondary, wrapped whole with NoticeSentence, up to three lines, for 6 s (the "
+    },
+    {
+      "x": 1020,
+      "y": 56858.25,
+      "width": 637.5999755859375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 79.75,
+      "x2": 637.5999755859375,
+      "y2": 96.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "main screen's warning time). The next command or closing the panel drops it, and a refusal that arrives "
+    },
+    {
+      "x": 1020,
+      "y": 56874.25,
+      "width": 639.75,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 95.75,
+      "x2": 639.75,
+      "y2": 112.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "while the panel is closed is ignored. While it shows it replaces the recording band (05): with both, the 7\u2033 "
+    },
+    {
+      "x": 1020,
+      "y": 56890.25,
+      "width": 628.5166625976562,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 111.75,
+      "x2": 628.5166625976562,
+      "y2": 128.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "overflowed by 9 px, and the reason already names the take. Clear tempo is offered whenever a tempo "
+    },
+    {
+      "x": 1020,
+      "y": 56906.25,
+      "width": 324.6000061035156,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 127.75,
+      "x2": 324.6000061035156,
+      "y2": 144.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "is set and dims to the disabled opacity when none is."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f"
+}

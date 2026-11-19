@@ -1,0 +1,418 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f897afcd67f7",
+  "name": "c \/ readout",
+  "type": "text",
+  "x": 300,
+  "y": 55122,
+  "width": 640,
+  "height": 192,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 55122,
+    "width": 640,
+    "height": 192,
+    "x1": 300,
+    "y1": 55122,
+    "x2": 940,
+    "y2": 55314
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 55122
+    },
+    {
+      "x": 940,
+      "y": 55122
+    },
+    {
+      "x": 940,
+      "y": 55314
+    },
+    {
+      "x": 300,
+      "y": 55314
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f897aef70ae7",
+  "frameId": "b81f93bb-012e-8063-8008-f897aef70ae7",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The 7\u2033 readout as shipped, at the panel's native 1024\u00d7600 (640\u00d7375 logical at \u00d71.6, #1591) in the readout palette (#1674). It updates 'Selected track \u00b7 7-inch' above, whose bottom row of plain facts became this strip; the readout runs at the panel's 640\u00d7375 here, not that tile's 16:9. The footer is one touch target, 55 high across the content width (inset 24.5, 16 above the bottom edge, at least the 48 minimum): the tempo in JetBrains Mono, BPM, the signature, then the length and start of the selected track's next take (its own values when it has them, see 02), and at the right the function and bank with the sliders glyph, which says the strip opens something. Touching anywhere on it opens the Loop panel (03). Owner decision 2026-11-04, layout B of the #1654 brainstorm: the readout itself does not change, so the two-metre glance stays as it was and the controls appear only under a hand. The facts scale down before they run under the function, and length and start are left out until the main screen's settings have loaded, rather than showing fallbacks. Drawn from test\/screenshots\/readout_controls_screenshots_test.dart."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 300,
+      "y": 55138.25,
+      "width": 599.5833129882812,
+      "height": 16.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 599.5833129882812,
+      "y2": 16.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "The 7\u2033 readout as shipped, at the panel's native 1024\u00d7600 (640\u00d7375 logical at \u00d71.6, #1591) in the "
+    },
+    {
+      "x": 300,
+      "y": 55154.25,
+      "width": 610.933349609375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 15.75,
+      "x2": 610.933349609375,
+      "y2": 32.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "readout palette (#1674). It updates 'Selected track \u00b7 7-inch' above, whose bottom row of plain facts "
+    },
+    {
+      "x": 300,
+      "y": 55170.25,
+      "width": 622.9166870117188,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 31.75,
+      "x2": 622.9166870117188,
+      "y2": 48.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "became this strip; the readout runs at the panel's 640\u00d7375 here, not that tile's 16:9. The footer is one "
+    },
+    {
+      "x": 300,
+      "y": 55186.25,
+      "width": 616.683349609375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 47.75,
+      "x2": 616.683349609375,
+      "y2": 64.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "touch target, 55 high across the content width (inset 24.5, 16 above the bottom edge, at least the 48 "
+    },
+    {
+      "x": 300,
+      "y": 55202.25,
+      "width": 625,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 63.75,
+      "x2": 625,
+      "y2": 80.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "minimum): the tempo in JetBrains Mono, BPM, the signature, then the length and start of the selected "
+    },
+    {
+      "x": 300,
+      "y": 55218.25,
+      "width": 630.7833251953125,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 79.75,
+      "x2": 630.7833251953125,
+      "y2": 96.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "track's next take (its own values when it has them, see 02), and at the right the function and bank with "
+    },
+    {
+      "x": 300,
+      "y": 55234.25,
+      "width": 639.5,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 95.75,
+      "x2": 639.5,
+      "y2": 112.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "the sliders glyph, which says the strip opens something. Touching anywhere on it opens the Loop panel "
+    },
+    {
+      "x": 300,
+      "y": 55250.25,
+      "width": 636.2000122070312,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 111.75,
+      "x2": 636.2000122070312,
+      "y2": 128.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "(03). Owner decision 2026-11-04, layout B of the #1654 brainstorm: the readout itself does not change, "
+    },
+    {
+      "x": 300,
+      "y": 55266.25,
+      "width": 612.816650390625,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 127.75,
+      "x2": 612.816650390625,
+      "y2": 144.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "so the two-metre glance stays as it was and the controls appear only under a hand. The facts scale "
+    },
+    {
+      "x": 300,
+      "y": 55282.25,
+      "width": 594.2666625976562,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 143.75,
+      "x2": 594.2666625976562,
+      "y2": 160.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "down before they run under the function, and length and start are left out until the main screen's "
+    },
+    {
+      "x": 300,
+      "y": 55298.25,
+      "width": 506.3666687011719,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 159.75,
+      "x2": 506.3666687011719,
+      "y2": 176.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "settings have loaded, rather than showing fallbacks. Drawn from test\/screenshots\/"
+    },
+    {
+      "x": 300,
+      "y": 55314.25,
+      "width": 244.98333740234375,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 175.75,
+      "x2": 244.98333740234375,
+      "y2": 192.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "readout_controls_screenshots_test.dart."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f"
+}

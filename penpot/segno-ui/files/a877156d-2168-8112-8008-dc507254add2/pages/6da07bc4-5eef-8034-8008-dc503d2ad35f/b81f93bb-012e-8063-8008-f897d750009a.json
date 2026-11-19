@@ -1,0 +1,143 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f897d750009a",
+  "name": "Listo",
+  "type": "text",
+  "x": 1570.1,
+  "y": 55521,
+  "width": 59.799999999999955,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 1570.1,
+    "y": 55521,
+    "width": 59.799999999999955,
+    "height": 22,
+    "x1": 1570.1,
+    "y1": 55521,
+    "x2": 1629.8999999999999,
+    "y2": 55543
+  },
+  "points": [
+    {
+      "x": 1570.1,
+      "y": 55521
+    },
+    {
+      "x": 1629.8999999999999,
+      "y": 55521
+    },
+    {
+      "x": 1629.8999999999999,
+      "y": 55543
+    },
+    {
+      "x": 1570.1,
+      "y": 55543
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f897daddbca1",
+  "frameId": "b81f93bb-012e-8063-8008-f897d6eda2ec",
+  "flipX": null,
+  "flipY": null,
+  "growType": "fixed",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.222",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.222",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "18",
+                "fontWeight": "700",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-700",
+                "textDecoration": "none",
+                "letterSpacing": "0.25",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Listo"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "center",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "18",
+            "fontWeight": "700",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-700",
+            "textDecoration": "none",
+            "letterSpacing": "0.25",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "scale",
+  "constraintsH": "scale",
+  "positionData": [
+    {
+      "x": 1578.0666595458983,
+      "y": 55543,
+      "width": 43.850006103515625,
+      "height": 22,
+      "x1": 7.9666595458984375,
+      "y1": 0,
+      "x2": 51.81666564941406,
+      "y2": 22,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "textDecoration": "none",
+      "letterSpacing": "0.25px",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "Listo"
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f"
+}
