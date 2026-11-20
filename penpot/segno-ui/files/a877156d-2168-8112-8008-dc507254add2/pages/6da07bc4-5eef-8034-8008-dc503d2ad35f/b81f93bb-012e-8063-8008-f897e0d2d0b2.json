@@ -1,0 +1,143 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f897e0d2d0b2",
+  "name": "t \/ time-signatures",
+  "type": "text",
+  "x": 1740,
+  "y": 55895,
+  "width": 241,
+  "height": 19,
+  "rotation": 0,
+  "selrect": {
+    "x": 1740,
+    "y": 55895,
+    "width": 241,
+    "height": 19,
+    "x1": 1740,
+    "y1": 55895,
+    "x2": 1981,
+    "y2": 55914
+  },
+  "points": [
+    {
+      "x": 1740,
+      "y": 55895
+    },
+    {
+      "x": 1981,
+      "y": 55895
+    },
+    {
+      "x": 1981,
+      "y": 55914
+    },
+    {
+      "x": 1740,
+      "y": 55914
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f897db200e05",
+  "frameId": "b81f93bb-012e-8063-8008-f897db200e05",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2667",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2667",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "15",
+                "fontWeight": "600",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-600",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Loop panel \u00b7 every time signature"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "15",
+            "fontWeight": "600",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-600",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#ffffff",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 1740,
+      "y": 55914,
+      "width": 240.85000610351562,
+      "height": 19,
+      "x1": 0,
+      "y1": 0,
+      "x2": 240.85000610351562,
+      "y2": 19,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "Loop panel \u00b7 every time signature"
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f"
+}

@@ -1,0 +1,243 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f897b3abcc69",
+  "name": "c \/ readout-es-recording",
+  "type": "text",
+  "x": 1020,
+  "y": 55122,
+  "width": 640,
+  "height": 80,
+  "rotation": 0,
+  "selrect": {
+    "x": 1020,
+    "y": 55122,
+    "width": 640,
+    "height": 80,
+    "x1": 1020,
+    "y1": 55122,
+    "x2": 1660,
+    "y2": 55202
+  },
+  "points": [
+    {
+      "x": 1020,
+      "y": 55122
+    },
+    {
+      "x": 1660,
+      "y": 55122
+    },
+    {
+      "x": 1660,
+      "y": 55202
+    },
+    {
+      "x": 1020,
+      "y": 55202
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f897b2cc45b1",
+  "frameId": "b81f93bb-012e-8063-8008-f897b2cc45b1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2308",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2308",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "13",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "The readout in Spanish while a take records on a track that has its own length (8 bars) and start (1\/8), against defaults of 4 bars and Loop top. The strip says what this track's next take will use, so it names the track's own values ('8 compases \u00b7 Entrada 1\/8'); the defaults are what the panel's buttons edit (06). The strip does not lock or dim while recording: it only reports, and the locks are drawn on the panel. The Spanish facts are the longest the strip carries and still fit beside 'Pistas \u00b7 Banco A' at 640 logical."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "13",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 1020,
+      "y": 55138.25,
+      "width": 624.4166870117188,
+      "height": 16.5,
+      "x1": 0,
+      "y1": -0.25,
+      "x2": 624.4166870117188,
+      "y2": 16.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "The readout in Spanish while a take records on a track that has its own length (8 bars) and start (1\/8), "
+    },
+    {
+      "x": 1020,
+      "y": 55154.25,
+      "width": 630.4500122070312,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 15.75,
+      "x2": 630.4500122070312,
+      "y2": 32.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "against defaults of 4 bars and Loop top. The strip says what this track's next take will use, so it names "
+    },
+    {
+      "x": 1020,
+      "y": 55170.25,
+      "width": 635.6500244140625,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 31.75,
+      "x2": 635.6500244140625,
+      "y2": 48.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "the track's own values ('8 compases \u00b7 Entrada 1\/8'); the defaults are what the panel's buttons edit (06). "
+    },
+    {
+      "x": 1020,
+      "y": 55186.25,
+      "width": 616.2000122070312,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 47.75,
+      "x2": 616.2000122070312,
+      "y2": 64.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "The strip does not lock or dim while recording: it only reports, and the locks are drawn on the panel. "
+    },
+    {
+      "x": 1020,
+      "y": 55202.25,
+      "width": 618.0499877929688,
+      "height": 16.5,
+      "x1": 0,
+      "y1": 63.75,
+      "x2": 618.0499877929688,
+      "y2": 80.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "The Spanish facts are the longest the strip carries and still fit beside 'Pistas \u00b7 Banco A' at 640 logical."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f"
+}

@@ -1,0 +1,193 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f8981977b786",
+  "name": "c \/ Selected track \u00b7 7-inch \u00b7 footer strip (#1654)",
+  "type": "text",
+  "x": 2700,
+  "y": 51360,
+  "width": 1280,
+  "height": 86,
+  "rotation": 0,
+  "selrect": {
+    "x": 2700,
+    "y": 51360,
+    "width": 1280,
+    "height": 86,
+    "x1": 2700,
+    "y1": 51360,
+    "x2": 3980,
+    "y2": 51446
+  },
+  "points": [
+    {
+      "x": 2700,
+      "y": 51360
+    },
+    {
+      "x": 3980,
+      "y": 51360
+    },
+    {
+      "x": 3980,
+      "y": 51446
+    },
+    {
+      "x": 2700,
+      "y": 51446
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "175f290e-db5b-4ee0-b844-5e4d186dd3b1",
+  "frameId": "175f290e-db5b-4ee0-b844-5e4d186dd3b1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.3",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.3",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#9ea3b0",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Inter",
+                "text": "Updated by #1654: the bottom row of plain facts is now the footer strip, one touch target that names tempo, signature, length and start and opens the Loop panel. 25  Readout controls, below this board, draws the strip, the panel in its states and the exact-tempo keypad at the 7-inch panel's real 640\u00d7375; this tile keeps the earlier 16:9 frame for the header and waveform."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-55ea1d0f-da97-4707-a8aa-51a6f1855ee9",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#9ea3b0",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Inter"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 2700,
+      "y": 51387.80000305176,
+      "width": 1232.5999755859375,
+      "height": 27,
+      "x1": 0,
+      "y1": 0.8000030517578125,
+      "x2": 1232.5999755859375,
+      "y2": 27.800003051757812,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "Updated by #1654: the bottom row of plain facts is now the footer strip, one touch target that names tempo, signature, "
+    },
+    {
+      "x": 2700,
+      "y": 51416.399993896484,
+      "width": 1258.63330078125,
+      "height": 27,
+      "x1": 0,
+      "y1": 29.399993896484375,
+      "x2": 1258.63330078125,
+      "y2": 56.399993896484375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "length and start and opens the Loop panel. 25  Readout controls, below this board, draws the strip, the panel in its states "
+    },
+    {
+      "x": 2700,
+      "y": 51445,
+      "width": 1252.75,
+      "height": 27,
+      "x1": 0,
+      "y1": 58,
+      "x2": 1252.75,
+      "y2": 85,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#9ea3b0",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Inter",
+      "text": "and the exact-tempo keypad at the 7\u2033's real 640\u00d7375; this tile keeps the earlier 16:9 frame for the header and waveform."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f"
+}
