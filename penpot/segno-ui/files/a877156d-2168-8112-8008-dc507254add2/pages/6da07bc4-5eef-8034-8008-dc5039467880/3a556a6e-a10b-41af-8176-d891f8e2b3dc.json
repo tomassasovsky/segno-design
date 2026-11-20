@@ -1,37 +1,37 @@
 {
   "id": "3a556a6e-a10b-41af-8176-d891f8e2b3dc",
-  "name": "Hold \u00b7 Speed",
+  "name": "Hold \u00b7 Capture",
   "type": "text",
-  "x": 10564.047,
+  "x": 10558,
   "y": 18549.5,
-  "width": 110.906,
+  "width": 124,
   "height": 19,
   "rotation": 0,
   "selrect": {
-    "x": 10564.047,
+    "x": 10558,
     "y": 18549.5,
-    "width": 110.906,
+    "width": 124,
     "height": 19,
-    "x1": 10564.047,
+    "x1": 10558,
     "y1": 18549.5,
-    "x2": 10674.953000000001,
+    "x2": 10682,
     "y2": 18568.5
   },
   "points": [
     {
-      "x": 10564.047,
+      "x": 10558,
       "y": 18549.5
     },
     {
-      "x": 10674.953000000001,
+      "x": 10682,
       "y": 18549.5
     },
     {
-      "x": 10674.953000000001,
+      "x": 10682,
       "y": 18568.5
     },
     {
-      "x": 10564.047,
+      "x": 10558,
       "y": 18568.5
     }
   ],
@@ -58,7 +58,6 @@
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "19",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Hold \u00b7 Speed"
+                "text": "Hold \u00b7 Capture"
               }
             ],
             "textTransform": "none",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "19",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,20 +108,26 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc5039467880",
   "positionData": [
     {
-      "y": 18569.5,
+      "x": 10558,
+      "y": 18570,
+      "width": 123.56666564941406,
+      "height": 22,
+      "x1": 0,
+      "y1": -1.5,
+      "x2": 123.56666564941406,
+      "y2": 20.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "19px",
       "fontWeight": "400",
-      "width": 110.906,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 10564.047,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#aebdd2",
@@ -128,8 +136,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 21,
-      "text": "Hold \u00b7 Speed"
+      "text": "Hold \u00b7 Capture"
     }
   ]
 }

@@ -129,7 +129,7 @@ window.createPedalPerformanceStudy = function ({getSettings, onChange, newLoop, 
     else if (action === 'Peel') enter('peel');
     else if(action==='Bounce')enter('bounce');
     else if(action==='Backing track')enter('backing');
-    else if(action==='New loop')newLoop();
+    else if(action==='New session')newLoop();
     else if(action==='Record performance')recordPerformance?.();
     else if(window.SegnoDirectActions.some(a=>a.key===action||a.label===action)){const entry=window.SegnoDirectActions.find(a=>a.key===action||a.label===action),gesture=[...gestures.values()].find(g=>g.id===id),source=entry.operation==='instrument'?`custom:${id>=4&&id<=7?gesture?.bank??bankState.get():0}:${id}`:'custom:'+gesture?.token,release=assignedAction?.(entry.key,source);if(typeof release==='function'){if(gesture)gesture.assignmentRelease=release;else release();}}
     else if(view==='tracks'||view==='mute'){

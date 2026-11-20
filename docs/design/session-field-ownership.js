@@ -58,7 +58,7 @@
         ports:rig.expressionSettings.ports.map(port => ({mappings:copy(port.mappings || []),
           switches:(port.switches || []).map(s => pick(s, switchFields))}))};
     }
-    // A projected snapshot keeps its original requirements when copied for New loop.
+    // A projected snapshot keeps its original requirements when copied for New session.
     session.sessionRequirements = {controlPorts:copy(rig.sessionRequirements?.controlPorts || requirements(rig))};
     return session;
   }

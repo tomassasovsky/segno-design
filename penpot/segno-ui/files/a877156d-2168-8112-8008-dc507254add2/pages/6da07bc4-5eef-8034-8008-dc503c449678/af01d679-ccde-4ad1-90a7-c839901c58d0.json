@@ -1,20 +1,20 @@
 {
   "id": "af01d679-ccde-4ad1-90a7-c839901c58d0",
-  "name": "New loop",
+  "name": "New session",
   "type": "text",
   "x": 2956,
   "y": 35001,
-  "width": 134,
+  "width": 182,
   "height": 32,
   "rotation": 0,
   "selrect": {
     "x": 2956,
     "y": 35001,
-    "width": 134,
+    "width": 182,
     "height": 32,
     "x1": 2956,
     "y1": 35001,
-    "x2": 3090,
+    "x2": 3138,
     "y2": 35033
   },
   "points": [
@@ -23,11 +23,11 @@
       "y": 35001
     },
     {
-      "x": 3090,
+      "x": 3138,
       "y": 35001
     },
     {
-      "x": 3090,
+      "x": 3138,
       "y": 35033
     },
     {
@@ -58,7 +58,6 @@
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "32",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "New loop"
+                "text": "New session"
               }
             ],
             "textTransform": "none",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "32",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,18 +108,19 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678",
   "positionData": [
     {
       "x": 2956,
       "y": 35035,
-      "width": 133.43333435058594,
+      "width": 181.43333435058594,
       "height": 36,
       "x1": 0,
       "y1": -2,
-      "x2": 133.43333435058594,
+      "x2": 181.43333435058594,
       "y2": 34,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -132,8 +135,8 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
-      "text": "New loop"
+      "fontFamily": "Arimo",
+      "text": "New session"
     }
   ]
 }

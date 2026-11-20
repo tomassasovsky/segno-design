@@ -1,0 +1,331 @@
+{
+  "id": "65c82c9c-2410-80f0-8008-f91beb4cce45",
+  "name": "c \/ Recording ended by a session change \u00b7 #1229, #1910",
+  "type": "text",
+  "x": 300,
+  "y": 42680,
+  "width": 1840,
+  "height": 168,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 42680,
+    "width": 1840,
+    "height": 168,
+    "x1": 300,
+    "y1": 42680,
+    "x2": 2140,
+    "y2": 42848
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 42680
+    },
+    {
+      "x": 2140,
+      "y": 42680
+    },
+    {
+      "x": 2140,
+      "y": 42848
+    },
+    {
+      "x": 300,
+      "y": 42848
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "c2a733e5-4a87-414f-8155-37df38a6574b",
+  "frameId": "c2a733e5-4a87-414f-8155-37df38a6574b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "c\/ A recording that a session change ends \u00b7 #1229, #1910"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "When opening a session or starting a new session ends a running performance recording, the recording is saved and the completion sheet (04 \/ Saved recording) does not open over the new session. The stage shows a notice instead, titled \"Recording saved\", with \"Find it in Library > Audio.\" under it. The session's own notice arrives at about the same time, and this one is kept beside it so it is not replaced unread."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "A recording that did not come out whole, or that dropped frames, still opens the sheet: that is where the player reads what is wrong with it."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 300,
+      "y": 42710.55000305176,
+      "width": 615.1500244140625,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 3.0500030517578125,
+      "x2": 615.1500244140625,
+      "y2": 30.550003051757812,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "c\/ A recording that a session change ends \u00b7 #1229, #1910"
+    },
+    {
+      "x": 300,
+      "y": 42744.149993896484,
+      "width": 1785.3333740234375,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 36.649993896484375,
+      "x2": 1785.3333740234375,
+      "y2": 64.14999389648438,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "When opening a session or starting a new loop ends a running performance recording, the recording is saved and the completion sheet (04 \/ Saved recording) does not "
+    },
+    {
+      "x": 300,
+      "y": 42777.75,
+      "width": 1815.1500244140625,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 70.25,
+      "x2": 1815.1500244140625,
+      "y2": 97.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "open over the new session. The stage shows a notice instead, titled \"Recording saved\", with \"Find it in Library > Audio.\" under it. The session's own notice arrives at about "
+    },
+    {
+      "x": 300,
+      "y": 42811.350006103516,
+      "width": 768.5166625976562,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 103.85000610351562,
+      "x2": 768.5166625976562,
+      "y2": 131.35000610351562,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "the same time, and this one is kept beside it so it is not replaced unread."
+    },
+    {
+      "x": 300,
+      "y": 42844.94999694824,
+      "width": 1460.949951171875,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 137.4499969482422,
+      "x2": 1460.949951171875,
+      "y2": 164.9499969482422,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "A recording that did not come out whole, or that dropped frames, still opens the sheet: that is where the player reads what is wrong with it."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c6eee18"
+}
