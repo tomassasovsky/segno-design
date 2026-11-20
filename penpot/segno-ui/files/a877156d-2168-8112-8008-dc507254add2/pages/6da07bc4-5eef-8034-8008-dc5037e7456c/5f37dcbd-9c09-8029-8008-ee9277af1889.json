@@ -1,0 +1,81 @@
+{
+  "id": "5f37dcbd-9c09-8029-8008-ee9277af1889",
+  "name": "pedal: Reverb",
+  "type": "rect",
+  "x": 354,
+  "y": 5062,
+  "width": 130,
+  "height": 191,
+  "rotation": 0,
+  "selrect": {
+    "x": 354,
+    "y": 5062,
+    "width": 130,
+    "height": 191,
+    "x1": 354,
+    "y1": 5062,
+    "x2": 484,
+    "y2": 5253
+  },
+  "points": [
+    {
+      "x": 354,
+      "y": 5062
+    },
+    {
+      "x": 484,
+      "y": 5062
+    },
+    {
+      "x": 484,
+      "y": 5253
+    },
+    {
+      "x": 354,
+      "y": 5253
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "5f37dcbd-9c09-8029-8008-ee9277812bed",
+  "frameId": "5f37dcbd-9c09-8029-8008-ee9277812bed",
+  "flipX": null,
+  "flipY": null,
+  "r2": 0,
+  "proportionLock": false,
+  "pageId": "6da07bc4-5eef-8034-8008-dc5037e7456c",
+  "r3": 0,
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "r1": 0,
+  "strokes": [],
+  "proportion": 1,
+  "r4": 0,
+  "fills": [
+    {
+      "fillOpacity": 1,
+      "fillImage": {
+        "id": "8e181188-25b5-4b9b-a5df-ddd807ba5d91",
+        "name": "pedal-reverb.png",
+        "width": 450,
+        "height": 662,
+        "mtype": "image\/png",
+        "keepAspectRatio": true
+      }
+    }
+  ]
+}

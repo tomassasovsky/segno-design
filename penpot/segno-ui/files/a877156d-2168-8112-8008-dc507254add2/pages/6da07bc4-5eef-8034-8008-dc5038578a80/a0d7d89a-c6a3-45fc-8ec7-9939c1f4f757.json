@@ -1,37 +1,37 @@
 {
   "id": "a0d7d89a-c6a3-45fc-8ec7-9939c1f4f757",
-  "name": "Dub Delay",
+  "name": "Dub delay",
   "type": "text",
-  "x": 9337.484,
+  "x": 9339.656,
   "y": 5524.5,
-  "width": 112.063,
+  "width": 109,
   "height": 24,
   "rotation": 0,
   "selrect": {
-    "x": 9337.484,
+    "x": 9339.656,
     "y": 5524.5,
-    "width": 112.063,
+    "width": 109,
     "height": 24,
-    "x1": 9337.484,
+    "x1": 9339.656,
     "y1": 5524.5,
-    "x2": 9449.547,
+    "x2": 9448.656,
     "y2": 5548.5
   },
   "points": [
     {
-      "x": 9337.484,
+      "x": 9339.656,
       "y": 5524.5
     },
     {
-      "x": 9449.547,
+      "x": 9448.656,
       "y": 5524.5
     },
     {
-      "x": 9449.547,
+      "x": 9448.656,
       "y": 5548.5
     },
     {
-      "x": 9337.484,
+      "x": 9339.656,
       "y": 5548.5
     }
   ],
@@ -58,7 +58,6 @@
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "24",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Dub Delay"
+                "text": "Dub delay"
               }
             ],
             "textTransform": "none",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "24",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,20 +108,26 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc5038578a80",
   "positionData": [
     {
-      "y": 5549.5,
+      "x": 9339.656,
+      "y": 5550.25,
+      "width": 108.08332824707031,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 108.08332824707031,
+      "y2": 25.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "24px",
       "fontWeight": "400",
-      "width": 112.063,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 9337.484,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#e7edf6",
@@ -128,8 +136,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 27,
-      "text": "Dub Delay"
+      "text": "Dub delay"
     }
   ]
 }

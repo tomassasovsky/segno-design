@@ -1,6 +1,6 @@
 {
   "id": "41afabc5-4f52-4797-b82f-de75bc4a5e59",
-  "name": "Source 0.5",
+  "name": "0.0 dB",
   "type": "text",
   "x": 8584,
   "y": 1551,
@@ -55,10 +55,9 @@
   "frameId": "be8db77f-cf98-475b-9438-44e115405852",
   "flipX": null,
   "flipY": null,
-  "growType": "auto-width",
+  "growType": "fixed",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
                 "fontSize": "20",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,14 +85,15 @@
                   }
                 ],
                 "fontFamily": "JetBrains Mono",
-                "text": "Source 0.5"
+                "text": "0.0 dB"
               }
             ],
             "textTransform": "none",
-            "textAlign": "left",
+            "textAlign": "right",
             "fontId": "custom-0feea506-9a63-4d2b-8911-dcfac2a14bd4",
             "fontSize": "20",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,20 +108,26 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc5038288efc",
   "positionData": [
     {
-      "y": 1574,
+      "x": 8632,
+      "y": 1574.25,
+      "width": 72,
+      "height": 26.5,
+      "x1": 48,
+      "y1": -3.25,
+      "x2": 120,
+      "y2": 23.25,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "20px",
       "fontWeight": "400",
-      "width": 120,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 8584,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#b9c4d6",
@@ -128,8 +136,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "JetBrains Mono",
-      "height": 26,
-      "text": "Source 0.5"
+      "text": "0.0 dB"
     }
   ]
 }
