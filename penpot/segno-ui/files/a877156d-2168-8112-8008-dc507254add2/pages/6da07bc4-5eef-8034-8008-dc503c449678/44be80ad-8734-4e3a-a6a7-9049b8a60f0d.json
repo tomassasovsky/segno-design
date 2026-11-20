@@ -2,36 +2,36 @@
   "id": "44be80ad-8734-4e3a-a6a7-9049b8a60f0d",
   "name": "USB",
   "type": "text",
-  "x": 3934.313,
+  "x": 3901.313,
   "y": 36099.5,
-  "width": 49.359,
+  "width": 50,
   "height": 24,
   "rotation": 0,
   "selrect": {
-    "x": 3934.313,
+    "x": 3901.313,
     "y": 36099.5,
-    "width": 49.359,
+    "width": 50,
     "height": 24,
-    "x1": 3934.313,
+    "x1": 3901.313,
     "y1": 36099.5,
-    "x2": 3983.672,
+    "x2": 3951.313,
     "y2": 36123.5
   },
   "points": [
     {
-      "x": 3934.313,
+      "x": 3901.313,
       "y": 36099.5
     },
     {
-      "x": 3983.672,
+      "x": 3951.313,
       "y": 36099.5
     },
     {
-      "x": 3983.672,
+      "x": 3951.313,
       "y": 36123.5
     },
     {
-      "x": 3934.313,
+      "x": 3901.313,
       "y": 36123.5
     }
   ],
@@ -111,15 +111,20 @@
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678",
   "positionData": [
     {
-      "y": 36124.5,
+      "x": 3901.313,
+      "y": 36125.25,
+      "width": 49.33332824707031,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 49.33332824707031,
+      "y2": 25.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "24px",
       "fontWeight": "400",
-      "width": 49.359,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 3934.313,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#e7edf6",
@@ -128,7 +133,6 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 27,
       "text": "USB"
     }
   ]

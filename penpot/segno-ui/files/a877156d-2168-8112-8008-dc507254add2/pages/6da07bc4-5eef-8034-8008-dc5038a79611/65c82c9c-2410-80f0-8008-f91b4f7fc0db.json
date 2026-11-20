@@ -1,0 +1,525 @@
+{
+  "id": "65c82c9c-2410-80f0-8008-f91b4f7fc0db",
+  "name": "c \/ Sessions function, commands and LED map \u00b7 #1910, #1921",
+  "type": "text",
+  "x": 8900,
+  "y": 16838,
+  "width": 1840,
+  "height": 317,
+  "rotation": 0,
+  "selrect": {
+    "x": 8900,
+    "y": 16838,
+    "width": 1840,
+    "height": 317,
+    "x1": 8900,
+    "y1": 16838,
+    "x2": 10740,
+    "y2": 17155
+  },
+  "points": [
+    {
+      "x": 8900,
+      "y": 16838
+    },
+    {
+      "x": 10740,
+      "y": 16838
+    },
+    {
+      "x": 10740,
+      "y": 17155
+    },
+    {
+      "x": 8900,
+      "y": 17155
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "72bdd679-3afe-4c43-a3fc-144e3f0489f1",
+  "frameId": "72bdd679-3afe-4c43-a3fc-144e3f0489f1",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "c\/ Sessions function, commands and LED map \u00b7 #1910, #1921"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "The picker of a pedal's Press and Hold lists Sessions under Modes & functions, with Mixer, Fade and Tuner. It enters the Sessions face (page 19). The Sessions group lists two commands, New session and Save session, which run without entering the face. Load previous session and Load next session are not in the picker: the face replaced them. External pedals (page 24) and MIDI Learn (page 26) use the same picker."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "The Sessions LED map. MODE is lit in the mode's colour. The switch under the open session is lit in \"selected\". Bank is lit in \"later bank\" past the first page. Every other switch lights only while held."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "24",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "The hold to open (#1921). A held track switch that stands for a session is in \"selected\", not \"pressed\", and its LED pill fills in that colour from left to right over the long-press time (800 ms by default). The session opens when the fill is whole, with no flash and no change of colour. Releasing early, a second track switch going down, a page turn, or a session that is no longer under the switch ends the fill at once. Wire: the STATE frame's queuedButton and queuedProgress (#1077), sent every 30 ms while the hold is pending. The face never shows a waiting Song section, so the two uses do not meet. No new message and no firmware change. On the screen the drawn switch's LED bar fills the same way (page 19, card 16)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "24",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 8900,
+      "y": 16866.149993896484,
+      "width": 665.7833251953125,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 0.649993896484375,
+      "x2": 665.7833251953125,
+      "y2": 28.149993896484375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "c\/ Sessions function, commands and LED map \u00b7 #1910, #1921"
+    },
+    {
+      "x": 8900,
+      "y": 16894.949996948242,
+      "width": 1824.7833251953125,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 29.449996948242188,
+      "x2": 1824.7833251953125,
+      "y2": 56.94999694824219,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "The picker of a pedal's Press and Hold lists Sessions under Modes & functions, with Mixer, Fade and Tuner. It enters the Sessions face (page 19). The Sessions group lists "
+    },
+    {
+      "x": 8900,
+      "y": 16923.75,
+      "width": 1775.9000244140625,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 58.25,
+      "x2": 1775.9000244140625,
+      "y2": 85.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "two commands, New loop and Save session, which run without entering the face. Load previous session and Load next session are not in the picker: the face replaced "
+    },
+    {
+      "x": 8900,
+      "y": 16952.550003051758,
+      "width": 849.933349609375,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 87.05000305175781,
+      "x2": 849.933349609375,
+      "y2": 114.55000305175781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "them. External pedals (page 24) and MIDI Learn (page 26) use the same picker."
+    },
+    {
+      "x": 8900,
+      "y": 16981.350006103516,
+      "width": 1786.2833251953125,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 115.85000610351562,
+      "x2": 1786.2833251953125,
+      "y2": 143.35000610351562,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "The Sessions LED map. MODE is lit in the mode's colour. The switch under the open session is lit in \"selected\". Bank is lit in \"later bank\" past the first page. Every other "
+    },
+    {
+      "x": 8900,
+      "y": 17010.149993896484,
+      "width": 300.16668701171875,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 144.64999389648438,
+      "x2": 300.16668701171875,
+      "y2": 172.14999389648438,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "switch lights only while held."
+    },
+    {
+      "x": 8900,
+      "y": 17038.949996948242,
+      "width": 1819.1666259765625,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 173.4499969482422,
+      "x2": 1819.1666259765625,
+      "y2": 200.9499969482422,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "The hold to open (#1921). A held track switch that stands for a session is in \"selected\", not \"pressed\", and its LED pill fills in that colour from left to right over the long-press "
+    },
+    {
+      "x": 8900,
+      "y": 17067.75,
+      "width": 1834.11669921875,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 202.25,
+      "x2": 1834.11669921875,
+      "y2": 229.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "time (800 ms by default). The session opens when the fill is whole, with no flash and no change of colour. Releasing early, a second track switch going down, a page turn, or "
+    },
+    {
+      "x": 8900,
+      "y": 17096.550003051758,
+      "width": 1803.550048828125,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 231.0500030517578,
+      "x2": 1803.550048828125,
+      "y2": 258.5500030517578,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "a session that is no longer under the switch ends the fill at once. Wire: the STATE frame's queuedButton and queuedProgress (#1077), sent every 30 ms while the hold is "
+    },
+    {
+      "x": 8900,
+      "y": 17125.350006103516,
+      "width": 1824.433349609375,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 259.8500061035156,
+      "x2": 1824.433349609375,
+      "y2": 287.3500061035156,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "pending. The face never shows a waiting Song section, so the two uses do not meet. No new message and no firmware change. On the screen the drawn switch's LED bar "
+    },
+    {
+      "x": 8900,
+      "y": 17154.149993896484,
+      "width": 398.91668701171875,
+      "height": 27.5,
+      "x1": 0,
+      "y1": 288.6499938964844,
+      "x2": 398.91668701171875,
+      "y2": 316.1499938964844,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "fills the same way (page 19, card 16)."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc5038a79611"
+}

@@ -1,0 +1,143 @@
+{
+  "id": "cbf82e76-8e45-800f-8008-f8fb7cd0ce49",
+  "name": "Foot Sessions \/ Label",
+  "type": "text",
+  "x": 4460,
+  "y": 38434,
+  "width": 545,
+  "height": 44,
+  "rotation": 0,
+  "selrect": {
+    "x": 4460,
+    "y": 38434,
+    "width": 545,
+    "height": 44,
+    "x1": 4460,
+    "y1": 38434,
+    "x2": 5005,
+    "y2": 38478
+  },
+  "points": [
+    {
+      "x": 4460,
+      "y": 38434
+    },
+    {
+      "x": 5005,
+      "y": 38434
+    },
+    {
+      "x": 5005,
+      "y": 38478
+    },
+    {
+      "x": 4460,
+      "y": 38478
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "cbf82e76-8e45-800f-8008-f8fb7cd0ce48",
+  "frameId": "cbf82e76-8e45-800f-8008-f8fb7cd0ce48",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "36",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#d5ddf5",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Foot \u00b7 Sessions \u00b7 an Open in flight"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "36",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#d5ddf5",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 4460,
+      "y": 38476.100006103516,
+      "width": 544.183349609375,
+      "height": 41,
+      "x1": 0,
+      "y1": 1.100006103515625,
+      "x2": 544.183349609375,
+      "y2": 42.100006103515625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#d5ddf5",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "Foot \u00b7 Sessions \u00b7 an Open in flight"
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c449678"
+}

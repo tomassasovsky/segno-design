@@ -1,0 +1,103 @@
+{
+  "id": "cbf82e76-8e45-800f-8008-f8fb6d71016b",
+  "name": "Grip surface",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": 0,
+  "selrect": {
+    "x": 3247.66,
+    "y": 38917.25,
+    "width": 11.75,
+    "height": 11.75,
+    "x1": 3247.66,
+    "y1": 38917.25,
+    "x2": 3259.41,
+    "y2": 38929
+  },
+  "points": [
+    {
+      "x": 3247.66,
+      "y": 38917.25
+    },
+    {
+      "x": 3259.41,
+      "y": 38917.25
+    },
+    {
+      "x": 3259.41,
+      "y": 38929
+    },
+    {
+      "x": 3247.66,
+      "y": 38929
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "cbf82e76-8e45-800f-8008-f8fb6d710127",
+  "frameId": "cbf82e76-8e45-800f-8008-f8fb6d710127",
+  "flipX": null,
+  "flipY": null,
+  "content": "M3247.66015625,38923.125C3247.66015625,38926.37109375,3250.29052734375,38929.0,3253.53515625,38929.0C3256.77978515625,38929.0,3259.41015625,38926.37109375,3259.41015625,38923.125C3259.41015625,38919.87890625,3256.77978515625,38917.25,3253.53515625,38917.25C3250.29052734375,38917.25,3247.66015625,38919.87890625,3247.66015625,38923.125Z",
+  "touched": [
+    "stroke-group",
+    "geometry-group"
+  ],
+  "shapeRef": "ce1409ed-bf42-4c40-8e35-2c15021ff7fa",
+  "proportionLock": false,
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c449678",
+  "strokes": [
+    {
+      "strokeCapStart": "round",
+      "strokeStyle": "solid",
+      "strokeColor": "#383d43",
+      "strokeOpacity": 1,
+      "strokeAlignment": "center",
+      "strokeCapEnd": "round",
+      "strokeWidth": 0.28420758928571427
+    }
+  ],
+  "proportion": 1,
+  "fills": [
+    {
+      "fillColorGradient": {
+        "type": "linear",
+        "startX": 0.5,
+        "startY": 0,
+        "endX": 0.5,
+        "endY": 1,
+        "width": 1,
+        "stops": [
+          {
+            "color": "#30353a",
+            "opacity": 1,
+            "offset": 0
+          },
+          {
+            "color": "#202428",
+            "opacity": 1,
+            "offset": 1
+          }
+        ]
+      },
+      "fillOpacity": 1
+    }
+  ]
+}

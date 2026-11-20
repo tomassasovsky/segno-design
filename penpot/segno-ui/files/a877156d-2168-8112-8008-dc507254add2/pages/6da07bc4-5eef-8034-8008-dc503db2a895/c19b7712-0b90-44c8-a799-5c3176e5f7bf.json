@@ -4,17 +4,17 @@
   "type": "text",
   "x": 388,
   "y": 65648.5,
-  "width": 458.188,
+  "width": 459,
   "height": 22,
   "rotation": 0,
   "selrect": {
     "x": 388,
     "y": 65648.5,
-    "width": 458.188,
+    "width": 459,
     "height": 22,
     "x1": 388,
     "y1": 65648.5,
-    "x2": 846.188,
+    "x2": 847,
     "y2": 65670.5
   },
   "points": [
@@ -23,11 +23,11 @@
       "y": 65648.5
     },
     {
-      "x": 846.188,
+      "x": 847,
       "y": 65648.5
     },
     {
-      "x": 846.188,
+      "x": 847,
       "y": 65670.5
     },
     {
@@ -111,15 +111,20 @@
   "pageId": "6da07bc4-5eef-8034-8008-dc503db2a895",
   "positionData": [
     {
-      "y": 65671.5,
+      "x": 388,
+      "y": 65672,
+      "width": 458.1499938964844,
+      "height": 25,
+      "x1": 0,
+      "y1": -1.5,
+      "x2": 458.1499938964844,
+      "y2": 23.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "22px",
       "fontWeight": "400",
-      "width": 458.188,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 388,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#aab7c9",
@@ -128,7 +133,6 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 25,
       "text": "Checks only. Updates install when you choose."
     }
   ]
