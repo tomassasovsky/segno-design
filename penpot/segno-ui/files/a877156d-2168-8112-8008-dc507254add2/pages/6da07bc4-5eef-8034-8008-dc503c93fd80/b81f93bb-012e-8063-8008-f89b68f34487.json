@@ -1,0 +1,142 @@
+{
+  "id": "b81f93bb-012e-8063-8008-f89b68f34487",
+  "name": "gain note",
+  "type": "text",
+  "x": 11972,
+  "y": 50511.5,
+  "width": 589,
+  "height": 22,
+  "rotation": 0,
+  "selrect": {
+    "x": 11972,
+    "y": 50511.5,
+    "width": 589,
+    "height": 22,
+    "x1": 11972,
+    "y1": 50511.5,
+    "x2": 12561,
+    "y2": 50533.5
+  },
+  "points": [
+    {
+      "x": 11972,
+      "y": 50511.5
+    },
+    {
+      "x": 12561,
+      "y": 50511.5
+    },
+    {
+      "x": 12561,
+      "y": 50533.5
+    },
+    {
+      "x": 11972,
+      "y": 50533.5
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "b81f93bb-012e-8063-8008-f89b68f34447",
+  "frameId": "b81f93bb-012e-8063-8008-f89b68f34447",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "22",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b1bed1",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Set the gain knob so your loudest playing peaks in the band."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "22",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b1bed1",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c93fd80",
+  "positionData": [
+    {
+      "x": 11972,
+      "y": 50535,
+      "width": 588.2833251953125,
+      "height": 25,
+      "x1": 0,
+      "y1": -1.5,
+      "x2": 588.2833251953125,
+      "y2": 23.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#b1bed1",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "Set the gain knob so your loudest playing peaks in the band."
+    }
+  ]
+}
