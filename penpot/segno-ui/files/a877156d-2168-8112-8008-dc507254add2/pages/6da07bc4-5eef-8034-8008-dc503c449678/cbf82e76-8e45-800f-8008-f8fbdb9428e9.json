@@ -5,17 +5,17 @@
   "x": 300,
   "y": 42240,
   "width": 1840,
-  "height": 1921,
+  "height": 1960,
   "rotation": 0,
   "selrect": {
     "x": 300,
     "y": 42240,
     "width": 1840,
-    "height": 1921,
+    "height": 1960,
     "x1": 300,
     "y1": 42240,
     "x2": 2140,
-    "y2": 44161
+    "y2": 44200
   },
   "points": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "x": 2140,
-      "y": 44161
+      "y": 44200
     },
     {
       "x": 300,
-      "y": 44161
+      "y": 44200
     }
   ],
   "transform": {
@@ -481,7 +481,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "D4. The face closes after an Open, a Save or a New loop and returns to the mode it was entered from. While an Open is in flight only the transport and Exit answer (card 11). An Open that fails keeps the face up (card 12)."
+                "text": "D4. The face closes after an Open, a Save or a New session and returns to the mode it was entered from. While an Open is in flight only the transport and Exit answer (card 11). An Open that fails keeps the face up (card 12)."
               }
             ],
             "textTransform": "none",
@@ -569,7 +569,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Replaced: D2 (New loop on a held Clear) and D5 (folders on a held Bank), below."
+                "text": "Replaced: D2 (New session on a held Clear) and D5 (folders on a held Bank), below."
               }
             ],
             "textTransform": "none",
@@ -1185,7 +1185,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "\u00b7 New loop is a Hold on Undo, with the clearing Hold's fill; a press of Undo saves, on its release. It left Clear because a foot resting on a page switch must not start a new loop in the middle of a set."
+                "text": "\u00b7 New session is a Hold on Undo, with the clearing Hold's fill; a press of Undo saves, on its release. It left Clear because a foot resting on a page switch must not start a new session in the middle of a set."
               }
             ],
             "textTransform": "none",
@@ -1361,7 +1361,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Not decided: whether \"New loop\" should be \"New session\". The app calls the saved thing a session everywhere else and uses \"loop\" for what plays inside one."
+                "text": "The command is \"New session\" (owner, 2026-11-20, #1927). It was \"New loop\". The app calls the saved thing a session everywhere else and uses \"loop\" for what plays inside one, and a session can be a setup with nothing recorded. The automatic name follows: \"New session N\". Sessions already named \"New loop N\" keep their names."
               }
             ],
             "textTransform": "none",
@@ -1767,11 +1767,11 @@
     {
       "x": 300,
       "y": 42863.34997558594,
-      "width": 1817.5833740234375,
+      "width": 1741.3333740234375,
       "height": 31.5,
       "x1": 0,
       "y1": 591.8499755859375,
-      "x2": 1817.5833740234375,
+      "x2": 1741.3333740234375,
       "y2": 623.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1787,16 +1787,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "D4. The face closes after an Open, a Save or a New loop and returns to the mode it was entered from. While an Open is in flight only the transport "
+      "text": "D4. The face closes after an Open, a Save or a New session and returns to the mode it was entered from. While an Open is in flight only the "
     },
     {
       "x": 300,
       "y": 42902.54998779297,
-      "width": 911.4000244140625,
+      "width": 1029.6500244140625,
       "height": 31.5,
       "x1": 0,
       "y1": 631.0499877929688,
-      "x2": 911.4000244140625,
+      "x2": 1029.6500244140625,
       "y2": 662.5499877929688,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1812,7 +1812,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "and Exit answer (card 11). An Open that fails keeps the face up (card 12)."
+      "text": "transport and Exit answer (card 11). An Open that fails keeps the face up (card 12)."
     },
     {
       "x": 300,
@@ -1867,11 +1867,11 @@
     {
       "x": 300,
       "y": 43020.15002441406,
-      "width": 1008.36669921875,
+      "width": 1050.36669921875,
       "height": 31.5,
       "x1": 0,
       "y1": 748.6500244140625,
-      "x2": 1008.36669921875,
+      "x2": 1050.36669921875,
       "y2": 780.1500244140625,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1887,7 +1887,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "Replaced: D2 (New loop on a held Clear) and D5 (folders on a held Bank), below."
+      "text": "Replaced: D2 (New session on a held Clear) and D5 (folders on a held Bank), below."
     },
     {
       "x": 300,
@@ -2392,11 +2392,11 @@
     {
       "x": 300,
       "y": 43843.34997558594,
-      "width": 1836.9166259765625,
+      "width": 1793.3499755859375,
       "height": 31.5,
       "x1": 0,
       "y1": 1571.8499755859375,
-      "x2": 1836.9166259765625,
+      "x2": 1793.3499755859375,
       "y2": 1603.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -2412,16 +2412,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "\u00b7 New loop is a Hold on Undo, with the clearing Hold's fill; a press of Undo saves, on its release. It left Clear because a foot resting on a page switch "
+      "text": "\u00b7 New session is a Hold on Undo, with the clearing Hold's fill; a press of Undo saves, on its release. It left Clear because a foot resting on a page "
     },
     {
       "x": 300,
       "y": 43882.550048828125,
-      "width": 586.683349609375,
+      "width": 714.25,
       "height": 31.5,
       "x1": 0,
       "y1": 1611.050048828125,
-      "x2": 586.683349609375,
+      "x2": 714.25,
       "y2": 1642.550048828125,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -2437,7 +2437,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "must not start a new loop in the middle of a set."
+      "text": "switch must not start a new session in the middle of a set."
     },
     {
       "x": 300,
@@ -2567,11 +2567,11 @@
     {
       "x": 300,
       "y": 44117.75,
-      "width": 1832.066650390625,
+      "width": 1824.066650390625,
       "height": 31.5,
       "x1": 0,
       "y1": 1846.25,
-      "x2": 1832.066650390625,
+      "x2": 1824.066650390625,
       "y2": 1877.75,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -2587,16 +2587,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "Not decided: whether \"New loop\" should be \"New session\". The app calls the saved thing a session everywhere else and uses \"loop\" for what plays "
+      "text": "The command is \"New session\" (owner, 2026-11-20, #1927). It was \"New loop\". The app calls the saved thing a session everywhere else and uses "
     },
     {
       "x": 300,
       "y": 44156.949951171875,
-      "width": 135.39999389648438,
+      "width": 1767.066650390625,
       "height": 31.5,
       "x1": 0,
       "y1": 1885.449951171875,
-      "x2": 135.39999389648438,
+      "x2": 1767.066650390625,
       "y2": 1916.949951171875,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -2612,7 +2612,32 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "inside one."
+      "text": "\"loop\" for what plays inside one, and a session can be a setup with nothing recorded. The automatic name follows: \"New session N\". Sessions "
+    },
+    {
+      "x": 300,
+      "y": 44196.15002441406,
+      "width": 587.816650390625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1924.6500244140625,
+      "x2": 587.816650390625,
+      "y2": 1956.1500244140625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "already named \"New loop N\" keep their names."
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678"

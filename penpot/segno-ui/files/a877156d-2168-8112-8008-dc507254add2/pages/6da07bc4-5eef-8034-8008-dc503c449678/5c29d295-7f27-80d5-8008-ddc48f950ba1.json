@@ -173,7 +173,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "New loop gains one choice, Start with: Empty tracks (the default, today's New loop, card 02) or Ed's setup (cards 07 and 08). It is the only place a loop starts, it already asks, and it saves the current session to the Library before anything changes, so a template here cannot overwrite work. The Looper X has no template feature (a loop starts from New Loop or from a saved loop) and the RC-600 starts from one of its memories; both make the starting point a choice at the start of a loop, not a separate page."
+                "text": "New session gains one choice, Start with: Empty tracks (the default, today's New session, card 02) or Ed's setup (cards 07 and 08). It is the only place a loop starts, it already asks, and it saves the current session to the Library before anything changes, so a template here cannot overwrite work. The Looper X has no template feature (a loop starts from New session or from a saved loop) and the RC-600 starts from one of its memories; both make the starting point a choice at the start of a loop, not a separate page."
               }
             ],
             "textTransform": "none",
@@ -261,7 +261,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Ed's setup starts the new loop like Empty tracks, then names tracks 1 to 4 Guitar, Boom, RC20 and Vox and puts one Ed's Rack sound on each track: Acoustic Rhythm 1, Boom Dry, Bass Octave 1 and Vocal Close. The track names come from a published breakdown of Ed Sheeran's pedal; the sounds are our choice, not his settings, and the sheet does not claim otherwise. Each rack holds only the pedals its preset turns on, so the four fit the 96 kHz effects budget. The racks are heard on playback, as every track rack is, and no footswitch is bound. Inputs, outputs, All tracks, tracks 5 to 8, tempo and pedal setup stay as Empty tracks keeps them. The four new-loop tiles that get a sound are outlined."
+                "text": "Ed's setup starts the new session like Empty tracks, then names tracks 1 to 4 Guitar, Boom, RC20 and Vox and puts one Ed's Rack sound on each track: Acoustic Rhythm 1, Boom Dry, Bass Octave 1 and Vocal Close. The track names come from a published breakdown of Ed Sheeran's pedal; the sounds are our choice, not his settings, and the sheet does not claim otherwise. Each rack holds only the pedals its preset turns on, so the four fit the 96 kHz effects budget. The racks are heard on playback, as every track rack is, and no footswitch is bound. Inputs, outputs, All tracks, tracks 5 to 8, tempo and pedal setup stay as Empty tracks keeps them. The four new-loop tiles that get a sound are outlined."
               }
             ],
             "textTransform": "none",
@@ -349,7 +349,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "The summary line replaces \"Keep your effects, tempo and pedal setup.\" while Ed's setup is chosen. While the Ed's Rack sounds load, the line says so; when one is missing or they would not fit the effects budget, the line says why in the failure colour (card 08). In each of those cases Start new loop is disabled for Ed's setup and nothing changes. Track names are shared by every session, so a second line always says so, and it names the custom names on tracks 1 to 4 that Ed's setup replaces (card 08)."
+                "text": "The summary line replaces \"Keep your effects, tempo and pedal setup.\" while Ed's setup is chosen. While the Ed's Rack sounds load, the line says so; when one is missing or they would not fit the effects budget, the line says why in the failure colour (card 08). In each of those cases Start new session is disabled for Ed's setup and nothing changes. Track names are shared by every session, so a second line always says so, and it names the custom names on tracks 1 to 4 that Ed's setup replaces (card 08)."
               }
             ],
             "textTransform": "none",
@@ -399,7 +399,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
+      "fontFamily": "Arimo",
       "text": "c\/ Ed's setup, a one-step loop template (#1513, built)"
     },
     {
@@ -424,17 +424,17 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
+      "fontFamily": "Arimo",
       "text": "\u00a0"
     },
     {
       "x": 2380,
       "y": 37265.75,
-      "width": 1806.5,
+      "width": 1792.449951171875,
       "height": 31.5,
       "x1": 0,
       "y1": 82.25,
-      "x2": 1806.5,
+      "x2": 1792.449951171875,
       "y2": 113.75,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -449,17 +449,17 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
-      "text": "New loop gains one choice, Start with: Empty tracks (the default, today's New loop, card 02) or Ed's setup (cards 07 and 08). It is the only place a "
+      "fontFamily": "Arimo",
+      "text": "New session gains one choice, Start with: Empty tracks (the default, today's New session, card 02) or Ed's setup (cards 07 and 08). It is the only "
     },
     {
       "x": 2380,
       "y": 37304.94999694824,
-      "width": 1817.5333251953125,
+      "width": 1784.9000244140625,
       "height": 31.5,
       "x1": 0,
       "y1": 121.44999694824219,
-      "x2": 1817.5333251953125,
+      "x2": 1784.9000244140625,
       "y2": 152.9499969482422,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -474,17 +474,17 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
-      "text": "loop starts, it already asks, and it saves the current session to the Library before anything changes, so a template here cannot overwrite work. The "
+      "fontFamily": "Arimo",
+      "text": "place a loop starts, it already asks, and it saves the current session to the Library before anything changes, so a template here cannot overwrite "
     },
     {
       "x": 2380,
       "y": 37344.149993896484,
-      "width": 1806.550048828125,
+      "width": 1831.38330078125,
       "height": 31.5,
       "x1": 0,
       "y1": 160.64999389648438,
-      "x2": 1806.550048828125,
+      "x2": 1831.38330078125,
       "y2": 192.14999389648438,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -499,17 +499,17 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
-      "text": "Looper X has no template feature (a loop starts from New Loop or from a saved loop) and the RC-600 starts from one of its memories; both make "
+      "fontFamily": "Arimo",
+      "text": "work. The Looper X has no template feature (a loop starts from New session or from a saved loop) and the RC-600 starts from one of its memories; "
     },
     {
       "x": 2380,
       "y": 37383.350006103516,
-      "width": 846.6666870117188,
+      "width": 985.1666870117188,
       "height": 31.5,
       "x1": 0,
       "y1": 199.85000610351562,
-      "x2": 846.6666870117188,
+      "x2": 985.1666870117188,
       "y2": 231.35000610351562,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -524,8 +524,8 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
-      "text": "the starting point a choice at the start of a loop, not a separate page."
+      "fontFamily": "Arimo",
+      "text": "both make the starting point a choice at the start of a loop, not a separate page."
     },
     {
       "x": 2380,
@@ -549,17 +549,17 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
+      "fontFamily": "Arimo",
       "text": "\u00a0"
     },
     {
       "x": 2380,
       "y": 37461.75,
-      "width": 1783.2666015625,
+      "width": 1825.2666015625,
       "height": 31.5,
       "x1": 0,
       "y1": 278.25,
-      "x2": 1783.2666015625,
+      "x2": 1825.2666015625,
       "y2": 309.75,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -574,8 +574,8 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
-      "text": "Ed's setup starts the new loop like Empty tracks, then names tracks 1 to 4 Guitar, Boom, RC20 and Vox and puts one Ed's Rack sound on each "
+      "fontFamily": "Arimo",
+      "text": "Ed's setup starts the new session like Empty tracks, then names tracks 1 to 4 Guitar, Boom, RC20 and Vox and puts one Ed's Rack sound on each "
     },
     {
       "x": 2380,
@@ -599,7 +599,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
+      "fontFamily": "Arimo",
       "text": "track: Acoustic Rhythm 1, Boom Dry, Bass Octave 1 and Vocal Close. The track names come from a published breakdown of Ed Sheeran's pedal; "
     },
     {
@@ -624,7 +624,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
+      "fontFamily": "Arimo",
       "text": "the sounds are our choice, not his settings, and the sheet does not claim otherwise. Each rack holds only the pedals its preset turns on, so the four "
     },
     {
@@ -649,7 +649,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
+      "fontFamily": "Arimo",
       "text": "fit the 96 kHz effects budget. The racks are heard on playback, as every track rack is, and no footswitch is bound. Inputs, outputs, All tracks, tracks "
     },
     {
@@ -674,7 +674,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
+      "fontFamily": "Arimo",
       "text": "5 to 8, tempo and pedal setup stay as Empty tracks keeps them. The four new-loop tiles that get a sound are outlined."
     },
     {
@@ -699,7 +699,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
+      "fontFamily": "Arimo",
       "text": "\u00a0"
     },
     {
@@ -724,7 +724,7 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
+      "fontFamily": "Arimo",
       "text": "The summary line replaces \"Keep your effects, tempo and pedal setup.\" while Ed's setup is chosen. While the Ed's Rack sounds load, the line says "
     },
     {
@@ -749,17 +749,17 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
+      "fontFamily": "Arimo",
       "text": "so; when one is missing or they would not fit the effects budget, the line says why in the failure colour (card 08). In each of those cases Start new "
     },
     {
       "x": 2380,
       "y": 37775.34997558594,
-      "width": 1817.25,
+      "width": 1812.550048828125,
       "height": 31.5,
       "x1": 0,
       "y1": 591.8499755859375,
-      "x2": 1817.25,
+      "x2": 1812.550048828125,
       "y2": 623.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -774,17 +774,17 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
-      "text": "loop is disabled for Ed's setup and nothing changes. Track names are shared by every session, so a second line always says so, and it names the "
+      "fontFamily": "Arimo",
+      "text": "session is disabled for Ed's setup and nothing changes. Track names are shared by every session, so a second line always says so, and it names "
     },
     {
       "x": 2380,
       "y": 37814.54998779297,
-      "width": 814.5166625976562,
+      "width": 861.2166748046875,
       "height": 31.5,
       "x1": 0,
       "y1": 631.0499877929688,
-      "x2": 814.5166625976562,
+      "x2": 861.2166748046875,
       "y2": 662.5499877929688,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -799,8 +799,8 @@
         }
       ],
       "direction": "ltr",
-      "fontFamily": "\"Arimo\"",
-      "text": "custom names on tracks 1 to 4 that Ed's setup replaces (card 08)."
+      "fontFamily": "Arimo",
+      "text": "the custom names on tracks 1 to 4 that Ed's setup replaces (card 08)."
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678"

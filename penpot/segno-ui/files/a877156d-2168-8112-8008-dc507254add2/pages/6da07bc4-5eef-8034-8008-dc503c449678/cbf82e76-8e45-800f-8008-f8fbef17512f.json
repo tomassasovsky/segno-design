@@ -261,7 +261,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "The captions. Each track switch is named for its session: the name, then the loop mode and tempo, then \"Hold \u00b7 Open\". The second line reads \"Open now\" for the open session, \"Opening\u2026\" while an Open is in flight and \"Could not open\" after one failed, and those switches have no third line. An empty position on the last page says \"Empty\", dimmed. Clear is \"Previous page\" and Bank is \"Next page\" with the page under it (\"1 \/ 2\"); both are dimmed with one page. Undo is \"Save\" with \"Hold \u00b7 New loop\" under it."
+                "text": "The captions. Each track switch is named for its session: the name, then the loop mode and tempo, then \"Hold \u00b7 Open\". The second line reads \"Open now\" for the open session, \"Opening\u2026\" while an Open is in flight and \"Could not open\" after one failed, and those switches have no third line. An empty position on the last page says \"Empty\", dimmed. Clear is \"Previous page\" and Bank is \"Next page\" with the page under it (\"1 \/ 2\"); both are dimmed with one page. Undo is \"Save\" with \"Hold \u00b7 New session\" under it."
               }
             ],
             "textTransform": "none",
@@ -481,7 +481,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "\u00b7 With no session to list (card 13): \"No sessions yet. Save or start a new loop.\" When sessions are saved and every one is hidden: \"Every session is hidden from the pedal. Show them in Library.\""
+                "text": "\u00b7 With no session to list (card 13): \"No sessions yet. Save or start a new session.\" When sessions are saved and every one is hidden: \"Every session is hidden from the pedal. Show them in Library.\""
               }
             ],
             "textTransform": "none",
@@ -701,7 +701,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Undo. Its press waits for the release, as every switch with a Hold does. Its Hold starts a new loop and draws the clearing Hold's fill, red from both ends. Once an Open has been asked from another switch, neither its release nor its Hold does anything."
+                "text": "Undo. Its press waits for the release, as every switch with a Hold does. Its Hold starts a new session and draws the clearing Hold's fill, red from both ends. Once an Open has been asked from another switch, neither its release nor its Hold does anything."
               }
             ],
             "textTransform": "none",
@@ -1397,11 +1397,11 @@
     {
       "x": 2380,
       "y": 42628.149993896484,
-      "width": 987.4000244140625,
+      "width": 1029.4000244140625,
       "height": 31.5,
       "x1": 0,
       "y1": 356.6499938964844,
-      "x2": 987.4000244140625,
+      "x2": 1029.4000244140625,
       "y2": 388.1499938964844,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1417,7 +1417,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "both are dimmed with one page. Undo is \"Save\" with \"Hold \u00b7 New loop\" under it."
+      "text": "both are dimmed with one page. Undo is \"Save\" with \"Hold \u00b7 New session\" under it."
     },
     {
       "x": 2380,
@@ -1647,11 +1647,11 @@
     {
       "x": 2380,
       "y": 43020.15002441406,
-      "width": 1834.8499755859375,
+      "width": 1746.1500244140625,
       "height": 31.5,
       "x1": 0,
       "y1": 748.6500244140625,
-      "x2": 1834.8499755859375,
+      "x2": 1746.1500244140625,
       "y2": 780.1500244140625,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1667,16 +1667,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "\u00b7 With no session to list (card 13): \"No sessions yet. Save or start a new loop.\" When sessions are saved and every one is hidden: \"Every session is "
+      "text": "\u00b7 With no session to list (card 13): \"No sessions yet. Save or start a new session.\" When sessions are saved and every one is hidden: \"Every "
     },
     {
       "x": 2380,
       "y": 43059.34997558594,
-      "width": 564.933349609375,
+      "width": 695.63330078125,
       "height": 31.5,
       "x1": 0,
       "y1": 787.8499755859375,
-      "x2": 564.933349609375,
+      "x2": 695.63330078125,
       "y2": 819.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1692,7 +1692,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "hidden from the pedal. Show them in Library.\""
+      "text": "session is hidden from the pedal. Show them in Library.\""
     },
     {
       "x": 2380,
@@ -1872,11 +1872,11 @@
     {
       "x": 2380,
       "y": 43372.949951171875,
-      "width": 1796.3499755859375,
+      "width": 1838.3499755859375,
       "height": 31.5,
       "x1": 0,
       "y1": 1101.449951171875,
-      "x2": 1796.3499755859375,
+      "x2": 1838.3499755859375,
       "y2": 1132.949951171875,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1892,7 +1892,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "Undo. Its press waits for the release, as every switch with a Hold does. Its Hold starts a new loop and draws the clearing Hold's fill, red from both "
+      "text": "Undo. Its press waits for the release, as every switch with a Hold does. Its Hold starts a new session and draws the clearing Hold's fill, red from both "
     },
     {
       "x": 2380,

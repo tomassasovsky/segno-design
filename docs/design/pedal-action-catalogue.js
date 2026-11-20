@@ -21,7 +21,7 @@ window.SegnoPerformanceActions = [
   {key:'mode:backing',label:'Backing track',detail:'Choose and play prepared audio'},
   {key:'mode:tuner',label:'Tuner',detail:'Tune an input'},
   {key:'mode:sessions',label:'Sessions',detail:'Open, save and start loops by foot'},
-  {key:'command:new-loop',label:'New loop',detail:'Preserve this session and start fresh'},
+  {key:'command:new-loop',label:'New session',detail:'Preserve this session and start fresh'},
   {key:'command:record-performance',label:'Record performance',detail:'Start or finish a performance recording'},
   {key:'mode:tracks',label:'Exit',detail:'Return to track controls'},
 ];

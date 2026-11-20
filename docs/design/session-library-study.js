@@ -44,7 +44,7 @@ window.createSessionLibraryStudy = function (ctx) {
     const next = clone(before);
     outgoing.updated = Date.now();delete outgoing.current;
     next.sessions = [outgoing, ...next.sessions.filter(s => s.id !== outgoing.id && s.id !== target?.id)];
-    const destination = target || {id: 'session-' + next.nextId++, name: 'New loop ' + (next.nextId - 1), snapshot: ctx.fresh(outgoing.snapshot)};
+    const destination = target || {id: 'session-' + next.nextId++, name: 'New session ' + (next.nextId - 1), snapshot: ctx.fresh(outgoing.snapshot)};
     next.current = {id: destination.id, name: destination.name, folder: destination.folder || '', updated: Date.now()};
     if(full || !ctx.commit(next, repaired||destination.snapshot,kind)) {error = 'Could not save your current loop. Nothing was changed.';if(!pending)dialog = null;show(pending?'session:dependency-retry':undefined);return false;}
     selected = destination.id;dialog = null;error = '';if(!fromRecovery){recovery.discard();ctx.stage();}return true;
@@ -250,7 +250,7 @@ window.createSessionLibraryStudy = function (ctx) {
     if(recovery.active())return recovery.body();
     const s=chosen(), settings=s.snapshot.loopSettings||{}, n=count(s), list=visible();
     const locations=`<nav class="session-locations" aria-label="Session location">${['internal','usb'].map(v=>button('session:location:'+v,v==='internal'?'Internal':'USB','quiet '+(location===v?'selected':''),`aria-pressed="${location===v}"`)).join('')}</nav>`;
-    const title=header('Library','',`<div class="session-library-actions">${locations}${button('session:new','New loop','primary',busy()?'disabled':'')}</div>`);
+    const title=header('Library','',`<div class="session-library-actions">${locations}${button('session:new','New session','primary',busy()?'disabled':'')}</div>`);
     if(location==='usb')return title+ctx.backup().usbList();
     return title+
       `<div class="session-library-layout"><section class="session-list"><div class="session-search">${button('session:search',esc(query)||'Search sessions','quiet')}${query?button('session:clear-search','Clear','quiet'):''}${button('session:create-folder','New folder','quiet')}</div><nav class="session-folders" aria-label="Session folders">${[['*','All'],['','Unfiled'],...folders().map(f=>[f,f])].map(([key,label])=>button('session:folder:'+encodeURIComponent(key),esc(label),'quiet '+(folder===key?'selected':''),`aria-pressed="${folder===key}"`)).join('')}</nav><div class="session-scroll">${list.map(e=>button('session:row:'+e.id,`<span class="session-row-title">${esc(e.name)}</span><span class="session-row-meta">${e.current?'Current session':new Date(e.updated).toLocaleDateString('en-GB',{day:'numeric',month:'short'})+' · '+count(e)+' tracks'}</span>${tracks(e,true)}`,'session-row '+(e.id===s.id?'selected':''),`aria-pressed="${e.id===s.id}"`)).join('')}${!list.length?'<p class="session-list-empty">'+(query?'No matching sessions.':'This folder is empty.')+'</p>':''}</div></section>
@@ -292,7 +292,7 @@ window.createSessionLibraryStudy = function (ctx) {
     } else if(dialog.type==='delete') {
       content=`<h2>Delete ${esc(dialog.name)}?</h2><p>This removes the saved session and its loop recordings. Shared audio and USB backups are kept.</p>${error?`<p class="session-error" role="alert">${esc(error)}</p>`:''}<div class="actions">${button('session:cancel','Cancel')}${button('session:confirm-delete','Delete session','danger',busy()?'disabled':'')}</div>`;
     } else if(dialog.type==='new') {
-      content=`<h2>New loop</h2><p><strong>${esc(state().current.name)}</strong> stays in your Library.</p><div class="session-new-preview">${tracks(current(),true)}${icon('right')}${tracks({snapshot:{recordedParts:{}}},true)}</div><p>Keep your effects, tempo and pedal setup.</p><div class="actions">${button('session:cancel','Cancel')}${button('session:confirm-new','Start new loop','primary')}</div>`;
+      content=`<h2>New session</h2><p><strong>${esc(state().current.name)}</strong> stays in your Library.</p><div class="session-new-preview">${tracks(current(),true)}${icon('right')}${tracks({snapshot:{recordedParts:{}}},true)}</div><p>Keep your effects, tempo and pedal setup.</p><div class="actions">${button('session:cancel','Cancel')}${button('session:confirm-new','Start new loop','primary')}</div>`;
     } else content=`<h2>Open ${esc(dialog.name)}?</h2><p>Your current session is kept. Playback stops.</p><div class="actions">${button('session:cancel','Cancel')}${button('session:confirm-load','Open session','primary')}</div>`;
     return `<div class="overlay"><section class="dialog ${dialog.type==='name'?'name-dialog':'session-dialog'}${dialog.type==='dependencies'?' session-connections':''}${dialog.connection?.kind==='audio-port'?' session-audio-ports':''}" role="dialog" aria-modal="true">${content}</section></div>`;
   }
