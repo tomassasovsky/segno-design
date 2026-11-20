@@ -20,6 +20,7 @@ window.SegnoPerformanceActions = [
   {key:'mode:bounce',label:'Bounce',detail:'Combine recorded tracks'},
   {key:'mode:backing',label:'Backing track',detail:'Choose and play prepared audio'},
   {key:'mode:tuner',label:'Tuner',detail:'Tune an input'},
+  {key:'mode:sessions',label:'Sessions',detail:'Open, save and start loops by foot'},
   {key:'command:new-loop',label:'New loop',detail:'Preserve this session and start fresh'},
   {key:'command:record-performance',label:'Record performance',detail:'Start or finish a performance recording'},
   {key:'mode:tracks',label:'Exit',detail:'Return to track controls'},
@@ -41,7 +42,9 @@ window.SegnoDirectActions = (() => {
     {key:'bank:next',label:'Next bank',detail:'Switch track bank A / B',group:'tracks',operation:'bank'},
     ...Array.from({length:8},(_,i)=>({key:'fx:'+i,label:'FX '+(i<4?'A':'B')+(i%4+1),detail:'Use this FX assignment · release follows source',group:'fx',operation:'fx',slot:i})),
     ...[['rewind','Rewind backing'],['stop','Stop backing'],['play','Play / Pause backing'],['forward','Fast forward backing'],['previous','Previous backing track'],['next','Next backing track']].map(([value,label])=>({key:'backing:'+value,label,group:'backing',operation:'backing',value})),
-    ...[['previous','Load previous session'],['next','Load next session'],['save','Save session']].map(([value,label])=>({key:'session:'+value,label,group:'sessions',operation:'session',value})),
+    // Previous and next were replaced by the Sessions function (mode:sessions,
+    // segno#1910): a foot opens a session it can read, not the one after.
+    ...[['save','Save session']].map(([value,label])=>({key:'session:'+value,label,group:'sessions',operation:'session',value})),
   ];
   const operations=[['mute','Mute'],['solo','Solo'],['reverse','Reverse'],['fade','Fade'],['pitch-step','Pitch +1 semitone',1],['pitch-step','Pitch −1 semitone',-1],['pitch-reset','Reset pitch'],['clear','Clear'],['peel','Peel'],['restore-peel','Restore peeled layer'],['multiply','Double length'],['divide','Keep first half','first'],['divide','Keep last half','last'],['undo-length','Undo length'],['undo','Undo audio edit'],['redo','Redo audio edit']];
   for(const scope of ['selected','all',...Array.from({length:8},(_,i)=>i)])for(const [operation,name,value] of operations){
@@ -68,6 +71,8 @@ window.setSegnoInstrumentActions = instruments => {
   }
 };
 // Evidence index only: Segno uses Learn, not a reserved CC3/note-number protocol.
+// 65 and 66 are the reference's previous and next session, which Segno does not
+// have: the Sessions function took their place (segno#1910).
 window.SegnoReferenceMidiActions = (()=>{
  const m={0:'command:start-stop-all',6:'command:tap-tempo',15:'direct:divide:all:first',16:'direct:multiply:all',17:'direct:speed:0.5',18:'direct:speed:2',23:'direct:mute:all',24:'command:clear-all',29:'direct:reverse:all',34:'direct:fade:all',43:'direct:pitch-step:all:1',44:'direct:pitch-step:all:-1',57:'backing:rewind',58:'backing:stop',59:'backing:play',60:'backing:forward',63:'backing:previous',64:'backing:next',65:'session:previous',66:'session:next',76:'command:record-play',77:'command:stop',78:'mode:mute',79:'mode:custom'};
  for(let i=0;i<4;i++){m[1+i]='fx:'+i;m[19+i]='direct:mute:'+i;m[25+i]='direct:reverse:'+i;m[30+i]='direct:fade:'+i;m[35+i]='direct:pitch-step:'+i+':1';m[39+i]='direct:pitch-step:'+i+':-1';m[49+i]='direct:clear:'+i;m[53+i]='direct:peel:'+i;m[68+i]='direct:solo:'+i;m[72+i]='track:'+i;}
