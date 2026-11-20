@@ -5,17 +5,17 @@
   "x": 300,
   "y": 42240,
   "width": 1840,
-  "height": 1451,
+  "height": 1921,
   "rotation": 0,
   "selrect": {
     "x": 300,
     "y": 42240,
     "width": 1840,
-    "height": 1451,
+    "height": 1921,
     "x1": 300,
     "y1": 42240,
     "x2": 2140,
-    "y2": 43691
+    "y2": 44161
   },
   "points": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "x": 2140,
-      "y": 43691
+      "y": 44161
     },
     {
       "x": 300,
-      "y": 43691
+      "y": 44161
     }
   ],
   "transform": {
@@ -85,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "c\/ Sessions by foot: the Sessions function (#1910 and #1921 part 1, built)"
+                "text": "c\/ Sessions by foot: the Sessions function (#1910 and #1921 parts 1 and 2, built)"
               }
             ],
             "textTransform": "none",
@@ -173,7 +173,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Sessions is a performance function, like Mixer, Fade and Tuner. One assigned switch enters it (mode:sessions). Each track switch stands for the session named under it. A press shows that session in the readout above the switches (card 15). A Hold opens it (card 16). It is the bank and number pattern of Boss floor units, and the shape the FX, Mixer and Tuner faces already have."
+                "text": "Sessions is a performance function, like Mixer, Fade and Tuner. One assigned switch enters it (mode:sessions). It lists every saved session, four to a page. Each track switch stands for the session named under it. A press shows that session in the readout above the switches (card 15). A Hold opens it (card 16). It is the bank and number pattern of Boss floor units, and the shape the FX, Mixer and Tuner faces already have."
               }
             ],
             "textTransform": "none",
@@ -349,7 +349,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "The owner's decisions for #1910 (2026-11-19):"
+                "text": "The owner's decisions for #1910 (2026-11-19) that stand:"
               }
             ],
             "textTransform": "none",
@@ -393,51 +393,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "D1. Sessions are in name order inside one folder, ignoring case, with digits compared as numbers. The Library's newest-first order cannot be used: an Open saves the session it leaves, which moves it to the top."
-              }
-            ],
-            "textTransform": "none",
-            "textAlign": "left",
-            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
-            "fontSize": "28",
-            "fontWeight": "400",
-            "textDirection": "ltr",
-            "type": "paragraph",
-            "fontVariantId": "normal-400",
-            "textDecoration": "none",
-            "letterSpacing": "0",
-            "fills": [
-              {
-                "fillColor": "#a3adbd",
-                "fillOpacity": 1
-              }
-            ],
-            "fontFamily": "Arimo"
-          },
-          {
-            "lineHeight": "1.4",
-            "fontStyle": "normal",
-            "children": [
-              {
-                "lineHeight": "1.4",
-                "fontStyle": "normal",
-                "textTransform": "none",
-                "textAlign": "left",
-                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
-                "fontSize": "28",
-                "fontWeight": "400",
-                "textDirection": "ltr",
-                "fontVariantId": "normal-400",
-                "textDecoration": "none",
-                "letterSpacing": "0",
-                "fills": [
-                  {
-                    "fillColor": "#a3adbd",
-                    "fillOpacity": 1
-                  }
-                ],
-                "fontFamily": "Arimo",
-                "text": "D2. Undo saves on a press. Clear starts a new loop on a Hold, with the fill a clearing Hold draws: Clear sits beside Bank, and a press that slips must not start one. New loop and Save session are also assignable on their own."
+                "text": "D1. Sessions are in name order, ignoring case, with digits compared as numbers. The Library's newest-first order cannot be used: an Open saves the session it leaves, which moves it to the top."
               }
             ],
             "textTransform": "none",
@@ -569,7 +525,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "D5. The face starts on the open session's folder and page. A held Bank shows the next folder, in name order, with the sessions outside any folder (Unfiled) last (card 14)."
+                "text": "D6. Save with no open session takes the automatic name. The switch under the open session is lit. The 7-inch readout's footer shows \"Sessions \u00b7 Page N\"."
               }
             ],
             "textTransform": "none",
@@ -613,7 +569,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "D6. Save with no open session takes the automatic name. The switch under the open session is lit. The 7-inch readout's footer shows \"Sessions \u00b7 Page N\"."
+                "text": "Replaced: D2 (New loop on a held Clear) and D5 (folders on a held Bank), below."
               }
             ],
             "textTransform": "none",
@@ -701,7 +657,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "The owner's changes for #1921 (2026-11-20), built as part 1:"
+                "text": "The owner's changes for #1921 (2026-11-20):"
               }
             ],
             "textTransform": "none",
@@ -1009,7 +965,403 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Decided for #1921 and not built yet (part 2): one map for the whole Library, where a position is a page and a switch; a session is given its position in the Library, on its preview card; nothing is placed automatically. Then D1 and D5 no longer apply, a held Bank does nothing, and card 14 is removed."
+                "text": "One list, not a map (owner, 2026-11-20). The plan's part 2 was a map of sessions to switches, set in the Library. It was built and then withdrawn before it was committed. The owner asked: \"Do we need to map them? Can't we just have the list by default? What about Next and Previous page and show all sessions.\""
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "\u00b7 Why the list. It needs no setup, where a map starts empty and sends the player to the Library. It has one thing to learn, an order. A reorder page, if it is wanted later, gives the same result where it matters."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "\u00b7 What it gives up. A session can change switch: deleting one moves every session after it up by one."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "\u00b7 Every saved session is listed, whatever folder it is in. The face has no folders."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "\u00b7 Clear is Previous page and Bank is Next page. Both act on contact and wrap. They sit side by side on the rear row."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "\u00b7 New loop is a Hold on Undo, with the clearing Hold's fill; a press of Undo saves, on its release. It left Clear because a foot resting on a page switch must not start a new loop in the middle of a set."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "\u00b7 A session can be hidden from the pedal. Each row of the Library's list has a three-dot button (cards 01 and 03); its sheet says \"Hide from pedal\", or \"Show on pedal\" for a hidden session, and a hidden row says \"Hidden from pedal\". The sheet is the options sheet Manage uses, which this file does not draw. A hidden session is on no switch and opens from the Library as before. When it is the open one, the readout names it (card 14)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "\u00b7 The app's text says \"pedal\" for this, never \"face\"."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": ""
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Not decided: whether \"New loop\" should be \"New session\". The app calls the saved thing a session everywhere else and uses \"loop\" for what plays inside one."
               }
             ],
             "textTransform": "none",
@@ -1040,11 +1392,11 @@
     {
       "x": 300,
       "y": 42275.350006103516,
-      "width": 907.3333129882812,
+      "width": 999.1666870117188,
       "height": 31.5,
       "x1": 0,
       "y1": 3.850006103515625,
-      "x2": 907.3333129882812,
+      "x2": 999.1666870117188,
       "y2": 35.350006103515625,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1060,7 +1412,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "c\/ Sessions by foot: the Sessions function (#1910 and #1921 part 1, built)"
+      "text": "c\/ Sessions by foot: the Sessions function (#1910 and #1921 parts 1 and 2, built)"
     },
     {
       "x": 300,
@@ -1090,11 +1442,11 @@
     {
       "x": 300,
       "y": 42353.75,
-      "width": 1793.0999755859375,
+      "width": 1825.7666015625,
       "height": 31.5,
       "x1": 0,
       "y1": 82.25,
-      "x2": 1793.0999755859375,
+      "x2": 1825.7666015625,
       "y2": 113.75,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1110,16 +1462,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "Sessions is a performance function, like Mixer, Fade and Tuner. One assigned switch enters it (mode:sessions). Each track switch stands for the "
+      "text": "Sessions is a performance function, like Mixer, Fade and Tuner. One assigned switch enters it (mode:sessions). It lists every saved session, four to "
     },
     {
       "x": 300,
       "y": 42392.94999694824,
-      "width": 1750.683349609375,
+      "width": 1800.4833984375,
       "height": 31.5,
       "x1": 0,
       "y1": 121.44999694824219,
-      "x2": 1750.683349609375,
+      "x2": 1800.4833984375,
       "y2": 152.9499969482422,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1135,16 +1487,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "session named under it. A press shows that session in the readout above the switches (card 15). A Hold opens it (card 16). It is the bank and "
+      "text": "a page. Each track switch stands for the session named under it. A press shows that session in the readout above the switches (card 15). A Hold "
     },
     {
       "x": 300,
       "y": 42432.149993896484,
-      "width": 1172.316650390625,
+      "width": 1626.7333984375,
       "height": 31.5,
       "x1": 0,
       "y1": 160.64999389648438,
-      "x2": 1172.316650390625,
+      "x2": 1626.7333984375,
       "y2": 192.14999389648438,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1160,7 +1512,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "number pattern of Boss floor units, and the shape the FX, Mixer and Tuner faces already have."
+      "text": "opens it (card 16). It is the bank and number pattern of Boss floor units, and the shape the FX, Mixer and Tuner faces already have."
     },
     {
       "x": 300,
@@ -1290,11 +1642,11 @@
     {
       "x": 300,
       "y": 42667.350006103516,
-      "width": 577.4500122070312,
+      "width": 708.2000122070312,
       "height": 31.5,
       "x1": 0,
       "y1": 395.8500061035156,
-      "x2": 577.4500122070312,
+      "x2": 708.2000122070312,
       "y2": 427.3500061035156,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1310,16 +1662,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "The owner's decisions for #1910 (2026-11-19):"
+      "text": "The owner's decisions for #1910 (2026-11-19) that stand:"
     },
     {
       "x": 300,
       "y": 42706.54998779297,
-      "width": 1827.4666748046875,
+      "width": 1810.36669921875,
       "height": 31.5,
       "x1": 0,
       "y1": 435.04998779296875,
-      "x2": 1827.4666748046875,
+      "x2": 1810.36669921875,
       "y2": 466.54998779296875,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1335,16 +1687,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "D1. Sessions are in name order inside one folder, ignoring case, with digits compared as numbers. The Library's newest-first order cannot be used: "
+      "text": "D1. Sessions are in name order, ignoring case, with digits compared as numbers. The Library's newest-first order cannot be used: an Open saves "
     },
     {
       "x": 300,
       "y": 42745.75,
-      "width": 779.6666870117188,
+      "width": 583.566650390625,
       "height": 31.5,
       "x1": 0,
       "y1": 474.25,
-      "x2": 779.6666870117188,
+      "x2": 583.566650390625,
       "y2": 505.75,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1360,67 +1712,17 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "an Open saves the session it leaves, which moves it to the top."
+      "text": "the session it leaves, which moves it to the top."
     },
     {
       "x": 300,
       "y": 42784.95001220703,
-      "width": 1772.38330078125,
-      "height": 31.5,
-      "x1": 0,
-      "y1": 513.4500122070312,
-      "x2": 1772.38330078125,
-      "y2": 544.9500122070312,
-      "fontStyle": "normal",
-      "textTransform": "none",
-      "fontSize": "28px",
-      "fontWeight": "400",
-      "textDecoration": "none",
-      "letterSpacing": "normal",
-      "fills": [
-        {
-          "fillColor": "#a3adbd",
-          "fillOpacity": 1
-        }
-      ],
-      "direction": "ltr",
-      "fontFamily": "Arimo",
-      "text": "D2. Undo saves on a press. Clear starts a new loop on a Hold, with the fill a clearing Hold draws: Clear sits beside Bank, and a press that slips "
-    },
-    {
-      "x": 300,
-      "y": 42824.15002441406,
-      "width": 1002.183349609375,
-      "height": 31.5,
-      "x1": 0,
-      "y1": 552.6500244140625,
-      "x2": 1002.183349609375,
-      "y2": 584.1500244140625,
-      "fontStyle": "normal",
-      "textTransform": "none",
-      "fontSize": "28px",
-      "fontWeight": "400",
-      "textDecoration": "none",
-      "letterSpacing": "normal",
-      "fills": [
-        {
-          "fillColor": "#a3adbd",
-          "fillOpacity": 1
-        }
-      ],
-      "direction": "ltr",
-      "fontFamily": "Arimo",
-      "text": "must not start one. New loop and Save session are also assignable on their own."
-    },
-    {
-      "x": 300,
-      "y": 42863.34997558594,
       "width": 1771.25,
       "height": 31.5,
       "x1": 0,
-      "y1": 591.8499755859375,
+      "y1": 513.4500122070312,
       "x2": 1771.25,
-      "y2": 623.3499755859375,
+      "y2": 544.9500122070312,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1439,13 +1741,13 @@
     },
     {
       "x": 300,
-      "y": 42902.54998779297,
+      "y": 42824.15002441406,
       "width": 1220.2166748046875,
       "height": 31.5,
       "x1": 0,
-      "y1": 631.0499877929688,
+      "y1": 552.6500244140625,
       "x2": 1220.2166748046875,
-      "y2": 662.5499877929688,
+      "y2": 584.1500244140625,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1464,13 +1766,13 @@
     },
     {
       "x": 300,
-      "y": 42941.75,
+      "y": 42863.34997558594,
       "width": 1817.5833740234375,
       "height": 31.5,
       "x1": 0,
-      "y1": 670.25,
+      "y1": 591.8499755859375,
       "x2": 1817.5833740234375,
-      "y2": 701.75,
+      "y2": 623.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1489,13 +1791,13 @@
     },
     {
       "x": 300,
-      "y": 42980.95001220703,
+      "y": 42902.54998779297,
       "width": 911.4000244140625,
       "height": 31.5,
       "x1": 0,
-      "y1": 709.4500122070312,
+      "y1": 631.0499877929688,
       "x2": 911.4000244140625,
-      "y2": 740.9500122070312,
+      "y2": 662.5499877929688,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1514,63 +1816,13 @@
     },
     {
       "x": 300,
-      "y": 43020.15002441406,
-      "width": 1805.949951171875,
-      "height": 31.5,
-      "x1": 0,
-      "y1": 748.6500244140625,
-      "x2": 1805.949951171875,
-      "y2": 780.1500244140625,
-      "fontStyle": "normal",
-      "textTransform": "none",
-      "fontSize": "28px",
-      "fontWeight": "400",
-      "textDecoration": "none",
-      "letterSpacing": "normal",
-      "fills": [
-        {
-          "fillColor": "#a3adbd",
-          "fillOpacity": 1
-        }
-      ],
-      "direction": "ltr",
-      "fontFamily": "Arimo",
-      "text": "D5. The face starts on the open session's folder and page. A held Bank shows the next folder, in name order, with the sessions outside any folder "
-    },
-    {
-      "x": 300,
-      "y": 43059.34997558594,
-      "width": 284.683349609375,
-      "height": 31.5,
-      "x1": 0,
-      "y1": 787.8499755859375,
-      "x2": 284.683349609375,
-      "y2": 819.3499755859375,
-      "fontStyle": "normal",
-      "textTransform": "none",
-      "fontSize": "28px",
-      "fontWeight": "400",
-      "textDecoration": "none",
-      "letterSpacing": "normal",
-      "fills": [
-        {
-          "fillColor": "#a3adbd",
-          "fillOpacity": 1
-        }
-      ],
-      "direction": "ltr",
-      "fontFamily": "Arimo",
-      "text": "(Unfiled) last (card 14)."
-    },
-    {
-      "x": 300,
-      "y": 43098.54998779297,
+      "y": 42941.75,
       "width": 1809.5166015625,
       "height": 31.5,
       "x1": 0,
-      "y1": 827.0499877929688,
+      "y1": 670.25,
       "x2": 1809.5166015625,
-      "y2": 858.5499877929688,
+      "y2": 701.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1589,13 +1841,13 @@
     },
     {
       "x": 300,
-      "y": 43137.75,
+      "y": 42980.95001220703,
       "width": 111.10000610351562,
       "height": 31.5,
       "x1": 0,
-      "y1": 866.25,
+      "y1": 709.4500122070312,
       "x2": 111.10000610351562,
-      "y2": 897.75,
+      "y2": 740.9500122070312,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1614,13 +1866,38 @@
     },
     {
       "x": 300,
-      "y": 43176.95001220703,
+      "y": 43020.15002441406,
+      "width": 1008.36669921875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 748.6500244140625,
+      "x2": 1008.36669921875,
+      "y2": 780.1500244140625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "Replaced: D2 (New loop on a held Clear) and D5 (folders on a held Bank), below."
+    },
+    {
+      "x": 300,
+      "y": 43059.34997558594,
       "width": 7.7833404541015625,
       "height": 31.5,
       "x1": 0,
-      "y1": 905.4500122070312,
+      "y1": 787.8499755859375,
       "x2": 7.7833404541015625,
-      "y2": 936.9500122070312,
+      "y2": 819.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1639,13 +1916,13 @@
     },
     {
       "x": 300,
-      "y": 43216.15002441406,
-      "width": 750.2166748046875,
+      "y": 43098.54998779297,
+      "width": 566.5833129882812,
       "height": 31.5,
       "x1": 0,
-      "y1": 944.6500244140625,
-      "x2": 750.2166748046875,
-      "y2": 976.1500244140625,
+      "y1": 827.0499877929688,
+      "x2": 566.5833129882812,
+      "y2": 858.5499877929688,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1660,17 +1937,17 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "The owner's changes for #1921 (2026-11-20), built as part 1:"
+      "text": "The owner's changes for #1921 (2026-11-20):"
     },
     {
       "x": 300,
-      "y": 43255.34997558594,
+      "y": 43137.75,
       "width": 1832.4166259765625,
       "height": 31.5,
       "x1": 0,
-      "y1": 983.8499755859375,
+      "y1": 866.25,
       "x2": 1832.4166259765625,
-      "y2": 1015.3499755859375,
+      "y2": 897.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1689,13 +1966,13 @@
     },
     {
       "x": 300,
-      "y": 43294.54998779297,
+      "y": 43176.95001220703,
       "width": 189.88333129882812,
       "height": 31.5,
       "x1": 0,
-      "y1": 1023.0499877929688,
+      "y1": 905.4500122070312,
       "x2": 189.88333129882812,
-      "y2": 1054.5499877929688,
+      "y2": 936.9500122070312,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1714,13 +1991,13 @@
     },
     {
       "x": 300,
-      "y": 43333.75,
+      "y": 43216.15002441406,
       "width": 1760.9000244140625,
       "height": 31.5,
       "x1": 0,
-      "y1": 1062.25,
+      "y1": 944.6500244140625,
       "x2": 1760.9000244140625,
-      "y2": 1093.75,
+      "y2": 976.1500244140625,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1739,13 +2016,13 @@
     },
     {
       "x": 300,
-      "y": 43372.949951171875,
+      "y": 43255.34997558594,
       "width": 960.1500244140625,
       "height": 31.5,
       "x1": 0,
-      "y1": 1101.449951171875,
+      "y1": 983.8499755859375,
       "x2": 960.1500244140625,
-      "y2": 1132.949951171875,
+      "y2": 1015.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1764,13 +2041,13 @@
     },
     {
       "x": 300,
-      "y": 43412.15002441406,
+      "y": 43294.54998779297,
       "width": 1835.9000244140625,
       "height": 31.5,
       "x1": 0,
-      "y1": 1140.6500244140625,
+      "y1": 1023.0499877929688,
       "x2": 1835.9000244140625,
-      "y2": 1172.1500244140625,
+      "y2": 1054.5499877929688,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1789,13 +2066,13 @@
     },
     {
       "x": 300,
-      "y": 43451.34997558594,
+      "y": 43333.75,
       "width": 909.9000244140625,
       "height": 31.5,
       "x1": 0,
-      "y1": 1179.8499755859375,
+      "y1": 1062.25,
       "x2": 909.9000244140625,
-      "y2": 1211.3499755859375,
+      "y2": 1093.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1814,13 +2091,13 @@
     },
     {
       "x": 300,
-      "y": 43490.550048828125,
+      "y": 43372.949951171875,
       "width": 471.51666259765625,
       "height": 31.5,
       "x1": 0,
-      "y1": 1219.050048828125,
+      "y1": 1101.449951171875,
       "x2": 471.51666259765625,
-      "y2": 1250.550048828125,
+      "y2": 1132.949951171875,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1839,13 +2116,13 @@
     },
     {
       "x": 300,
-      "y": 43529.75,
+      "y": 43412.15002441406,
       "width": 1837.75,
       "height": 31.5,
       "x1": 0,
-      "y1": 1258.25,
+      "y1": 1140.6500244140625,
       "x2": 1837.75,
-      "y2": 1289.75,
+      "y2": 1172.1500244140625,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1864,13 +2141,13 @@
     },
     {
       "x": 300,
-      "y": 43568.949951171875,
+      "y": 43451.34997558594,
       "width": 1685.9666748046875,
       "height": 31.5,
       "x1": 0,
-      "y1": 1297.449951171875,
+      "y1": 1179.8499755859375,
       "x2": 1685.9666748046875,
-      "y2": 1328.949951171875,
+      "y2": 1211.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1889,13 +2166,13 @@
     },
     {
       "x": 300,
-      "y": 43608.15002441406,
+      "y": 43490.550048828125,
       "width": 7.7833404541015625,
       "height": 31.5,
       "x1": 0,
-      "y1": 1336.6500244140625,
+      "y1": 1219.050048828125,
       "x2": 7.7833404541015625,
-      "y2": 1368.1500244140625,
+      "y2": 1250.550048828125,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1914,12 +2191,87 @@
     },
     {
       "x": 300,
+      "y": 43529.75,
+      "width": 1779.8333740234375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1258.25,
+      "x2": 1779.8333740234375,
+      "y2": 1289.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "One list, not a map (owner, 2026-11-20). The plan's part 2 was a map of sessions to switches, set in the Library. It was built and then withdrawn "
+    },
+    {
+      "x": 300,
+      "y": 43568.949951171875,
+      "width": 1814.2166748046875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1297.449951171875,
+      "x2": 1814.2166748046875,
+      "y2": 1328.949951171875,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "before it was committed. The owner asked: \"Do we need to map them? Can't we just have the list by default? What about Next and Previous page "
+    },
+    {
+      "x": 300,
+      "y": 43608.15002441406,
+      "width": 290.0333251953125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1336.6500244140625,
+      "x2": 290.0333251953125,
+      "y2": 1368.1500244140625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "and show all sessions.\""
+    },
+    {
+      "x": 300,
       "y": 43647.34997558594,
-      "width": 1834.183349609375,
+      "width": 1832.6666259765625,
       "height": 31.5,
       "x1": 0,
       "y1": 1375.8499755859375,
-      "x2": 1834.183349609375,
+      "x2": 1832.6666259765625,
       "y2": 1407.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1935,16 +2287,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "Decided for #1921 and not built yet (part 2): one map for the whole Library, where a position is a page and a switch; a session is given its position in "
+      "text": "\u00b7 Why the list. It needs no setup, where a map starts empty and sends the player to the Library. It has one thing to learn, an order. A reorder page, if "
     },
     {
       "x": 300,
       "y": 43686.550048828125,
-      "width": 1839.36669921875,
+      "width": 695.5333251953125,
       "height": 31.5,
       "x1": 0,
       "y1": 1415.050048828125,
-      "x2": 1839.36669921875,
+      "x2": 695.5333251953125,
       "y2": 1446.550048828125,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1960,7 +2312,307 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "the Library, on its preview card; nothing is placed automatically. Then D1 and D5 no longer apply, a held Bank does nothing, and card 14 is removed."
+      "text": "it is wanted later, gives the same result where it matters."
+    },
+    {
+      "x": 300,
+      "y": 43725.75,
+      "width": 1252.7166748046875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1454.25,
+      "x2": 1252.7166748046875,
+      "y2": 1485.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00b7 What it gives up. A session can change switch: deleting one moves every session after it up by one."
+    },
+    {
+      "x": 300,
+      "y": 43764.949951171875,
+      "width": 977.2000122070312,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1493.449951171875,
+      "x2": 977.2000122070312,
+      "y2": 1524.949951171875,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00b7 Every saved session is listed, whatever folder it is in. The face has no folders."
+    },
+    {
+      "x": 300,
+      "y": 43804.15002441406,
+      "width": 1437.9166259765625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1532.6500244140625,
+      "x2": 1437.9166259765625,
+      "y2": 1564.1500244140625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00b7 Clear is Previous page and Bank is Next page. Both act on contact and wrap. They sit side by side on the rear row."
+    },
+    {
+      "x": 300,
+      "y": 43843.34997558594,
+      "width": 1836.9166259765625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1571.8499755859375,
+      "x2": 1836.9166259765625,
+      "y2": 1603.3499755859375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00b7 New loop is a Hold on Undo, with the clearing Hold's fill; a press of Undo saves, on its release. It left Clear because a foot resting on a page switch "
+    },
+    {
+      "x": 300,
+      "y": 43882.550048828125,
+      "width": 586.683349609375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1611.050048828125,
+      "x2": 586.683349609375,
+      "y2": 1642.550048828125,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "must not start a new loop in the middle of a set."
+    },
+    {
+      "x": 300,
+      "y": 43921.75,
+      "width": 1808.550048828125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1650.25,
+      "x2": 1808.550048828125,
+      "y2": 1681.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00b7 A session can be hidden from the pedal. Each row of the Library's list has a three-dot button (cards 01 and 03); its sheet says \"Hide from pedal\", "
+    },
+    {
+      "x": 300,
+      "y": 43960.949951171875,
+      "width": 1802.9166259765625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1689.449951171875,
+      "x2": 1802.9166259765625,
+      "y2": 1720.949951171875,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "or \"Show on pedal\" for a hidden session, and a hidden row says \"Hidden from pedal\". The sheet is the options sheet Manage uses, which this file "
+    },
+    {
+      "x": 300,
+      "y": 44000.15002441406,
+      "width": 1769.4000244140625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1728.6500244140625,
+      "x2": 1769.4000244140625,
+      "y2": 1760.1500244140625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "does not draw. A hidden session is on no switch and opens from the Library as before. When it is the open one, the readout names it (card 14)."
+    },
+    {
+      "x": 300,
+      "y": 44039.34997558594,
+      "width": 619.2999877929688,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1767.8499755859375,
+      "x2": 619.2999877929688,
+      "y2": 1799.3499755859375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00b7 The app's text says \"pedal\" for this, never \"face\"."
+    },
+    {
+      "x": 300,
+      "y": 44078.550048828125,
+      "width": 7.7833404541015625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1807.050048828125,
+      "x2": 7.7833404541015625,
+      "y2": 1838.550048828125,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00a0"
+    },
+    {
+      "x": 300,
+      "y": 44117.75,
+      "width": 1832.066650390625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1846.25,
+      "x2": 1832.066650390625,
+      "y2": 1877.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "Not decided: whether \"New loop\" should be \"New session\". The app calls the saved thing a session everywhere else and uses \"loop\" for what plays "
+    },
+    {
+      "x": 300,
+      "y": 44156.949951171875,
+      "width": 135.39999389648438,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1885.449951171875,
+      "x2": 135.39999389648438,
+      "y2": 1916.949951171875,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "inside one."
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678"

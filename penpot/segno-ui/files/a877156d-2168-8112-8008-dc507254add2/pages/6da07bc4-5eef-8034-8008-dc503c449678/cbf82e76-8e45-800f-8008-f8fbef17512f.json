@@ -5,17 +5,17 @@
   "x": 2380,
   "y": 42240,
   "width": 1840,
-  "height": 1490,
+  "height": 1725,
   "rotation": 0,
   "selrect": {
     "x": 2380,
     "y": 42240,
     "width": 1840,
-    "height": 1490,
+    "height": 1725,
     "x1": 2380,
     "y1": 42240,
     "x2": 4220,
-    "y2": 43730
+    "y2": 43965
   },
   "points": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "x": 4220,
-      "y": 43730
+      "y": 43965
     },
     {
       "x": 2380,
-      "y": 43730
+      "y": 43965
     }
   ],
   "transform": {
@@ -261,7 +261,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "The captions. Each track switch is named for its session: the name, then the loop mode and tempo, then \"Hold \u00b7 Open\". The second line reads \"Open now\" for the open session, \"Opening\u2026\" while an Open is in flight and \"Could not open\" after one failed, and those switches have no third line."
+                "text": "The captions. Each track switch is named for its session: the name, then the loop mode and tempo, then \"Hold \u00b7 Open\". The second line reads \"Open now\" for the open session, \"Opening\u2026\" while an Open is in flight and \"Could not open\" after one failed, and those switches have no third line. An empty position on the last page says \"Empty\", dimmed. Clear is \"Previous page\" and Bank is \"Next page\" with the page under it (\"1 \/ 2\"); both are dimmed with one page. Undo is \"Save\" with \"Hold \u00b7 New loop\" under it."
               }
             ],
             "textTransform": "none",
@@ -393,7 +393,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "\u00b7 With no session shown (cards 09, 10, 14): the folder, the page, and \"Press a switch to see its session. Hold it to open.\" While something plays or records, the line above that says what an Open would end."
+                "text": "\u00b7 With no session shown (cards 09, 10, 14): \"Page 1 of 2\", then how many sessions the face lists, then \"Press a switch to see its session. Hold it to open.\" on the last line. While something plays or records, the line above that says what an Open would end. When the open session is hidden from the pedal, the second line names it: \"5 sessions \u00b7 Open: Intro\" (card 14)."
               }
             ],
             "textTransform": "none",
@@ -438,6 +438,50 @@
                 ],
                 "fontFamily": "Arimo",
                 "text": "\u00b7 With one shown (cards 15, 16, 17): its name, then Loop mode, Tempo, Loop length (left out when none is set), Tracks (eight segments and how many are recorded) and Effects (names in signal order, four and then \"+N\", or \"None\"). The last line says what opening it would end, or \"Opening\u2026\", \"Open now\", \"Could not open\"."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "\u00b7 With no session to list (card 13): \"No sessions yet. Save or start a new loop.\" When sessions are saved and every one is hidden: \"Every session is hidden from the pedal. Show them in Library.\""
               }
             ],
             "textTransform": "none",
@@ -569,7 +613,95 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "The Hold. A press shows the session at once, not on release, so a Hold always fills under the name of the session it opens. A release before the threshold opens nothing and leaves the session shown. On the screen the fill is the drawn switch's LED bar, the same bar in the same place as on the pedal. One Hold at a time: a second track switch going down while one is pending cancels both. A Hold opens only if its switch still stands for the same session; when it no longer does (the page turned, the session gone, takes locked) the Hold and its fill end at once."
+                "text": "The Hold to open. A press shows the session at once, not on release, so a Hold always fills under the name of the session it opens. A release before the threshold opens nothing and leaves the session shown. On the screen the fill is the drawn switch's LED bar, the same bar in the same place as on the pedal. One Hold at a time: a second track switch going down while one is pending cancels both. A Hold opens only if its switch still stands for the same session; when it no longer does (the page turned, the session gone or hidden, takes locked) the Hold and its fill end at once."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": ""
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Undo. Its press waits for the release, as every switch with a Hold does. Its Hold starts a new loop and draws the clearing Hold's fill, red from both ends. Once an Open has been asked from another switch, neither its release nor its Hold does anything."
               }
             ],
             "textTransform": "none",
@@ -789,51 +921,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "\u00b7 Bank turns the page on contact while there is one folder. With another folder to show it has a Hold, so its page turn waits for the release, as every switch with a Hold does. With one page and another folder it is named \"Folder\" with \"Hold\" under it, since its press does nothing (card 14)."
-              }
-            ],
-            "textTransform": "none",
-            "textAlign": "left",
-            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
-            "fontSize": "28",
-            "fontWeight": "400",
-            "textDirection": "ltr",
-            "type": "paragraph",
-            "fontVariantId": "normal-400",
-            "textDecoration": "none",
-            "letterSpacing": "0",
-            "fills": [
-              {
-                "fillColor": "#a3adbd",
-                "fillOpacity": 1
-              }
-            ],
-            "fontFamily": "Arimo"
-          },
-          {
-            "lineHeight": "1.4",
-            "fontStyle": "normal",
-            "children": [
-              {
-                "lineHeight": "1.4",
-                "fontStyle": "normal",
-                "textTransform": "none",
-                "textAlign": "left",
-                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
-                "fontSize": "28",
-                "fontWeight": "400",
-                "textDirection": "ltr",
-                "fontVariantId": "normal-400",
-                "textDecoration": "none",
-                "letterSpacing": "0",
-                "fills": [
-                  {
-                    "fillColor": "#a3adbd",
-                    "fillOpacity": 1
-                  }
-                ],
-                "fontFamily": "Arimo",
-                "text": "\u00b7 With no open session and no session outside a folder, the face starts on the first folder."
+                "text": "\u00b7 The face opens on the page of the open session, and on the first page when the open session is hidden."
               }
             ],
             "textTransform": "none",
@@ -1053,7 +1141,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Not built: Load previous and Load next session. Still owed on the console: how long an Open takes, and how long the readout's list takes to appear after a press (#1918)."
+                "text": "Not built: Load previous and Load next session, the map of sessions to switches, an order set by hand. Still owed on the console: how long an Open takes, and how long the readout's list takes to appear after a press (#1918)."
               }
             ],
             "textTransform": "none",
@@ -1259,11 +1347,11 @@
     {
       "x": 2380,
       "y": 42549.75,
-      "width": 1835.316650390625,
+      "width": 1783.9666748046875,
       "height": 31.5,
       "x1": 0,
       "y1": 278.25,
-      "x2": 1835.316650390625,
+      "x2": 1783.9666748046875,
       "y2": 309.75,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1279,17 +1367,67 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "\"Open now\" for the open session, \"Opening\u2026\" while an Open is in flight and \"Could not open\" after one failed, and those switches have no third line."
+      "text": "\"Open now\" for the open session, \"Opening\u2026\" while an Open is in flight and \"Could not open\" after one failed, and those switches have no third "
     },
     {
       "x": 2380,
       "y": 42588.95001220703,
-      "width": 7.7833404541015625,
+      "width": 1794.36669921875,
       "height": 31.5,
       "x1": 0,
       "y1": 317.45001220703125,
-      "x2": 7.7833404541015625,
+      "x2": 1794.36669921875,
       "y2": 348.95001220703125,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "line. An empty position on the last page says \"Empty\", dimmed. Clear is \"Previous page\" and Bank is \"Next page\" with the page under it (\"1 \/ 2\"); "
+    },
+    {
+      "x": 2380,
+      "y": 42628.149993896484,
+      "width": 987.4000244140625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 356.6499938964844,
+      "x2": 987.4000244140625,
+      "y2": 388.1499938964844,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "both are dimmed with one page. Undo is \"Save\" with \"Hold \u00b7 New loop\" under it."
+    },
+    {
+      "x": 2380,
+      "y": 42667.350006103516,
+      "width": 7.7833404541015625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 395.8500061035156,
+      "x2": 7.7833404541015625,
+      "y2": 427.3500061035156,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1308,13 +1446,13 @@
     },
     {
       "x": 2380,
-      "y": 42628.149993896484,
+      "y": 42706.54998779297,
       "width": 1759.199951171875,
       "height": 31.5,
       "x1": 0,
-      "y1": 356.6499938964844,
+      "y1": 435.04998779296875,
       "x2": 1759.199951171875,
-      "y2": 388.1499938964844,
+      "y2": 466.54998779296875,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1333,13 +1471,13 @@
     },
     {
       "x": 2380,
-      "y": 42667.350006103516,
+      "y": 42745.75,
       "width": 1703.1666259765625,
       "height": 31.5,
       "x1": 0,
-      "y1": 395.8500061035156,
+      "y1": 474.25,
       "x2": 1703.1666259765625,
-      "y2": 427.3500061035156,
+      "y2": 505.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1358,63 +1496,88 @@
     },
     {
       "x": 2380,
-      "y": 42706.54998779297,
-      "width": 1811,
-      "height": 31.5,
-      "x1": 0,
-      "y1": 435.04998779296875,
-      "x2": 1811,
-      "y2": 466.54998779296875,
-      "fontStyle": "normal",
-      "textTransform": "none",
-      "fontSize": "28px",
-      "fontWeight": "400",
-      "textDecoration": "none",
-      "letterSpacing": "normal",
-      "fills": [
-        {
-          "fillColor": "#a3adbd",
-          "fillOpacity": 1
-        }
-      ],
-      "direction": "ltr",
-      "fontFamily": "Arimo",
-      "text": "\u00b7 With no session shown (cards 09, 10, 14): the folder, the page, and \"Press a switch to see its session. Hold it to open.\" While something plays or "
-    },
-    {
-      "x": 2380,
-      "y": 42745.75,
-      "width": 728.3333129882812,
-      "height": 31.5,
-      "x1": 0,
-      "y1": 474.25,
-      "x2": 728.3333129882812,
-      "y2": 505.75,
-      "fontStyle": "normal",
-      "textTransform": "none",
-      "fontSize": "28px",
-      "fontWeight": "400",
-      "textDecoration": "none",
-      "letterSpacing": "normal",
-      "fills": [
-        {
-          "fillColor": "#a3adbd",
-          "fillOpacity": 1
-        }
-      ],
-      "direction": "ltr",
-      "fontFamily": "Arimo",
-      "text": "records, the line above that says what an Open would end."
-    },
-    {
-      "x": 2380,
       "y": 42784.95001220703,
-      "width": 1799.4166259765625,
+      "width": 1819.38330078125,
       "height": 31.5,
       "x1": 0,
       "y1": 513.4500122070312,
-      "x2": 1799.4166259765625,
+      "x2": 1819.38330078125,
       "y2": 544.9500122070312,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00b7 With no session shown (cards 09, 10, 14): \"Page 1 of 2\", then how many sessions the face lists, then \"Press a switch to see its session. Hold it to "
+    },
+    {
+      "x": 2380,
+      "y": 42824.15002441406,
+      "width": 1824.4666748046875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 552.6500244140625,
+      "x2": 1824.4666748046875,
+      "y2": 584.1500244140625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "open.\" on the last line. While something plays or records, the line above that says what an Open would end. When the open session is hidden from "
+    },
+    {
+      "x": 2380,
+      "y": 42863.34997558594,
+      "width": 892.86669921875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 591.8499755859375,
+      "x2": 892.86669921875,
+      "y2": 623.3499755859375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "the pedal, the second line names it: \"5 sessions \u00b7 Open: Intro\" (card 14)."
+    },
+    {
+      "x": 2380,
+      "y": 42902.54998779297,
+      "width": 1799.4166259765625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 631.0499877929688,
+      "x2": 1799.4166259765625,
+      "y2": 662.5499877929688,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1433,13 +1596,13 @@
     },
     {
       "x": 2380,
-      "y": 42824.15002441406,
+      "y": 42941.75,
       "width": 1675.4666748046875,
       "height": 31.5,
       "x1": 0,
-      "y1": 552.6500244140625,
+      "y1": 670.25,
       "x2": 1675.4666748046875,
-      "y2": 584.1500244140625,
+      "y2": 701.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1458,13 +1621,13 @@
     },
     {
       "x": 2380,
-      "y": 42863.34997558594,
+      "y": 42980.95001220703,
       "width": 549.8499755859375,
       "height": 31.5,
       "x1": 0,
-      "y1": 591.8499755859375,
+      "y1": 709.4500122070312,
       "x2": 549.8499755859375,
-      "y2": 623.3499755859375,
+      "y2": 740.9500122070312,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1483,87 +1646,12 @@
     },
     {
       "x": 2380,
-      "y": 42902.54998779297,
-      "width": 1462.949951171875,
-      "height": 31.5,
-      "x1": 0,
-      "y1": 631.0499877929688,
-      "x2": 1462.949951171875,
-      "y2": 662.5499877929688,
-      "fontStyle": "normal",
-      "textTransform": "none",
-      "fontSize": "28px",
-      "fontWeight": "400",
-      "textDecoration": "none",
-      "letterSpacing": "normal",
-      "fills": [
-        {
-          "fillColor": "#a3adbd",
-          "fillOpacity": 1
-        }
-      ],
-      "direction": "ltr",
-      "fontFamily": "Arimo",
-      "text": "\u00b7 Not shown: the saved date, the count-in, the click, each track's layers and waveform, and which place an effect is on."
-    },
-    {
-      "x": 2380,
-      "y": 42941.75,
-      "width": 7.7833404541015625,
-      "height": 31.5,
-      "x1": 0,
-      "y1": 670.25,
-      "x2": 7.7833404541015625,
-      "y2": 701.75,
-      "fontStyle": "normal",
-      "textTransform": "none",
-      "fontSize": "28px",
-      "fontWeight": "400",
-      "textDecoration": "none",
-      "letterSpacing": "normal",
-      "fills": [
-        {
-          "fillColor": "#a3adbd",
-          "fillOpacity": 1
-        }
-      ],
-      "direction": "ltr",
-      "fontFamily": "Arimo",
-      "text": "\u00a0"
-    },
-    {
-      "x": 2380,
-      "y": 42980.95001220703,
-      "width": 1794.300048828125,
-      "height": 31.5,
-      "x1": 0,
-      "y1": 709.4500122070312,
-      "x2": 1794.300048828125,
-      "y2": 740.9500122070312,
-      "fontStyle": "normal",
-      "textTransform": "none",
-      "fontSize": "28px",
-      "fontWeight": "400",
-      "textDecoration": "none",
-      "letterSpacing": "normal",
-      "fills": [
-        {
-          "fillColor": "#a3adbd",
-          "fillOpacity": 1
-        }
-      ],
-      "direction": "ltr",
-      "fontFamily": "Arimo",
-      "text": "The Hold. A press shows the session at once, not on release, so a Hold always fills under the name of the session it opens. A release before the "
-    },
-    {
-      "x": 2380,
       "y": 43020.15002441406,
-      "width": 1815.2166748046875,
+      "width": 1834.8499755859375,
       "height": 31.5,
       "x1": 0,
       "y1": 748.6500244140625,
-      "x2": 1815.2166748046875,
+      "x2": 1834.8499755859375,
       "y2": 780.1500244140625,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1579,16 +1667,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "threshold opens nothing and leaves the session shown. On the screen the fill is the drawn switch's LED bar, the same bar in the same place as on "
+      "text": "\u00b7 With no session to list (card 13): \"No sessions yet. Save or start a new loop.\" When sessions are saved and every one is hidden: \"Every session is "
     },
     {
       "x": 2380,
       "y": 43059.34997558594,
-      "width": 1797.38330078125,
+      "width": 564.933349609375,
       "height": 31.5,
       "x1": 0,
       "y1": 787.8499755859375,
-      "x2": 1797.38330078125,
+      "x2": 564.933349609375,
       "y2": 819.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1604,16 +1692,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "the pedal. One Hold at a time: a second track switch going down while one is pending cancels both. A Hold opens only if its switch still stands for "
+      "text": "hidden from the pedal. Show them in Library.\""
     },
     {
       "x": 2380,
       "y": 43098.54998779297,
-      "width": 1534.4666748046875,
+      "width": 1462.949951171875,
       "height": 31.5,
       "x1": 0,
       "y1": 827.0499877929688,
-      "x2": 1534.4666748046875,
+      "x2": 1462.949951171875,
       "y2": 858.5499877929688,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -1629,7 +1717,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "the same session; when it no longer does (the page turned, the session gone, takes locked) the Hold and its fill end at once."
+      "text": "\u00b7 Not shown: the saved date, the count-in, the click, each track's layers and waveform, and which place an effect is on."
     },
     {
       "x": 2380,
@@ -1659,12 +1747,212 @@
     {
       "x": 2380,
       "y": 43176.95001220703,
-      "width": 458.51666259765625,
+      "width": 1761.63330078125,
       "height": 31.5,
       "x1": 0,
       "y1": 905.4500122070312,
-      "x2": 458.51666259765625,
+      "x2": 1761.63330078125,
       "y2": 936.9500122070312,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "The Hold to open. A press shows the session at once, not on release, so a Hold always fills under the name of the session it opens. A release "
+    },
+    {
+      "x": 2380,
+      "y": 43216.15002441406,
+      "width": 1798.0999755859375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 944.6500244140625,
+      "x2": 1798.0999755859375,
+      "y2": 976.1500244140625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "before the threshold opens nothing and leaves the session shown. On the screen the fill is the drawn switch's LED bar, the same bar in the same "
+    },
+    {
+      "x": 2380,
+      "y": 43255.34997558594,
+      "width": 1817.63330078125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 983.8499755859375,
+      "x2": 1817.63330078125,
+      "y2": 1015.3499755859375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "place as on the pedal. One Hold at a time: a second track switch going down while one is pending cancels both. A Hold opens only if its switch still "
+    },
+    {
+      "x": 2380,
+      "y": 43294.54998779297,
+      "width": 1789.683349609375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1023.0499877929688,
+      "x2": 1789.683349609375,
+      "y2": 1054.5499877929688,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "stands for the same session; when it no longer does (the page turned, the session gone or hidden, takes locked) the Hold and its fill end at once."
+    },
+    {
+      "x": 2380,
+      "y": 43333.75,
+      "width": 7.7833404541015625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1062.25,
+      "x2": 7.7833404541015625,
+      "y2": 1093.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00a0"
+    },
+    {
+      "x": 2380,
+      "y": 43372.949951171875,
+      "width": 1796.3499755859375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1101.449951171875,
+      "x2": 1796.3499755859375,
+      "y2": 1132.949951171875,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "Undo. Its press waits for the release, as every switch with a Hold does. Its Hold starts a new loop and draws the clearing Hold's fill, red from both "
+    },
+    {
+      "x": 2380,
+      "y": 43412.15002441406,
+      "width": 1291.63330078125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1140.6500244140625,
+      "x2": 1291.63330078125,
+      "y2": 1172.1500244140625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "ends. Once an Open has been asked from another switch, neither its release nor its Hold does anything."
+    },
+    {
+      "x": 2380,
+      "y": 43451.34997558594,
+      "width": 7.7833404541015625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1179.8499755859375,
+      "x2": 7.7833404541015625,
+      "y2": 1211.3499755859375,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00a0"
+    },
+    {
+      "x": 2380,
+      "y": 43490.550048828125,
+      "width": 458.51666259765625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1219.050048828125,
+      "x2": 458.51666259765625,
+      "y2": 1250.550048828125,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1683,13 +1971,13 @@
     },
     {
       "x": 2380,
-      "y": 43216.15002441406,
+      "y": 43529.75,
       "width": 1788.3499755859375,
       "height": 31.5,
       "x1": 0,
-      "y1": 944.6500244140625,
+      "y1": 1258.25,
       "x2": 1788.3499755859375,
-      "y2": 976.1500244140625,
+      "y2": 1289.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1708,13 +1996,13 @@
     },
     {
       "x": 2380,
-      "y": 43255.34997558594,
+      "y": 43568.949951171875,
       "width": 680.066650390625,
       "height": 31.5,
       "x1": 0,
-      "y1": 983.8499755859375,
+      "y1": 1297.449951171875,
       "x2": 680.066650390625,
-      "y2": 1015.3499755859375,
+      "y2": 1328.949951171875,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1733,13 +2021,13 @@
     },
     {
       "x": 2380,
-      "y": 43294.54998779297,
+      "y": 43608.15002441406,
       "width": 1805.9833984375,
       "height": 31.5,
       "x1": 0,
-      "y1": 1023.0499877929688,
+      "y1": 1336.6500244140625,
       "x2": 1805.9833984375,
-      "y2": 1054.5499877929688,
+      "y2": 1368.1500244140625,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1758,13 +2046,13 @@
     },
     {
       "x": 2380,
-      "y": 43333.75,
+      "y": 43647.34997558594,
       "width": 342.3500061035156,
       "height": 31.5,
       "x1": 0,
-      "y1": 1062.25,
+      "y1": 1375.8499755859375,
       "x2": 342.3500061035156,
-      "y2": 1093.75,
+      "y2": 1407.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1783,13 +2071,13 @@
     },
     {
       "x": 2380,
-      "y": 43372.949951171875,
-      "width": 1820.7333984375,
+      "y": 43686.550048828125,
+      "width": 1308.9166259765625,
       "height": 31.5,
       "x1": 0,
-      "y1": 1101.449951171875,
-      "x2": 1820.7333984375,
-      "y2": 1132.949951171875,
+      "y1": 1415.050048828125,
+      "x2": 1308.9166259765625,
+      "y2": 1446.550048828125,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1804,67 +2092,17 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "\u00b7 Bank turns the page on contact while there is one folder. With another folder to show it has a Hold, so its page turn waits for the release, as every "
+      "text": "\u00b7 The face opens on the page of the open session, and on the first page when the open session is hidden."
     },
     {
       "x": 2380,
-      "y": 43412.15002441406,
-      "width": 1706.300048828125,
-      "height": 31.5,
-      "x1": 0,
-      "y1": 1140.6500244140625,
-      "x2": 1706.300048828125,
-      "y2": 1172.1500244140625,
-      "fontStyle": "normal",
-      "textTransform": "none",
-      "fontSize": "28px",
-      "fontWeight": "400",
-      "textDecoration": "none",
-      "letterSpacing": "normal",
-      "fills": [
-        {
-          "fillColor": "#a3adbd",
-          "fillOpacity": 1
-        }
-      ],
-      "direction": "ltr",
-      "fontFamily": "Arimo",
-      "text": "switch with a Hold does. With one page and another folder it is named \"Folder\" with \"Hold\" under it, since its press does nothing (card 14)."
-    },
-    {
-      "x": 2380,
-      "y": 43451.34997558594,
-      "width": 1092.5,
-      "height": 31.5,
-      "x1": 0,
-      "y1": 1179.8499755859375,
-      "x2": 1092.5,
-      "y2": 1211.3499755859375,
-      "fontStyle": "normal",
-      "textTransform": "none",
-      "fontSize": "28px",
-      "fontWeight": "400",
-      "textDecoration": "none",
-      "letterSpacing": "normal",
-      "fills": [
-        {
-          "fillColor": "#a3adbd",
-          "fillOpacity": 1
-        }
-      ],
-      "direction": "ltr",
-      "fontFamily": "Arimo",
-      "text": "\u00b7 With no open session and no session outside a folder, the face starts on the first folder."
-    },
-    {
-      "x": 2380,
-      "y": 43490.550048828125,
+      "y": 43725.75,
       "width": 1478.36669921875,
       "height": 31.5,
       "x1": 0,
-      "y1": 1219.050048828125,
+      "y1": 1454.25,
       "x2": 1478.36669921875,
-      "y2": 1250.550048828125,
+      "y2": 1485.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1883,13 +2121,13 @@
     },
     {
       "x": 2380,
-      "y": 43529.75,
+      "y": 43764.949951171875,
       "width": 7.7833404541015625,
       "height": 31.5,
       "x1": 0,
-      "y1": 1258.25,
+      "y1": 1493.449951171875,
       "x2": 7.7833404541015625,
-      "y2": 1289.75,
+      "y2": 1524.949951171875,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1908,13 +2146,13 @@
     },
     {
       "x": 2380,
-      "y": 43568.949951171875,
+      "y": 43804.15002441406,
       "width": 1839.0333251953125,
       "height": 31.5,
       "x1": 0,
-      "y1": 1297.449951171875,
+      "y1": 1532.6500244140625,
       "x2": 1839.0333251953125,
-      "y2": 1328.949951171875,
+      "y2": 1564.1500244140625,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1933,13 +2171,13 @@
     },
     {
       "x": 2380,
-      "y": 43608.15002441406,
+      "y": 43843.34997558594,
       "width": 935.2000122070312,
       "height": 31.5,
       "x1": 0,
-      "y1": 1336.6500244140625,
+      "y1": 1571.8499755859375,
       "x2": 935.2000122070312,
-      "y2": 1368.1500244140625,
+      "y2": 1603.3499755859375,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1958,13 +2196,13 @@
     },
     {
       "x": 2380,
-      "y": 43647.34997558594,
+      "y": 43882.550048828125,
       "width": 7.7833404541015625,
       "height": 31.5,
       "x1": 0,
-      "y1": 1375.8499755859375,
+      "y1": 1611.050048828125,
       "x2": 7.7833404541015625,
-      "y2": 1407.3499755859375,
+      "y2": 1642.550048828125,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -1983,13 +2221,13 @@
     },
     {
       "x": 2380,
-      "y": 43686.550048828125,
-      "width": 1826.2333984375,
+      "y": 43921.75,
+      "width": 1764.800048828125,
       "height": 31.5,
       "x1": 0,
-      "y1": 1415.050048828125,
-      "x2": 1826.2333984375,
-      "y2": 1446.550048828125,
+      "y1": 1650.25,
+      "x2": 1764.800048828125,
+      "y2": 1681.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -2004,17 +2242,17 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "Not built: Load previous and Load next session. Still owed on the console: how long an Open takes, and how long the readout's list takes to appear "
+      "text": "Not built: Load previous and Load next session, the map of sessions to switches, an order set by hand. Still owed on the console: how long an "
     },
     {
       "x": 2380,
-      "y": 43725.75,
-      "width": 267.6333312988281,
+      "y": 43960.949951171875,
+      "width": 1012.2333374023438,
       "height": 31.5,
       "x1": 0,
-      "y1": 1454.25,
-      "x2": 267.6333312988281,
-      "y2": 1485.75,
+      "y1": 1689.449951171875,
+      "x2": 1012.2333374023438,
+      "y2": 1720.949951171875,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -2029,7 +2267,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "after a press (#1918)."
+      "text": "Open takes, and how long the readout's list takes to appear after a press (#1918)."
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678"

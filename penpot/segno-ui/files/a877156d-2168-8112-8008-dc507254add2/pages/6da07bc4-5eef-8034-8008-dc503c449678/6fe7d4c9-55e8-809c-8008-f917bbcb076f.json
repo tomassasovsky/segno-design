@@ -2,36 +2,36 @@
   "id": "6fe7d4c9-55e8-809c-8008-f917bbcb076f",
   "name": "caption",
   "type": "text",
-  "x": 5046.5,
+  "x": 5010.5,
   "y": 41509.5,
-  "width": 96,
+  "width": 168,
   "height": 28,
   "rotation": 0,
   "selrect": {
-    "x": 5046.5,
+    "x": 5010.5,
     "y": 41509.5,
-    "width": 96,
+    "width": 168,
     "height": 28,
-    "x1": 5046.5,
+    "x1": 5010.5,
     "y1": 41509.5,
-    "x2": 5142.5,
+    "x2": 5178.5,
     "y2": 41537.5
   },
   "points": [
     {
-      "x": 5046.5,
+      "x": 5010.5,
       "y": 41509.5
     },
     {
-      "x": 5142.5,
+      "x": 5178.5,
       "y": 41509.5
     },
     {
-      "x": 5142.5,
+      "x": 5178.5,
       "y": 41537.5
     },
     {
-      "x": 5046.5,
+      "x": 5010.5,
       "y": 41537.5
     }
   ],
@@ -55,7 +55,7 @@
   "frameId": "6fe7d4c9-55e8-809c-8008-f917bbcac0e5",
   "flipX": null,
   "flipY": null,
-  "growType": "auto-width",
+  "growType": "fixed",
   "content": {
     "type": "root",
     "children": [
@@ -85,11 +85,11 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "New loop"
+                "text": "Previous page"
               }
             ],
             "textTransform": "none",
-            "textAlign": "left",
+            "textAlign": "center",
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "23",
             "fontWeight": "400",
@@ -112,16 +112,17 @@
   },
   "constraintsV": "top",
   "constraintsH": "left",
+  "opacity": 1,
   "positionData": [
     {
-      "x": 5046.5,
-      "y": 41536,
-      "width": 95.890625,
+      "x": 5021,
+      "y": 41536.30000305176,
+      "width": 146.98333740234375,
       "height": 26,
-      "x1": 0,
-      "y1": 0.5,
-      "x2": 95.890625,
-      "y2": 26.5,
+      "x1": 10.5,
+      "y1": 0.8000030517578125,
+      "x2": 157.48333740234375,
+      "y2": 26.800003051757812,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "23px",
@@ -136,7 +137,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "New loop"
+      "text": "Previous page"
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678"

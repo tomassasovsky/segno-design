@@ -2,36 +2,36 @@
   "id": "cbf82e76-8e45-800f-8008-f8fb8e6452c8",
   "name": "caption",
   "type": "text",
-  "x": 886.5,
+  "x": 850.5,
   "y": 40237.5,
-  "width": 96,
+  "width": 168,
   "height": 28,
   "rotation": 0,
   "selrect": {
-    "x": 886.5,
+    "x": 850.5,
     "y": 40237.5,
-    "width": 96,
+    "width": 168,
     "height": 28,
-    "x1": 886.5,
+    "x1": 850.5,
     "y1": 40237.5,
-    "x2": 982.5,
+    "x2": 1018.5,
     "y2": 40265.5
   },
   "points": [
     {
-      "x": 886.5,
+      "x": 850.5,
       "y": 40237.5
     },
     {
-      "x": 982.5,
+      "x": 1018.5,
       "y": 40237.5
     },
     {
-      "x": 982.5,
+      "x": 1018.5,
       "y": 40265.5
     },
     {
-      "x": 886.5,
+      "x": 850.5,
       "y": 40265.5
     }
   ],
@@ -55,7 +55,7 @@
   "frameId": "cbf82e76-8e45-800f-8008-f8fb8e64526a",
   "flipX": null,
   "flipY": null,
-  "growType": "auto-width",
+  "growType": "fixed",
   "content": {
     "type": "root",
     "children": [
@@ -85,11 +85,11 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "New loop"
+                "text": "Previous page"
               }
             ],
             "textTransform": "none",
-            "textAlign": "left",
+            "textAlign": "center",
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "23",
             "fontWeight": "400",
@@ -112,15 +112,16 @@
   },
   "constraintsV": "top",
   "constraintsH": "left",
+  "opacity": 1,
   "positionData": [
     {
-      "x": 886.5,
+      "x": 861,
       "y": 40264.30000305176,
-      "width": 95.86666870117188,
+      "width": 146.98333740234375,
       "height": 26,
-      "x1": 0,
+      "x1": 10.5,
       "y1": 0.8000030517578125,
-      "x2": 95.86666870117188,
+      "x2": 157.48333740234375,
       "y2": 26.800003051757812,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -136,7 +137,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "New loop"
+      "text": "Previous page"
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678"

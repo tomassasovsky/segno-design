@@ -2,36 +2,36 @@
   "id": "cbf82e76-8e45-800f-8008-f8fb6d7100e0",
   "name": "caption",
   "type": "text",
-  "x": 2966.5,
+  "x": 2930.5,
   "y": 38965.5,
-  "width": 96,
+  "width": 168,
   "height": 28,
   "rotation": 0,
   "selrect": {
-    "x": 2966.5,
+    "x": 2930.5,
     "y": 38965.5,
-    "width": 96,
+    "width": 168,
     "height": 28,
-    "x1": 2966.5,
+    "x1": 2930.5,
     "y1": 38965.5,
-    "x2": 3062.5,
+    "x2": 3098.5,
     "y2": 38993.5
   },
   "points": [
     {
-      "x": 2966.5,
+      "x": 2930.5,
       "y": 38965.5
     },
     {
-      "x": 3062.5,
+      "x": 3098.5,
       "y": 38965.5
     },
     {
-      "x": 3062.5,
+      "x": 3098.5,
       "y": 38993.5
     },
     {
-      "x": 2966.5,
+      "x": 2930.5,
       "y": 38993.5
     }
   ],
@@ -55,7 +55,7 @@
   "frameId": "cbf82e76-8e45-800f-8008-f8fb6d70c25e",
   "flipX": null,
   "flipY": null,
-  "growType": "auto-width",
+  "growType": "fixed",
   "content": {
     "type": "root",
     "children": [
@@ -85,11 +85,11 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "New loop"
+                "text": "Previous page"
               }
             ],
             "textTransform": "none",
-            "textAlign": "left",
+            "textAlign": "center",
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "23",
             "fontWeight": "400",
@@ -112,15 +112,16 @@
   },
   "constraintsV": "top",
   "constraintsH": "left",
+  "opacity": 1,
   "positionData": [
     {
-      "x": 2966.5,
+      "x": 2941,
       "y": 38992.30000305176,
-      "width": 95.86666870117188,
+      "width": 146.98333740234375,
       "height": 26,
-      "x1": 0,
+      "x1": 10.5,
       "y1": 0.8000030517578125,
-      "x2": 95.86666870117188,
+      "x2": 157.48333740234375,
       "y2": 26.800003051757812,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -136,7 +137,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "New loop"
+      "text": "Previous page"
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc503c449678"
