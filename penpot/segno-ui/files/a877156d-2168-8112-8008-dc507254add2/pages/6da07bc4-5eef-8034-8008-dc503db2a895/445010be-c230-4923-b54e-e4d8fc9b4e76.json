@@ -4,17 +4,17 @@
   "type": "text",
   "x": 425,
   "y": 65291,
-  "width": 264.625,
+  "width": 265,
   "height": 34,
   "rotation": 0,
   "selrect": {
     "x": 425,
     "y": 65291,
-    "width": 264.625,
+    "width": 265,
     "height": 34,
     "x1": 425,
     "y1": 65291,
-    "x2": 689.625,
+    "x2": 690,
     "y2": 65325
   },
   "points": [
@@ -23,11 +23,11 @@
       "y": 65291
     },
     {
-      "x": 689.625,
+      "x": 690,
       "y": 65291
     },
     {
-      "x": 689.625,
+      "x": 690,
       "y": 65325
     },
     {
@@ -111,15 +111,20 @@
   "pageId": "6da07bc4-5eef-8034-8008-dc503db2a895",
   "positionData": [
     {
-      "y": 65327,
+      "x": 425,
+      "y": 65327.25,
+      "width": 264.683349609375,
+      "height": 38.5,
+      "x1": 0,
+      "y1": -2.25,
+      "x2": 264.683349609375,
+      "y2": 36.25,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "34px",
       "fontWeight": "400",
-      "width": 264.625,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 425,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#e7edf6",
@@ -128,7 +133,6 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 38,
       "text": "Software updates"
     }
   ]

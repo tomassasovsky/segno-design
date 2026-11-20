@@ -1,0 +1,103 @@
+{
+  "id": "6fe7d4c9-55e8-809c-8008-f91776bf1d92",
+  "name": "Grip surface",
+  "type": "path",
+  "x": null,
+  "y": null,
+  "width": null,
+  "height": null,
+  "rotation": 0,
+  "selrect": {
+    "x": 928.6199999999999,
+    "y": 41461.25,
+    "width": 11.75,
+    "height": 11.75,
+    "x1": 928.6199999999999,
+    "y1": 41461.25,
+    "x2": 940.3699999999999,
+    "y2": 41473
+  },
+  "points": [
+    {
+      "x": 928.6199999999999,
+      "y": 41461.25
+    },
+    {
+      "x": 940.3699999999999,
+      "y": 41461.25
+    },
+    {
+      "x": 940.3699999999999,
+      "y": 41473
+    },
+    {
+      "x": 928.6199999999999,
+      "y": 41473
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "6fe7d4c9-55e8-809c-8008-f91776bf1d50",
+  "frameId": "6fe7d4c9-55e8-809c-8008-f91776bf1d50",
+  "flipX": null,
+  "flipY": null,
+  "content": "M928.6201171875,41467.125C928.6201171875,41470.37109375,931.25048828125,41473.0,934.4951171875,41473.0C937.739501953125,41473.0,940.3701171875,41470.37109375,940.3701171875,41467.125C940.3701171875,41463.87890625,937.739501953125,41461.25,934.4951171875,41461.25C931.25048828125,41461.25,928.6201171875,41463.87890625,928.6201171875,41467.125Z",
+  "touched": [
+    "stroke-group",
+    "geometry-group"
+  ],
+  "shapeRef": "660667f9-8791-4391-b217-9d55164f1608",
+  "proportionLock": false,
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c449678",
+  "strokes": [
+    {
+      "strokeCapStart": "round",
+      "strokeStyle": "solid",
+      "strokeColor": "#383d43",
+      "strokeOpacity": 1,
+      "strokeAlignment": "center",
+      "strokeCapEnd": "round",
+      "strokeWidth": 0.28420758928571427
+    }
+  ],
+  "proportion": 1,
+  "fills": [
+    {
+      "fillColorGradient": {
+        "type": "linear",
+        "startX": 0.5,
+        "startY": 0,
+        "endX": 0.5,
+        "endY": 1,
+        "width": 1,
+        "stops": [
+          {
+            "color": "#30353a",
+            "opacity": 1,
+            "offset": 0
+          },
+          {
+            "color": "#202428",
+            "opacity": 1,
+            "offset": 1
+          }
+        ]
+      },
+      "fillOpacity": 1
+    }
+  ]
+}

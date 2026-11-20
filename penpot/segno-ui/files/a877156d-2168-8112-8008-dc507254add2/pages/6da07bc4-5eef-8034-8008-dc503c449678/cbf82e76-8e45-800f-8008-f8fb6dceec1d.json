@@ -1,0 +1,143 @@
+{
+  "id": "cbf82e76-8e45-800f-8008-f8fb6dceec1d",
+  "name": "h1: Sessions",
+  "type": "text",
+  "x": 2480,
+  "y": 38661.30000000005,
+  "width": 171,
+  "height": 51,
+  "rotation": 0,
+  "selrect": {
+    "x": 2480,
+    "y": 38661.30000000005,
+    "width": 171,
+    "height": 51,
+    "x1": 2480,
+    "y1": 38661.30000000005,
+    "x2": 2651,
+    "y2": 38712.30000000005
+  },
+  "points": [
+    {
+      "x": 2480,
+      "y": 38661.30000000005
+    },
+    {
+      "x": 2651,
+      "y": 38661.30000000005
+    },
+    {
+      "x": 2651,
+      "y": 38712.30000000005
+    },
+    {
+      "x": 2480,
+      "y": 38712.30000000005
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "cbf82e76-8e45-800f-8008-f8fb6d70c25b",
+  "frameId": "cbf82e76-8e45-800f-8008-f8fb6d70c25b",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "42",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#e7edf6",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Sessions"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "42",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#e7edf6",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 2480,
+      "y": 38710.24999694829,
+      "width": 170.4499969482422,
+      "height": 47.5,
+      "x1": 0,
+      "y1": 1.4499969482421875,
+      "x2": 170.4499969482422,
+      "y2": 48.94999694824219,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "42px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#e7edf6",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "Sessions"
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503c449678"
+}
