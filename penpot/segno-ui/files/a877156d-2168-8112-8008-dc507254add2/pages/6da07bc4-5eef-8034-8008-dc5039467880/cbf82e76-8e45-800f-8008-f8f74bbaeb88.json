@@ -1,38 +1,38 @@
 {
-  "id": "f4d96f3e-651d-4a9d-bb13-177a0fc18718",
-  "name": "Hold \u00b7 Reverse",
+  "id": "cbf82e76-8e45-800f-8008-f8f74bbaeb88",
+  "name": "Hold \u00b7 Clear all",
   "type": "text",
-  "x": 9905.125,
-  "y": 18549.5,
-  "width": 126.719,
+  "x": 9471,
+  "y": 18133.5,
+  "width": 126,
   "height": 19,
   "rotation": 0,
   "selrect": {
-    "x": 9905.125,
-    "y": 18549.5,
-    "width": 126.719,
+    "x": 9471,
+    "y": 18133.5,
+    "width": 126,
     "height": 19,
-    "x1": 9905.125,
-    "y1": 18549.5,
-    "x2": 10031.844,
-    "y2": 18568.5
+    "x1": 9471,
+    "y1": 18133.5,
+    "x2": 9597,
+    "y2": 18152.5
   },
   "points": [
     {
-      "x": 9905.125,
-      "y": 18549.5
+      "x": 9471,
+      "y": 18133.5
     },
     {
-      "x": 10031.844,
-      "y": 18549.5
+      "x": 9597,
+      "y": 18133.5
     },
     {
-      "x": 10031.844,
-      "y": 18568.5
+      "x": 9597,
+      "y": 18152.5
     },
     {
-      "x": 9905.125,
-      "y": 18568.5
+      "x": 9471,
+      "y": 18152.5
     }
   ],
   "transform": {
@@ -51,14 +51,13 @@
     "e": 0.0,
     "f": 0.0
   },
-  "parentId": "9427ba48-9485-446a-92f4-9db40bc61aca",
-  "frameId": "9427ba48-9485-446a-92f4-9db40bc61aca",
+  "parentId": "7459696d-8433-43c0-970f-35694c06a0e4",
+  "frameId": "7459696d-8433-43c0-970f-35694c06a0e4",
   "flipX": null,
   "flipY": null,
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "19",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -84,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "Hold \u00b7 Reverse"
+                "text": "Hold \u00b7 Clear all"
               }
             ],
             "textTransform": "none",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "19",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,20 +108,28 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc5039467880",
+  "constraintsV": "top",
+  "constraintsH": "left",
   "positionData": [
     {
-      "y": 18569.5,
+      "x": 9471,
+      "y": 18154,
+      "width": 125.64999389648438,
+      "height": 22,
+      "x1": 0,
+      "y1": -1.5,
+      "x2": 125.64999389648438,
+      "y2": 20.5,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "19px",
       "fontWeight": "400",
-      "width": 126.719,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 9905.125,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#aebdd2",
@@ -128,8 +138,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 21,
-      "text": "Hold \u00b7 Reverse"
+      "text": "Hold \u00b7 Clear all"
     }
   ]
 }

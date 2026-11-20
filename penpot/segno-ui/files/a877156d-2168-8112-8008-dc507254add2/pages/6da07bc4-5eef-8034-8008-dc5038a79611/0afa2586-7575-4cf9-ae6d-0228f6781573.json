@@ -3,36 +3,36 @@
   "name": "Both banks A and B \u00b7 Press and Hold on every editable custom pedal.",
   "type": "text",
   "x": 7759,
-  "y": 16612.5,
-  "width": 740.453,
+  "y": 16516.5,
+  "width": 744,
   "height": 24,
   "rotation": 0,
   "selrect": {
     "x": 7759,
-    "y": 16612.5,
-    "width": 740.453,
+    "y": 16516.5,
+    "width": 744,
     "height": 24,
     "x1": 7759,
-    "y1": 16612.5,
-    "x2": 8499.453,
-    "y2": 16636.5
+    "y1": 16516.5,
+    "x2": 8503,
+    "y2": 16540.5
   },
   "points": [
     {
       "x": 7759,
-      "y": 16612.5
+      "y": 16516.5
     },
     {
-      "x": 8499.453,
-      "y": 16612.5
+      "x": 8503,
+      "y": 16516.5
     },
     {
-      "x": 8499.453,
-      "y": 16636.5
+      "x": 8503,
+      "y": 16540.5
     },
     {
       "x": 7759,
-      "y": 16636.5
+      "y": 16540.5
     }
   ],
   "transform": {
@@ -111,15 +111,20 @@
   "pageId": "6da07bc4-5eef-8034-8008-dc5038a79611",
   "positionData": [
     {
-      "y": 16637.5,
+      "x": 7759,
+      "y": 16542.25,
+      "width": 743.1500244140625,
+      "height": 27.5,
+      "x1": 0,
+      "y1": -1.75,
+      "x2": 743.1500244140625,
+      "y2": 25.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "24px",
       "fontWeight": "400",
-      "width": 740.453,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 7759,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#cacaca",
@@ -128,7 +133,6 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 27,
       "text": "Both banks A and B \u00b7 Press and Hold on every editable custom pedal."
     }
   ]
