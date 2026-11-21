@@ -1,0 +1,142 @@
+{
+  "id": "65c82c9c-2410-80f0-8008-fb48a54a8cfa",
+  "name": "The update is still installing and cannot be stopped.",
+  "type": "text",
+  "x": 425,
+  "y": 67905,
+  "width": 1093,
+  "height": 26,
+  "rotation": 0,
+  "selrect": {
+    "x": 425,
+    "y": 67905,
+    "width": 1093,
+    "height": 26,
+    "x1": 425,
+    "y1": 67905,
+    "x2": 1518,
+    "y2": 67931
+  },
+  "points": [
+    {
+      "x": 425,
+      "y": 67905
+    },
+    {
+      "x": 1518,
+      "y": 67905
+    },
+    {
+      "x": 1518,
+      "y": 67931
+    },
+    {
+      "x": 425,
+      "y": 67931
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "65c82c9c-2410-80f0-8008-fb48a54a8cf6",
+  "frameId": "65c82c9c-2410-80f0-8008-fb48a54a8cf6",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "26",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#b8c2d2",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "The update is still installing and cannot be stopped. Restart and Shut down wait until it finishes."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "26",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#b8c2d2",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503db2a895",
+  "positionData": [
+    {
+      "x": 425,
+      "y": 67933,
+      "width": 1092.8333740234375,
+      "height": 30,
+      "x1": 0,
+      "y1": -2,
+      "x2": 1092.8333740234375,
+      "y2": 28,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#b8c2d2",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "The update is still installing and cannot be stopped. Restart and Shut down wait until it finishes."
+    }
+  ]
+}
