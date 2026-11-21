@@ -173,7 +173,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "RAUC has no cancel: its daemon keeps writing the inactive slot after the helper that asked for the install is killed (the app crashed or restarted past the download). When the app comes back and RAUC still reports the install, the status panel's own state is Installing: the attempt's version, one plain sentence, and no actions. It is not dimmed, because it is the live state; Check, Load from USB and the channel hold off, and Restart and Shut down wait."
+                "text": "RAUC has no cancel: its daemon keeps writing the inactive slot after the helper that asked for the install is killed (the app crashed or restarted past the download). When the app comes back and RAUC still reports the install, the status panel's own state is Installing: the attempt's version, one plain sentence, and no actions. It is not dimmed, because it is the live state; Check, Load from USB and the channel hold off, and Restart and Shut down are refused with Wait for the update."
               }
             ],
             "textTransform": "none",
@@ -261,7 +261,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "When RAUC goes idle the helper reads what it left. Every inactive slot \"ok\" for the attempt's version, written after the attempt began and in the same boot: the helper stages it, and the panel moves to Ready to install with the encoder on Install and restart. Anything else stays Update paused, as before."
+                "text": "When RAUC goes idle the helper reads what it left. Every inactive slot \"ok\" for the attempt's version, written after the attempt began and in the same boot: the helper stages it, and the panel moves to Ready to install with the encoder on Install and restart. Anything else stays Update paused, as before. Restart also stages such an install before it reboots, so the restart tries it."
               }
             ],
             "textTransform": "none",
@@ -417,11 +417,11 @@
     {
       "x": 2380,
       "y": 67656.55000305176,
-      "width": 132.26666259765625,
+      "width": 524.933349609375,
       "height": 31.5,
       "x1": 0,
       "y1": 169.0500030517578,
-      "x2": 132.26666259765625,
+      "x2": 524.933349609375,
       "y2": 200.5500030517578,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -437,7 +437,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "down wait."
+      "text": "down are refused with Wait for the update."
     },
     {
       "x": 2380,
@@ -517,11 +517,11 @@
     {
       "x": 2380,
       "y": 67790.95001220703,
-      "width": 87.14999389648438,
+      "width": 999.0166625976562,
       "height": 31.5,
       "x1": 0,
       "y1": 303.45001220703125,
-      "x2": 87.14999389648438,
+      "x2": 999.0166625976562,
       "y2": 334.95001220703125,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -537,7 +537,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "before."
+      "text": "before. Restart also stages such an install before it reboots, so the restart tries it."
     }
   ],
   "pageId": "6da07bc4-5eef-8034-8008-dc503db2a895"
