@@ -5,17 +5,17 @@
   "x": 4460,
   "y": 55448,
   "width": 1840,
-  "height": 392,
+  "height": 471,
   "rotation": 0,
   "selrect": {
     "x": 4460,
     "y": 55448,
     "width": 1840,
-    "height": 392,
+    "height": 471,
     "x1": 4460,
     "y1": 55448,
     "x2": 6300,
-    "y2": 55840
+    "y2": 55919
   },
   "points": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "x": 6300,
-      "y": 55840
+      "y": 55919
     },
     {
       "x": 4460,
-      "y": 55840
+      "y": 55919
     }
   ],
   "transform": {
@@ -261,7 +261,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "- With no tempo grid (a free first take): the slot reads the time recorded, 0:07, with no unit. Bars appear when the take closes and the tempo is derived."
+                "text": "- With no tempo grid (a free first take): the slot reads the time recorded, 0:07. Once the beat analysis has been sure of a steady tempo for two seconds, the whole bars it estimates so far take the time's place, \u2248 2 bars, as drawn here: a tentative count, shown with \u2248 and never ending or trimming the take. The slot holds a count and its unit, not both (in Spanish \u2248 3 compases leaves no room for the time). Only the take the analysis hears shows it. The loop's own bars are chosen when the take closes."
               }
             ],
             "textTransform": "none",
@@ -461,11 +461,11 @@
     {
       "x": 4460,
       "y": 55679.350006103516,
-      "width": 1759.9666748046875,
+      "width": 1758.4166259765625,
       "height": 31.5,
       "x1": 0,
       "y1": 199.85000610351562,
-      "x2": 1759.9666748046875,
+      "x2": 1758.4166259765625,
       "y2": 231.35000610351562,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -481,17 +481,17 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "- With no tempo grid (a free first take): the slot reads the time recorded, 0:07, with no unit. Bars appear when the take closes and the tempo is "
+      "text": "- With no tempo grid (a free first take): the slot reads the time recorded, 0:07. Once the beat analysis has been sure of a steady tempo for two "
     },
     {
       "x": 4460,
-      "y": 55718.55000305176,
-      "width": 99.58332824707031,
-      "height": 31.5,
+      "y": 55719.55000305176,
+      "width": 1763.433349609375,
+      "height": 32.5,
       "x1": 0,
       "y1": 239.0500030517578,
-      "x2": 99.58332824707031,
-      "y2": 270.5500030517578,
+      "x2": 1763.433349609375,
+      "y2": 271.5500030517578,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -506,17 +506,67 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "derived."
+      "text": "seconds, the whole bars it estimates so far take the time's place, \u2248 2 bars, as drawn here: a tentative count, shown with \u2248 and never ending or "
     },
     {
       "x": 4460,
-      "y": 55757.75,
+      "y": 55758.75,
+      "width": 1794.0333251953125,
+      "height": 32.5,
+      "x1": 0,
+      "y1": 278.25,
+      "x2": 1794.0333251953125,
+      "y2": 310.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "trimming the take. The slot holds a count and its unit, not both (in Spanish \u2248 3 compases leaves no room for the time). Only the take the analysis "
+    },
+    {
+      "x": 4460,
+      "y": 55796.95001220703,
+      "width": 867.4500122070312,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 317.45001220703125,
+      "x2": 867.4500122070312,
+      "y2": 348.95001220703125,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "hears shows it. The loop's own bars are chosen when the take closes."
+    },
+    {
+      "x": 4460,
+      "y": 55836.149993896484,
       "width": 1762.0333251953125,
       "height": 31.5,
       "x1": 0,
-      "y1": 278.25,
+      "y1": 356.6499938964844,
       "x2": 1762.0333251953125,
-      "y2": 309.75,
+      "y2": 388.1499938964844,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -535,13 +585,13 @@
     },
     {
       "x": 4460,
-      "y": 55796.95001220703,
+      "y": 55875.350006103516,
       "width": 1808.0333251953125,
       "height": 31.5,
       "x1": 0,
-      "y1": 317.45001220703125,
+      "y1": 395.8500061035156,
       "x2": 1808.0333251953125,
-      "y2": 348.95001220703125,
+      "y2": 427.3500061035156,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -560,13 +610,13 @@
     },
     {
       "x": 4460,
-      "y": 55836.149993896484,
+      "y": 55914.54998779297,
       "width": 98.01666259765625,
       "height": 31.5,
       "x1": 0,
-      "y1": 356.6499938964844,
+      "y1": 435.04998779296875,
       "x2": 98.01666259765625,
-      "y2": 388.1499938964844,
+      "y2": 466.54998779296875,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",

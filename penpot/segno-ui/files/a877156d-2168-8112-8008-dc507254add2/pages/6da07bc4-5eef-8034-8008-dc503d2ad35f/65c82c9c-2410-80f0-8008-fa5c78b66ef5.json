@@ -2,36 +2,36 @@
   "id": "65c82c9c-2410-80f0-8008-fa5c78b66ef5",
   "name": "bars",
   "type": "text",
-  "x": 2542,
+  "x": 2550,
   "y": 56417,
   "width": 32,
   "height": 16,
   "rotation": 0,
   "selrect": {
-    "x": 2542,
+    "x": 2550,
     "y": 56417,
     "width": 32,
     "height": 16,
-    "x1": 2542,
+    "x1": 2550,
     "y1": 56417,
-    "x2": 2574,
+    "x2": 2582,
     "y2": 56433
   },
   "points": [
     {
-      "x": 2542,
+      "x": 2550,
       "y": 56417
     },
     {
-      "x": 2574,
+      "x": 2582,
       "y": 56417
     },
     {
-      "x": 2574,
+      "x": 2582,
       "y": 56433
     },
     {
-      "x": 2542,
+      "x": 2550,
       "y": 56433
     }
   ],
@@ -58,7 +58,6 @@
   "growType": "auto-width",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "16",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "16",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -106,12 +108,13 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f",
   "positionData": [
     {
-      "x": 2542,
+      "x": 2550,
       "y": 56434,
       "width": 31.133331298828125,
       "height": 18,
