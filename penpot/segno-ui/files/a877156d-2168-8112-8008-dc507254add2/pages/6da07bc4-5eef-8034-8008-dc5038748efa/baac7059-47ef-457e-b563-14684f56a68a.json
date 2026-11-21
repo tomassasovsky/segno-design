@@ -5,17 +5,17 @@
   "x": 2380,
   "y": 11616,
   "width": 1840,
-  "height": 377.969,
+  "height": 530,
   "rotation": 0,
   "selrect": {
     "x": 2380,
     "y": 11616,
     "width": 1840,
-    "height": 377.969,
+    "height": 530,
     "x1": 2380,
     "y1": 11616,
     "x2": 4220,
-    "y2": 11993.969
+    "y2": 12146
   },
   "points": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "x": 4220,
-      "y": 11993.969
+      "y": 12146
     },
     {
       "x": 2380,
-      "y": 11993.969
+      "y": 12146
     }
   ],
   "transform": {
@@ -58,7 +58,6 @@
   "growType": "auto-height",
   "content": {
     "type": "root",
-    "verticalAlign": "top",
     "children": [
       {
         "type": "paragraph-set",
@@ -71,9 +70,11 @@
                 "lineHeight": "1.35",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "28",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -92,6 +93,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "28",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -112,9 +114,11 @@
                 "lineHeight": "1.35",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "28",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -133,6 +137,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "28",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -153,9 +158,11 @@
                 "lineHeight": "1.35",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "28",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -174,6 +181,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "28",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -194,9 +202,11 @@
                 "lineHeight": "1.35",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "28",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -215,6 +225,7 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "28",
             "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -235,9 +246,11 @@
                 "lineHeight": "1.35",
                 "fontStyle": "normal",
                 "textTransform": "none",
+                "textAlign": "left",
                 "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
                 "fontSize": "28",
                 "fontWeight": "400",
+                "textDirection": "ltr",
                 "fontVariantId": "normal-400",
                 "textDecoration": "none",
                 "letterSpacing": "0",
@@ -256,6 +269,51 @@
             "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
             "fontSize": "28",
             "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.35",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.35",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "\u00f72 and \u00d72 (#1936, D4), after the tempo steps on Tempo & click: the loop read as half or twice its bars, at half or twice the tempo, the audio as it is. Live only for a tempo derived from the loop and not retimed since, whole bars, one shared loop, no take recording; halving needs an even bar count, and the tempo stays in 30 to 300 BPM. The readout's Loop panel has the same pair beside its tempo (page 25, 12 \/ loop-panel-derived-tempo)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
             "type": "paragraph",
             "fontVariantId": "normal-400",
             "textDecoration": "none",
@@ -270,20 +328,26 @@
           }
         ]
       }
-    ]
+    ],
+    "verticalAlign": "top"
   },
   "pageId": "6da07bc4-5eef-8034-8008-dc5038748efa",
   "positionData": [
     {
-      "y": 11650,
+      "x": 2380,
+      "y": 11650.649993896484,
+      "width": 703.36669921875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 3.149993896484375,
+      "x2": 703.36669921875,
+      "y2": 34.649993896484375,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 703.516,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2380,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -292,19 +356,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
       "text": "c\/ Native implementation \u00b7 Loop settings (#1012 \/ #1015)"
     },
     {
-      "y": 11687.797,
+      "x": 2380,
+      "y": 11688.449996948242,
+      "width": 1817.5833740234375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 40.94999694824219,
+      "x2": 1817.5833740234375,
+      "y2": 72.44999694824219,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 1817.922,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2380,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -313,19 +381,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
       "text": "The six-page layout remains accepted. Mode changes check recorded lengths; playing loops switch only after Stop loops and switch. Defaults and "
     },
     {
-      "y": 11725.594,
+      "x": 2380,
+      "y": 11726.25,
+      "width": 1680.550048828125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 78.75,
+      "x2": 1680.550048828125,
+      "y2": 110.25,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 1680.953,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2380,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -334,19 +406,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
       "text": "nullable track overrides remain separate. Multi uses the shared length without erasing independent overrides. Recording locks changes."
     },
     {
-      "y": 11763.391,
+      "x": 2380,
+      "y": 11764.050003051758,
+      "width": 1825.3499755859375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 116.55000305175781,
+      "x2": 1825.3499755859375,
+      "y2": 148.0500030517578,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 1825.719,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2380,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -355,19 +431,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
       "text": "Length and mode changes use one complete engine request. Only callback-confirmed settings are displayed as active, saved or recalled. Refusals "
     },
     {
-      "y": 11801.188,
+      "x": 2380,
+      "y": 11801.850006103516,
+      "width": 1786.5166015625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 154.35000610351562,
+      "x2": 1786.5166015625,
+      "y2": 185.85000610351562,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 1785.313,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2380,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -376,19 +456,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
       "text": "explain that the current value remains active; an unapplied bar count remains editable so the player can choose a shorter value. Auto, Back and "
     },
     {
-      "y": 11838.984,
+      "x": 2380,
+      "y": 11839.649993896484,
+      "width": 477.7833251953125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 192.14999389648438,
+      "x2": 477.7833251953125,
+      "y2": 223.64999389648438,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 477.875,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2380,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -397,19 +481,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
       "text": "scope changes discard that candidate."
     },
     {
-      "y": 11876.781,
+      "x": 2380,
+      "y": 11877.449996948242,
+      "width": 1726.6666259765625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 229.9499969482422,
+      "x2": 1726.6666259765625,
+      "y2": 261.4499969482422,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 1726.422,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2380,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -418,19 +506,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
       "text": "Numeric controls support touch plus\/minus, focus, Enter to edit\/commit and Back to cancel. Physical UART encoder routing remains a later "
     },
     {
-      "y": 11914.578,
+      "x": 2380,
+      "y": 11915.25,
+      "width": 1357.933349609375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 267.75,
+      "x2": 1357.933349609375,
+      "y2": 299.25,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 1357.703,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2380,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -439,19 +531,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
       "text": "implementation task. Stage closes the originating tray. The coarse duplicate timing control has been removed."
     },
     {
-      "y": 11952.375,
+      "x": 2380,
+      "y": 11953.049987792969,
+      "width": 1781.7166748046875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 305.54998779296875,
+      "x2": 1781.7166748046875,
+      "y2": 337.04998779296875,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 1781.531,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2380,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -460,19 +556,23 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
       "text": "Audio & tempo is an explicitly disabled readout until the M4\/M6 native capability is implemented. This note describes implementation status, not "
     },
     {
-      "y": 11990.172,
+      "x": 2380,
+      "y": 11990.850006103516,
+      "width": 1372.4666748046875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 343.3500061035156,
+      "x2": 1372.4666748046875,
+      "y2": 374.8500061035156,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
       "fontWeight": "400",
-      "width": 1371.219,
       "textDecoration": "none",
-      "letterSpacing": "0px",
-      "x": 2380,
+      "letterSpacing": "normal",
       "fills": [
         {
           "fillColor": "#a3adbd",
@@ -481,8 +581,107 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "height": 31,
       "text": "appliance verification. Click output and level remain under Audio until the routing\/Mixer slice replaces that path."
+    },
+    {
+      "x": 2380,
+      "y": 12028.649993896484,
+      "width": 1811.9833984375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 381.1499938964844,
+      "x2": 1811.9833984375,
+      "y2": 412.6499938964844,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00f72 and \u00d72 (#1936, D4), after the tempo steps on Tempo & click: the loop read as half or twice its bars, at half or twice the tempo, the audio as it is. "
+    },
+    {
+      "x": 2380,
+      "y": 12066.450012207031,
+      "width": 1756.9166259765625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 418.95001220703125,
+      "x2": 1756.9166259765625,
+      "y2": 450.45001220703125,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "Live only for a tempo derived from the loop and not retimed since, whole bars, one shared loop, no take recording; halving needs an even bar "
+    },
+    {
+      "x": 2380,
+      "y": 12104.25,
+      "width": 1762.3333740234375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 456.75,
+      "x2": 1762.3333740234375,
+      "y2": 488.25,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "count, and the tempo stays in 30 to 300 BPM. The readout's Loop panel has the same pair beside its tempo (page 25, 12 \/ loop-panel-derived-"
+    },
+    {
+      "x": 2380,
+      "y": 12142.049987792969,
+      "width": 94.89999389648438,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 494.54998779296875,
+      "x2": 94.89999389648438,
+      "y2": 526.0499877929688,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "tempo)."
     }
   ]
 }

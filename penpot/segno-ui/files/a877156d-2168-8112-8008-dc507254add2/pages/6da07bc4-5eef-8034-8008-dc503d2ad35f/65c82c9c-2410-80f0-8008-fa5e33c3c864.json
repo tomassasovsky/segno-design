@@ -1,0 +1,637 @@
+{
+  "id": "65c82c9c-2410-80f0-8008-fa5e33c3c864",
+  "name": "c \/ A recording take counts (#1936)",
+  "type": "text",
+  "x": 4460,
+  "y": 55448,
+  "width": 1840,
+  "height": 471,
+  "rotation": 0,
+  "selrect": {
+    "x": 4460,
+    "y": 55448,
+    "width": 1840,
+    "height": 471,
+    "x1": 4460,
+    "y1": 55448,
+    "x2": 6300,
+    "y2": 55919
+  },
+  "points": [
+    {
+      "x": 4460,
+      "y": 55448
+    },
+    {
+      "x": 6300,
+      "y": 55448
+    },
+    {
+      "x": 6300,
+      "y": 55919
+    },
+    {
+      "x": 4460,
+      "y": 55919
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "1e2f37ef-8710-404f-b470-50c4a53f3d26",
+  "frameId": "1e2f37ef-8710-404f-b470-50c4a53f3d26",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "c\/ A recording take counts and draws itself (#1936)"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "While a take records, its bars slot and progress bar follow the take, in the Tracks and Wave views and on the 7-inch readout (decision D3)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "- Toward a known end (a length preset with a tempo, or a fixed multiple of the master loop): the slot reads the bar being recorded of the take's bars, 2 \/ 4 bars, and the progress bar fills toward the end in red."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "- When only a press ends the take but a tempo grid exists: the slot counts the bar being recorded, 3 bars."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "- With no tempo grid (a free first take): the slot reads the time recorded, 0:07. Once the beat analysis has been sure of a steady tempo for two seconds, the whole bars it estimates so far take the time's place, \u2248 2 bars, as drawn here: a tentative count, shown with \u2248 and never ending or trimming the take. The slot holds a count and its unit, not both (in Spanish \u2248 3 compases leaves no room for the time). Only the take the analysis hears shows it. The loop's own bars are chosen when the take closes."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "- The Wave row and the readout draw the take in red as it records, with no playhead. Toward a known end the shape fills the row from the left, under the target's bar ruler; a free take spans the row and compresses as it grows. When the take closes, its shape is already the loop's: no blank first lap."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f",
+  "positionData": [
+    {
+      "x": 4460,
+      "y": 55483.350006103516,
+      "width": 630.2166748046875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 3.850006103515625,
+      "x2": 630.2166748046875,
+      "y2": 35.350006103515625,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "c\/ A recording take counts and draws itself (#1936)"
+    },
+    {
+      "x": 4460,
+      "y": 55522.55000305176,
+      "width": 1711.11669921875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 43.05000305175781,
+      "x2": 1711.11669921875,
+      "y2": 74.55000305175781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "While a take records, its bars slot and progress bar follow the take, in the Tracks and Wave views and on the 7-inch readout (decision D3)."
+    },
+    {
+      "x": 4460,
+      "y": 55561.75,
+      "width": 1827.566650390625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 82.25,
+      "x2": 1827.566650390625,
+      "y2": 113.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "- Toward a known end (a length preset with a tempo, or a fixed multiple of the master loop): the slot reads the bar being recorded of the take's bars, "
+    },
+    {
+      "x": 4460,
+      "y": 55600.94999694824,
+      "width": 717.38330078125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 121.44999694824219,
+      "x2": 717.38330078125,
+      "y2": 152.9499969482422,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "2 \/ 4 bars, and the progress bar fills toward the end in red."
+    },
+    {
+      "x": 4460,
+      "y": 55640.149993896484,
+      "width": 1300.9666748046875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 160.64999389648438,
+      "x2": 1300.9666748046875,
+      "y2": 192.14999389648438,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "- When only a press ends the take but a tempo grid exists: the slot counts the bar being recorded, 3 bars."
+    },
+    {
+      "x": 4460,
+      "y": 55679.350006103516,
+      "width": 1758.4166259765625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 199.85000610351562,
+      "x2": 1758.4166259765625,
+      "y2": 231.35000610351562,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "- With no tempo grid (a free first take): the slot reads the time recorded, 0:07. Once the beat analysis has been sure of a steady tempo for two "
+    },
+    {
+      "x": 4460,
+      "y": 55719.55000305176,
+      "width": 1763.433349609375,
+      "height": 32.5,
+      "x1": 0,
+      "y1": 239.0500030517578,
+      "x2": 1763.433349609375,
+      "y2": 271.5500030517578,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "seconds, the whole bars it estimates so far take the time's place, \u2248 2 bars, as drawn here: a tentative count, shown with \u2248 and never ending or "
+    },
+    {
+      "x": 4460,
+      "y": 55758.75,
+      "width": 1794.0333251953125,
+      "height": 32.5,
+      "x1": 0,
+      "y1": 278.25,
+      "x2": 1794.0333251953125,
+      "y2": 310.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "trimming the take. The slot holds a count and its unit, not both (in Spanish \u2248 3 compases leaves no room for the time). Only the take the analysis "
+    },
+    {
+      "x": 4460,
+      "y": 55796.95001220703,
+      "width": 867.4500122070312,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 317.45001220703125,
+      "x2": 867.4500122070312,
+      "y2": 348.95001220703125,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "hears shows it. The loop's own bars are chosen when the take closes."
+    },
+    {
+      "x": 4460,
+      "y": 55836.149993896484,
+      "width": 1762.0333251953125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 356.6499938964844,
+      "x2": 1762.0333251953125,
+      "y2": 388.1499938964844,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "- The Wave row and the readout draw the take in red as it records, with no playhead. Toward a known end the shape fills the row from the left, "
+    },
+    {
+      "x": 4460,
+      "y": 55875.350006103516,
+      "width": 1808.0333251953125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 395.8500061035156,
+      "x2": 1808.0333251953125,
+      "y2": 427.3500061035156,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "under the target's bar ruler; a free take spans the row and compresses as it grows. When the take closes, its shape is already the loop's: no blank "
+    },
+    {
+      "x": 4460,
+      "y": 55914.54998779297,
+      "width": 98.01666259765625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 435.04998779296875,
+      "x2": 98.01666259765625,
+      "y2": 466.54998779296875,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "first lap."
+    }
+  ]
+}
