@@ -5,17 +5,17 @@
   "x": 4460,
   "y": 55448,
   "width": 1840,
-  "height": 314,
+  "height": 392,
   "rotation": 0,
   "selrect": {
     "x": 4460,
     "y": 55448,
     "width": 1840,
-    "height": 314,
+    "height": 392,
     "x1": 4460,
     "y1": 55448,
     "x2": 6300,
-    "y2": 55762
+    "y2": 55840
   },
   "points": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "x": 6300,
-      "y": 55762
+      "y": 55840
     },
     {
       "x": 4460,
-      "y": 55762
+      "y": 55840
     }
   ],
   "transform": {
@@ -85,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "c\/ A recording take counts (#1936)"
+                "text": "c\/ A recording take counts and draws itself (#1936)"
               }
             ],
             "textTransform": "none",
@@ -129,7 +129,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "While a take records, its bars slot and progress bar follow the take, in the Tracks and Wave views (decision D3)."
+                "text": "While a take records, its bars slot and progress bar follow the take, in the Tracks and Wave views and on the 7-inch readout (decision D3)."
               }
             ],
             "textTransform": "none",
@@ -305,7 +305,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "- The Wave row draws no playhead over a take that is still recording; its shape arrives with part 3."
+                "text": "- The Wave row and the readout draw the take in red as it records, with no playhead. Toward a known end the shape fills the row from the left, under the target's bar ruler; a free take spans the row and compresses as it grows. When the take closes, its shape is already the loop's: no blank first lap."
               }
             ],
             "textTransform": "none",
@@ -336,11 +336,11 @@
     {
       "x": 4460,
       "y": 55483.350006103516,
-      "width": 427.933349609375,
+      "width": 630.2166748046875,
       "height": 31.5,
       "x1": 0,
       "y1": 3.850006103515625,
-      "x2": 427.933349609375,
+      "x2": 630.2166748046875,
       "y2": 35.350006103515625,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -356,16 +356,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "c\/ A recording take counts (#1936)"
+      "text": "c\/ A recording take counts and draws itself (#1936)"
     },
     {
       "x": 4460,
       "y": 55522.55000305176,
-      "width": 1384.2833251953125,
+      "width": 1711.11669921875,
       "height": 31.5,
       "x1": 0,
       "y1": 43.05000305175781,
-      "x2": 1384.2833251953125,
+      "x2": 1711.11669921875,
       "y2": 74.55000305175781,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -381,7 +381,7 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "While a take records, its bars slot and progress bar follow the take, in the Tracks and Wave views (decision D3)."
+      "text": "While a take records, its bars slot and progress bar follow the take, in the Tracks and Wave views and on the 7-inch readout (decision D3)."
     },
     {
       "x": 4460,
@@ -511,11 +511,11 @@
     {
       "x": 4460,
       "y": 55757.75,
-      "width": 1204.8333740234375,
+      "width": 1762.0333251953125,
       "height": 31.5,
       "x1": 0,
       "y1": 278.25,
-      "x2": 1204.8333740234375,
+      "x2": 1762.0333251953125,
       "y2": 309.75,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -531,7 +531,57 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "- The Wave row draws no playhead over a take that is still recording; its shape arrives with part 3."
+      "text": "- The Wave row and the readout draw the take in red as it records, with no playhead. Toward a known end the shape fills the row from the left, "
+    },
+    {
+      "x": 4460,
+      "y": 55796.95001220703,
+      "width": 1808.0333251953125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 317.45001220703125,
+      "x2": 1808.0333251953125,
+      "y2": 348.95001220703125,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "under the target's bar ruler; a free take spans the row and compresses as it grows. When the take closes, its shape is already the loop's: no blank "
+    },
+    {
+      "x": 4460,
+      "y": 55836.149993896484,
+      "width": 98.01666259765625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 356.6499938964844,
+      "x2": 98.01666259765625,
+      "y2": 388.1499938964844,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "first lap."
     }
   ]
 }
