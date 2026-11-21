@@ -1,0 +1,142 @@
+{
+  "id": "65c82c9c-2410-80f0-8008-fa5bcc7e1704",
+  "name": "First recording \/ Label",
+  "type": "text",
+  "x": 300,
+  "y": 55448,
+  "width": 438,
+  "height": 42,
+  "rotation": 0,
+  "selrect": {
+    "x": 300,
+    "y": 55448,
+    "width": 438,
+    "height": 42,
+    "x1": 300,
+    "y1": 55448,
+    "x2": 738,
+    "y2": 55490
+  },
+  "points": [
+    {
+      "x": 300,
+      "y": 55448
+    },
+    {
+      "x": 738,
+      "y": 55448
+    },
+    {
+      "x": 738,
+      "y": 55490
+    },
+    {
+      "x": 300,
+      "y": 55490
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "65c82c9c-2410-80f0-8008-fa5bcc7e1703",
+  "frameId": "65c82c9c-2410-80f0-8008-fa5bcc7e1703",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-width",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.1053",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.1053",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "38",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#c4cdde",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "Recording toward a target"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "38",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#c4cdde",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ],
+    "verticalAlign": "top"
+  },
+  "pageId": "6da07bc4-5eef-8034-8008-dc503d2ad35f",
+  "positionData": [
+    {
+      "x": 300,
+      "y": 55490.5,
+      "width": 437.20001220703125,
+      "height": 43,
+      "x1": 0,
+      "y1": -0.5,
+      "x2": 437.20001220703125,
+      "y2": 42.5,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#c4cdde",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "Recording toward a target"
+    }
+  ]
+}
