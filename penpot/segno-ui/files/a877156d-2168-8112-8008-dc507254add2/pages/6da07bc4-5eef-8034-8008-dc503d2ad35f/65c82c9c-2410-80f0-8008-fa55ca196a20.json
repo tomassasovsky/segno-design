@@ -5,17 +5,17 @@
   "x": 2380,
   "y": 54176,
   "width": 1840,
-  "height": 275,
+  "height": 392,
   "rotation": 0,
   "selrect": {
     "x": 2380,
     "y": 54176,
     "width": 1840,
-    "height": 275,
+    "height": 392,
     "x1": 2380,
     "y1": 54176,
     "x2": 4220,
-    "y2": 54451
+    "y2": 54568
   },
   "points": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "x": 4220,
-      "y": 54451
+      "y": 54568
     },
     {
       "x": 2380,
-      "y": 54451
+      "y": 54568
     }
   ],
   "transform": {
@@ -85,7 +85,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "c\/ Meter follows the input (#1936)"
+                "text": "c\/ Meter follows the input (#1936, #1955)"
               }
             ],
             "textTransform": "none",
@@ -129,7 +129,7 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "The meter shows what a track captures, not only what it plays (decisions D1 and D2)."
+                "text": "The meter shows what a track captures, not only what it plays (decision D1; D2 as revised by #1955)."
               }
             ],
             "textTransform": "none",
@@ -173,7 +173,51 @@
                   }
                 ],
                 "fontFamily": "Arimo",
-                "text": "- A recording or overdubbing track meters its input, in the record red (First recording, above)."
+                "text": "- A recording track meters its input, in the record red (First recording, above)."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.4",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.4",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "- An overdubbing track meters the louder of its loop's playback and its input, in its state colour: the overdub plays the loop while it adds the layer, so the meter shows both (#1955, replacing D2's input only). Its waveform draws each bucket as the overdub writes it, the loop and the new layer together, on the pass it records."
               }
             ],
             "textTransform": "none",
@@ -336,11 +380,11 @@
     {
       "x": 2380,
       "y": 54211.350006103516,
-      "width": 413.8999938964844,
+      "width": 507.29998779296875,
       "height": 31.5,
       "x1": 0,
       "y1": 3.850006103515625,
-      "x2": 413.8999938964844,
+      "x2": 507.29998779296875,
       "y2": 35.350006103515625,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -356,16 +400,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "c\/ Meter follows the input (#1936)"
+      "text": "c\/ Meter follows the input (#1936, #1955)"
     },
     {
       "x": 2380,
       "y": 54250.55000305176,
-      "width": 1056.5333251953125,
+      "width": 1254.1666259765625,
       "height": 31.5,
       "x1": 0,
       "y1": 43.05000305175781,
-      "x2": 1056.5333251953125,
+      "x2": 1254.1666259765625,
       "y2": 74.55000305175781,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -381,16 +425,16 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "The meter shows what a track captures, not only what it plays (decisions D1 and D2)."
+      "text": "The meter shows what a track captures, not only what it plays (decision D1; D2 as revised by #1955)."
     },
     {
       "x": 2380,
       "y": 54289.75,
-      "width": 1145.13330078125,
+      "width": 950.61669921875,
       "height": 31.5,
       "x1": 0,
       "y1": 82.25,
-      "x2": 1145.13330078125,
+      "x2": 950.61669921875,
       "y2": 113.75,
       "fontStyle": "normal",
       "textTransform": "none",
@@ -406,17 +450,92 @@
       ],
       "direction": "ltr",
       "fontFamily": "Arimo",
-      "text": "- A recording or overdubbing track meters its input, in the record red (First recording, above)."
+      "text": "- A recording track meters its input, in the record red (First recording, above)."
     },
     {
       "x": 2380,
       "y": 54328.94999694824,
-      "width": 1823.699951171875,
+      "width": 1829.199951171875,
       "height": 31.5,
       "x1": 0,
       "y1": 121.44999694824219,
-      "x2": 1823.699951171875,
+      "x2": 1829.199951171875,
       "y2": 152.9499969482422,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "- An overdubbing track meters the louder of its loop's playback and its input, in its state colour: the overdub plays the loop while it adds the layer, so "
+    },
+    {
+      "x": 2380,
+      "y": 54368.149993896484,
+      "width": 1754.4166259765625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 160.64999389648438,
+      "x2": 1754.4166259765625,
+      "y2": 192.14999389648438,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "the meter shows both (#1955, replacing D2's input only). Its waveform draws each bucket as the overdub writes it, the loop and the new layer "
+    },
+    {
+      "x": 2380,
+      "y": 54407.350006103516,
+      "width": 392.183349609375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 199.85000610351562,
+      "x2": 392.183349609375,
+      "y2": 231.35000610351562,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "together, on the pass it records."
+    },
+    {
+      "x": 2380,
+      "y": 54446.55000305176,
+      "width": 1823.699951171875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 239.0500030517578,
+      "x2": 1823.699951171875,
+      "y2": 270.5500030517578,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -435,13 +554,13 @@
     },
     {
       "x": 2380,
-      "y": 54368.149993896484,
+      "y": 54485.75,
       "width": 971.0166625976562,
       "height": 31.5,
       "x1": 0,
-      "y1": 160.64999389648438,
+      "y1": 278.25,
       "x2": 971.0166625976562,
-      "y2": 192.14999389648438,
+      "y2": 309.75,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -460,13 +579,13 @@
     },
     {
       "x": 2380,
-      "y": 54407.350006103516,
+      "y": 54524.95001220703,
       "width": 483.8666687011719,
       "height": 31.5,
       "x1": 0,
-      "y1": 199.85000610351562,
+      "y1": 317.45001220703125,
       "x2": 483.8666687011719,
-      "y2": 231.35000610351562,
+      "y2": 348.95001220703125,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
@@ -485,13 +604,13 @@
     },
     {
       "x": 2380,
-      "y": 54446.55000305176,
+      "y": 54564.149993896484,
       "width": 1090.5833740234375,
       "height": 31.5,
       "x1": 0,
-      "y1": 239.0500030517578,
+      "y1": 356.6499938964844,
       "x2": 1090.5833740234375,
-      "y2": 270.5500030517578,
+      "y2": 388.1499938964844,
       "fontStyle": "normal",
       "textTransform": "none",
       "fontSize": "28px",
