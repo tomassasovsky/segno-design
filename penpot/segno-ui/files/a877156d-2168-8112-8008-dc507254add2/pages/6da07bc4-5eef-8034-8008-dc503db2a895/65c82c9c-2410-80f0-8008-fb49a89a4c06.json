@@ -1,0 +1,544 @@
+{
+  "id": "65c82c9c-2410-80f0-8008-fb49a89a4c06",
+  "name": "c \/ RAUC still installing (#1507)",
+  "type": "text",
+  "x": 2380,
+  "y": 67456,
+  "width": 1840,
+  "height": 336,
+  "rotation": 0,
+  "selrect": {
+    "x": 2380,
+    "y": 67456,
+    "width": 1840,
+    "height": 336,
+    "x1": 2380,
+    "y1": 67456,
+    "x2": 4220,
+    "y2": 67792
+  },
+  "points": [
+    {
+      "x": 2380,
+      "y": 67456
+    },
+    {
+      "x": 4220,
+      "y": 67456
+    },
+    {
+      "x": 4220,
+      "y": 67792
+    },
+    {
+      "x": 2380,
+      "y": 67792
+    }
+  ],
+  "transform": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "transformInverse": {
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "e": 0.0,
+    "f": 0.0
+  },
+  "parentId": "179d2b3b-6a3f-481c-81e8-a2d2609049ff",
+  "frameId": "179d2b3b-6a3f-481c-81e8-a2d2609049ff",
+  "flipX": null,
+  "flipY": null,
+  "growType": "auto-height",
+  "content": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph-set",
+        "children": [
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "c\/ RAUC still installing after an app restart (#1507, SEG-18)"
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": ""
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "RAUC has no cancel: its daemon keeps writing the inactive slot after the helper that asked for the install is killed (the app crashed or restarted past the download). When the app comes back and RAUC still reports the install, the status panel's own state is Installing: the attempt's version, one plain sentence, and no actions. It is not dimmed, because it is the live state; Check, Load from USB and the channel hold off, and Restart and Shut down are refused with Wait for the update."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": ""
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          },
+          {
+            "lineHeight": "1.2",
+            "fontStyle": "normal",
+            "children": [
+              {
+                "lineHeight": "1.2",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "textAlign": "left",
+                "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+                "fontSize": "28",
+                "fontWeight": "400",
+                "textDirection": "ltr",
+                "fontVariantId": "normal-400",
+                "textDecoration": "none",
+                "letterSpacing": "0",
+                "fills": [
+                  {
+                    "fillColor": "#a3adbd",
+                    "fillOpacity": 1
+                  }
+                ],
+                "fontFamily": "Arimo",
+                "text": "When RAUC goes idle the helper reads what it left. Every inactive slot \"ok\" for the attempt's version, written after the attempt began and in the same boot: the helper stages it, and the panel moves to Ready to install with the encoder on Install and restart. Anything else stays Update paused, as before. Restart also stages such an install before it reboots, so the restart tries it."
+              }
+            ],
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontId": "custom-99a2c890-1804-450c-8af8-6b60ee9a6b27",
+            "fontSize": "28",
+            "fontWeight": "400",
+            "textDirection": "ltr",
+            "type": "paragraph",
+            "fontVariantId": "normal-400",
+            "textDecoration": "none",
+            "letterSpacing": "0",
+            "fills": [
+              {
+                "fillColor": "#a3adbd",
+                "fillOpacity": 1
+              }
+            ],
+            "fontFamily": "Arimo"
+          }
+        ]
+      }
+    ]
+  },
+  "constraintsV": "top",
+  "constraintsH": "left",
+  "positionData": [
+    {
+      "x": 2380,
+      "y": 67488.55000305176,
+      "width": 737.5499877929688,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 1.0500030517578125,
+      "x2": 737.5499877929688,
+      "y2": 32.55000305175781,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "c\/ RAUC still installing after an app restart (#1507, SEG-18)"
+    },
+    {
+      "x": 2380,
+      "y": 67522.14999389648,
+      "width": 7.7833404541015625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 34.649993896484375,
+      "x2": 7.7833404541015625,
+      "y2": 66.14999389648438,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00a0"
+    },
+    {
+      "x": 2380,
+      "y": 67555.75,
+      "width": 1820.6500244140625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 68.25,
+      "x2": 1820.6500244140625,
+      "y2": 99.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "RAUC has no cancel: its daemon keeps writing the inactive slot after the helper that asked for the install is killed (the app crashed or restarted past "
+    },
+    {
+      "x": 2380,
+      "y": 67589.35000610352,
+      "width": 1783.1666259765625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 101.85000610351562,
+      "x2": 1783.1666259765625,
+      "y2": 133.35000610351562,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "the download). When the app comes back and RAUC still reports the install, the status panel's own state is Installing: the attempt's version, one "
+    },
+    {
+      "x": 2380,
+      "y": 67622.94999694824,
+      "width": 1823.449951171875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 135.4499969482422,
+      "x2": 1823.449951171875,
+      "y2": 166.9499969482422,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "plain sentence, and no actions. It is not dimmed, because it is the live state; Check, Load from USB and the channel hold off, and Restart and Shut "
+    },
+    {
+      "x": 2380,
+      "y": 67656.55000305176,
+      "width": 524.933349609375,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 169.0500030517578,
+      "x2": 524.933349609375,
+      "y2": 200.5500030517578,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "down are refused with Wait for the update."
+    },
+    {
+      "x": 2380,
+      "y": 67690.14999389648,
+      "width": 7.7833404541015625,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 202.64999389648438,
+      "x2": 7.7833404541015625,
+      "y2": 234.14999389648438,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "\u00a0"
+    },
+    {
+      "x": 2380,
+      "y": 67723.75,
+      "width": 1838.11669921875,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 236.25,
+      "x2": 1838.11669921875,
+      "y2": 267.75,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "When RAUC goes idle the helper reads what it left. Every inactive slot \"ok\" for the attempt's version, written after the attempt began and in the same "
+    },
+    {
+      "x": 2380,
+      "y": 67757.35000610352,
+      "width": 1794.38330078125,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 269.8500061035156,
+      "x2": 1794.38330078125,
+      "y2": 301.3500061035156,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "boot: the helper stages it, and the panel moves to Ready to install with the encoder on Install and restart. Anything else stays Update paused, as "
+    },
+    {
+      "x": 2380,
+      "y": 67790.95001220703,
+      "width": 999.0166625976562,
+      "height": 31.5,
+      "x1": 0,
+      "y1": 303.45001220703125,
+      "x2": 999.0166625976562,
+      "y2": 334.95001220703125,
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "textDecoration": "none",
+      "letterSpacing": "normal",
+      "fills": [
+        {
+          "fillColor": "#a3adbd",
+          "fillOpacity": 1
+        }
+      ],
+      "direction": "ltr",
+      "fontFamily": "Arimo",
+      "text": "before. Restart also stages such an install before it reboots, so the restart tries it."
+    }
+  ],
+  "pageId": "6da07bc4-5eef-8034-8008-dc503db2a895"
+}
