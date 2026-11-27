@@ -67,8 +67,27 @@
   "r4": 0,
   "fills": [
     {
-      "fillColor": "#6e6e73",
-      "fillOpacity": 1
+      "fillOpacity": 1,
+      "fillColorGradient": {
+        "type": "linear",
+        "startX": 0.5,
+        "startY": 0,
+        "endX": 0.5,
+        "endY": 1,
+        "width": 1,
+        "stops": [
+          {
+            "color": "#6e6e73",
+            "opacity": 1,
+            "offset": 0
+          },
+          {
+            "color": "#37373a",
+            "opacity": 1,
+            "offset": 1
+          }
+        ]
+      }
     }
   ],
   "shapes": []
